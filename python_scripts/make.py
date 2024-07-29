@@ -161,6 +161,21 @@ def BuildCode():
 
         return CreateOutputFile(fileName, newFileName)
 
+    def MakePreprocessedFile(fileName: str, isAsm: bool) -> [str, bool]:
+        """Return a preprocessed filename for a given source file."""
+        ext = '.ps' if isAsm else '.pc'
+
+        # In case there's no extension, just assume that we should put the new extension at the end.
+        lastDotIdx = len(fileName)
+
+        # rindex throws an exception instead of just silently failing, for some reason.
+        try:
+            lastDotIdx = fileName.rindex('.')
+        except: pass
+
+        newFileName = fileName[:lastDotIdx] + ext
+
+        return CreateOutputFile(fileName, newFileName)
 
     def MakeOutputAudioFile(assemblyFile: str) -> [str, bool]:
         """Return "SND_" + hash of filename to use as object filename."""
@@ -221,13 +236,22 @@ def BuildCode():
 
     def ProcessAssembly(assemblyFile: str) -> str:
         """Assemble."""
-        objectFile, regenerateObjectFile = MakeGeneralOutputFile(assemblyFile)
+        processedFile, reprocessFile = MakePreprocessedFile(assemblyFile, True)
+        if reprocessFile is True:
+            cmd = [PREPROC, assemblyFile, CHARMAP]
+            content = RunCommand(cmd)
+
+            with open(processedFile, 'w') as f:
+                f.write(content)
+
+        objectFile, regenerateObjectFile = MakeGeneralOutputFile(processedFile)
         if regenerateObjectFile is False:
             return objectFile  # No point in recompiling file
 
         try:
-            print('Assembling %s' % assemblyFile)
-            cmd = [AS] + ASFLAGS + ['-c', assemblyFile, '-o', objectFile]
+            print('Assembling %s' % processedFile)
+            cmd = [AS] + ASFLAGS + ['-c', processedFile, '-o', objectFile]
+
             RunCommand(cmd)
 
         except FileNotFoundError:
@@ -240,10 +264,19 @@ def BuildCode():
 
     def ProcessC(cFile: str) -> str:
         """Compile C."""
-        objectFile, regenerateObjectFile = MakeGeneralOutputFile(cFile)
+        processedFile, reprocessFile = MakePreprocessedFile(cFile, False)
+        if reprocessFile is True:
+            cmd = [PREPROC, cFile, CHARMAP]
+            content = RunCommand(cmd)
+
+            with open(processedFile, 'w') as f:
+                f.write(content)
+
+        objectFile, regenerateObjectFile = MakeGeneralOutputFile(processedFile)
         if regenerateObjectFile is False:
             return objectFile  # No point in recompiling file
-        return ProcessCToObjectFile(cFile, objectFile)
+        
+        return ProcessCToObjectFile(processedFile, objectFile)
 
 
     def ProcessCToObjectFile(cFile: str, objectFile: str) -> str:
