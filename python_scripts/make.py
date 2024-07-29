@@ -582,7 +582,7 @@ def BuildCode():
 
     def ProcessImage(imageFile: str):
         """Compile image."""
-        bpp = os.path.dirname(imageFile).replace('./graphics\\', '')
+        bpp = os.path.dirname(imageFile).replace('./graphics/', '')
 
         if bpp == '4bpp':
             if '.png' in imageFile:
