@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 *.gba
 *.bak
+*.elf
+
+# Preproc files, might be wise to move these elsewhere.
+*.pc
+*.ps
