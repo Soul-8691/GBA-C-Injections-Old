@@ -615,13 +615,13 @@ def BuildCode():
 
     def ProcessImage(imageFile: str):
         """Compile image."""
-        bpp = os.path.dirname(imageFile).replace('./graphics\\', '')
+        bpp = os.path.dirname(imageFile)
 
-        if bpp == '4bpp':
+        if '4bpp' in bpp:
             if '.png' in imageFile:
                 generate_4bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.4bpp')]
                 RunCommand(generate_4bpp)
-        if bpp == '4bpp' or bpp == '8bpp' or bpp == '6bpp':
+        if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile:
                 generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
                 RunCommand(generate_gbapal)
