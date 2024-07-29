@@ -725,13 +725,13 @@ def BuildCode():
     startTime = datetime.now()
     globs = {
             '**/*.s': ProcessAssembly,
-            '**/*.c': ProcessC,
             '**/*.string': ProcessString,
             '**/**/*.png': ProcessImage,
             '**/**/*.bmp': ProcessImage,
             '**/**/*.jpg': ProcessImage,
             '**/*.wav': ProcessAudio,
             '**/*.mid': ProcessMusic,
+            '**/*.c': ProcessC,
     }
 
     if sys.version_info.major >= 3 and sys.version_info.minor >= 8:
