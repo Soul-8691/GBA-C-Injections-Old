@@ -1,6 +1,8 @@
-#include "../include/gba/types.h"
-#include "../include/gba/defines.h"
+#include "../include/global.h"
 
-u16 test() {
-    return TRUE;
-};
+const u16 gSomePalette = INCBIN_U16("graphics/4bpp/abra_front.gbapal");
+
+void TestFunc()
+{
+    while (1);
+}
