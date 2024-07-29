@@ -621,6 +621,10 @@ def BuildCode():
             if '.png' in imageFile:
                 generate_4bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.4bpp')]
                 RunCommand(generate_4bpp)
+                generate_4bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.4bpp.lz')]
+                RunCommand(generate_4bpp_lz)
+                generate_bin_lz = [GBAGFX, imageFile, imageFile.replace('.png', '.bin.lz')]
+                RunCommand(generate_bin_lz)
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile:
                 generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
