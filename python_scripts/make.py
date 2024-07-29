@@ -95,6 +95,7 @@ def BuildCode():
     LDFLAGS = ['-R', 'pokefirered.elf', 'BPRE0.ld', '-T', 'linker.ld']
     CFLAGS = ['-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
             '-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
+    CHARMAP = 'charmap.txt'
 
     class Master:
         @staticmethod
