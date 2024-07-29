@@ -76,9 +76,9 @@ def BuildCode():
             MID2AGB = 'deps/mid2agb.exe'
             GBAGFX = 'deps/gbagfx.exe'
         else:
-            WAV2AGB = 'wav2agb'
-            MID2AGB = 'mid2agb'
-            GBAGFX = 'gbagfx'
+            WAV2AGB = 'deps/wav2agb'
+            MID2AGB = 'deps/mid2agb'
+            GBAGFX = 'deps/gbagfx'
 
         OBJCOPY = PREFIX + 'objcopy'
 
