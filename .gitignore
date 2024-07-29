@@ -34,3 +34,9 @@ Cover Art.png
 *.toml
 *.pc
 *.ps
+*.lz
+*.gbapal
+*.bin
+*.4bpp
+*.6bpp
+*.8bpp

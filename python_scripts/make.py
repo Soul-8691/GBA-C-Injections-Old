@@ -62,6 +62,7 @@ def BuildCode():
         CC = PATH + PREFIX + 'gcc'
         LD = PATH + PREFIX + 'ld'
         GBAGFX = 'deps/gbagfx.exe'
+        SUPERFAMICONV = 'deps/superfamiconv.exe'
         WAV2AGB = 'deps/wav2agb.exe'
         MID2AGB = 'deps/mid2agb.exe'
         PREPROC = 'deps/preproc.exe'
@@ -76,11 +77,13 @@ def BuildCode():
             WAV2AGB = 'deps/wav2agb.exe'
             MID2AGB = 'deps/mid2agb.exe'
             GBAGFX = 'deps/gbagfx.exe'
+            SUPERFAMICONV = 'deps/superfamiconv.exe'
             PREPROC = 'deps/preproc.exe'
         else:
             WAV2AGB = 'deps/wav2agb'
             MID2AGB = 'deps/mid2agb'
             GBAGFX = 'deps/gbagfx'
+            SUPERFAMICONV = 'deps/superfamiconv'
             PREPROC = 'deps/preproc'
 
         OBJCOPY = PREFIX + 'objcopy'
@@ -93,8 +96,8 @@ def BuildCode():
     BUILD = './build'
     ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
     LDFLAGS = ['-R', 'pokefirered.elf', 'BPRE0.ld', '-T', 'linker.ld']
-    CFLAGS = ['-x', 'c', '-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
-            '-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
+    CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
+            '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
     CHARMAP = 'charmap.txt'
 
     class Master:
@@ -623,7 +626,9 @@ def BuildCode():
                 RunCommand(generate_4bpp)
                 generate_4bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.4bpp.lz')]
                 RunCommand(generate_4bpp_lz)
-                generate_bin_lz = [GBAGFX, imageFile, imageFile.replace('.png', '.bin.lz')]
+                generate_bin = [SUPERFAMICONV, '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
+                RunCommand(generate_bin)
+                generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
                 RunCommand(generate_bin_lz)
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile:

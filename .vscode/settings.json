@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "palette.h": "c",
-        "decompress.h": "c"
+        "decompress.h": "c",
+        "hooks": "c",
+        "config.h": "c",
+        "songs.h": "c",
+        "global.h": "c"
     }
 }
