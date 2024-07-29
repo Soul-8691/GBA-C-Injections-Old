@@ -621,18 +621,20 @@ def BuildCode():
         bpp = os.path.dirname(imageFile)
 
         if '4bpp' in bpp:
-            if '.png' in imageFile:
-                generate_4bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.4bpp')]
+            if '.png' in imageFile and '_Tiles' not in imageFile:
+                generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
+                RunCommand(generate_png)
+                generate_4bpp = [GBAGFX, imageFile.replace('.png', '_Tiles.png'), imageFile.replace('.png', '.4bpp')]
                 RunCommand(generate_4bpp)
                 generate_4bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.4bpp.lz')]
                 RunCommand(generate_4bpp_lz)
-                generate_bin = [SUPERFAMICONV, '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
+                generate_bin = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
                 RunCommand(generate_bin)
                 generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
                 RunCommand(generate_bin_lz)
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
-            if '.png' in imageFile:
-                generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
+            if '.png' in imageFile and '_Tiles' not in imageFile:
+                generate_gbapal = [GBAGFX, imageFile.replace('.png', '_Tiles.png'), imageFile.replace('.png', '.gbapal')]
                 RunCommand(generate_gbapal)
         else:
             print('Error: Folder not name a valid bpp type.')
