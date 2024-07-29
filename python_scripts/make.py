@@ -64,6 +64,7 @@ def BuildCode():
         GBAGFX = 'deps/gbagfx.exe'
         WAV2AGB = 'deps/wav2agb.exe'
         MID2AGB = 'deps/mid2agb.exe'
+        PREPROC = 'deps/preproc.exe'
         OBJCOPY = PATH + PREFIX + 'objcopy'
 
     else:  # Linux, OSX, etc.
@@ -75,10 +76,12 @@ def BuildCode():
             WAV2AGB = 'deps/wav2agb.exe'
             MID2AGB = 'deps/mid2agb.exe'
             GBAGFX = 'deps/gbagfx.exe'
+            PREPROC = 'deps/preproc.exe'
         else:
             WAV2AGB = 'deps/wav2agb'
             MID2AGB = 'deps/mid2agb'
             GBAGFX = 'deps/gbagfx'
+            PREPROC = 'deps/preproc'
 
         OBJCOPY = PREFIX + 'objcopy'
 
