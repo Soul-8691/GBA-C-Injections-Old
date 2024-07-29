@@ -615,7 +615,7 @@ def BuildCode():
 
     def ProcessImage(imageFile: str):
         """Compile image."""
-        bpp = os.path.dirname(imageFile).replace('./graphics/', '')
+        bpp = os.path.dirname(imageFile).replace('./graphics\\', '')
 
         if bpp == '4bpp':
             if '.png' in imageFile:
@@ -773,17 +773,17 @@ def InsertCode():
         NM = (PREFIX + 'nm')
 
     OUTPUT = 'build/output.bin'
-    # BYTE_REPLACEMENT = 'bytereplacement'
-    # HOOKS = 'hooks'
-    # REPOINTS = 'repoints'
+    BYTE_REPLACEMENT = 'bytereplacement'
+    HOOKS = 'hooks'
+    REPOINTS = 'repoints'
     GENERATED_REPOINTS = 'generatedrepoints'
-    # REPOINT_ALL = 'repointall'
-    # ROUTINE_POINTERS = 'routinepointers'
-    # FUNCTION_REWRITES = 'functionrewrites'
-    # EVENT_SCRIPTS = "eventscripts"
-    # SONGS = "songs"
-    # SPECIAL_INSERTS = 'special_inserts.asm'
-    # SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
+    REPOINT_ALL = 'repointall'
+    ROUTINE_POINTERS = 'routinepointers'
+    FUNCTION_REWRITES = 'functionrewrites'
+    EVENT_SCRIPTS = "eventscripts"
+    SONGS = "songs"
+    SPECIAL_INSERTS = 'special_inserts.asm'
+    SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
 
 
     def ExtractPointer(byteList: [bytes]):
@@ -1021,7 +1021,7 @@ def InsertCode():
         table = GetSymbols(GetTextSection())
         rom.seek(OFFSET_TO_PUT)
         with open(OUTPUT, 'rb') as binary:
-            # endInsertOffset = OFFSET_TO_PUT + os.path.getsize(OUTPUT)
+            endInsertOffset = OFFSET_TO_PUT + os.path.getsize(OUTPUT)
             rom.write(binary.read())
             binary.close()
 
@@ -1047,6 +1047,384 @@ def InsertCode():
 
                     symbolsRepointed.add(symbol)
                     Repoint(rom, code, offset)
+
+        else:
+            with open(GENERATED_REPOINTS, 'w') as repointList:
+                repointList.write('##This is a generated file at runtime. Do not modify it!\n')
+
+        if os.path.isfile(REPOINT_ALL):
+            offsetsToRepointTogether = []
+            with open(REPOINT_ALL, 'r') as repointList:
+                definesDict = {}
+                conditionals = []
+                for line in repointList:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    symbol, address = line.split()
+                    offset = int(address, 16) - 0x08000000
+
+                    if symbol in symbolsRepointed:
+                        continue
+
+                    try:
+                        code = table[symbol]
+                    except KeyError:
+                        print('Symbol missing:', symbol)
+                        continue
+                    offsetsToRepointTogether.append((offset, code, symbol))
+
+                if offsetsToRepointTogether != []:
+                    with open(SOURCE_ROM, 'rb') as sourceRom: # Repoint from source rom so new data doesn't accidentally get repointed
+                        offsets = RealRepoint(sourceRom, rom, offsetsToRepointTogether, endInsertOffset) # Format is [(offset, symbol), ...]
+
+                        output = open(GENERATED_REPOINTS, 'a')
+                        for tup in offsets:
+                            output.write(tup[1] + ' ' + str(tup[0]) + '\n')
+                        output.close()
+
+        # Do Special Inserts - Before bytereplacement!
+        if os.path.isfile(SPECIAL_INSERTS) and os.path.isfile(SPECIAL_INSERTS_OUT):
+            with open(SPECIAL_INSERTS, 'r') as file:
+                offsetList = []
+                for line in file:
+                    if line.strip().startswith('.org '):
+                        offsetList.append(int(line.split('.org ')[1].split(',')[0], 16))
+
+                offsetList.sort()
+
+            with open(SPECIAL_INSERTS_OUT, 'rb') as binFile:
+                for offset in offsetList:
+                    originalOffset = offset
+                    dataList = ""
+
+                    if offsetList.index(offset) == len(offsetList) - 1:
+                        while True:
+                            try:
+                                binFile.seek(offset)
+                                dataList += hex(binFile.read(1)[0]) + ' '
+                            except IndexError:
+                                break
+
+                            offset += 1
+                    else:
+                        binFile.seek(offset)
+                        word = ExtractPointer(binFile.read(4))
+
+                        while word != 0xFFFFFFFF:
+                            binFile.seek(offset)
+                            dataList += hex(binFile.read(1)[0]) + ' '
+                            offset += 1
+
+                            if offset in offsetList:  # Overlapping data
+                                break
+
+                            word = ExtractPointer(binFile.read(4))
+
+                    ReplaceBytes(rom, originalOffset, dataList.strip())
+
+        # Insert byte changes
+        if os.path.isfile(BYTE_REPLACEMENT):
+            with open(BYTE_REPLACEMENT, 'r') as replacelist:
+                definesDict = {}
+                conditionals = []
+                for line in replacelist:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+ 
+                    offset = int(line[:8], 16) - 0x08000000
+                    try:
+                        ReplaceBytes(rom, offset, line[9:].strip())
+                    except ValueError: #Try loading from the defines dict if unrecognizable character
+                        newNumber = definesDict[line[9:].strip()]
+                        try:
+                            newNumber = int(newNumber)
+                        except ValueError:
+                            newNumber = int(newNumber, 16)
+
+                        newNumber = str(hex(newNumber)).split('0x')[1]
+                        ReplaceBytes(rom, offset, newNumber) 
+
+        # Read hooks from a file
+        if os.path.isfile(HOOKS):
+            with open(HOOKS, 'r') as hookList:
+                definesDict = {}
+                conditionals = []
+                for line in hookList:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    symbol, address, register = line.split()
+                    offset = int(address, 16) - 0x08000000
+                    try:
+                        code = table[symbol]
+                    except KeyError:
+                        print('Symbol missing:', symbol)
+                        continue
+
+                    Hook(rom, code, offset, int(register))
+
+        # Read repoints from a file
+        if os.path.isfile(REPOINTS):
+            with open(REPOINTS, 'r') as repointList:
+                definesDict = {}
+                conditionals = []
+                for line in repointList:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    if len(line.split()) == 2:
+                        symbol, address = line.split()
+                        offset = int(address, 16) - 0x08000000
+                        try:
+                            code = table[symbol]
+                        except KeyError:
+                            print('Symbol missing:', symbol)
+                            continue
+
+                        Repoint(rom, code, offset)
+
+                    if len(line.split()) == 3:
+                        symbol, address, slide = line.split()
+                        offset = int(address, 16) - 0x08000000
+                        try:
+                            code = table[symbol]
+                        except KeyError:
+                            print('Symbol missing:', symbol)
+                            continue
+
+                        Repoint(rom, code, offset, int(slide))
+
+        # Read routine repoints from a file
+        if os.path.isfile(ROUTINE_POINTERS):
+            with open(ROUTINE_POINTERS, 'r') as pointerlist:
+                definesDict = {}
+                conditionals = []
+                for line in pointerlist:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    symbol, address = line.split()
+                    offset = int(address, 16) - 0x08000000
+                    try:
+                        code = table[symbol]
+                    except KeyError:
+                        print('Symbol missing:', symbol)
+                        continue
+
+                    Repoint(rom, code, offset, 1)
+
+        # Read routine rewrite wrapper from a file
+        if os.path.isfile(FUNCTION_REWRITES):
+            with open(FUNCTION_REWRITES, 'r') as frwlist:
+                definesDict = {}
+                conditionals = []
+                for line in frwlist:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    symbol, address, numParams, isReturning = line.split()
+                    offset = int(address, 16) - 0x08000000
+                    try:
+                        code = table[symbol]
+                    except KeyError:
+                        print('Symbol missing:', symbol)
+                        continue
+
+                    FunctionWrap(rom, code, offset, int(numParams), int(isReturning))
+
+        # Insert Event Scripts
+        if os.path.isfile(EVENT_SCRIPTS):
+            definesDict = {}
+
+            mapHeaders = {}  # For signpost events
+            npcTables = {}  # For people events
+            tileTables = {}  # For script tiles
+            signTables = {}  # For signpost events
+
+            npcCounts = {}  # For people events
+            tileCounts = {}  # For script tiles
+            signCounts = {}  # For signpost events
+
+            conditionals = []
+            rom.seek(0x5524C)
+            mapBanksHeader = ExtractPointer(rom.read(4)) - 0x08000000
+
+            with open(EVENT_SCRIPTS, 'r') as file:
+                for i, line in enumerate(file):
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    try:
+                        eventId = -1  # Reset just in case of error
+                        if len(line.split()) == 4 or len(line.split()) == 5:
+                            if len(line.split()) == 5:
+                                eventType, mapBank, mapNum, eventId, symbol = line.split()
+                                eventId = int(eventId)
+                            else:  # 4
+                                eventType, mapBank, mapNum, symbol = line.split()
+
+                            eventType = eventType.lower()
+                            mapBank = int(mapBank)
+                            mapNum = int(mapNum)
+                            dictId = (mapBank << 8) | mapNum
+
+                            if dictId not in mapHeaders:
+                                rom.seek(mapBanksHeader + mapBank * 4)
+                                mapBankHeader = ExtractPointer(rom.read(4)) - 0x08000000
+                                if mapBankHeader == (0xF7F7F7F7 - 0x08000000):
+                                    continue  # Garbage map bank header
+                                rom.seek(mapBankHeader + mapNum * 4)
+                                mapHeader = ExtractPointer(rom.read(4)) - 0x08000000
+                                if mapHeader == (0xF7F7F7F7 - 0x08000000):
+                                    continue  # Garbage map header
+                                mapHeaders[dictId] = mapHeader  # Store for later
+                            else:
+                                mapHeader = mapHeaders[dictId]
+
+                            if eventType == "map":
+                                offset = mapHeader + 0x8
+                            elif eventType == "npc" or eventType == "trainer" or eventType == "item":
+                                if eventId < 0:
+                                    raise(OSError)
+                                if dictId not in npcTables:
+                                    rom.seek(mapHeader + 0x4)
+                                    eventHeader = ExtractPointer(rom.read(4)) - 0x08000000
+                                    rom.seek(eventHeader)
+                                    npcCount = int(rom.read(1)[0])
+                                    rom.seek(eventHeader + 0x4)
+                                    npcTable = ExtractPointer(rom.read(4)) - 0x08000000
+                                    npcTables[dictId] = npcTable  # Store for later
+                                    npcCounts[dictId] = npcCount  # Store for later
+                                else:
+                                    npcTable = npcTables[dictId]
+                                    npcCount = npcCounts[dictId]
+
+                                # Check if valid npc
+                                if eventId >= npcCount:
+                                    print("Errror! NPC id {} exceeds the count of {} on line {}: {}".format(eventId, npcCount, i, line.strip()))
+                                    continue
+
+                                # Check shortcut npcs and modify symbol
+                                if eventType == "trainer":
+                                    symbol = "EventScript_" + symbol
+                                elif eventType == "item":
+                                    symbol = "ItemFindScript_" + symbol
+
+                                length = 0x18  # Length of one entry
+                                offset = npcTable + eventId * 0x18 + 0x10
+
+                            elif eventType == "tile":
+                                if eventId < 0:
+                                    raise(OSError)
+                                if dictId not in tileTables:
+                                    rom.seek(mapHeader + 0x4)
+                                    eventHeader = ExtractPointer(rom.read(4)) - 0x08000000
+                                    rom.seek(eventHeader + 0xC)
+                                    tileTable = ExtractPointer(rom.read(4)) - 0x08000000
+                                    tileTables[dictId] = tileTable  # Store for later
+                                else:
+                                    tileTable = tileTables[dictId]
+                                length = 0x10  # Length of one entry
+                                offset = tileTable + eventId * length + 0xC
+
+                            elif eventType == "sign":
+                                if eventId < 0:
+                                    raise(OSError)
+                                if dictId not in signTables:
+                                    rom.seek(mapHeader + 0x4)
+                                    eventHeader = ExtractPointer(rom.read(4)) - 0x08000000
+                                    rom.seek(eventHeader + 0x10)
+                                    signTable = ExtractPointer(rom.read(4)) - 0x08000000
+                                    signTables[dictId] = signTable  # Store for later
+                                else:
+                                    signTable = signTables[dictId]
+                                length = 0xC  # Length of one entry
+                                offset = signTable + eventId * length + 0x8
+
+                            else:
+                                print("Unknown event type \"{}\"!".format(eventType))
+                                continue
+
+                            if symbol in definesDict:
+                                symbol = definesDict[symbol]
+
+                            try:
+                                code = table[symbol]
+                            except KeyError:
+                                try:
+                                    code = int(symbol, 16)  # If script offset was written in hex
+                                except ValueError:
+                                    print('Symbol missing:', symbol)
+                                    continue
+
+                            Repoint(rom, code, offset)
+                    except OSError:
+                        print("There was an error inserting the event script on line {}: {}".format(i, line.strip()))
+
+        # Insert Song Pointers
+        if os.path.isfile(SONGS):
+            rom.seek(0x1DD11C)  # m4aSongNumStart
+            songTable = ExtractPointer(rom.read(4)) - 0x08000000
+
+            with open(SONGS, "r") as file:
+                for i, line in enumerate(file):
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    try:
+                        lineList = line.split()
+                        try:
+                            songId = int(lineList[0])
+                        except ValueError:
+                            songId = int(lineList[0], 16)  # Hex
+                        song = lineList[1]
+                        offset = songTable + songId * 8
+
+                        try:
+                                code = table[song]
+                        except KeyError:
+                            try:
+                                code = int(song, 16)  # If script offset was written in hex
+                            except ValueError:
+                                print('Symbol missing:', song)
+                                continue
+
+                        Repoint(rom, code, offset)
+                    except:
+                        print("There was an error inserting the song on line {}: {}".format(i, line.strip()))
 
         width = max(map(len, table.keys())) + 1
         if os.path.isfile('offsets.ini'):
