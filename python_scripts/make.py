@@ -128,7 +128,8 @@ def BuildCode():
     def RunCommand(cmd: [str]):
         """Runs the command line command."""
         try:
-            subprocess.check_output(cmd)
+            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+            return output.decode()
         except subprocess.CalledProcessError as e:
             try:
                 print(e.output.decode(), file=sys.stderr)
