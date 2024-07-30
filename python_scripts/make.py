@@ -8,6 +8,7 @@ from glob import glob
 import hashlib
 import _io
 import shutil
+import math
 
 SOURCE_ROM = "FireRed.gba"
 OFFSET_TO_PUT = 0x71a23c
@@ -832,46 +833,64 @@ def InsertCode():
         nonlocal offset_
         nonlocal offset__
         nonlocal bytes__
-        returned = list()
+        nonlocal bytes____
+        repointed = list()
+        symbols = list()
+        if os.path.isfile(REPOINT_BYTES):
+            repointList = open(REPOINT_BYTES, 'r')
+            repointListLines = repointList.readlines()
 
         ret = {}
-        for line in lines:
-            parts = line.strip().split()
+        for line__ in range(len(repointListLines)):
+            line_ = repointListLines[line__]
+            if len(line_.split()) == 3:
+                symbol, offset___, bytes_ = line_.split()
+                symbols.append(symbol)
+        for symbol_ in symbols:
+            for line in lines:
+                parts = line.strip().split()
 
-            if len(parts) < 3:
-                continue
+                if len(parts) < 3:
+                    continue
 
-            if os.path.isfile(REPOINT_BYTES):
-                with open(REPOINT_BYTES, 'r') as repointList:
-                    for line_ in repointList:
-                        if len(line_.split()) == 3:
-                            symbol, offset___, bytes_ = line_.split()
-                            bytes_ = int(bytes_, 16)
-                            if symbol == parts[2] and symbol not in returned:
-                                returned.append(symbol)
-
-            if parts[1].lower() not in {'t', 'd'}:
-                continue
-            
-            if parts[2] not in returned:
+                if parts[1].lower() not in {'t', 'd'}:
+                    continue
+                
                 offset = int(parts[0], 16)
                 if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
                     offset_ = offset - OFFSET_TO_PUT - 0x08000000
                 ret[parts[2]] = offset + bytes__ - subtract
+                with open(OUTPUT, 'rb+') as binary:
+                    for i in range(0, math.floor((offset - OFFSET_TO_PUT - 0x08000000) / 4)):
+                        binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
+                        bytes___ = hex(int.from_bytes(binary.read(4), byteorder=sys.byteorder)).replace('0x', '').zfill(8)
+                        for line__ in range(len(repointListLines)):
+                            line_ = repointListLines[line__]
+                            if len(line_.split()) == 3:
+                                symbol, offset___, bytes_ = line_.split()
+                                if offset___ == bytes___ and symbol == symbol_ and symbol not in repointed:
+                                    uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
+                                    print('earlier', symbol, hex(uh))
+                                    bytes_ = int(bytes_, 16)
+                                    bytes____ = bytes____ + bytes_
+                                    binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
+                                    print(hex(binary.tell()))
+                                    binary.write(uh.to_bytes(4, 'little'))
+                                    repointed.append(symbol)
         
-        if os.path.isfile(REPOINT_BYTES):
-            with open(REPOINT_BYTES, 'r') as repointList:
-                for line_ in repointList:
-                    if len(line_.split()) == 3:
-                        symbol, offset___, bytes_ = line_.split()
-                        offset___ = int(offset___, 16)
-                        bytes_ = int(bytes_, 16)
-                        ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
-                        bytes__ = bytes__ + bytes_
-                        with open(OUTPUT, 'rb+') as binary:
-                            rom.seek(offset___ - 0x08000000)
-                            binary.seek(offset_)
-                            binary.write(rom.read(bytes_))
+        for line__ in range(len(repointListLines)):
+            line_ = repointListLines[line__]
+            if len(line_.split()) == 3:
+                symbol, offset___, bytes_ = line_.split()
+                offset___ = int(offset___, 16)
+                bytes_ = int(bytes_, 16)
+                ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                print('later', symbol, hex(OFFSET_TO_PUT + offset_ + bytes__ + 0x08000000))
+                bytes__ = bytes__ + bytes_
+                with open(OUTPUT, 'rb+') as binary:
+                    rom.seek(offset___ - 0x08000000)
+                    binary.seek(offset_)
+                    binary.write(rom.read(bytes_))
 
         return ret
 
@@ -1056,6 +1075,7 @@ def InsertCode():
     offset_ = 0
     offset__ = 0
     bytes__ = 0
+    bytes____ = 0
 
     try:
         shutil.copyfile(SOURCE_ROM, OUTPUT_ROM)
@@ -1267,7 +1287,6 @@ def InsertCode():
 
                         Repoint(rom, code, offset, int(slide))
 
-        # Read repoints from a file
         if os.path.isfile(REPOINT_BYTES):
             with open(REPOINT_BYTES, 'r') as repointList:
                 definesDict = {}
