@@ -870,11 +870,9 @@ def InsertCode():
                                 symbol, offset___, bytes_ = line_.split()
                                 if offset___ == bytes___ and symbol == symbol_ and symbol not in repointed:
                                     uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
-                                    print('earlier', symbol, hex(uh))
                                     bytes_ = int(bytes_, 16)
                                     bytes____ = bytes____ + bytes_
                                     binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
-                                    print(hex(binary.tell()))
                                     binary.write(uh.to_bytes(4, 'little'))
                                     repointed.append(symbol)
         
@@ -885,7 +883,6 @@ def InsertCode():
                 offset___ = int(offset___, 16)
                 bytes_ = int(bytes_, 16)
                 ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
-                print('later', symbol, hex(OFFSET_TO_PUT + offset_ + bytes__ + 0x08000000))
                 bytes__ = bytes__ + bytes_
                 with open(OUTPUT, 'rb+') as binary:
                     rom.seek(offset___ - 0x08000000)
