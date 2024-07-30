@@ -848,20 +848,16 @@ def InsertCode():
                             symbol, offset___, bytes_ = line_.split()
                             bytes_ = int(bytes_, 16)
                             if symbol == parts[2] and symbol not in returned:
-                                ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
-                                bytes__ = bytes__ + bytes_
-                                parts[1] = 'T'
                                 returned.append(symbol)
 
             if parts[1].lower() not in {'t', 'd'}:
                 continue
             
-            if parts[2] not in ret:
+            if parts[2] not in returned:
                 offset = int(parts[0], 16)
                 if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
                     offset_ = offset - OFFSET_TO_PUT - 0x08000000
                 ret[parts[2]] = offset + bytes__ - subtract
-                print(offset_)
         
         if os.path.isfile(REPOINT_BYTES):
             with open(REPOINT_BYTES, 'r') as repointList:
@@ -870,11 +866,12 @@ def InsertCode():
                         symbol, offset___, bytes_ = line_.split()
                         offset___ = int(offset___, 16)
                         bytes_ = int(bytes_, 16)
+                        ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                        bytes__ = bytes__ + bytes_
                         with open(OUTPUT, 'rb+') as binary:
                             rom.seek(offset___ - 0x08000000)
                             binary.seek(offset_)
                             binary.write(rom.read(bytes_))
-                        returned.append(symbol)
 
         return ret
 
