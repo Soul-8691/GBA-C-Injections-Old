@@ -1072,10 +1072,12 @@ def InsertCode():
 
     with open(OUTPUT_ROM, 'rb+') as rom:
         print("Inserting code.")
+        with open(OUTPUT, 'rb') as binary:
+            endInsertOffset = OFFSET_TO_PUT + os.path.getsize(OUTPUT)
         table = GetSymbols(GetTextSection())
         rom.seek(OFFSET_TO_PUT)
         with open(OUTPUT, 'rb') as binary:
-            endInsertOffset = OFFSET_TO_PUT + os.path.getsize(OUTPUT)
+            endInsertOffset = endInsertOffset + bytes__
             rom.write(binary.read())
             binary.close()
 
