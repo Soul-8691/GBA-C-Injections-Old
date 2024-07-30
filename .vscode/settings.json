@@ -5,6 +5,7 @@
         "hooks": "c",
         "config.h": "c",
         "songs.h": "c",
-        "global.h": "c"
+        "global.h": "c",
+        "repoints": "c"
     }
 }

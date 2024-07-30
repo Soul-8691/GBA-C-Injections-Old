@@ -787,6 +787,7 @@ def InsertCode():
     BYTE_REPLACEMENT = 'bytereplacement'
     HOOKS = 'hooks'
     REPOINTS = 'repoints'
+    REPOINT_BYTES = 'repointbytes'
     GENERATED_REPOINTS = 'generatedrepoints'
     REPOINT_ALL = 'repointall'
     ROUTINE_POINTERS = 'routinepointers'
@@ -828,6 +829,10 @@ def InsertCode():
     def GetSymbols(subtract=0) -> {str: int}:
         out = subprocess.check_output([NM, 'build/linked.o'])
         lines = out.decode().split('\n')
+        nonlocal offset_
+        nonlocal offset__
+        nonlocal bytes__
+        returned = list()
 
         ret = {}
         for line in lines:
@@ -836,11 +841,40 @@ def InsertCode():
             if len(parts) < 3:
                 continue
 
+            if os.path.isfile(REPOINT_BYTES):
+                with open(REPOINT_BYTES, 'r') as repointList:
+                    for line_ in repointList:
+                        if len(line_.split()) == 3:
+                            symbol, offset___, bytes_ = line_.split()
+                            bytes_ = int(bytes_, 16)
+                            if symbol == parts[2] and symbol not in returned:
+                                ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                                bytes__ = bytes__ + bytes_
+                                parts[1] = 'T'
+                                returned.append(symbol)
+
             if parts[1].lower() not in {'t', 'd'}:
                 continue
-
-            offset = int(parts[0], 16)
-            ret[parts[2]] = offset - subtract
+            
+            if parts[2] not in ret:
+                offset = int(parts[0], 16)
+                if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
+                    offset_ = offset - OFFSET_TO_PUT - 0x08000000
+                ret[parts[2]] = offset + bytes__ - subtract
+                print(offset_)
+        
+        if os.path.isfile(REPOINT_BYTES):
+            with open(REPOINT_BYTES, 'r') as repointList:
+                for line_ in repointList:
+                    if len(line_.split()) == 3:
+                        symbol, offset___, bytes_ = line_.split()
+                        offset___ = int(offset___, 16)
+                        bytes_ = int(bytes_, 16)
+                        with open(OUTPUT, 'rb+') as binary:
+                            rom.seek(offset___ - 0x08000000)
+                            binary.seek(offset_)
+                            binary.write(rom.read(bytes_))
+                        returned.append(symbol)
 
         return ret
 
@@ -899,6 +933,15 @@ def InsertCode():
         space += (0x08000000 + slideFactor)
         data = (space.to_bytes(4, 'little'))
         rom.write(bytes(data))
+
+
+    def RepointBytes(rom: _io.BufferedReader, space: int, repointAt: int, bytes_: int):
+        rom.seek(repointAt)
+
+        data = (rom.read(bytes_))
+        rom.seek(space)
+        rom.write(bytes(data))
+
 
     def RealRepoint(sourceRom: _io.BufferedReader, targetRom: _io.BufferedReader, offsetTuples: [(int, int, str)], endInsertOffset):
         pointerList = []
@@ -1013,6 +1056,9 @@ def InsertCode():
         return False
 
     startTime = datetime.now()
+    offset_ = 0
+    offset__ = 0
+    bytes__ = 0
 
     try:
         shutil.copyfile(SOURCE_ROM, OUTPUT_ROM)
@@ -1221,6 +1267,31 @@ def InsertCode():
                             continue
 
                         Repoint(rom, code, offset, int(slide))
+
+        # Read repoints from a file
+        if os.path.isfile(REPOINT_BYTES):
+            with open(REPOINT_BYTES, 'r') as repointList:
+                definesDict = {}
+                conditionals = []
+                for line in repointList:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    if len(line.split()) == 3:
+                        symbol, address, bytes_ = line.split()
+                        offset = int(address, 16) - 0x08000000
+                        bytes_ = int(bytes_, 16)
+                        try:
+                            code = table[symbol]
+                        except KeyError:
+                            print('Symbol missing:', symbol)
+                            continue
+
+                        RepointBytes(rom, code, offset, bytes_)
 
         # Read routine repoints from a file
         if os.path.isfile(ROUTINE_POINTERS):
