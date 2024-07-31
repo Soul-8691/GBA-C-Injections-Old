@@ -7,6 +7,6 @@
         "songs.h": "c",
         "global.h": "c",
         "repoints": "c",
-        "task.h": "c"
+        "abilities.h": "c"
     }
 }
