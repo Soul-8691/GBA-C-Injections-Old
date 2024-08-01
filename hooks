@@ -1,3 +1,4 @@
 #include "src/config.h"
 
-LoadCopyrightGraphics 080ec5d4 3
+IntroCB_GF_RevealLogo 80ecd60 0
+IntroCB_Init 80ecaf0 3
