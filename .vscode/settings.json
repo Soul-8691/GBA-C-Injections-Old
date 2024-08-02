@@ -6,6 +6,7 @@
         "config.h": "c",
         "songs.h": "c",
         "global.h": "c",
-        "repoints": "c"
+        "repoints": "c",
+        "task.h": "c"
     }
 }
