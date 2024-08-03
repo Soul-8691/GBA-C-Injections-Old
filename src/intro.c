@@ -151,13 +151,6 @@ struct IntroSequenceData
 }; // size: 0x28BC
 
 static EWRAM_DATA struct GcmbStruct sGcmb = {0};
-static EWRAM_DATA u16 sUnusedScene3Var0 = 0; // Set but never read
-static EWRAM_DATA u16 sUnusedScene3Var1 = 0; // Set but never read
-static EWRAM_DATA u16 sNidorinoJumpMult = 0;
-static EWRAM_DATA u16 sNidorinoAnimDelayTime = 0;
-static EWRAM_DATA u16 sNidorinoJumpDiv = 0;
-static EWRAM_DATA u16 sNidorinoRecoilReturnTime = 0;
-static EWRAM_DATA u16 sNidorinoUnusedVar = 0; // Set but never read
 static EWRAM_DATA u16 sStarSpeedX = 0;
 static EWRAM_DATA u16 sStarSpeedY = 0;
 static EWRAM_DATA u16 sStarSparklesXmodMask = 0;
