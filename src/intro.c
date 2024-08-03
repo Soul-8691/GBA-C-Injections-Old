@@ -212,7 +212,7 @@ extern const u16 sGameFreakBg_Pal[];
 extern const u8 sGameFreakBg_Gfx[];
 extern const u8 sGameFreakBg_Map[];
 static const u16 sGameFreakLogo_Pal[] = INCBIN_U16("graphics/4bpp/intro/lapras.gbapal");
-extern const u8 sGameFreakText_Gfx[];
+static const u32 sGameFreakText_Gfx[] = INCBIN_U32("graphics/4bpp/intro/kalarie.4bpp.lz");;
 static const u32 sGameFreakLogo_Gfx[] = INCBIN_U32("graphics/4bpp/intro/lapras.4bpp.lz");
 extern const u16 sStar_Pal[];
 extern const u32 sStar_Gfx[];
@@ -865,7 +865,7 @@ void IntroCB_GF_RevealLogo(struct IntroSequenceData * this)
     case 2:
         if (!IsBlendTaskActive())
         {
-            BlitBitmapToWindow(WIN_GF_TEXT_LOGO, this->gameFreakLogoGfx, 0x38, 0x06, 0x40, 0x40);
+            BlitBitmapToWindow(WIN_GF_TEXT_LOGO, this->gameFreakLogoGfx, 0x28, 0x06, 0x40, 0x40);
             BlitBitmapToWindow(WIN_GF_TEXT_LOGO, this->gameFreakTextGfx, 0x00, 0x28, 0x90, 0x10);
             CopyWindowToVram(WIN_GF_TEXT_LOGO, COPYWIN_GFX);
             this->state++;

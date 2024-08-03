@@ -623,19 +623,19 @@ def BuildCode():
 
         if '4bpp' in bpp:
             if '.png' in imageFile and '_Tiles' not in imageFile:
-                generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
-                RunCommand(generate_png)
-                generate_4bpp = [GBAGFX, imageFile.replace('.png', '_Tiles.png'), imageFile.replace('.png', '.4bpp')]
+                # generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
+                # RunCommand(generate_png)
+                generate_4bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.4bpp')]
                 RunCommand(generate_4bpp)
                 generate_4bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.4bpp.lz')]
                 RunCommand(generate_4bpp_lz)
-                generate_bin = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
-                RunCommand(generate_bin)
-                generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
-                RunCommand(generate_bin_lz)
+                # generate_bin = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
+                # RunCommand(generate_bin)
+                # generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
+                # RunCommand(generate_bin_lz)
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
-            if '.png' in imageFile and '_Tiles' not in imageFile:
-                generate_gbapal = [GBAGFX, imageFile.replace('.png', '_Tiles.png'), imageFile.replace('.png', '.gbapal')]
+            if '.png' in imageFile: # and '_Tiles' not in imageFile:
+                generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
                 RunCommand(generate_gbapal)
         else:
             print('Error: Folder not name a valid bpp type.')
@@ -901,6 +901,19 @@ def InsertCode():
                     rom.seek(offset___ - 0x08000000)
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
+        for line in lines:
+            parts = line.strip().split()
+
+            if len(parts) < 3:
+                continue
+
+            if parts[1].lower() not in {'t', 'd'}:
+                continue
+            
+            offset = int(parts[0], 16)
+            if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
+                offset_ = offset - OFFSET_TO_PUT - 0x08000000
+            ret[parts[2]] = offset + bytes__ - subtract
 
         return ret
 
