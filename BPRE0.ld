@@ -19,3 +19,4 @@ sMonIconOamData = 0x83d4068;
 sMonIconAnims = 0x83d40ac;
 sMonIconAffineAnims = 0x83d40e0;
 CreateMonIconSprite = 0x8097300 | 1;
+gSpeciesNames = 0x817A3C0;

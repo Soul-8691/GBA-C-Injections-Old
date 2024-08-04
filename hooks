@@ -3,7 +3,7 @@
 IntroCB_Init 80ecaf0 3
 GFScene_LoadGfxCreateStar 80edc40 0
 CB2_SetUpIntro 80ec870 0
-DecompressPicFromTable_ 800ec8c 0
+DecompressPicFromTable_ 800ec8c 3
 LoadSpecialPokePic_ 800ecf0 3
 DecompressPicFromTable_DontHandleDeoxys_ 800f0e0 0
 LoadSpecialPokePic_DontHandleDeoxys_ 800f108 0
@@ -13,4 +13,4 @@ SafeLoadMonIconPalette_ 80970a0 0
 SafeFreeMonIconPalette_ 8097138 0
 GetValidMonIconPalettePtr_ 80971cc 0
 GetValidMonIconPalIndex_ 80971f8 0
-GetSpeciesName_ 8113eac 0
+GetSpeciesName_ 8040fd0 2

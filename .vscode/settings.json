@@ -9,6 +9,9 @@
         "repoints": "c",
         "abilities.h": "c",
         "pokemon.h": "c",
-        "battle_anim.h": "c"
+        "battle_anim.h": "c",
+        "union_room.h": "c",
+        "trainers.h": "c",
+        "types.h": "c"
     }
 }

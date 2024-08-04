@@ -37,6 +37,8 @@
 #include "../include/constants/battle_move_effects.h"
 #include "../include/constants/union_room.h"
 
+extern const u8 gSpeciesNames_[][POKEMON_NAME_LENGTH + 1];
+
 void GetSpeciesName_(u8 *name, u16 species)
 {
     s32 i;
@@ -45,9 +47,9 @@ void GetSpeciesName_(u8 *name, u16 species)
     for (i = 0; i < POKEMON_NAME_LENGTH; i++)
     {
         if (species > NUM_SPECIES)
-            name[i] = gSpeciesNames[0][i];
+            name[i] = gSpeciesNames_[0][i];
         else
-            name[i] = gSpeciesNames[species][i];
+            name[i] = gSpeciesNames_[species][i];
 
         if (name[i] == EOS)
             break;
