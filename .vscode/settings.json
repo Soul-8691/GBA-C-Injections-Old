@@ -12,6 +12,7 @@
         "battle_anim.h": "c",
         "union_room.h": "c",
         "trainers.h": "c",
-        "types.h": "c"
+        "types.h": "c",
+        "graphics.h": "c"
     }
 }
