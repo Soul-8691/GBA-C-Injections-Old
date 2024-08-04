@@ -19,8 +19,9 @@ struct MonIconSpriteTemplate
 extern const struct OamData sMonIconOamData;
 extern const union AnimCmd *const sMonIconAnims[];
 extern const union AffineAnimCmd *const sMonIconAffineAnims[];
+extern u8 CreateMonIconSprite(const struct MonIconSpriteTemplate * template, s16 x, s16 y, u8 subpriority);
 
-u8 CreateMonIcon(u16 species, SpriteCallback callback, s16 x, s16 y, u8 subpriority, u32 personality, bool32 extra)
+u8 CreateMonIcon_(u16 species, SpriteCallback callback, s16 x, s16 y, u8 subpriority, u32 personality, bool32 extra)
 {
     u8 spriteId;
     struct MonIconSpriteTemplate iconTemplate =
@@ -43,7 +44,7 @@ u8 CreateMonIcon(u16 species, SpriteCallback callback, s16 x, s16 y, u8 subprior
     return spriteId;
 }
 
-u16 GetIconSpecies(u16 species, u32 personality)
+u16 GetIconSpecies_(u16 species, u32 personality)
 {
     u16 result;
 
@@ -67,7 +68,7 @@ u16 GetIconSpecies(u16 species, u32 personality)
     return result;
 }
 
-void SafeLoadMonIconPalette(u16 species)
+void SafeLoadMonIconPalette_(u16 species)
 {
     u8 palIndex;
     if (species > NUM_SPECIES)
@@ -77,7 +78,7 @@ void SafeLoadMonIconPalette(u16 species)
         LoadSpritePalette(&gMonIconPaletteTable[palIndex]);
 }
 
-void SafeFreeMonIconPalette(u16 species)
+void SafeFreeMonIconPalette_(u16 species)
 {
     u8 palIndex;
     if (species > NUM_SPECIES)
@@ -86,14 +87,14 @@ void SafeFreeMonIconPalette(u16 species)
     FreeSpritePaletteByTag(gMonIconPaletteTable[palIndex].tag);
 }
 
-const u16 *GetValidMonIconPalettePtr(u16 species)
+const u16 *GetValidMonIconPalettePtr_(u16 species)
 {
     if (species > NUM_SPECIES)
         species = SPECIES_NONE;
     return gMonIconPaletteTable[gMonIconPaletteIndices[species]].data;
 }
 
-u8 GetValidMonIconPalIndex(u16 species)
+u8 GetValidMonIconPalIndex_(u16 species)
 {
     if (species > NUM_SPECIES)
         species = SPECIES_NONE;

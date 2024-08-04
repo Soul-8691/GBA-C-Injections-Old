@@ -18,3 +18,4 @@ CB2_InitMailView = 0x80bf110 | 1;
 sMonIconOamData = 0x83d4068;
 sMonIconAnims = 0x83d40ac;
 sMonIconAffineAnims = 0x83d40e0;
+CreateMonIconSprite = 0x8097300 | 1;

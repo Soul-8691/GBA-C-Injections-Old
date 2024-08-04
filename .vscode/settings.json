@@ -8,6 +8,7 @@
         "global.h": "c",
         "repoints": "c",
         "abilities.h": "c",
-        "pokemon.h": "c"
+        "pokemon.h": "c",
+        "battle_anim.h": "c"
     }
 }
