@@ -3,7 +3,7 @@
 #include "../include/decompress.h"
 #include "../include/pokemon.h"
 
-extern const struct CompressedSpriteSheet gMonFrontPicTable[];
+extern const struct CompressedSpriteSheet gMonFrontPicTable_[];
 extern const struct CompressedSpriteSheet gMonBackPicTable[];
 
 extern void DuplicateDeoxysTiles(void *pointer, s32 species);
@@ -11,7 +11,7 @@ extern void DuplicateDeoxysTiles(void *pointer, s32 species);
 void DecompressPicFromTable_(const struct CompressedSpriteSheet *src, void *buffer, s32 species)
 {
     if (species > NUM_SPECIES)
-        LZ77UnCompWram(gMonFrontPicTable[0].data, buffer);
+        LZ77UnCompWram(gMonFrontPicTable_[0].data, buffer);
     else
         LZ77UnCompWram(src->data, buffer);
     DuplicateDeoxysTiles(buffer, species);
@@ -31,10 +31,10 @@ void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, void *dest, s3
         if (!isFrontPic)
             LZ77UnCompWram(gMonBackPicTable[i].data, dest);
         else
-            LZ77UnCompWram(gMonFrontPicTable[i].data, dest);
+            LZ77UnCompWram(gMonFrontPicTable_[i].data, dest);
     }
     else if (species > NUM_SPECIES) // is species unknown? draw the ? icon
-        LZ77UnCompWram(gMonFrontPicTable[0].data, dest);
+        LZ77UnCompWram(gMonFrontPicTable_[0].data, dest);
     else
         LZ77UnCompWram(src->data, dest);
 
@@ -45,7 +45,7 @@ void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, void *dest, s3
 void DecompressPicFromTable_DontHandleDeoxys_(const struct CompressedSpriteSheet *src, void *buffer, s32 species)
 {
     if (species > NUM_SPECIES)
-        LZ77UnCompWram(gMonFrontPicTable[0].data, buffer);
+        LZ77UnCompWram(gMonFrontPicTable_[0].data, buffer);
     else
         LZ77UnCompWram(src->data, buffer);
 }
@@ -64,11 +64,11 @@ void LoadSpecialPokePic_DontHandleDeoxys_(const struct CompressedSpriteSheet *sr
         if (!isFrontPic)
             LZ77UnCompWram(gMonBackPicTable[i].data, dest);
         else
-            LZ77UnCompWram(gMonFrontPicTable[i].data, dest);
+            LZ77UnCompWram(gMonFrontPicTable_[i].data, dest);
     }
     else if (species > NUM_SPECIES) // is species unknown? draw the ? icon
     {
-        LZ77UnCompWram(gMonFrontPicTable[0].data, dest);
+        LZ77UnCompWram(gMonFrontPicTable_[0].data, dest);
     }
     else
     {
