@@ -2435,7 +2435,7 @@ extern const u32 gMonFrontPic_CircledQuestionMark[];
 // extern const u32 gMonBackPic_CircledQuestionMark[];
 extern const u32 gMonPalettea_CircledQuestionMark[];
 // extern const u32 gMonShinyPalette_CircledQuestionMark[];
-// extern const u8 gMonIcon_QuestionMark[];
+extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonFootprint_QuestionMark[];
 // extern const u32 gMonFrontPic_DoubleQuestionMark[];
 // extern const u32 gMonBackPic_DoubleQuestionMark[];
@@ -4431,7 +4431,7 @@ extern const u32 gFile_graphics_mail_retro_map_tilemap[];
 // extern const u8 gMonIcon_Unown_Z[];
 // extern const u8 gMonIcon_Unown_ExclamationMark[];
 // extern const u8 gMonIcon_Unown_QuestionMark[];
-// extern const u8 gMonIcon_QuestionMark[];
+extern const u8 gMonIcon_QuestionMark[];
 
 // trade
 extern const u16 gTradeMenu_Pal[];
