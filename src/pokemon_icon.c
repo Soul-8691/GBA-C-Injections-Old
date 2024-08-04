@@ -1045,33 +1045,6 @@ extern const u8 gMonIcon_Pikachu13[];
 extern const u8 gMonIcon_Pikachu14[];
 extern const u8 gMonIcon_Pikachu15[];
 extern const u8 gMonIcon_Pichu2[];
-extern const u8 gMonIcon_Unown2[];
-extern const u8 gMonIcon_Unown3[];
-extern const u8 gMonIcon_Unown4[];
-extern const u8 gMonIcon_Unown5[];
-extern const u8 gMonIcon_Unown6[];
-extern const u8 gMonIcon_Unown7[];
-extern const u8 gMonIcon_Unown8[];
-extern const u8 gMonIcon_Unown9[];
-extern const u8 gMonIcon_Unown10[];
-extern const u8 gMonIcon_Unown11[];
-extern const u8 gMonIcon_Unown12[];
-extern const u8 gMonIcon_Unown13[];
-extern const u8 gMonIcon_Unown14[];
-extern const u8 gMonIcon_Unown15[];
-extern const u8 gMonIcon_Unown16[];
-extern const u8 gMonIcon_Unown17[];
-extern const u8 gMonIcon_Unown18[];
-extern const u8 gMonIcon_Unown19[];
-extern const u8 gMonIcon_Unown20[];
-extern const u8 gMonIcon_Unown21[];
-extern const u8 gMonIcon_Unown22[];
-extern const u8 gMonIcon_Unown23[];
-extern const u8 gMonIcon_Unown24[];
-extern const u8 gMonIcon_Unown25[];
-extern const u8 gMonIcon_Unown26[];
-extern const u8 gMonIcon_Unown27[];
-extern const u8 gMonIcon_Unown28[];
 extern const u8 gMonIcon_Castform2[];
 extern const u8 gMonIcon_Castform3[];
 extern const u8 gMonIcon_Castform4[];
@@ -2623,33 +2596,6 @@ const u8 *const gMonIconTable_[] =
 	[SPECIES_PIKACHU_14] = gMonIcon_Pikachu14,
 	[SPECIES_PIKACHU_15] = gMonIcon_Pikachu15,
 	[SPECIES_PICHU_2] = gMonIcon_Pichu2,
-	[SPECIES_UNOWN_2] = gMonIcon_Unown2,
-	[SPECIES_UNOWN_3] = gMonIcon_Unown3,
-	[SPECIES_UNOWN_4] = gMonIcon_Unown4,
-	[SPECIES_UNOWN_5] = gMonIcon_Unown5,
-	[SPECIES_UNOWN_6] = gMonIcon_Unown6,
-	[SPECIES_UNOWN_7] = gMonIcon_Unown7,
-	[SPECIES_UNOWN_8] = gMonIcon_Unown8,
-	[SPECIES_UNOWN_9] = gMonIcon_Unown9,
-	[SPECIES_UNOWN_10] = gMonIcon_Unown10,
-	[SPECIES_UNOWN_11] = gMonIcon_Unown11,
-	[SPECIES_UNOWN_12] = gMonIcon_Unown12,
-	[SPECIES_UNOWN_13] = gMonIcon_Unown13,
-	[SPECIES_UNOWN_14] = gMonIcon_Unown14,
-	[SPECIES_UNOWN_15] = gMonIcon_Unown15,
-	[SPECIES_UNOWN_16] = gMonIcon_Unown16,
-	[SPECIES_UNOWN_17] = gMonIcon_Unown17,
-	[SPECIES_UNOWN_18] = gMonIcon_Unown18,
-	[SPECIES_UNOWN_19] = gMonIcon_Unown19,
-	[SPECIES_UNOWN_20] = gMonIcon_Unown20,
-	[SPECIES_UNOWN_21] = gMonIcon_Unown21,
-	[SPECIES_UNOWN_22] = gMonIcon_Unown22,
-	[SPECIES_UNOWN_23] = gMonIcon_Unown23,
-	[SPECIES_UNOWN_24] = gMonIcon_Unown24,
-	[SPECIES_UNOWN_25] = gMonIcon_Unown25,
-	[SPECIES_UNOWN_26] = gMonIcon_Unown26,
-	[SPECIES_UNOWN_27] = gMonIcon_Unown27,
-	[SPECIES_UNOWN_28] = gMonIcon_Unown28,
 	[SPECIES_CASTFORM_2] = gMonIcon_Castform2,
 	[SPECIES_CASTFORM_3] = gMonIcon_Castform3,
 	[SPECIES_CASTFORM_4] = gMonIcon_Castform4,

@@ -1032,33 +1032,33 @@ extern const u32 gMonPalette_Pikachu13[];
 extern const u32 gMonPalette_Pikachu14[];
 extern const u32 gMonPalette_Pikachu15[];
 extern const u32 gMonPalette_Pichu2[];
-extern const u32 gMonPalette_Unown2[];
-extern const u32 gMonPalette_Unown3[];
-extern const u32 gMonPalette_Unown4[];
-extern const u32 gMonPalette_Unown5[];
-extern const u32 gMonPalette_Unown6[];
-extern const u32 gMonPalette_Unown7[];
-extern const u32 gMonPalette_Unown8[];
-extern const u32 gMonPalette_Unown9[];
-extern const u32 gMonPalette_Unown10[];
-extern const u32 gMonPalette_Unown11[];
-extern const u32 gMonPalette_Unown12[];
-extern const u32 gMonPalette_Unown13[];
-extern const u32 gMonPalette_Unown14[];
-extern const u32 gMonPalette_Unown15[];
-extern const u32 gMonPalette_Unown16[];
-extern const u32 gMonPalette_Unown17[];
-extern const u32 gMonPalette_Unown18[];
-extern const u32 gMonPalette_Unown19[];
-extern const u32 gMonPalette_Unown20[];
-extern const u32 gMonPalette_Unown21[];
-extern const u32 gMonPalette_Unown22[];
-extern const u32 gMonPalette_Unown23[];
-extern const u32 gMonPalette_Unown24[];
-extern const u32 gMonPalette_Unown25[];
-extern const u32 gMonPalette_Unown26[];
-extern const u32 gMonPalette_Unown27[];
-extern const u32 gMonPalette_Unown28[];
+extern const u32 gMonPalette_UnownB[];
+extern const u32 gMonPalette_UnownC[];
+extern const u32 gMonPalette_UnownD[];
+extern const u32 gMonPalette_UnownE[];
+extern const u32 gMonPalette_UnownF[];
+extern const u32 gMonPalette_UnownG[];
+extern const u32 gMonPalette_UnownH[];
+extern const u32 gMonPalette_UnownI[];
+extern const u32 gMonPalette_UnownJ[];
+extern const u32 gMonPalette_UnownK[];
+extern const u32 gMonPalette_UnownL[];
+extern const u32 gMonPalette_UnownM[];
+extern const u32 gMonPalette_UnownN[];
+extern const u32 gMonPalette_UnownO[];
+extern const u32 gMonPalette_UnownP[];
+extern const u32 gMonPalette_UnownQ[];
+extern const u32 gMonPalette_UnownR[];
+extern const u32 gMonPalette_UnownS[];
+extern const u32 gMonPalette_UnownT[];
+extern const u32 gMonPalette_UnownU[];
+extern const u32 gMonPalette_UnownV[];
+extern const u32 gMonPalette_UnownW[];
+extern const u32 gMonPalette_UnownX[];
+extern const u32 gMonPalette_UnownY[];
+extern const u32 gMonPalette_UnownZ[];
+extern const u32 gMonPalette_UnownEMark[];
+extern const u32 gMonPalette_UnownQMark[];
 extern const u32 gMonPalette_Castform2[];
 extern const u32 gMonPalette_Castform3[];
 extern const u32 gMonPalette_Castform4[];
@@ -2557,34 +2557,31 @@ const struct CompressedSpritePalette gMonPaletteTable_[] =
 	SPECIES_PAL(PIKACHU_13, gMonPalette_Pikachu13),
 	SPECIES_PAL(PIKACHU_14, gMonPalette_Pikachu14),
 	SPECIES_PAL(PIKACHU_15, gMonPalette_Pikachu15),
-	SPECIES_PAL(PICHU_2, gMonPalette_Pichu2),
-	SPECIES_PAL(UNOWN_2, gMonPalette_Unown2),
-	SPECIES_PAL(UNOWN_3, gMonPalette_Unown3),
-	SPECIES_PAL(UNOWN_4, gMonPalette_Unown4),
-	SPECIES_PAL(UNOWN_5, gMonPalette_Unown5),
-	SPECIES_PAL(UNOWN_6, gMonPalette_Unown6),
-	SPECIES_PAL(UNOWN_7, gMonPalette_Unown7),
-	SPECIES_PAL(UNOWN_8, gMonPalette_Unown8),
-	SPECIES_PAL(UNOWN_9, gMonPalette_Unown9),
-	SPECIES_PAL(UNOWN_10, gMonPalette_Unown10),
-	SPECIES_PAL(UNOWN_11, gMonPalette_Unown11),
-	SPECIES_PAL(UNOWN_12, gMonPalette_Unown12),
-	SPECIES_PAL(UNOWN_13, gMonPalette_Unown13),
-	SPECIES_PAL(UNOWN_14, gMonPalette_Unown14),
-	SPECIES_PAL(UNOWN_15, gMonPalette_Unown15),
-	SPECIES_PAL(UNOWN_16, gMonPalette_Unown16),
-	SPECIES_PAL(UNOWN_17, gMonPalette_Unown17),
-	SPECIES_PAL(UNOWN_18, gMonPalette_Unown18),
-	SPECIES_PAL(UNOWN_19, gMonPalette_Unown19),
-	SPECIES_PAL(UNOWN_20, gMonPalette_Unown20),
-	SPECIES_PAL(UNOWN_21, gMonPalette_Unown21),
-	SPECIES_PAL(UNOWN_22, gMonPalette_Unown22),
-	SPECIES_PAL(UNOWN_23, gMonPalette_Unown23),
-	SPECIES_PAL(UNOWN_24, gMonPalette_Unown24),
-	SPECIES_PAL(UNOWN_25, gMonPalette_Unown25),
-	SPECIES_PAL(UNOWN_26, gMonPalette_Unown26),
-	SPECIES_PAL(UNOWN_27, gMonPalette_Unown27),
-	SPECIES_PAL(UNOWN_28, gMonPalette_Unown28),
+	SPECIES_PAL(UNOWN_B, gMonPalette_UnownB),
+    SPECIES_PAL(UNOWN_C, gMonPalette_UnownC),
+    SPECIES_PAL(UNOWN_D, gMonPalette_UnownD),
+    SPECIES_PAL(UNOWN_E, gMonPalette_UnownE),
+    SPECIES_PAL(UNOWN_F, gMonPalette_UnownF),
+    SPECIES_PAL(UNOWN_G, gMonPalette_UnownG),
+    SPECIES_PAL(UNOWN_H, gMonPalette_UnownH),
+    SPECIES_PAL(UNOWN_I, gMonPalette_UnownI),
+    SPECIES_PAL(UNOWN_J, gMonPalette_UnownJ),
+    SPECIES_PAL(UNOWN_K, gMonPalette_UnownK),
+    SPECIES_PAL(UNOWN_L, gMonPalette_UnownL),
+    SPECIES_PAL(UNOWN_M, gMonPalette_UnownM),
+    SPECIES_PAL(UNOWN_N, gMonPalette_UnownN),
+    SPECIES_PAL(UNOWN_O, gMonPalette_UnownO),
+    SPECIES_PAL(UNOWN_P, gMonPalette_UnownP),
+    SPECIES_PAL(UNOWN_Q, gMonPalette_UnownQ),
+    SPECIES_PAL(UNOWN_R, gMonPalette_UnownR),
+    SPECIES_PAL(UNOWN_S, gMonPalette_UnownS),
+    SPECIES_PAL(UNOWN_T, gMonPalette_UnownT),
+    SPECIES_PAL(UNOWN_U, gMonPalette_UnownU),
+    SPECIES_PAL(UNOWN_V, gMonPalette_UnownV),
+    SPECIES_PAL(UNOWN_W, gMonPalette_UnownW),
+    SPECIES_PAL(UNOWN_X, gMonPalette_UnownX),
+    SPECIES_PAL(UNOWN_Y, gMonPalette_UnownY),
+    SPECIES_PAL(UNOWN_Z, gMonPalette_UnownZ),
 	SPECIES_PAL(CASTFORM_2, gMonPalette_Castform2),
 	SPECIES_PAL(CASTFORM_3, gMonPalette_Castform3),
 	SPECIES_PAL(CASTFORM_4, gMonPalette_Castform4),
