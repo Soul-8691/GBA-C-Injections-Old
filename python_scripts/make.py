@@ -626,9 +626,11 @@ def BuildCode():
                 # generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
                 # RunCommand(generate_png)
                 generate_4bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.4bpp')]
-                RunCommand(generate_4bpp)
+                if not glob(imageFile.replace('.png', '.4bpp')):
+                    RunCommand(generate_4bpp)
                 generate_4bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.4bpp.lz')]
-                RunCommand(generate_4bpp_lz)
+                if not glob(imageFile.replace('.png', '.4bpp.lz')):
+                    RunCommand(generate_4bpp_lz)
                 # generate_bin = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-map', imageFile.replace('.png', '.bin')]
                 # RunCommand(generate_bin)
                 # generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
@@ -636,7 +638,11 @@ def BuildCode():
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile: # and '_Tiles' not in imageFile:
                 generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
-                RunCommand(generate_gbapal)
+                if not glob(imageFile.replace('.png', '.gbapal')):
+                    RunCommand(generate_gbapal)
+                generate_gbapal_lz = [GBAGFX, imageFile.replace('.png', '.gbapal'), imageFile.replace('.png', '.gbapal.lz')]
+                if not glob(imageFile.replace('.png', '.gbapal.lz')):
+                    RunCommand(generate_gbapal_lz)
         else:
             print('Error: Folder not name a valid bpp type.')
             sys.exit(1)

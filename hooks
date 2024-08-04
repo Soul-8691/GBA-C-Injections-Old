@@ -9,7 +9,7 @@ DecompressPicFromTable_DontHandleDeoxys_ 800f0e0 0
 LoadSpecialPokePic_DontHandleDeoxys_ 800f108 0
 CreateMonIcon_ 8096e18 4
 GetIconSpecies_ 8096f5c 1
-SafeLoadMonIconPalette_ 80970a0 0
+SafeLoadMonIconPalette_ 80970a0 1
 SafeFreeMonIconPalette_ 8097138 0
 GetValidMonIconPalettePtr_ 80971cc 0
 GetValidMonIconPalIndex_ 80971f8 0
