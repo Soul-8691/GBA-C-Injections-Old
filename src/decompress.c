@@ -4,7 +4,7 @@
 #include "../include/pokemon.h"
 
 extern const struct CompressedSpriteSheet gMonFrontPicTable_[];
-extern const struct CompressedSpriteSheet gMonBackPicTable[];
+extern const struct CompressedSpriteSheet gMonBackPicTable_[];
 
 extern void DuplicateDeoxysTiles(void *pointer, s32 species);
 
@@ -29,7 +29,7 @@ void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, void *dest, s3
         else
             i += SPECIES_UNOWN_B - 1;
         if (!isFrontPic)
-            LZ77UnCompWram(gMonBackPicTable[i].data, dest);
+            LZ77UnCompWram(gMonBackPicTable_[i].data, dest);
         else
             LZ77UnCompWram(gMonFrontPicTable_[i].data, dest);
     }
@@ -62,7 +62,7 @@ void LoadSpecialPokePic_DontHandleDeoxys_(const struct CompressedSpriteSheet *sr
         else
             i += SPECIES_UNOWN_B - 1;
         if (!isFrontPic)
-            LZ77UnCompWram(gMonBackPicTable[i].data, dest);
+            LZ77UnCompWram(gMonBackPicTable_[i].data, dest);
         else
             LZ77UnCompWram(gMonFrontPicTable_[i].data, dest);
     }
