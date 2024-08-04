@@ -39,6 +39,7 @@
 
 extern const u8 gSpeciesNames_[][POKEMON_NAME_LENGTH + 1];
 extern const struct CompressedSpritePalette gMonPaletteTable_[];
+extern const struct CompressedSpritePalette gMonShinyPaletteTable_[];
 
 void GetSpeciesName_(u8 *name, u16 species)
 {
@@ -68,7 +69,7 @@ const u32 *GetMonSpritePalFromSpeciesAndPersonality_(u16 species, u32 otId, u32 
 
     shinyValue = GET_SHINY_VALUE(otId, personality);
     if (shinyValue < SHINY_ODDS)
-        return gMonShinyPaletteTable[species].data;
+        return gMonShinyPaletteTable_[species].data;
     else
         return gMonPaletteTable_[species].data;
 }
