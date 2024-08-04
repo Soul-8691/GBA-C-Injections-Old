@@ -14,3 +14,4 @@ SafeFreeMonIconPalette_ 8097138 0
 GetValidMonIconPalettePtr_ 80971cc 0
 GetValidMonIconPalIndex_ 80971f8 0
 GetSpeciesName_ 8040fd0 2
+GetMonSpritePalFromSpeciesAndPersonality_ 80440f4 1

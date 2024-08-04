@@ -38,6 +38,7 @@
 #include "../include/constants/union_room.h"
 
 extern const u8 gSpeciesNames_[][POKEMON_NAME_LENGTH + 1];
+extern const struct CompressedSpritePalette gMonPaletteTable_[];
 
 void GetSpeciesName_(u8 *name, u16 species)
 {
@@ -56,4 +57,18 @@ void GetSpeciesName_(u8 *name, u16 species)
     }
 
     name[i] = EOS;
+}
+
+const u32 *GetMonSpritePalFromSpeciesAndPersonality_(u16 species, u32 otId, u32 personality)
+{
+    u32 shinyValue;
+
+    if (species > NUM_SPECIES)
+        return gMonPaletteTable_[0].data;
+
+    shinyValue = GET_SHINY_VALUE(otId, personality);
+    if (shinyValue < SHINY_ODDS)
+        return gMonShinyPaletteTable[species].data;
+    else
+        return gMonPaletteTable_[species].data;
 }
