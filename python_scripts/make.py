@@ -794,7 +794,8 @@ def InsertCode():
     BYTE_REPLACEMENT = 'bytereplacement'
     HOOKS = 'hooks'
     REPOINTS = 'repoints'
-    REPOINT_BYTES = 'repointbytes'
+    REPOINT_FREE_BYTES = 'repointfreebytes'
+    FREE_BYTES = 'freebytes'
     GENERATED_REPOINTS = 'generatedrepoints'
     REPOINT_ALL = 'repointall'
     ROUTINE_POINTERS = 'routinepointers'
@@ -842,8 +843,8 @@ def InsertCode():
         nonlocal bytes____
         repointed = list()
         symbols = list()
-        if os.path.isfile(REPOINT_BYTES):
-            repointList = open(REPOINT_BYTES, 'r')
+        if os.path.isfile(REPOINT_FREE_BYTES):
+            repointList = open(REPOINT_FREE_BYTES, 'r')
             repointListLines = repointList.readlines()
 
         ret = {}
@@ -853,7 +854,7 @@ def InsertCode():
                 symbol, offset___, bytes_ = line_.split()
                 symbols.append(symbol)
             if len(line_.split()) == 4:
-                symbol, offset___, bytes_, replace_bytes = line_.split()
+                symbol, offset___, bytes_, free_bytes = line_.split()
                 symbols.append(symbol)
         for symbol_ in symbols:
             for line in lines:
@@ -898,7 +899,7 @@ def InsertCode():
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
             if len(line_.split()) == 4:
-                symbol, offset___, bytes_, replace_bytes = line_.split()
+                symbol, offset___, bytes_, free_bytes = line_.split()
                 offset___ = int(offset___, 16)
                 bytes_ = int(bytes_, 16)
                 ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
@@ -980,15 +981,20 @@ def InsertCode():
         rom.write(bytes(data))
 
 
-    def RepointBytes(rom: _io.BufferedReader, space: int, repointAt: int, bytes_: int, replace_bytes: bool):
+    def RepointFreeBytes(rom: _io.BufferedReader, space: int, repointAt: int, bytes_: int, free_bytes: bool):
         rom.seek(repointAt)
 
         data = (rom.read(bytes_))
         rom.seek(space)
         rom.write(bytes(data))
-        if replace_bytes:
+        if free_bytes:
             rom.seek(repointAt)
             rom.write(b'\xFF' * bytes_)
+
+
+    def FreeBytes(rom: _io.BufferedReader, repointAt: int, bytes_: int):
+        rom.seek(repointAt)
+        rom.write(b'\xFF' * bytes_)
 
 
     def RealRepoint(sourceRom: _io.BufferedReader, targetRom: _io.BufferedReader, offsetTuples: [(int, int, str)], endInsertOffset):
@@ -1319,8 +1325,8 @@ def InsertCode():
 
                         Repoint(rom, code, offset, int(slide))
 
-        if os.path.isfile(REPOINT_BYTES):
-            with open(REPOINT_BYTES, 'r') as repointList:
+        if os.path.isfile(REPOINT_FREE_BYTES):
+            with open(REPOINT_FREE_BYTES, 'r') as repointList:
                 definesDict = {}
                 conditionals = []
                 for line in repointList:
@@ -1341,10 +1347,10 @@ def InsertCode():
                             print('Symbol missing:', symbol)
                             continue
 
-                        RepointBytes(rom, code, offset, bytes_, False)
+                        RepointFreeBytes(rom, code, offset, bytes_, 0)
                     
                     if len(line.split()) == 4:
-                        symbol, address, bytes_, replace_bytes = line.split()
+                        symbol, address, bytes_, free_bytes = line.split()
                         offset = int(address, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
                         try:
@@ -1353,7 +1359,28 @@ def InsertCode():
                             print('Symbol missing:', symbol)
                             continue
 
-                        RepointBytes(rom, code, offset, bytes_, replace_bytes)
+                        RepointFreeBytes(rom, code, offset, bytes_, free_bytes)
+
+
+        if os.path.isfile(FREE_BYTES):
+            with open(FREE_BYTES, 'r') as repointList:
+                definesDict = {}
+                conditionals = []
+                for line in repointList:
+                    if TryProcessFileInclusion(line, definesDict):
+                        continue
+                    if TryProcessConditionalCompilation(line, definesDict, conditionals):
+                        continue
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+
+                    if len(line.split()) == 2:
+                        address, bytes_ = line.split()
+                        offset = int(address, 16) - 0x08000000
+                        bytes_ = int(bytes_, 16)
+
+                        FreeBytes(rom, offset, bytes_)
+
 
         # Read routine repoints from a file
         if os.path.isfile(ROUTINE_POINTERS):
