@@ -10,7 +10,7 @@ import _io
 import shutil
 import math
 
-SOURCE_ROM = "FireRed.gba"
+SOURCE_ROM = "ygodm8.gba"
 OFFSET_TO_PUT = 0x1000000
 
 def ChangeFileLine(filePath: str, lineToChange: int, replacement: str):
