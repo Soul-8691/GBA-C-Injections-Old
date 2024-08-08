@@ -96,7 +96,7 @@ def BuildCode():
     AUDIO = './audio'
     BUILD = './build'
     ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
-    LDFLAGS = ['-R', 'pokefirered.elf', 'BPRE0.ld', '-T', 'linker.ld']
+    LDFLAGS = ['-R', 'ygodm8.elf', 'ygodm8.ld', '-T', 'linker.ld']
     CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
             '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
     CHARMAP = 'charmap.txt'
