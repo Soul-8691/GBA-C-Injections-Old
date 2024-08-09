@@ -1127,8 +1127,9 @@ def InsertCode():
                     ret[modified_card_] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                     bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
-                        binary.seek(offset_ + bytes__)
+                        binary.seek(offset_)
                         binary.write(image)
+                        offset_ = offset_ + + bytes__
         for line in lines:
             parts = line.strip().split()
 
