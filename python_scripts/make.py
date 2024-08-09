@@ -12,6 +12,8 @@ import math
 from PIL import Image
 import requests
 import json
+import io
+import re
 card_names = open("cardnames", "r")
 card_offsets = open("cardoffsets", "r")
 
@@ -43,69 +45,84 @@ def ClearFromTo(rom, from_: int, to_: int):
         rom.write(b'\xFF')
 
 
-def BuildCode():
-    on_wsl = "microsoft" in platform.uname()[3].lower()
+def RunCommand(cmd: [str]):
+    """Runs the command line command."""
+    try:
+        output = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+        return output.decode()
+    except subprocess.CalledProcessError as e:
+        try:
+            print(e.output.decode(), file=sys.stderr)
+        except:
+            print(e)
+        sys.exit(1)
 
-    if sys.platform.startswith('win'):
-        PathVar = os.environ.get('Path')
-        Paths = PathVar.split(';')
-        PATH = ''
-        for candidatePath in Paths:
-            if 'devkitARM' in candidatePath:
-                PATH = candidatePath
-                break
-        if PATH == '':
-            print('DevKit does not exist in your Path variable.\nChecking default location.')
-            PATH = 'C://devkitPro//devkitARM//bin'
-            if os.path.isdir(PATH) is False:
-                print('...\nDevkit not found.')
-                sys.exit(1)
-            else:
-                print('Devkit found.')
-        
-        PREFIX = '/arm-none-eabi-'
-        AS = PATH + PREFIX + 'as'
-        CC = PATH + PREFIX + 'gcc'
-        LD = PATH + PREFIX + 'ld'
-        GBAGFX = 'deps/gbagfx.exe'
-        SUPERFAMICONV = 'deps/superfamiconv.exe'
+
+on_wsl = "microsoft" in platform.uname()[3].lower()
+
+if sys.platform.startswith('win'):
+    PathVar = os.environ.get('Path')
+    Paths = PathVar.split(';')
+    PATH = ''
+    for candidatePath in Paths:
+        if 'devkitARM' in candidatePath:
+            PATH = candidatePath
+            break
+    if PATH == '':
+        print('DevKit does not exist in your Path variable.\nChecking default location.')
+        PATH = 'C://devkitPro//devkitARM//bin'
+        if os.path.isdir(PATH) is False:
+            print('...\nDevkit not found.')
+            sys.exit(1)
+        else:
+            print('Devkit found.')
+    
+    PREFIX = '/arm-none-eabi-'
+    AS = PATH + PREFIX + 'as'
+    CC = PATH + PREFIX + 'gcc'
+    LD = PATH + PREFIX + 'ld'
+    GBAGFX = 'deps/gbagfx.exe'
+    SUPERFAMICONV = 'deps/superfamiconv.exe'
+    WAV2AGB = 'deps/wav2agb.exe'
+    MID2AGB = 'deps/mid2agb.exe'
+    PREPROC = 'deps/preproc.exe'
+    OBJCOPY = PATH + PREFIX + 'objcopy'
+
+else:  # Linux, OSX, etc.
+    PREFIX = 'arm-none-eabi-'
+    AS = PREFIX + 'as'
+    CC = PREFIX + 'gcc'
+    LD = PREFIX + 'ld'
+    if on_wsl:
         WAV2AGB = 'deps/wav2agb.exe'
         MID2AGB = 'deps/mid2agb.exe'
+        GBAGFX = 'deps/gbagfx.exe'
+        SUPERFAMICONV = 'deps/superfamiconv.exe'
         PREPROC = 'deps/preproc.exe'
-        OBJCOPY = PATH + PREFIX + 'objcopy'
+    else:
+        WAV2AGB = 'deps/wav2agb'
+        MID2AGB = 'deps/mid2agb'
+        GBAGFX = 'deps/gbagfx'
+        SUPERFAMICONV = 'deps/superfamiconv'
+        PREPROC = 'deps/preproc'
 
-    else:  # Linux, OSX, etc.
-        PREFIX = 'arm-none-eabi-'
-        AS = PREFIX + 'as'
-        CC = PREFIX + 'gcc'
-        LD = PREFIX + 'ld'
-        if on_wsl:
-            WAV2AGB = 'deps/wav2agb.exe'
-            MID2AGB = 'deps/mid2agb.exe'
-            GBAGFX = 'deps/gbagfx.exe'
-            SUPERFAMICONV = 'deps/superfamiconv.exe'
-            PREPROC = 'deps/preproc.exe'
-        else:
-            WAV2AGB = 'deps/wav2agb'
-            MID2AGB = 'deps/mid2agb'
-            GBAGFX = 'deps/gbagfx'
-            SUPERFAMICONV = 'deps/superfamiconv'
-            PREPROC = 'deps/preproc'
+    OBJCOPY = PREFIX + 'objcopy'
 
-        OBJCOPY = PREFIX + 'objcopy'
+SRC = './src'
+GRAPHICS = './graphics'
+ASSEMBLY = './asm'
+STRINGS = './strings'
+AUDIO = './audio'
+BUILD = './build'
+ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
+LDFLAGS = ['EDS.ld', '-T', 'linker.ld']
+CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
+        '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
+CHARMAP = 'charmap.txt'
 
-    SRC = './src'
-    GRAPHICS = './graphics'
-    ASSEMBLY = './asm'
-    STRINGS = './strings'
-    AUDIO = './audio'
-    BUILD = './build'
-    ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
-    LDFLAGS = ['EDS.ld', '-T', 'linker.ld']
-    CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
-            '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
-    CHARMAP = 'charmap.txt'
 
+
+def BuildCode():
     class Master:
         @staticmethod
         def init():
@@ -133,19 +150,6 @@ def BuildCode():
                 # Used to tell the script whether or not the string 'Compiling Music' has been printed
                 Master.printedCompilingMusic = True
                 print('Compiling Music')
-
-
-    def RunCommand(cmd: [str]):
-        """Runs the command line command."""
-        try:
-            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
-            return output.decode()
-        except subprocess.CalledProcessError as e:
-            try:
-                print(e.output.decode(), file=sys.stderr)
-            except:
-                print(e)
-            sys.exit(1)
 
 
     def CreateOutputFile(fileName: str, newFileName: str) -> [str, bool]:
@@ -911,6 +915,8 @@ def InsertCode():
     SONGS = "songs"
     SPECIAL_INSERTS = 'special_inserts.asm'
     SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
+    CARD_NAMES = 'cardnames'
+    CARD_OFFSETS = 'cardoffsets'
 
 
     def ExtractPointer(byteList: [bytes]):
@@ -953,6 +959,12 @@ def InsertCode():
         if os.path.isfile(REPOINT_FREE_BYTES):
             repointList = open(REPOINT_FREE_BYTES, 'r')
             repointListLines = repointList.readlines()
+        if os.path.isfile(CARD_NAMES):
+            cardNamesList = open(CARD_NAMES, 'r')
+            cardNamesListLines = cardNamesList.readlines()
+        if os.path.isfile(CARD_OFFSETS):
+            cardOffsetsList = open(CARD_OFFSETS, 'r')
+            cardOffsetsListLines = cardOffsetsList.readlines()
 
         ret = {}
         for line__ in range(len(repointListLines)):
@@ -963,6 +975,12 @@ def InsertCode():
             if len(line_.split()) == 4:
                 symbol, offset___, bytes_, free_bytes = line_.split()
                 symbols.append(symbol)
+        for line__ in range(len(cardNamesListLines)):
+            line_ = cardNamesListLines[line__]
+            if len(line_.split(' / ')) == 2:
+                original_card, modified_card = line_.split(' / ')
+                if original_card != modified_card.replace('\n', '') and re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')) not in symbols:
+                    symbols.append('gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')))
         for symbol_ in symbols:
             for line in lines:
                 parts = line.strip().split()
@@ -992,6 +1010,27 @@ def InsertCode():
                                     binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
                                     binary.write(uh.to_bytes(4, 'little'))
                                     repointed.append(symbol)
+                            if len(line_.split()) == 4:
+                                symbol, offset___, bytes_, free_bytes = line_.split()
+                                if offset___ == bytes___ and symbol == symbol_ and symbol not in repointed:
+                                    uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
+                                    bytes_ = int(bytes_, 16)
+                                    bytes____ = bytes____ + bytes_
+                                    binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
+                                    binary.write(uh.to_bytes(4, 'little'))
+                                    repointed.append(symbol)
+                        for line__ in range(len(cardOffsetsListLines)):
+                            line_ = cardOffsetsListLines[line__]
+                            if len(line_.split(' / ')) == 3:
+                                card_name, card_image_offset, card_pal_offset = line_.split(' / ')
+                                card_name = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', card_name)
+                                if card_image_offset == bytes___ and card_name == symbol_ and card_name not in repointed:
+                                    uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
+                                    bytes_ = int(bytes_, 16)
+                                    bytes____ = bytes____ + bytes_
+                                    binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
+                                    binary.write(uh.to_bytes(4, 'little'))
+                                    repointed.append(card_name)
         
         for line__ in range(len(repointListLines)):
             line_ = repointListLines[line__]
@@ -1005,6 +1044,9 @@ def InsertCode():
                     rom.seek(offset___ - 0x08000000)
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
+                    image = 'graphics/Resize/' + symbol + '.6bpp'
+                    image = open(image, "wb")
+                    image.write(rom.read(bytes_))
             if len(line_.split()) == 4:
                 symbol, offset___, bytes_, free_bytes = line_.split()
                 offset___ = int(offset___, 16)
@@ -1015,6 +1057,26 @@ def InsertCode():
                     rom.seek(offset___ - 0x08000000)
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
+                    image = 'graphics/Resize/' + symbol + '.6bpp'
+                    image = open(image, "wb")
+                    image.write(rom.read(bytes_))
+        for line__ in range(len(cardNamesListLines)):
+            line_ = cardNamesListLines[line__]
+            if len(line_.split(' / ')) == 2:
+                original_card, modified_card = line_.split(' / ')
+                if original_card != modified_card.replace('\n', ''):
+                    modified_card = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card)
+                    offset___ = int(cardOffsetsListLines[line__].split(' / ')[1], 16)
+                    bytes_ = 0x10E0
+                    ret[modified_card] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                    bytes__ = bytes__ + bytes_
+                    with open(OUTPUT, 'rb+') as binary:
+                        rom.seek(offset___ - 0x08000000)
+                        binary.seek(offset_)
+                        binary.write(rom.read(bytes_))
+                        image = 'graphics/Resize/' + modified_card + '.6bpp'
+                        image = open(image, "wb")
+                        image.write(rom.read(bytes_))
         for line in lines:
             parts = line.strip().split()
 

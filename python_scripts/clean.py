@@ -84,7 +84,7 @@ if (len(sys.argv) > 1) and sys.argv[1].upper() == 'ALL':
 	os.chdir("graphics")
 	for root, dirs, files in os.walk(".", topdown = False):
 		for file in files:
-			if file.endswith('.h') or file.endswith('.4bpp') or file.endswith('.lz') or file.endswith('.bin') or file.endswith('.gbapal') or '_Tiles' in file:
+			if file.endswith('.h') or file.endswith('.4bpp') or file.endswith('.6bpp') or file.endswith('.8bpp') or file.endswith('.lz') or file.endswith('.bin') or file.endswith('.gbapal') or '_Tiles' in file or '_Resized_64' in file:
 				os.remove(os.path.join(root, file))
 
 	os.chdir("../src")
