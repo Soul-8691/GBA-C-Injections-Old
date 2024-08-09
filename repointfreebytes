@@ -1,5 +1,5 @@
-gCardGraphicsNone 082a6500 0x10E0 1
-gCardGraphics7ColoredFish 082a75e0 0x10E0 1
-gCardGraphics7Completed 082a86c0 0x10E0 1
-gCardGraphicsSummonedSkull 082a97a0 0x10E0 1
-gCardGraphicsDarkMagician 082aa880 0x10E0 1
+gCardGraphicsNone 082a6500 0x8608360 0x10E0 1
+gCardGraphics7ColoredFish 082a75e0 086083e0 0x10E0 1
+gCardGraphics7Completed 082a86c0 08608460 0x10E0 1
+gCardGraphicsSummonedSkull 082a97a0 086084e0 0x10E0 1
+gCardGraphicsDarkMagician 082aa880 08608560 0x10E0 1

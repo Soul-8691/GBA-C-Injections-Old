@@ -969,11 +969,11 @@ def InsertCode():
         ret = {}
         for line__ in range(len(repointListLines)):
             line_ = repointListLines[line__]
-            if len(line_.split()) == 3:
-                symbol, offset___, bytes_ = line_.split()
-                # symbols.append(symbol)
             if len(line_.split()) == 4:
-                symbol, offset___, bytes_, free_bytes = line_.split()
+                symbol, offset___, pal_offset, bytes_ = line_.split()
+                # symbols.append(symbol)
+            if len(line_.split()) == 5:
+                symbol, offset___, pal_offset, bytes_, free_bytes = line_.split()
                 # symbols.append(symbol)
         for line__ in range(len(cardNamesListLines)):
             line_ = cardNamesListLines[line__]
@@ -1001,8 +1001,8 @@ def InsertCode():
                         bytes___ = hex(int.from_bytes(binary.read(4), byteorder=sys.byteorder)).replace('0x', '').zfill(8)
                         for line__ in range(len(repointListLines)):
                             line_ = repointListLines[line__]
-                            if len(line_.split()) == 3:
-                                symbol, offset___, bytes_ = line_.split()
+                            if len(line_.split()) == 4:
+                                symbol, offset___, pal_offset, bytes_ = line_.split()
                                 if offset___ == bytes___ and symbol == symbol_ and symbol not in repointed:
                                     uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
                                     bytes_ = int(bytes_, 16)
@@ -1010,8 +1010,8 @@ def InsertCode():
                                     binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
                                     # binary.write(uh.to_bytes(4, 'little'))
                                     repointed.append(symbol)
-                            if len(line_.split()) == 4:
-                                symbol, offset___, bytes_, free_bytes = line_.split()
+                            if len(line_.split()) == 5:
+                                symbol, offset___, pal_offset, bytes_, free_bytes = line_.split()
                                 if offset___ == bytes___ and symbol == symbol_ and symbol not in repointed:
                                     uh = offset_ + OFFSET_TO_PUT + 0x08000000 + bytes____
                                     bytes_ = int(bytes_, 16)
@@ -1034,23 +1034,10 @@ def InsertCode():
         
         for line__ in range(len(repointListLines)):
             line_ = repointListLines[line__]
-            if len(line_.split()) == 3:
-                symbol, offset___, bytes_ = line_.split()
-                offset___ = int(offset___, 16)
-                bytes_ = int(bytes_, 16)
-                # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
-                # bytes__ = bytes__ + bytes_
-                with open(OUTPUT, 'rb+') as binary:
-                    rom.seek(offset___ - 0x08000000)
-                    binary.seek(offset_)
-                    # binary.write(rom.read(bytes_))
-                    rom.seek(offset___ - 0x08000000)
-                    image = 'graphics/Resize/' + symbol + '.6bpp'
-                    image = open(image, "wb")
-                    image.write(rom.read(bytes_))
             if len(line_.split()) == 4:
-                symbol, offset___, bytes_, free_bytes = line_.split()
+                symbol, offset___, pal_offset, bytes_ = line_.split()
                 offset___ = int(offset___, 16)
+                pal_offset = int(pal_offset, 16)
                 bytes_ = int(bytes_, 16)
                 # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                 # bytes__ = bytes__ + bytes_
@@ -1062,6 +1049,29 @@ def InsertCode():
                     image = 'graphics/Resize/' + symbol + '.6bpp'
                     image = open(image, "wb")
                     image.write(rom.read(bytes_))
+                    rom.seek(pal_offset - 0x08000000)
+                    pal = 'graphics/Resize/' + symbol + '.gbapal'
+                    pal = open(pal, "wb")
+                    pal.write(rom.read(0x80))
+            if len(line_.split()) == 5:
+                symbol, offset___, pal_offset, bytes_, free_bytes = line_.split()
+                offset___ = int(offset___, 16)
+                pal_offset = int(pal_offset, 16)
+                bytes_ = int(bytes_, 16)
+                # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                # bytes__ = bytes__ + bytes_
+                with open(OUTPUT, 'rb+') as binary:
+                    rom.seek(offset___ - 0x08000000)
+                    binary.seek(offset_)
+                    # binary.write(rom.read(bytes_))
+                    rom.seek(offset___ - 0x08000000)
+                    image = 'graphics/Resize/' + symbol + '.6bpp'
+                    image = open(image, "wb")
+                    image.write(rom.read(bytes_))
+                    rom.seek(pal_offset - 0x08000000)
+                    pal = 'graphics/Resize/' + symbol + '.gbapal'
+                    pal = open(pal, "wb")
+                    pal.write(rom.read(0x80))
         for line__ in range(len(cardNamesListLines)):
             line_ = cardNamesListLines[line__]
             if len(line_.split(' / ')) == 2:
@@ -1204,12 +1214,13 @@ def InsertCode():
         rom.write(bytes(data))
 
 
-    def RepointFreeBytes(rom: _io.BufferedReader, space: int, repointAt: int, bytes_: int, free_bytes: bool):
+    def RepointFreeBytes(rom: _io.BufferedReader, space: int, repointAt: int, palOffset: int, bytes_: int, free_bytes: bool):
         rom.seek(repointAt)
 
         data = (rom.read(bytes_))
         rom.seek(space)
         rom.write(bytes(data))
+
         if free_bytes:
             rom.seek(repointAt)
             rom.write(b'\xFF' * bytes_)
@@ -1560,21 +1571,10 @@ def InsertCode():
                     if line.strip().startswith('#') or line.strip() == '':
                         continue
 
-                    if len(line.split()) == 3:
-                        symbol, address, bytes_ = line.split()
-                        offset = int(address, 16) - 0x08000000
-                        bytes_ = int(bytes_, 16)
-                        try:
-                            code = table[symbol]
-                        except KeyError:
-                            # print('Symbol missing:', symbol)
-                            continue
-
-                        RepointFreeBytes(rom, code, offset, bytes_, 0)
-                    
                     if len(line.split()) == 4:
-                        symbol, address, bytes_, free_bytes = line.split()
+                        symbol, address, pal_offset, bytes_ = line.split()
                         offset = int(address, 16) - 0x08000000
+                        pal_offset = int(pal_offset, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
                         try:
                             code = table[symbol]
@@ -1582,7 +1582,20 @@ def InsertCode():
                             # print('Symbol missing:', symbol)
                             continue
 
-                        RepointFreeBytes(rom, code, offset, bytes_, free_bytes)
+                        RepointFreeBytes(rom, code, offset, pal_offset, bytes_, 0)
+                    
+                    if len(line.split()) == 5:
+                        symbol, address, pal_offset, bytes_, free_bytes = line.split()
+                        offset = int(address, 16) - 0x08000000
+                        pal_offset = int(pal_offset, 16) - 0x08000000
+                        bytes_ = int(bytes_, 16)
+                        try:
+                            code = table[symbol]
+                        except KeyError:
+                            # print('Symbol missing:', symbol)
+                            continue
+
+                        RepointFreeBytes(rom, code, offset, pal_offset, bytes_, free_bytes)
 
 
         if os.path.isfile(FREE_BYTES):
