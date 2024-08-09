@@ -1044,6 +1044,7 @@ def InsertCode():
                     rom.seek(offset___ - 0x08000000)
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
+                    rom.seek(offset___ - 0x08000000)
                     image = 'graphics/Resize/' + symbol + '.6bpp'
                     image = open(image, "wb")
                     image.write(rom.read(bytes_))
@@ -1057,6 +1058,7 @@ def InsertCode():
                     rom.seek(offset___ - 0x08000000)
                     binary.seek(offset_)
                     binary.write(rom.read(bytes_))
+                    rom.seek(offset___ - 0x08000000)
                     image = 'graphics/Resize/' + symbol + '.6bpp'
                     image = open(image, "wb")
                     image.write(rom.read(bytes_))
