@@ -41,3 +41,5 @@ Cover Art.png
 *.6bpp
 *.8bpp
 *_Tiles.png
+*_Resized_64.png
+*/Resize/*.png

@@ -9,6 +9,10 @@ import hashlib
 import _io
 import shutil
 import math
+from PIL import Image
+import requests
+card_names = open("cardnames", "r")
+card_offsets = open("cardoffsets", "r")
 
 SOURCE_ROM = "EDS.gba"
 OFFSET_TO_PUT = 0x1000000
@@ -621,7 +625,58 @@ def BuildCode():
         """Compile image."""
         bpp = os.path.dirname(imageFile)
 
-        if '4bpp' in bpp:
+        if 'Resize' in bpp:
+            try:
+                for image_index in range(0, len(card_names_lines)):
+                    image = card_names_lines[image_index].split(' / ')[1].replace('\n', '')
+                    if image.replace(' ', '') == imageFile.replace('./graphics/Resize/', '').replace('.jpg', ''):
+                        size = 80, 80
+                        outfile = os.path.splitext(imageFile)[0].replace("'", "") + "_Resized_64.png"
+                        try:
+                            im = Image.open(imageFile)
+                            im.thumbnail(size, Image.Resampling.LANCZOS)
+                            imageWithColorPalette = im.convert(
+                                "P", palette=Image.ADAPTIVE, colors=64
+                            )
+                            imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
+                            palette = imageWithColorPalette.getpalette()
+                            palette = [
+                                tuple(palette[x : x + 3]) for x in range(len(palette), 3)
+                            ]
+                            palette = palette[:16]
+                            imageWithColorPalette.save(outfile, "PNG")
+                            img = Image.open(outfile)
+                            sub_image = img.crop(box=(0,0,8,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(0,0))
+                            sub_image = img.crop(box=(8,0,16,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(8,0))
+                            sub_image = img.crop(box=(16,0,24,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(16,0))
+                            sub_image = img.crop(box=(24,0,32,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(24,0))
+                            sub_image = img.crop(box=(32,0,40,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(32,0))
+                            sub_image = img.crop(box=(40,0,48,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(40,0))
+                            sub_image = img.crop(box=(48,0,56,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(48,0))
+                            sub_image = img.crop(box=(56,0,64,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(56,0))
+                            sub_image = img.crop(box=(64,0,72,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(64,0))
+                            img.save(imageFile.replace('.jpg', '.png'))
+                            cmd = [GBAGFX, imageFile.replace('.jpg', '.png'), imageFile.replace('.jpg', '.6bpp')]
+                            RunCommand(cmd)
+                            cmd = [GBAGFX, imageFile.replace('.jpg', '.png'), imageFile.replace('.jpg', '.gbapal')]
+                            RunCommand(cmd)
+                            generate_8bpp_lz = [GBAGFX, imageFile.replace('.jpg', '.6bpp'), imageFile.replace('.jpg', '.8bpp.lz')]
+                            if not glob(imageFile.replace('.jpg', '.8bpp.lz')):
+                                RunCommand(generate_8bpp_lz)
+                        except Exception as e:
+                            print(e)
+            except Exception as e:
+                print(e)
+        elif '4bpp' in bpp:
             if '.png' in imageFile and '_Tiles' not in imageFile:
                 # generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
                 # RunCommand(generate_png)
@@ -635,7 +690,7 @@ def BuildCode():
                 # RunCommand(generate_bin)
                 # generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
                 # RunCommand(generate_bin_lz)
-        if '6bpp' in bpp:
+        elif '6bpp' in bpp:
             if '.png' in imageFile and '_Tiles' not in imageFile:
                 # generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
                 # RunCommand(generate_png)
@@ -645,7 +700,7 @@ def BuildCode():
                 generate_8bpp_lz = [GBAGFX, imageFile.replace('.png', '.6bpp'), imageFile.replace('.png', '.8bpp.lz')]
                 if not glob(imageFile.replace('.png', '.8bpp.lz')):
                     RunCommand(generate_8bpp_lz)
-        if '8bpp' in bpp:
+        elif '8bpp' in bpp:
             if '.png' in imageFile and '_Tiles' not in imageFile:
                 generate_8bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.8bpp')]
                 if not glob(imageFile.replace('.png', '.8bpp')):
@@ -653,7 +708,7 @@ def BuildCode():
                 generate_8bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.8bpp.lz')]
                 if not glob(imageFile.replace('.png', '.8bpp.lz')):
                     RunCommand(generate_8bpp_lz)
-        if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
+        elif '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile: # and '_Tiles' not in imageFile:
                 generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]
                 if not glob(imageFile.replace('.png', '.gbapal')):
@@ -662,7 +717,7 @@ def BuildCode():
                 if not glob(imageFile.replace('.png', '.gbapal.lz')):
                     RunCommand(generate_gbapal_lz)
         else:
-            print('Error: Folder not name a valid bpp type.')
+            print('Error: Folder not name a valid name.')
             sys.exit(1)
 
 
@@ -758,6 +813,10 @@ def BuildCode():
             '**/*.mid': ProcessMusic,
             '**/*.c': ProcessC,
     }
+
+    global card_names_lines
+
+    card_names_lines = card_names.readlines()
 
     if sys.version_info.major >= 3 and sys.version_info.minor >= 8:
         print("Warning! Python 3.8 may not be able to build this engine.\nPlease downgrade to Python 3.7.4")
