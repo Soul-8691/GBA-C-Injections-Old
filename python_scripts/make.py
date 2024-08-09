@@ -982,6 +982,7 @@ def InsertCode():
                 if original_card != modified_card.replace('\n', '') and re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')) not in symbols:
                     symbols.append('gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')))
         for symbol_ in symbols:
+            print(symbol_)
             for line in lines:
                 parts = line.strip().split()
 
@@ -1064,25 +1065,70 @@ def InsertCode():
             line_ = cardNamesListLines[line__]
             if len(line_.split(' / ')) == 2:
                 original_card, modified_card = line_.split(' / ')
-                if original_card == modified_card.replace('\n', ''):
-                    original_card = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', original_card.replace('\n', ''))
-                    offset___ = int(cardOffsetsListLines[line__].split(' / ')[1], 16)
-                    pal_offset = int(cardOffsetsListLines[line__].split(' / ')[2], 16)
+                if original_card != modified_card.replace('\n', ''):
+                    modified_card_ = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', ''))
+                    if not os.path.isfile('./graphics/Resize/' + modified_card_ + '.jpg'):
+                        card_database = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name="
+                        img_data = requests.get(
+                            json.loads(
+                                requests.get(
+                                    card_database + modified_card.replace('\n', '').replace(" ", "%20").replace("&", "%26")
+                                ).content.decode("utf-8")
+                            )["data"][0]["card_images"][0]["image_url_cropped"]
+                        ).content
+                        print(f"Now downloading {modified_card} image file!")
+                        with open(modified_card_.replace(" ", "") + ".jpg", "wb") as handler:
+                            handler.write(img_data)
+                        shutil.move(
+                            f"{modified_card_}.jpg",
+                            f"{os.getcwd()}/graphics/Resize/{modified_card_}.jpg",
+                        )
+                    size = 80, 80
+                    outfile = './graphics/Resize/' + os.path.splitext(modified_card_)[0].replace("'", "") + "_Resized_64.png"
+                    try:
+                        im = Image.open('./graphics/Resize/' + modified_card_ + '.jpg')
+                        im.thumbnail(size, Image.Resampling.LANCZOS)
+                        imageWithColorPalette = im.convert(
+                            "P", palette=Image.ADAPTIVE, colors=64
+                        )
+                        imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
+                        palette = imageWithColorPalette.getpalette()
+                        palette = [
+                            tuple(palette[x : x + 3]) for x in range(len(palette), 3)
+                        ]
+                        palette = palette[:16]
+                        imageWithColorPalette.save(outfile, "PNG")
+                        img = Image.open(outfile)
+                        sub_image = img.crop(box=(0,0,8,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(0,0))
+                        sub_image = img.crop(box=(8,0,16,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(8,0))
+                        sub_image = img.crop(box=(16,0,24,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(16,0))
+                        sub_image = img.crop(box=(24,0,32,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(24,0))
+                        sub_image = img.crop(box=(32,0,40,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(32,0))
+                        sub_image = img.crop(box=(40,0,48,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(40,0))
+                        sub_image = img.crop(box=(48,0,56,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(48,0))
+                        sub_image = img.crop(box=(56,0,64,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(56,0))
+                        sub_image = img.crop(box=(64,0,72,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(64,0))
+                        img.save('./graphics/Resize/' + modified_card_ + '.png')
+                    except Exception as e:
+                        print(e)
+                    cmd = [GBAGFX, './graphics/Resize/' + modified_card_ + '.png', './graphics/Resize/' + modified_card_ + '.6bpp']
+                    RunCommand(cmd)
+                    image = open('./graphics/Resize/' + modified_card_ + '.6bpp', "rb")
                     bytes_ = 0x10E0
-                    ret[original_card] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                    ret[modified_card_] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                     bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
-                        rom.seek(offset___ - 0x08000000)
                         binary.seek(offset_)
-                        binary.write(rom.read(bytes_))
-                        rom.seek(offset___ - 0x08000000)
-                        image = 'graphics/Resize/' + original_card + '.6bpp'
-                        image = open(image, "wb")
-                        image.write(rom.read(bytes_))
-                        rom.seek(pal_offset - 0x08000000)
-                        pal = 'graphics/Resize/' + original_card + '.gbapal'
-                        pal = open(pal, "wb")
-                        pal.write(rom.read(bytes_))
+                        binary.write(image.read())
         for line in lines:
             parts = line.strip().split()
 
