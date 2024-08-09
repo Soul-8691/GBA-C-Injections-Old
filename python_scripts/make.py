@@ -1129,7 +1129,7 @@ def InsertCode():
                     with open(OUTPUT, 'rb+') as binary:
                         binary.seek(offset_)
                         binary.write(image)
-                        offset_ = offset_ + + bytes__
+                        offset_ = offset_ + bytes__
         for line in lines:
             parts = line.strip().split()
 
