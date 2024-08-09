@@ -1064,19 +1064,25 @@ def InsertCode():
             line_ = cardNamesListLines[line__]
             if len(line_.split(' / ')) == 2:
                 original_card, modified_card = line_.split(' / ')
-                if original_card != modified_card.replace('\n', ''):
-                    modified_card = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card)
+                if original_card == modified_card.replace('\n', ''):
+                    original_card = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', original_card.replace('\n', ''))
                     offset___ = int(cardOffsetsListLines[line__].split(' / ')[1], 16)
+                    pal_offset = int(cardOffsetsListLines[line__].split(' / ')[2], 16)
                     bytes_ = 0x10E0
-                    ret[modified_card] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                    ret[original_card] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                     bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
                         rom.seek(offset___ - 0x08000000)
                         binary.seek(offset_)
                         binary.write(rom.read(bytes_))
-                        image = 'graphics/Resize/' + modified_card + '.6bpp'
+                        rom.seek(offset___ - 0x08000000)
+                        image = 'graphics/Resize/' + original_card + '.6bpp'
                         image = open(image, "wb")
                         image.write(rom.read(bytes_))
+                        rom.seek(pal_offset - 0x08000000)
+                        pal = 'graphics/Resize/' + original_card + '.gbapal'
+                        pal = open(pal, "wb")
+                        pal.write(rom.read(bytes_))
         for line in lines:
             parts = line.strip().split()
 
