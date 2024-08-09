@@ -10,7 +10,7 @@ import _io
 import shutil
 import math
 
-SOURCE_ROM = "ygodm8.gba"
+SOURCE_ROM = "EDS.gba"
 OFFSET_TO_PUT = 0x1000000
 
 def ChangeFileLine(filePath: str, lineToChange: int, replacement: str):
@@ -96,7 +96,7 @@ def BuildCode():
     AUDIO = './audio'
     BUILD = './build'
     ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
-    LDFLAGS = ['-R', 'ygodm8.elf', 'ygodm8.ld', '-T', 'linker.ld']
+    LDFLAGS = ['EDS.ld', '-T', 'linker.ld']
     CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
             '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
     CHARMAP = 'charmap.txt'
