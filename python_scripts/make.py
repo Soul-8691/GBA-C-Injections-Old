@@ -982,7 +982,6 @@ def InsertCode():
                 if original_card != modified_card.replace('\n', '') and re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')) not in symbols:
                     symbols.append('gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', '')))
         for symbol_ in symbols:
-            print(symbol_)
             for line in lines:
                 parts = line.strip().split()
 
@@ -1123,12 +1122,13 @@ def InsertCode():
                     cmd = [GBAGFX, './graphics/Resize/' + modified_card_ + '.png', './graphics/Resize/' + modified_card_ + '.6bpp']
                     RunCommand(cmd)
                     image = open('./graphics/Resize/' + modified_card_ + '.6bpp', "rb")
+                    image = image.read()
                     bytes_ = 0x10E0
                     ret[modified_card_] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                     bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
-                        binary.seek(offset_)
-                        binary.write(image.read())
+                        binary.seek(offset_ + bytes__)
+                        binary.write(image)
         for line in lines:
             parts = line.strip().split()
 
