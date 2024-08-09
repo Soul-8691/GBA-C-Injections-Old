@@ -11,6 +11,7 @@ import shutil
 import math
 from PIL import Image
 import requests
+import json
 card_names = open("cardnames", "r")
 card_offsets = open("cardoffsets", "r")
 
@@ -817,6 +818,35 @@ def BuildCode():
     global card_names_lines
 
     card_names_lines = card_names.readlines()
+
+    card_offsets_lines = card_offsets.readlines()
+
+    try:
+        for image_index in range(len(card_names_lines)):
+            image1 = card_names_lines[image_index].split(' / ')[0]
+            image1_ = card_names_lines[image_index].split(' / ')[1].replace('\n', '')
+            for image_index_ in range(1, len(card_offsets_lines)):
+                image2 = card_offsets_lines[image_index_].split(' / ')[0]
+                if image1 == image2 and image1_ != image2:
+                    updated_name = image1_.replace(" ", "")
+                    if not os.path.isfile('./graphics/Resize/' + updated_name + '.jpg'):
+                        card_database = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name="
+                        img_data = requests.get(
+                            json.loads(
+                                requests.get(
+                                    card_database + image1_.replace(" ", "%20").replace("&", "%26")
+                                ).content.decode("utf-8")
+                            )["data"][0]["card_images"][0]["image_url_cropped"]
+                        ).content
+                        print(f"Now downloading {image1_} image file!")
+                        with open(image1_.replace(" ", "") + ".jpg", "wb") as handler:
+                            handler.write(img_data)
+                        shutil.move(
+                            f"{updated_name}.jpg",
+                            f"{os.getcwd()}/graphics/Resize/{updated_name}.jpg",
+                        )
+    except Exception as e:
+        print(e)
 
     if sys.version_info.major >= 3 and sys.version_info.minor >= 8:
         print("Warning! Python 3.8 may not be able to build this engine.\nPlease downgrade to Python 3.7.4")
