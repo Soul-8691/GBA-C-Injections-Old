@@ -635,6 +635,24 @@ def BuildCode():
                 # RunCommand(generate_bin)
                 # generate_bin_lz = [GBAGFX, imageFile.replace('.png', '.bin'), imageFile.replace('.png', '.bin.lz')]
                 # RunCommand(generate_bin_lz)
+        if '6bpp' in bpp:
+            if '.png' in imageFile and '_Tiles' not in imageFile:
+                # generate_png = [SUPERFAMICONV, '-M', 'gba', '-v', '--in-image', imageFile, '--out-tiles-image', imageFile.replace('.png', '_Tiles.png')]
+                # RunCommand(generate_png)
+                generate_6bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.6bpp')]
+                if not glob(imageFile.replace('.png', '.6bpp')):
+                    RunCommand(generate_6bpp)
+                generate_8bpp_lz = [GBAGFX, imageFile.replace('.png', '.6bpp'), imageFile.replace('.png', '.8bpp.lz')]
+                if not glob(imageFile.replace('.png', '.8bpp.lz')):
+                    RunCommand(generate_8bpp_lz)
+        if '8bpp' in bpp:
+            if '.png' in imageFile and '_Tiles' not in imageFile:
+                generate_8bpp = [GBAGFX, imageFile, imageFile.replace('.png', '.8bpp')]
+                if not glob(imageFile.replace('.png', '.8bpp')):
+                    RunCommand(generate_8bpp)
+                generate_8bpp_lz = [GBAGFX, imageFile.replace('.png', '.4bpp'), imageFile.replace('.png', '.8bpp.lz')]
+                if not glob(imageFile.replace('.png', '.8bpp.lz')):
+                    RunCommand(generate_8bpp_lz)
         if '4bpp'in bpp or '8bpp'in bpp or '6bpp'in bpp:
             if '.png' in imageFile: # and '_Tiles' not in imageFile:
                 generate_gbapal = [GBAGFX, imageFile, imageFile.replace('.png', '.gbapal')]

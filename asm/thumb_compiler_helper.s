@@ -92,68 +92,6 @@ __gnu_thumb1_case_si:
 
     .force_thumb
     .syntax unified
-    .global __aeabi_uidiv
-    .thumb_func
-    .type __aeabi_uidiv,function
-__aeabi_uidiv:
-	ldr r3, =(__udivsi3)
-	bx r3
-	.size __aeabi_uidiv, . - __aeabi_uidiv
-	
-    .force_thumb
-    .syntax unified
-    .global __aeabi_idiv
-    .thumb_func
-    .type __aeabi_idiv,function
-__aeabi_idiv:
-	ldr r3, =(__divsi3)
-	bx r3
-	.size __aeabi_idiv, . - __aeabi_idiv
-
-    .force_thumb
-    .syntax unified
-    .global __aeabi_idivmod
-    .thumb_func
-    .type __aeabi_idivmod,function
-__aeabi_idivmod:
-	push {lr}
-	bl ActualModulationInt
-.byte 0x01, 0x1C @;mov r1, r0 - Return to r1 for some reason
-	pop {pc}
-	
-ActualModulationInt:
-	ldr r3, =(__modsi3)
-	bx r3
-	.size __aeabi_idivmod, . - __aeabi_idivmod
-
-    .force_thumb
-    .syntax unified
-    .global __aeabi_uidivmod
-    .thumb_func
-    .type __aeabi_uidivmod,function
-__aeabi_uidivmod:
-	push {lr}
-	bl ActualModulationUInt
-.byte 0x01, 0x1C @;mov r1, r0 - Return to r1 for some reason
-	pop {pc}
-	
-ActualModulationUInt:
-	ldr r3, =(__umodsi3)
-	bx r3
-	.size __aeabi_uidivmod, . - __aeabi_uidivmod
-
-    .force_thumb
-    .syntax unified
-    .global memcpy
-    .thumb_func
-    .type memcpy,function
-memcpy:
-	ldr r3, =(memcpy_)
-	bx r3
-	.size memcpy, . - memcpy
-
-    .force_thumb
-    .syntax unified
     .global read_word
     .thumb_func
     .type read_word,function
