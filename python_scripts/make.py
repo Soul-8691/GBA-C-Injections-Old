@@ -1124,12 +1124,10 @@ def InsertCode():
                     image = open('./graphics/Resize/' + modified_card_ + '.6bpp', "rb")
                     image = image.read()
                     bytes_ = 0x10E0
-                    ret[modified_card_] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                     bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
                         binary.seek(offset_)
                         binary.write(image)
-                        offset_ = offset_ + bytes__
         for line in lines:
             parts = line.strip().split()
 
@@ -1142,7 +1140,8 @@ def InsertCode():
             offset = int(parts[0], 16)
             if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
                 offset_ = offset - OFFSET_TO_PUT - 0x08000000
-            ret[parts[2]] = offset + bytes__ - subtract
+            if parts[2] not in ret:
+                ret[parts[2]] = offset + bytes__ - subtract
 
         return ret
 
