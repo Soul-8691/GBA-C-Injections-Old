@@ -18,7 +18,7 @@ card_names = open("cardnames", "r")
 card_offsets = open("cardoffsets", "r")
 
 SOURCE_ROM = "EDS.gba"
-OFFSET_TO_PUT = 0x1000000
+OFFSET_TO_PUT = 0x800000
 
 def ChangeFileLine(filePath: str, lineToChange: int, replacement: str):
     with open(filePath, 'r') as file:
