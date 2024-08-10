@@ -953,17 +953,18 @@ def BuildCode():
             if len(line_.split(' / ')) == 2:
                 original_card, modified_card = line_.split(' / ')
                 if original_card != modified_card.replace('\n', ''):
-                    modified_card_ = re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', ''))
+                    modified_card = modified_card.replace('\n', '')
+                    modified_card_ = re.sub('[^0-9a-zA-Z]+', '', modified_card)
                     if not os.path.isfile('./graphics/Resize/' + modified_card_ + '.jpg'):
                         card_database = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name="
                         img_data = requests.get(
                             json.loads(
                                 requests.get(
-                                    card_database + modified_card.replace('\n', '').replace(" ", "%20").replace("&", "%26")
+                                    card_database + modified_card.replace(" ", "%20").replace("&", "%26")
                                 ).content.decode("utf-8")
                             )["data"][0]["card_images"][0]["image_url_cropped"]
                         ).content
-                        print(f"Now downloading {modified_card.replace('\n', '')} image file!")
+                        print(f"Now downloading {modified_card} image file!")
                         with open(modified_card_.replace(" ", "") + ".jpg", "wb") as handler:
                             handler.write(img_data)
                         shutil.move(
