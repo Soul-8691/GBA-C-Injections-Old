@@ -120,6 +120,47 @@ CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=a
         '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
 CHARMAP = 'charmap.txt'
 
+OUTPUT_ROM = "output.gba"
+
+if sys.platform.startswith('win'):
+    PathVar = os.environ.get('Path')
+    Paths = PathVar.split(';')
+    PATH = ''
+    for candidatePath in Paths:
+        if 'devkitARM' in candidatePath:
+            PATH = candidatePath
+            break
+    if PATH == '':
+        PATH = 'C://devkitPro//devkitARM//bin'
+        if os.path.isdir(PATH) is False:
+            print('Devkit not found.')
+            sys.exit(1)
+
+    PREFIX = 'arm-none-eabi-'
+    OBJDUMP = os.path.join(PATH, PREFIX + 'objdump')
+    NM = os.path.join(PATH, PREFIX + 'nm')
+
+else:  # Linux, OSX, etc.
+    PREFIX = 'arm-none-eabi-'
+    OBJDUMP = (PREFIX + 'objdump')
+    NM = (PREFIX + 'nm')
+
+OUTPUT = 'build/output.bin'
+BYTE_REPLACEMENT = 'bytereplacement'
+HOOKS = 'hooks'
+REPOINTS = 'repoints'
+REPOINT_FREE_BYTES = 'repointfreebytes'
+FREE_BYTES = 'freebytes'
+GENERATED_REPOINTS = 'generatedrepoints'
+REPOINT_ALL = 'repointall'
+ROUTINE_POINTERS = 'routinepointers'
+FUNCTION_REWRITES = 'functionrewrites'
+EVENT_SCRIPTS = "eventscripts"
+SONGS = "songs"
+SPECIAL_INSERTS = 'special_inserts.asm'
+SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
+CARD_NAMES = 'cardnames'
+CARD_OFFSETS = 'cardoffsets'
 
 
 def BuildCode():
@@ -852,6 +893,127 @@ def BuildCode():
     except Exception as e:
         print(e)
 
+    
+    offset_ = 0
+    offset__ = 0
+    bytes__ = 0
+    bytes____ = 0
+
+    def BuildImages(subtract=0) -> {str: int}:
+        nonlocal offset_
+        nonlocal offset__
+        nonlocal bytes__
+        nonlocal bytes____
+        repointed = list()
+        symbols = list()
+        if os.path.isfile(REPOINT_FREE_BYTES):
+            repointList = open(REPOINT_FREE_BYTES, 'r')
+            repointListLines = repointList.readlines()
+        if os.path.isfile(CARD_NAMES):
+            cardNamesList = open(CARD_NAMES, 'r')
+            cardNamesListLines = cardNamesList.readlines()
+        if os.path.isfile(CARD_OFFSETS):
+            cardOffsetsList = open(CARD_OFFSETS, 'r')
+            cardOffsetsListLines = cardOffsetsList.readlines()
+
+        for line__ in range(len(repointListLines)):
+            line_ = repointListLines[line__]
+            if len(line_.split()) == 4:
+                symbol, offset___, pal_offset, bytes_ = line_.split()
+                offset___ = int(offset___, 16)
+                pal_offset = int(pal_offset, 16)
+                bytes_ = int(bytes_, 16)
+                # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                # bytes__ = bytes__ + bytes_
+                with open(OUTPUT_ROM, 'rb+') as rom:
+                    rom.seek(offset___ - 0x08000000)
+                    image = 'graphics/Resize/' + symbol + '.6bpp'
+                    image = open(image, "wb")
+                    image.write(rom.read(bytes_))
+                    rom.seek(pal_offset - 0x08000000)
+                    pal = 'graphics/Resize/' + symbol + '.gbapal'
+                    pal = open(pal, "wb")
+                    pal.write(rom.read(0x80))
+            if len(line_.split()) == 5:
+                symbol, offset___, pal_offset, bytes_, free_bytes = line_.split()
+                offset___ = int(offset___, 16)
+                pal_offset = int(pal_offset, 16)
+                bytes_ = int(bytes_, 16)
+                # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
+                # bytes__ = bytes__ + bytes_
+                with open(OUTPUT_ROM, 'rb+') as rom:
+                    rom.seek(offset___ - 0x08000000)
+                    image = 'graphics/Resize/' + symbol + '.6bpp'
+                    image = open(image, "wb")
+                    image.write(rom.read(bytes_))
+                    rom.seek(pal_offset - 0x08000000)
+                    pal = 'graphics/Resize/' + symbol + '.gbapal'
+                    pal = open(pal, "wb")
+                    pal.write(rom.read(0x80))
+        for line__ in range(len(cardNamesListLines)):
+            line_ = cardNamesListLines[line__]
+            if len(line_.split(' / ')) == 2:
+                original_card, modified_card = line_.split(' / ')
+                if original_card != modified_card.replace('\n', ''):
+                    modified_card_ = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', ''))
+                    if not os.path.isfile('./graphics/Resize/' + modified_card_ + '.jpg'):
+                        card_database = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name="
+                        img_data = requests.get(
+                            json.loads(
+                                requests.get(
+                                    card_database + modified_card.replace('\n', '').replace(" ", "%20").replace("&", "%26")
+                                ).content.decode("utf-8")
+                            )["data"][0]["card_images"][0]["image_url_cropped"]
+                        ).content
+                        print(f"Now downloading {modified_card} image file!")
+                        with open(modified_card_.replace(" ", "") + ".jpg", "wb") as handler:
+                            handler.write(img_data)
+                        shutil.move(
+                            f"{modified_card_}.jpg",
+                            f"{os.getcwd()}/graphics/Resize/{modified_card_}.jpg",
+                        )
+                    size = 80, 80
+                    outfile = './graphics/Resize/' + os.path.splitext(modified_card_)[0].replace("'", "") + "_Resized_64.png"
+                    try:
+                        im = Image.open('./graphics/Resize/' + modified_card_ + '.jpg')
+                        im.thumbnail(size, Image.Resampling.LANCZOS)
+                        imageWithColorPalette = im.convert(
+                            "P", palette=Image.ADAPTIVE, colors=64
+                        )
+                        imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
+                        palette = imageWithColorPalette.getpalette()
+                        palette = [
+                            tuple(palette[x : x + 3]) for x in range(len(palette), 3)
+                        ]
+                        palette = palette[:16]
+                        imageWithColorPalette.save(outfile, "PNG")
+                        img = Image.open(outfile)
+                        sub_image = img.crop(box=(0,0,8,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(0,0))
+                        sub_image = img.crop(box=(8,0,16,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(8,0))
+                        sub_image = img.crop(box=(16,0,24,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(16,0))
+                        sub_image = img.crop(box=(24,0,32,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(24,0))
+                        sub_image = img.crop(box=(32,0,40,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(32,0))
+                        sub_image = img.crop(box=(40,0,48,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(40,0))
+                        sub_image = img.crop(box=(48,0,56,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(48,0))
+                        sub_image = img.crop(box=(56,0,64,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(56,0))
+                        sub_image = img.crop(box=(64,0,72,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(64,0))
+                        img.save('./graphics/Resize/' + modified_card_ + '.png')
+                    except Exception as e:
+                        print(e)
+                    cmd = [GBAGFX, './graphics/Resize/' + modified_card_ + '.png', './graphics/Resize/' + modified_card_ + '.6bpp']
+                    RunCommand(cmd)
+
+    BuildImages()
+
     if sys.version_info.major >= 3 and sys.version_info.minor >= 8:
         print("Warning! Python 3.8 may not be able to build this engine.\nPlease downgrade to Python 3.7.4")
 
@@ -876,48 +1038,6 @@ def BuildCode():
     print('Built in ' + str(datetime.now() - startTime) + '.')
 
 def InsertCode():
-    OUTPUT_ROM = "output.gba"
-
-    if sys.platform.startswith('win'):
-        PathVar = os.environ.get('Path')
-        Paths = PathVar.split(';')
-        PATH = ''
-        for candidatePath in Paths:
-            if 'devkitARM' in candidatePath:
-                PATH = candidatePath
-                break
-        if PATH == '':
-            PATH = 'C://devkitPro//devkitARM//bin'
-            if os.path.isdir(PATH) is False:
-                print('Devkit not found.')
-                sys.exit(1)
-
-        PREFIX = 'arm-none-eabi-'
-        OBJDUMP = os.path.join(PATH, PREFIX + 'objdump')
-        NM = os.path.join(PATH, PREFIX + 'nm')
-
-    else:  # Linux, OSX, etc.
-        PREFIX = 'arm-none-eabi-'
-        OBJDUMP = (PREFIX + 'objdump')
-        NM = (PREFIX + 'nm')
-
-    OUTPUT = 'build/output.bin'
-    BYTE_REPLACEMENT = 'bytereplacement'
-    HOOKS = 'hooks'
-    REPOINTS = 'repoints'
-    REPOINT_FREE_BYTES = 'repointfreebytes'
-    FREE_BYTES = 'freebytes'
-    GENERATED_REPOINTS = 'generatedrepoints'
-    REPOINT_ALL = 'repointall'
-    ROUTINE_POINTERS = 'routinepointers'
-    FUNCTION_REWRITES = 'functionrewrites'
-    EVENT_SCRIPTS = "eventscripts"
-    SONGS = "songs"
-    SPECIAL_INSERTS = 'special_inserts.asm'
-    SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
-    CARD_NAMES = 'cardnames'
-    CARD_OFFSETS = 'cardoffsets'
-
 
     def ExtractPointer(byteList: [bytes]):
         pointer = 0
@@ -995,7 +1115,7 @@ def InsertCode():
                 if (offset - OFFSET_TO_PUT - 0x08000000) > offset_:
                     offset_ = offset - OFFSET_TO_PUT - 0x08000000
                 ret[parts[2]] = offset + bytes__ - subtract
-                with open(OUTPUT, 'rb+') as binary:
+                """ with open(OUTPUT, 'rb+') as binary:
                     for i in range(0, math.floor((offset - OFFSET_TO_PUT - 0x08000000) / 4)):
                         binary.seek(offset - subtract + (i * 4) + (offset - subtract) % 4)
                         bytes___ = hex(int.from_bytes(binary.read(4), byteorder=sys.byteorder)).replace('0x', '').zfill(8)
@@ -1139,7 +1259,7 @@ def InsertCode():
                     # bytes__ = bytes__ + bytes_
                     with open(OUTPUT, 'rb+') as binary:
                         binary.seek(offset_)
-                        # binary.write(image)
+                        # binary.write(image) """
         for line in lines:
             parts = line.strip().split()
 
