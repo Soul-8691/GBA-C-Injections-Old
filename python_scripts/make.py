@@ -963,7 +963,7 @@ def BuildCode():
                                 ).content.decode("utf-8")
                             )["data"][0]["card_images"][0]["image_url_cropped"]
                         ).content
-                        print(f"Now downloading {modified_card} image file!")
+                        print(f"Now downloading {modified_card.replace('\n', '')} image file!")
                         with open(modified_card_.replace(" ", "") + ".jpg", "wb") as handler:
                             handler.write(img_data)
                         shutil.move(
