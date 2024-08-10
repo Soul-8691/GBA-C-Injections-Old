@@ -861,10 +861,8 @@ def BuildCode():
     }
 
     global card_names_lines
-
     card_names_lines = card_names.readlines()
-
-    card_offsets_lines = card_offsets.readlines()
+    """ card_offsets_lines = card_offsets.readlines()
 
     try:
         for image_index in range(len(card_names_lines)):
@@ -891,7 +889,7 @@ def BuildCode():
                             f"{os.getcwd()}/graphics/Resize/{updated_name}.jpg",
                         )
     except Exception as e:
-        print(e)
+        print(e) """
 
     
     offset_ = 0
@@ -955,7 +953,7 @@ def BuildCode():
             if len(line_.split(' / ')) == 2:
                 original_card, modified_card = line_.split(' / ')
                 if original_card != modified_card.replace('\n', ''):
-                    modified_card_ = 'gCardGraphics' + re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', ''))
+                    modified_card_ = re.sub('[^0-9a-zA-Z]+', '', modified_card.replace('\n', ''))
                     if not os.path.isfile('./graphics/Resize/' + modified_card_ + '.jpg'):
                         card_database = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name="
                         img_data = requests.get(
@@ -1010,6 +1008,8 @@ def BuildCode():
                     except Exception as e:
                         print(e)
                     cmd = [GBAGFX, './graphics/Resize/' + modified_card_ + '.png', './graphics/Resize/' + modified_card_ + '.6bpp']
+                    RunCommand(cmd)
+                    cmd = [GBAGFX, './graphics/Resize/' + modified_card_ + '.png', './graphics/Resize/' + modified_card_ + '.gbapal']
                     RunCommand(cmd)
 
     BuildImages()
