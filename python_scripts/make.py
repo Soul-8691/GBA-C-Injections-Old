@@ -1344,6 +1344,8 @@ def InsertCode():
         if free_bytes:
             rom.seek(repointAt)
             rom.write(b'\xFF' * bytes_)
+            rom.seek(palOffset)
+            rom.write(b'\xFF' * 0x80)
 
 
     def FreeBytes(rom: _io.BufferedReader, repointAt: int, bytes_: int):
@@ -1696,11 +1698,11 @@ def InsertCode():
                         offset = int(address, 16) - 0x08000000
                         pal_offset = int(pal_offset, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
-                        try:
-                            code = table[symbol]
-                        except KeyError:
+                        # try:
+                            # code = table[symbol]
+                        # except KeyError:
                             # print('Symbol missing:', symbol)
-                            continue
+                            # continue
 
                         RepointFreeBytes(rom, code, offset, pal_offset, bytes_, 0)
                     
@@ -1709,11 +1711,11 @@ def InsertCode():
                         offset = int(address, 16) - 0x08000000
                         pal_offset = int(pal_offset, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
-                        try:
-                            code = table[symbol]
-                        except KeyError:
+                        # try:
+                            # code = table[symbol]
+                        # except KeyError:
                             # print('Symbol missing:', symbol)
-                            continue
+                            # continue
 
                         RepointFreeBytes(rom, code, offset, pal_offset, bytes_, free_bytes)
 
