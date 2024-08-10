@@ -925,7 +925,7 @@ def BuildCode():
                 bytes_ = int(bytes_, 16)
                 # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                 # bytes__ = bytes__ + bytes_
-                with open(OUTPUT_ROM, 'rb+') as rom:
+                with open(SOURCE_ROM, 'rb+') as rom:
                     rom.seek(offset___ - 0x08000000)
                     image = 'graphics/Resize/' + symbol + '.6bpp'
                     image = open(image, "wb")
@@ -941,7 +941,7 @@ def BuildCode():
                 bytes_ = int(bytes_, 16)
                 # ret[symbol] = OFFSET_TO_PUT + offset_ + bytes__ - subtract + 0x08000000
                 # bytes__ = bytes__ + bytes_
-                with open(OUTPUT_ROM, 'rb+') as rom:
+                with open(SOURCE_ROM, 'rb+') as rom:
                     rom.seek(offset___ - 0x08000000)
                     image = 'graphics/Resize/' + symbol + '.6bpp'
                     image = open(image, "wb")
@@ -1338,8 +1338,8 @@ def InsertCode():
         rom.seek(repointAt)
 
         data = (rom.read(bytes_))
-        rom.seek(space)
-        rom.write(bytes(data))
+        # rom.seek(space)
+        # rom.write(bytes(data))
 
         if free_bytes:
             rom.seek(repointAt)
@@ -1698,6 +1698,7 @@ def InsertCode():
                         offset = int(address, 16) - 0x08000000
                         pal_offset = int(pal_offset, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
+                        code = None
                         # try:
                             # code = table[symbol]
                         # except KeyError:
@@ -1711,6 +1712,7 @@ def InsertCode():
                         offset = int(address, 16) - 0x08000000
                         pal_offset = int(pal_offset, 16) - 0x08000000
                         bytes_ = int(bytes_, 16)
+                        code = None
                         # try:
                             # code = table[symbol]
                         # except KeyError:
