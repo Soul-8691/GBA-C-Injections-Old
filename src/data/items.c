@@ -5926,7 +5926,7 @@ const struct Item gItems_[] =
         .registrability = TRUE,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_TYPE_BAG_MENU,
-        .fieldUseFunc = FieldUseFunc_OakStopsYou,
+        .fieldUseFunc = FieldUseFunc_TmCase,
     },
 
     [ITEM_BERRY_POUCH] =
@@ -5939,7 +5939,9 @@ const struct Item gItems_[] =
         .registrability = TRUE,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_TYPE_BAG_MENU,
-        .fieldUseFunc = FieldUseFunc_OakStopsYou,
+        .fieldUseFunc = FieldUseFunc_BerryPouch,
+        .battleUsage = 3,
+        .battleUseFunc = BattleUseFunc_BerryPouch,
     },
 
     [ITEM_TEACHY_TV] =

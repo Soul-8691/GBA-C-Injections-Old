@@ -15,6 +15,9 @@
         "types.h": "c",
         "graphics.h": "c",
         "rgb.h": "c",
-        "mail.h": "c"
+        "mail.h": "c",
+        "species.h": "c",
+        "daycare.h": "c",
+        "region_map_sections.h": "c"
     }
 }
