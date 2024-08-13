@@ -17,7 +17,6 @@
 #include "../include/constants/songs.h"
 #include "../include/constants/sound.h"
 #include "../include/palette.h"
-#include "data/items.c"
 
 /*
     The intro is grouped into the following scenes

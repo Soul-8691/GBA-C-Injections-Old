@@ -38,6 +38,74 @@ def ClearFromTo(rom, from_: int, to_: int):
         rom.write(b'\xFF')
 
 
+def TryProcessFileInclusion(line: str, definesDict: dict) -> bool:
+    if line.startswith('#include "'):
+        try:
+            path = line.split('"')[1].strip()
+            with open(path, 'r') as file:
+                for line in file:
+                    if line.startswith('#define '):
+                        try:
+                            lineList = line.strip().split()
+                            title = lineList[1]
+
+                            if len(lineList) == 2 or lineList[2].startswith('//') or lineList[2].startswith('/*'):
+                                define = True
+                            else:
+                                define = lineList[2]
+
+                            definesDict[title] = define
+                        except IndexError:
+                            print('Error reading define on line"' + line.strip() + '" in file "' + path + '".')
+
+        except Exception as e:
+            print('Error including file on line "' + line.strip() + '".')
+            print(e)
+
+        return True  # Inclusion line; don't read otherwise
+
+    return False
+
+
+def TryProcessConditionalCompilation(line: str, definesDict: dict, conditionals: [(str, bool)]) -> bool:
+    line = line.strip()
+    upperLine = line.upper()
+    numWordsOnLine = len(line.split())
+
+    if upperLine.startswith('#IFDEF ') and numWordsOnLine > 1:
+        condition = line.strip().split()[1]
+        conditionals.insert(0, (condition, True))  # Insert at front
+        return True
+    elif upperLine.startswith('#IFNDEF ') and numWordsOnLine > 1:
+        condition = line.strip().split()[1]
+        conditionals.insert(0, (condition, False))  # Insert at front
+        return True
+    elif upperLine == '#ELSE':
+        if len(conditionals) >= 1:  # At least one statement was pushed before
+            condition = conditionals.pop(0)
+            if condition[1] is True:
+                conditionals.insert(0, (condition[0], False))  # Invert old statement
+            else:
+                conditionals.insert(0, (condition[0], True))  # Invert old statement
+            return True
+    elif upperLine == '#ENDIF':
+        conditionals.pop(0)  # Remove first element (last pushed)
+        return True
+    else:
+        for condition in conditionals:
+            definedType = condition[1]
+            condition = condition[0]
+
+            if definedType is True:  # From #ifdef
+                if condition not in definesDict:
+                    return True  # If something isn't defined then skip the line
+            else:  # From #ifndef
+                if condition in definesDict:
+                    return True  # If something is defined then skip the line
+
+    return False
+
+
 def BuildCode():
     on_wsl = "microsoft" in platform.uname()[3].lower()
 
@@ -1035,73 +1103,6 @@ def InsertCode():
             rom.write(bytes(intByte.to_bytes(1, 'big')))
             ar += 1
 
-
-    def TryProcessFileInclusion(line: str, definesDict: dict) -> bool:
-        if line.startswith('#include "'):
-            try:
-                path = line.split('"')[1].strip()
-                with open(path, 'r') as file:
-                    for line in file:
-                        if line.startswith('#define '):
-                            try:
-                                lineList = line.strip().split()
-                                title = lineList[1]
-
-                                if len(lineList) == 2 or lineList[2].startswith('//') or lineList[2].startswith('/*'):
-                                    define = True
-                                else:
-                                    define = lineList[2]
-
-                                definesDict[title] = define
-                            except IndexError:
-                                print('Error reading define on line"' + line.strip() + '" in file "' + path + '".')
-
-            except Exception as e:
-                print('Error including file on line "' + line.strip() + '".')
-                print(e)
-
-            return True  # Inclusion line; don't read otherwise
-
-        return False
-
-
-    def TryProcessConditionalCompilation(line: str, definesDict: dict, conditionals: [(str, bool)]) -> bool:
-        line = line.strip()
-        upperLine = line.upper()
-        numWordsOnLine = len(line.split())
-
-        if upperLine.startswith('#IFDEF ') and numWordsOnLine > 1:
-            condition = line.strip().split()[1]
-            conditionals.insert(0, (condition, True))  # Insert at front
-            return True
-        elif upperLine.startswith('#IFNDEF ') and numWordsOnLine > 1:
-            condition = line.strip().split()[1]
-            conditionals.insert(0, (condition, False))  # Insert at front
-            return True
-        elif upperLine == '#ELSE':
-            if len(conditionals) >= 1:  # At least one statement was pushed before
-                condition = conditionals.pop(0)
-                if condition[1] is True:
-                    conditionals.insert(0, (condition[0], False))  # Invert old statement
-                else:
-                    conditionals.insert(0, (condition[0], True))  # Invert old statement
-                return True
-        elif upperLine == '#ENDIF':
-            conditionals.pop(0)  # Remove first element (last pushed)
-            return True
-        else:
-            for condition in conditionals:
-                definedType = condition[1]
-                condition = condition[0]
-
-                if definedType is True:  # From #ifdef
-                    if condition not in definesDict:
-                        return True  # If something isn't defined then skip the line
-                else:  # From #ifndef
-                    if condition in definesDict:
-                        return True  # If something is defined then skip the line
-
-        return False
 
     startTime = datetime.now()
     offset_ = 0

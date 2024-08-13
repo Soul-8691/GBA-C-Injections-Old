@@ -13,6 +13,8 @@
         "union_room.h": "c",
         "trainers.h": "c",
         "types.h": "c",
-        "graphics.h": "c"
+        "graphics.h": "c",
+        "rgb.h": "c",
+        "mail.h": "c"
     }
 }
