@@ -461,4 +461,14 @@
 // Check if the item is one that can be used on a Pokemon.
 #define IS_POKEMON_ITEM(item) ((item) >= ITEM_POTION && (item) <= MAX_BERRY_INDEX)
 
+// Item battle usage IDs (only checked to see if nonzero)
+#define ITEM_B_TYPE_MEDICINE 1
+#define ITEM_B_TYPE_OTHER    2
+
+// Note: If moving ball IDs around, updating FIRST_BALL/LAST_BALL is not sufficient
+//       Several places expect the ball IDs to be first and contiguous (e.g. gBattlescriptsForBallThrow and MON_DATA_POKEBALL)
+//       If adding new balls, it's easiest to insert them after the last ball and increment the below IDs (and removing ITEM_034 for example)
+#define FIRST_BALL ITEM_MASTER_BALL
+#define LAST_BALL  ITEM_PREMIER_BALL
+
 #endif  // GUARD_CONSTANTS_ITEMS_H
