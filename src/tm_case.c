@@ -88,7 +88,16 @@ enum {
 static const u8 sMenuActionIndices_Field[] = {ACTION_USE, ACTION_GIVE, ACTION_EXIT};
 static const u8 sMenuActionIndices_UnionRoom[] = {ACTION_GIVE, ACTION_EXIT};
 
+// Base position for TM/HM disc sprite
+#define DISC_BASE_X 41
+#define DISC_BASE_Y 46
+
+#define DISC_CASE_DISTANCE 20 // The total number of pixels a disc travels vertically in/out of the case
+#define DISC_Y_MOVE 10 // The number of pixels a disc travels vertically per movement step
+
 #define TAG_DISC 400
+
+#define DISC_HIDDEN 0xFF // When no TM/HM is selected, hide the disc sprite
 
 enum {
     WIN_LIST,
@@ -425,45 +434,64 @@ void SetTMSpriteAnim(struct Sprite * sprite, u8 idx)
         StartSpriteAnim(sprite, 0);
 }
 
-void UpdateTMSpritePosition(struct Sprite * sprite, u8 tmId)
+static void SetDiscSpritePosition(struct Sprite *sprite, u8 tmIdx)
 {
     s32 x, y;
-    if (tmId == 0xFF)    //end of tm case
+    if (tmIdx == DISC_HIDDEN)
     {
-        x = 0x1B;
-        y = 0x36;
-        sprite->y2 = 0x14;
+        x = 27;
+        y = 54;
+        sprite->y2 = DISC_CASE_DISTANCE;
     }
     else
     {
-        if (tmId > NUM_TECHNICAL_MACHINES)
-            tmId -= NUM_TECHNICAL_MACHINES;
+        if (tmIdx >= NUM_TECHNICAL_MACHINES)
+            tmIdx -= NUM_TECHNICAL_MACHINES;
         else
-            tmId += NUM_HIDDEN_MACHINES;
-        
-        x = 0x29 - (((0xE00 * tmId) / NUM_TMHMS) >> 8);
-        y = 0x2E + (((0x800 * tmId) / NUM_TMHMS) >> 8);
+            tmIdx += NUM_HIDDEN_MACHINES;
+
+        x = DISC_BASE_X - Q_24_8_TO_INT(Q_24_8(14 * tmIdx) / (NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES));
+        y = DISC_BASE_Y + Q_24_8_TO_INT(Q_24_8(8 * tmIdx) / (NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES));
     }
-    
     sprite->x = x;
     sprite->y = y;
 }
 
-u8 CreateTMSprite(u16 itemId)
+static void SetDiscSpriteAnim(struct Sprite *sprite, u8 tmIdx)
 {
-    u8 spriteId = CreateSprite(&sTMSpriteTemplate, 0x29, 0x2E, 0);
+    if (tmIdx >= NUM_TECHNICAL_MACHINES)
+        StartSpriteAnim(sprite, ANIM_HM);
+    else
+        StartSpriteAnim(sprite, ANIM_TM);
+}
+
+static const struct SpriteTemplate sSpriteTemplate_Disc = {
+    .tileTag = TAG_DISC,
+    .paletteTag = TAG_DISC,
+    .oam = &sTMSpriteOamData,
+    .anims = sAnims_Disc,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy
+};
+
+extern void TintDiscpriteByType(u8 type);
+
+u8 CreateDiscSprite(u16 itemId)
+{
+    u8 spriteId = CreateSprite(&sSpriteTemplate_Disc, DISC_BASE_X, DISC_BASE_Y, 0);
+    u8 tmIdx;
     if (itemId == ITEM_NONE)
     {
-        UpdateTMSpritePosition(&gSprites[spriteId], 0xFF);
+        SetDiscSpritePosition(&gSprites[spriteId], DISC_HIDDEN);
         return spriteId;
     }
     else
-    {        
-        if (itemId <= ITEM_HM08) SetTMSpriteAnim(&gSprites[spriteId], itemId - ITEM_TM01);
-        else SetTMSpriteAnim(&gSprites[spriteId], itemId - 326);
-        TintTMSpriteByType(gBattleMoves[ItemIdToBattleMoveId_(itemId)].type);
-        if (itemId <= ITEM_HM08) UpdateTMSpritePosition(&gSprites[spriteId], itemId - ITEM_TM01);
-        else UpdateTMSpritePosition(&gSprites[spriteId], itemId - 326);
+    {
+        tmIdx = itemId - ITEM_TM01;
+        SetDiscSpriteAnim(&gSprites[spriteId], tmIdx);
+        TintDiscpriteByType(gBattleMoves[ItemIdToBattleMoveId_(itemId)].type);
+        SetDiscSpritePosition(&gSprites[spriteId], tmIdx);
         return spriteId;
     }
 }

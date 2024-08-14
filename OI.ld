@@ -51,3 +51,4 @@ TMCase_SetWindowBorder1 = 0x08133354|1;
 sTMSpritePaletteBuffer = 0x0203b12c;
 TMCase_SetWindowBorder2 = 0x08133368|1;
 MenuHelpers_IsLinkActive = 0x080bf708|1;
+TintDiscpriteByType = 0x08133730|1;
