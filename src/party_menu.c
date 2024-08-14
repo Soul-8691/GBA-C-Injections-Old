@@ -69,6 +69,11 @@
 #include "../include/constants/songs.h"
 #include "../include/constants/sound.h"
 
+#include "data/party_menu.c"
+
+extern void Task_SetSacredAshCB(u8 taskId);
+extern void Task_DoLearnedMoveFanfareAfterText(u8 taskId);
+
 #define PARTY_PAL_SELECTED     (1 << 0)
 #define PARTY_PAL_FAINTED      (1 << 1)
 #define PARTY_PAL_TO_SWITCH    (1 << 2)
@@ -134,7 +139,7 @@ extern void DisplayPartyPokemonDescriptionData(u8 slot, u8 stringId);
 extern void DisplayLearnMoveMessageAndClose(u8 taskId, const u8 *str);
 extern void DisplayLearnMoveMessage(const u8 *str);
 extern void Task_DoUseItemAnim(u8 taskId);
-extern void Task_LearnedMove(u8 taskId);
+extern void Task_LearnedMove_(u8 taskId);
 u8 CanTeachMove(struct Pokemon *mon, u16 move);
 
 void DisplayPartyPokemonDataToTeachMove(u8 slot, u16 move)
@@ -174,7 +179,7 @@ bool8 DisplayPartyPokemonDataForMoveTutorOrEvolutionItem(u8 slot)
         default:
             return FALSE;
         case 1: // TM/HM
-            DisplayPartyPokemonDataToTeachMove(slot, ItemIdToBattleMoveId(item));
+            DisplayPartyPokemonDataToTeachMove(slot, ItemIdToBattleMoveId_(item));
             break;
         case 2: // Evolution stone
             if (!GetMonData(currentPokemon, MON_DATA_IS_EGG) && GetEvolutionTargetSpecies(currentPokemon, EVO_MODE_ITEM_CHECK, item) != SPECIES_NONE)
@@ -202,7 +207,7 @@ void ItemUseCB_TMHM_(u8 taskId, TaskFunc func)
 {
     struct Pokemon *mon;
     u16 item = gSpecialVar_ItemId;
-    u16 move = ItemIdToBattleMoveId(item);
+    u16 move = ItemIdToBattleMoveId_(item);
 
     gPartyMenu.data1 = move;
 
@@ -256,7 +261,7 @@ void TryTutorSelectedMon(u8 taskId)
         default:
             if (GiveMoveToMon(mon, gPartyMenu.data1) != MON_HAS_MAX_MOVES)
             {
-                Task_LearnedMove(taskId);
+                Task_LearnedMove_(taskId);
                 return;
             }
             break;
@@ -275,4 +280,73 @@ void ChooseMonForMoveTutor_(void)
                     PARTY_MSG_TEACH_WHICH_MON,
                     Task_HandleChooseMonInput,
                     CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
+void CB2_UseItem(void)
+{
+    if (ItemId_GetPocket(gSpecialVar_ItemId) == POCKET_TM_CASE && PSA_IsCancelDisabled() == TRUE)
+    {
+        GiveMoveToMon(&gPlayerParty[gPartyMenu.slotId], ItemIdToBattleMoveId_(gSpecialVar_ItemId));
+        AdjustFriendship(&gPlayerParty[gPartyMenu.slotId], FRIENDSHIP_EVENT_LEARN_TMHM);
+        #ifndef REUSABLE_TMS
+        if (gSpecialVar_ItemId >= ITEM_FIRST_TM && gSpecialVar_ItemId <= ITEM_LAST_TM)
+            RemoveBagItem(gSpecialVar_ItemId, 1);
+        #endif
+        SetMainCallback2(gPartyMenu.exitCallback);
+    }
+    else
+        InitPartyMenu(gPartyMenu.menuType, KEEP_PARTY_LAYOUT, PARTY_ACTION_CHOOSE_MON, gPartyMenu.slotId, PARTY_MSG_NONE, Task_SetSacredAshCB, gPartyMenu.exitCallback);
+}
+
+void CB2_UseTMHMAfterForgettingMove(void)
+{
+    if (PSA_IsCancelDisabled() == TRUE)
+    {
+        struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+        u8 moveIdx = GetMoveSlotToReplace();
+        u16 move = GetMonData(mon, moveIdx + MON_DATA_MOVE1);
+        
+        RemoveMonPPBonus(mon, moveIdx);
+        SetMonMoveSlot(mon, ItemIdToBattleMoveId_(gSpecialVar_ItemId), moveIdx);
+        AdjustFriendship(mon, FRIENDSHIP_EVENT_LEARN_TMHM);
+        ItemUse_SetQuestLogEvent(QL_EVENT_USED_ITEM, mon, gSpecialVar_ItemId, move);
+        #ifndef REUSABLE_TMS
+        if (gSpecialVar_ItemId >= ITEM_FIRST_TM && gSpecialVar_ItemId <= ITEM_LAST_TM)
+            RemoveBagItem(gSpecialVar_ItemId, 1);
+        #endif
+        SetMainCallback2(gPartyMenu.exitCallback);
+    }
+    else
+        InitPartyMenu(gPartyMenu.menuType, KEEP_PARTY_LAYOUT, gPartyMenu.action, gPartyMenu.slotId, PARTY_MSG_NONE, Task_SetSacredAshCB, gPartyMenu.exitCallback);
+}
+
+u16 ItemIdToBattleMoveId_(u16 item)
+{
+    u16 tmNumber;
+    if (item >= ITEM_TM01 && item <= ITEM_HM08) tmNumber = item - ITEM_TM01;
+    else if (item >= ITEM_TM51) tmNumber = item - 318;
+
+    return sTMHMMoves[tmNumber];
+}
+
+void Task_LearnedMove_(u8 taskId)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    s16 *move = &gPartyMenu.data1;
+    u16 item = gSpecialVar_ItemId;
+
+    if (move[1] == 0)
+    {
+        AdjustFriendship(mon, 4);
+        #ifndef REUSABLE_TMS
+        if (gSpecialVar_ItemId >= ITEM_FIRST_TM && gSpecialVar_ItemId <= ITEM_LAST_TM)
+            RemoveBagItem(item, 1);
+        #endif
+    }
+    GetMonNickname(mon, gStringVar1);
+    StringCopy(gStringVar2, gMoveNames[move[0]]);
+    StringExpandPlaceholders(gStringVar4, gText_PkmnLearnedMove3);
+    DisplayPartyMenuMessage(gStringVar4, TRUE);
+    ScheduleBgCopyTilemapToVram(2);
+    gTasks[taskId].func = Task_DoLearnedMoveFanfareAfterText;
 }

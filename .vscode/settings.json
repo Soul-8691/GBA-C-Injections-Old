@@ -18,6 +18,14 @@
         "mail.h": "c",
         "species.h": "c",
         "daycare.h": "c",
-        "region_map_sections.h": "c"
+        "region_map_sections.h": "c",
+        "moves.h": "c",
+        "items.h": "c",
+        "pokemon_storage_system.h": "c",
+        "string_util.h": "c",
+        "party_menu.h": "c",
+        "menu_indicators.h": "c",
+        "sound.h": "c",
+        "data.h": "c"
     }
 }
