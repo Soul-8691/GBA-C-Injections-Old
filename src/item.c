@@ -46,3 +46,10 @@ void SortPocketAndPlaceHMsFirst_(struct BagPocket * pocket)
         SetBagItemQuantity(&pocket->itemSlots[k].quantity, pocket->itemSlots[k].quantity);
     Free(buff);
 }
+
+u16 SanitizeItemId_(u16 itemId)
+{
+    if (itemId >= ITEMS_COUNT)
+        return ITEM_NONE;
+    return itemId;
+}
