@@ -339,7 +339,7 @@ void Task_LearnedMove_(u8 taskId)
     {
         AdjustFriendship(mon, 4);
         #ifndef REUSABLE_TMS
-        if (gSpecialVar_ItemId >= ITEM_FIRST_TM && gSpecialVar_ItemId <= ITEM_LAST_TM)
+        if ((gSpecialVar_ItemId >= ITEM_FIRST_TM && gSpecialVar_ItemId <= ITEM_TM50) || (gSpecialVar_ItemId >= ITEM_TM51 && gSpecialVar_ItemId <= ITEM_LAST_TM))
             RemoveBagItem(item, 1);
         #endif
     }
