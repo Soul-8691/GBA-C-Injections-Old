@@ -15,7 +15,7 @@ void SortPocketAndPlaceHMsFirst_(struct BagPocket * pocket)
 {
     u16 i;
     u16 j = 0;
-    u16 k;
+    u16 k, l;
     struct ItemSlot * buff;
 
     SortAndCompactBagPocket(pocket);
@@ -31,7 +31,16 @@ void SortPocketAndPlaceHMsFirst_(struct BagPocket * pocket)
                 if (pocket->itemSlots[j].itemId == ITEM_NONE && GetBagItemQuantity(&pocket->itemSlots[j].quantity) == 0)
                     break;
             }
-            // SwapItemSlots(&pocket->itemSlots[i], &pocket->itemSlots[j]);
+            for (k = 0; k < pocket->capacity; k++)
+            {
+                if (pocket->itemSlots[k].itemId >= ITEM_HM01 && pocket->itemSlots[k].itemId <= ITEM_HM08)
+                {
+                    u16 quantity = GetBagItemQuantity(&pocket->itemSlots[k].quantity);
+                    pocket->itemSlots[k - 118].itemId = pocket->itemSlots[k].itemId;
+                    SetBagItemQuantity(&pocket->itemSlots[k].quantity, 0);
+                    SetBagItemQuantity(&pocket->itemSlots[k - 118].quantity, quantity);
+                }
+            }
             break;
         }
     }
