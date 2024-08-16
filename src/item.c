@@ -24,24 +24,17 @@ void SortPocketAndPlaceHMsFirst_(struct BagPocket * pocket)
     {
         if (pocket->itemSlots[i].itemId == ITEM_NONE && GetBagItemQuantity(&pocket->itemSlots[i].quantity) == 0)
             return;
-        if (pocket->itemSlots[i].itemId >= ITEM_TM01 && GetBagItemQuantity(&pocket->itemSlots[i].quantity) != 0)
+        if (pocket->itemSlots[i].itemId >= ITEM_TM01 && pocket->itemSlots[i].itemId <= ITEM_TM120 && GetBagItemQuantity(&pocket->itemSlots[i].quantity) != 0)
         {
-            for (j = i + 1; j < pocket->capacity; j++)
+            if (pocket->itemSlots[i].itemId >= ITEM_HM01 && pocket->itemSlots[i].itemId <= ITEM_HM08)
             {
-                if (pocket->itemSlots[j].itemId == ITEM_NONE && GetBagItemQuantity(&pocket->itemSlots[j].quantity) == 0)
-                    break;
-            }
-            for (k = 0; k < pocket->capacity; k++)
-            {
-                if (pocket->itemSlots[k].itemId >= ITEM_HM01 && pocket->itemSlots[k].itemId <= ITEM_HM08)
+                for (j = i + 1; j < pocket->capacity; j++)
                 {
-                    u16 quantity = GetBagItemQuantity(&pocket->itemSlots[k].quantity);
-                    pocket->itemSlots[k - 118].itemId = pocket->itemSlots[k].itemId;
-                    SetBagItemQuantity(&pocket->itemSlots[k].quantity, 0);
-                    SetBagItemQuantity(&pocket->itemSlots[k - 118].quantity, quantity);
+                    if (pocket->itemSlots[j].itemId == ITEM_NONE && GetBagItemQuantity(&pocket->itemSlots[j].quantity) == 0)
+                        break;
                 }
+                break;
             }
-            break;
         }
     }
 
