@@ -21,21 +21,20 @@ add r3, r0, r3
 ldr r2, [r3]
 ldr r1, =(0x20370D0) /* Var 0x800D in RAM */
 ldrb r0, [r1]
-@mov r3, r0
-@and r3, r2, r3
 
 fuckidk:
 ldrh r3, [r2]
 cmp r3, r0
 beq end
-cmp r3, r1
-beq endfail
 add r2, #2
 mov r1, #0xFF
 lsl r1, #8
 add r1, #0xFF
+cmp r3, r1
+beq next
 b fuckidk
 
+next:
 ldr r3, =(0x2024029) /* Player's team size */
 ldrb r3, [r3]
 add r5, r5, #0x1
@@ -44,12 +43,12 @@ beq endfail
 b loopback
 
 end:
+ldr r1, =(0x20370D0) /* Var 0x800D in RAM */
 strb r5, [r1]
 pop {r0-r5, pc}
 
 endfail:
 mov r5, #0x6
-strb r5, [r1]
 pop {r0-r5, pc}
 
 linker:
