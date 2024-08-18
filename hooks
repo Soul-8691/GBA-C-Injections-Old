@@ -1,8 +1,5 @@
 #include "src/config.h"
 
-IntroCB_Init 80ecaf0 3
-GFScene_LoadGfxCreateStar 80edc40 0
-CB2_SetUpIntro 80ec870 0
 BuildEggMoveset 8045cd0 0
 DisplayPartyPokemonDataToTeachMove 811f4d0 1
 DisplayPartyPokemonDataForMoveTutorOrEvolutionItem 811f430 1

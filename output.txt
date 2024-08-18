@@ -1,5 +1,0 @@
-additem HM04 1
-additem HM05 1
-additem HM06 1
-additem HM07 1
-additem HM08 1
