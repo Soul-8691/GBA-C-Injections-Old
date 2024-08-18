@@ -21,10 +21,20 @@ add r3, r0, r3
 ldr r2, [r3]
 ldr r1, =(0x20370D0) /* Var 0x800D in RAM */
 ldrb r0, [r1]
-mov r3, r0
-and r3, r2, r3
-cmp r0, r3
+@mov r3, r0
+@and r3, r2, r3
+
+fuckidk:
+ldrh r3, [r2]
+cmp r3, r0
 beq end
+cmp r3, r1
+beq endfail
+add r2, #2
+mov r1, #0xFF
+lsl r1, #8
+add r1, #0xFF
+b fuckidk
 
 ldr r3, =(0x2024029) /* Player's team size */
 ldrb r3, [r3]
@@ -57,7 +67,7 @@ EventScript_CutTree_:
     compare LASTRESULT 0x2
     if equal _goto snippet1
     lockall
-    setvar LASTRESULT 0x4
+    setvar LASTRESULT 0xF
     callasm HMLearnCheck+1
     compare LASTRESULT 0x6
     if equal _goto snippet2
