@@ -30,16 +30,25 @@ enum
 #define WILD_CHECK_REPEL    0x1
 #define WILD_CHECK_KEEN_EYE 0x2
 
-static const u16 sForestsMaps[] = 
+static const u16 sForestMaps[] = 
 {
     MAP_VALENCIA_PARK,
     MAP_POKEMON_PARK
 };
 
-static const u16 sForestsMons[] = 
+static const u16 sForestMons[] = 
 {
-    SPECIES_BULBASAUR,
-    SPECIES_SQUIRTLE
+    SPECIES_CATERPIE,
+    SPECIES_WEEDLE,
+    SPECIES_PARAS,
+    SPECIES_VENONAT,
+    SPECIES_EXEGGCUTE,
+    SPECIES_MEOWTH,
+    SPECIES_IGGLYBUFF,
+    SPECIES_DITTO,
+    SPECIES_FARFETCHD,
+    SPECIES_EEVEE,
+    SPECIES_BULBASAUR
 };
 
 bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 area, u8 flags)
@@ -70,12 +79,30 @@ bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 are
     else if (badgeCount == 6) level = (Random() % 6) + 27;
     else if (badgeCount == 7) level = (Random() % 6) + 31;
     else if (badgeCount == 8) level = (Random() % 6) + 35;
-    if (IsCurMapInLocationList(sForestsMaps))
+    if (IsCurMapInLocationList(sForestMaps))
     {
-        if (Random() % 100 < 50)
-            species = GetEggSpecies(sForestsMons[0]);
+        if (Random() % 100 < 15)
+            species = GetEggSpecies(sForestMons[0]);
+        else if (Random() % 100 < 30)
+            species = GetEggSpecies(sForestMons[1]);
+        else if (Random() % 100 < 45)
+            species = GetEggSpecies(sForestMons[2]);
+        else if (Random() % 100 < 55)
+            species = GetEggSpecies(sForestMons[3]);
+        else if (Random() % 100 < 65)
+            species = GetEggSpecies(sForestMons[4]);
+        else if (Random() % 100 < 75)
+            species = GetEggSpecies(sForestMons[5]);
+        else if (Random() % 100 < 85)
+            species = GetEggSpecies(sForestMons[6]);
+        else if (Random() % 100 < 90)
+            species = GetEggSpecies(sForestMons[7]);
+        else if (Random() % 100 < 94)
+            species = GetEggSpecies(sForestMons[8]);
+        else if (Random() % 100 < 97)
+            species = GetEggSpecies(sForestMons[9]);
         else
-            species = GetEggSpecies(sForestsMons[1]);
+            species = GetEggSpecies(sForestMons[10]);
     }
     else
         species = GetEggSpecies(info->wildPokemon[slot].species);
