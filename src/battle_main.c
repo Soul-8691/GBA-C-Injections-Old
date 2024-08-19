@@ -47,16 +47,12 @@
 
 extern struct Evolution gEvolutionTable[][EVOS_PER_MON];
 
-static const u16 sGymMapsList[] = 
+static const u16 sGymMaps[] = 
 {
-    MAP_PEWTER_CITY_GYM,
-    MAP_CERULEAN_CITY_GYM,
-    MAP_VERMILION_CITY_GYM,
-    MAP_CELADON_CITY_GYM,
-    MAP_FUCHSIA_CITY_GYM,
-    MAP_CINNABAR_ISLAND_GYM,
-    MAP_SAFFRON_CITY_GYM,
-    MAP_VIRIDIAN_CITY_GYM
+    MAP_MIKAN_GYM,
+    MAP_NAVEL_MOUNTAIN,
+    MAP_TROVITA_ISLAND_GYM,
+    MAP_KUMQUAT_ISLAND_GYM
 };
 
 static const u16 sBirdKeeperMons[] = 
@@ -116,7 +112,7 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
                     else if (badgeCount == 7) level = (Random() % 6) + 38;
                     else if (badgeCount == 8) level = (Random() % 6) + 43;
                 }
-                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMapsList)) {
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMaps)) {
                     if (badgeCount == 0) level = (Random() % 4) + 2;
                     else if (badgeCount == 1) level = (Random() % 6) + 8;
                     else if (badgeCount == 2) level = (Random() % 6) + 13;
@@ -127,7 +123,7 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
                     else if (badgeCount == 7) level = (Random() % 6) + 38;
                     else if (badgeCount == 8) level = (Random() % 6) + 43;
                 }
-                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && IsCurMapInLocationList(sGymMapsList)) {
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && IsCurMapInLocationList(sGymMaps)) {
                     if (badgeCount == 0) level = (Random() % 6) + 8;
                     if (badgeCount == 1) level = (Random() % 6) + 14;
                     if (badgeCount == 2) level = (Random() % 6) + 18;
