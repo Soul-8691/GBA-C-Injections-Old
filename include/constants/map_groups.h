@@ -13,8 +13,8 @@
 #define MAP_UNION_ROOM          (4 | (0 << 8))
 
 // gMapGroup_Dungeons
-#define MAP_VIRIDIAN_FOREST                      (0 | (1 << 8))
-#define MAP_MT_MOON_1F                           (1 | (1 << 8))
+#define MAP_VALENCIA_PARK                        (0 | (1 << 8))
+#define MAP_POKEMON_PARK                         (1 | (1 << 8))
 #define MAP_MT_MOON_B1F                          (2 | (1 << 8))
 #define MAP_MT_MOON_B2F                          (3 | (1 << 8))
 #define MAP_SSANNE_EXTERIOR                      (4 | (1 << 8))

@@ -30,6 +30,18 @@ enum
 #define WILD_CHECK_REPEL    0x1
 #define WILD_CHECK_KEEN_EYE 0x2
 
+static const u16 sForestsMaps[] = 
+{
+    MAP_VALENCIA_PARK,
+    MAP_POKEMON_PARK
+};
+
+static const u16 sForestsMons[] = 
+{
+    SPECIES_BULBASAUR,
+    SPECIES_SQUIRTLE
+};
+
 bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 area, u8 flags)
 {
     u8 slot = 0;
@@ -58,7 +70,15 @@ bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 are
     else if (badgeCount == 6) level = (Random() % 6) + 27;
     else if (badgeCount == 7) level = (Random() % 6) + 31;
     else if (badgeCount == 8) level = (Random() % 6) + 35;
-    species = GetEggSpecies(info->wildPokemon[slot].species);
+    if (IsCurMapInLocationList(sForestsMaps))
+    {
+        if (Random() % 100 < 50)
+            species = GetEggSpecies(sForestsMons[0]);
+        else
+            species = GetEggSpecies(sForestsMons[1]);
+    }
+    else
+        species = GetEggSpecies(info->wildPokemon[slot].species);
     if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
     if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
     if (flags == WILD_CHECK_REPEL && !IsWildLevelAllowedByRepel(level))

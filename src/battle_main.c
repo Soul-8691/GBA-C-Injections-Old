@@ -59,6 +59,12 @@ static const u16 sGymMapsList[] =
     MAP_VIRIDIAN_CITY_GYM
 };
 
+static const u16 sBirdKeeperMons[] = 
+{
+    SPECIES_BULBASAUR,
+    SPECIES_SQUIRTLE
+};
+
 u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
 {
     u32 nameHash = 0;
@@ -94,7 +100,23 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
                 const struct TrainerMonNoItemDefaultMoves *partyData = gTrainers[trainerNum].party.NoItemDefaultMoves;
                 u8 level = partyData[i].lvl;
                 u16 species = GetEggSpecies(partyData[i].species);
-                if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMapsList)) {
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_BIRD_KEEPER)
+                {
+                    if (Random() % 100 < 50)
+                        species = GetEggSpecies(sBirdKeeperMons[0]);
+                    else
+                        species = GetEggSpecies(sBirdKeeperMons[1]);
+                    if (badgeCount == 0) level = (Random() % 4) + 2;
+                    else if (badgeCount == 1) level = (Random() % 6) + 8;
+                    else if (badgeCount == 2) level = (Random() % 6) + 13;
+                    else if (badgeCount == 3) level = (Random() % 6) + 18;
+                    else if (badgeCount == 4) level = (Random() % 6) + 23;
+                    else if (badgeCount == 5) level = (Random() % 6) + 28;
+                    else if (badgeCount == 6) level = (Random() % 6) + 33;
+                    else if (badgeCount == 7) level = (Random() % 6) + 38;
+                    else if (badgeCount == 8) level = (Random() % 6) + 43;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMapsList)) {
                     if (badgeCount == 0) level = (Random() % 4) + 2;
                     else if (badgeCount == 1) level = (Random() % 6) + 8;
                     else if (badgeCount == 2) level = (Random() % 6) + 13;
