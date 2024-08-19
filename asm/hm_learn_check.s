@@ -96,7 +96,8 @@ END:
 HMFlyFromMenu2:
 	push {r4-r5}
 	mov r4, r1 @save r1 contents
-	ldr r0, =  0x828
+	mov r0, #82
+    lsl r0, #4
 	ldr r1, = (0x806E6D0 +1) @checkflag
 	bl linkerOne
 	lsl r0, r0, #0x18
@@ -185,3 +186,31 @@ snippet4:
 
 move1:
     .byte 0x69, 0xFE
+
+.global SurfEventScript
+.align 2
+SurfEventScript:
+    special 0x187
+    compare LASTRESULT 0x2
+    if 0x1 _goto _1A6B0C
+    setvar LASTRESULT 57
+    callasm HMLearnCheck+1
+    compare LASTRESULT 0x6
+    if 0x1 _goto _1A6B0C
+    bufferpartypokemon 0x0 LASTRESULT
+    setanimation 0x0 LASTRESULT
+    lockall
+    msgbox _1A556E MSG_YESNO
+    compare LASTRESULT 0x0
+    if 0x1 _goto _1A6B0B
+    msgbox _1A55A5 MSG_KEEPOPEN
+    doanimation 0x9
+    releaseall
+    end
+
+_1A6B0C:
+    end
+
+_1A6B0B:
+    releaseall
+    end
