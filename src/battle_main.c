@@ -57,8 +57,17 @@ static const u16 sGymMaps[] =
 
 static const u16 sBirdKeeperMons[] = 
 {
-    SPECIES_BULBASAUR,
-    SPECIES_SQUIRTLE
+    SPECIES_PIDGEY,
+    SPECIES_SPEAROW,
+    SPECIES_TAILLOW,
+    SPECIES_HOOTHOOT,
+    SPECIES_DODUO,
+    SPECIES_WINGULL,
+    SPECIES_NATU,
+    SPECIES_SWABLU,
+    SPECIES_FARFETCHD,
+    SPECIES_SKARMORY,
+    SPECIES_TROPIUS,
 };
 
 u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
@@ -74,10 +83,13 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
      && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_EREADER_TRAINER | BATTLE_TYPE_TRAINER_TOWER)))
     {
+        u8 badgeCount = CountBadgesForOverworldWhiteOutLossCalculation();
+        u8 partySize;
+        if (badgeCount == 0)
+            partySize = (Random() % 2) + 1;
         ZeroEnemyPartyMons();
-        for (i = 0; i < gTrainers[trainerNum].partySize; i++)
+        for (i = 0; i < partySize; i++)
         {
-            u8 badgeCount = CountBadgesForOverworldWhiteOutLossCalculation();
 
             if (gTrainers[trainerNum].doubleBattle == TRUE)
                 personalityValue = 0x80;
@@ -98,10 +110,28 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
                 u16 species = GetEggSpecies(partyData[i].species);
                 if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_BIRD_KEEPER)
                 {
-                    if (Random() % 100 < 50)
+                    if (Random() % 100 < 15)
                         species = GetEggSpecies(sBirdKeeperMons[0]);
-                    else
+                    else if (Random() % 100 < 30)
                         species = GetEggSpecies(sBirdKeeperMons[1]);
+                    else if (Random() % 100 < 45)
+                        species = GetEggSpecies(sBirdKeeperMons[2]);
+                    else if (Random() % 100 < 55)
+                        species = GetEggSpecies(sBirdKeeperMons[3]);
+                    else if (Random() % 100 < 65)
+                        species = GetEggSpecies(sBirdKeeperMons[4]);
+                    else if (Random() % 100 < 75)
+                        species = GetEggSpecies(sBirdKeeperMons[5]);
+                    else if (Random() % 100 < 85)
+                        species = GetEggSpecies(sBirdKeeperMons[6]);
+                    else if (Random() % 100 < 90)
+                        species = GetEggSpecies(sBirdKeeperMons[7]);
+                    else if (Random() % 100 < 94)
+                        species = GetEggSpecies(sBirdKeeperMons[8]);
+                    else if (Random() % 100 < 97)
+                        species = GetEggSpecies(sBirdKeeperMons[9]);
+                    else
+                        species = GetEggSpecies(sBirdKeeperMons[10]);
                     if (badgeCount == 0) level = (Random() % 4) + 2;
                     else if (badgeCount == 1) level = (Random() % 6) + 8;
                     else if (badgeCount == 2) level = (Random() % 6) + 13;
