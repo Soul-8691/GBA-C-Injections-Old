@@ -26,6 +26,8 @@
         "party_menu.h": "c",
         "menu_indicators.h": "c",
         "sound.h": "c",
-        "data.h": "c"
+        "data.h": "c",
+        "metatile_behaviors.h": "c",
+        "event_object_movement.h": "c"
     }
 }

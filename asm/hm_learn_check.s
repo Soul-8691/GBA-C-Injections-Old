@@ -58,6 +58,86 @@ bx r3
 .thumb
 .align 2
 
+.text
+.align 2
+.thumb
+.thumb_func
+
+HMFlyFromMenu1:
+	push {lr}
+	ldr r0, .VAR @set paramaters for special
+	mov r1, #0x2
+	strb r0, [r1]
+	ldr r1, =(0x80C4EF8 +1)
+	bl CALLER
+	b END
+
+NORMALMAP:
+	ldr r1, =(0x80A1CC0 +1)
+	bl CALLER
+	b END
+
+CALLER:
+	bx r1
+
+END:
+	pop {pc}
+	
+
+.align 2
+.VAR:
+	.word 0x020270B4 + (0x8000 * 2)
+
+.text
+.align 2
+.thumb
+.thumb_func
+
+HMFlyFromMenu2:
+	push {r4-r5}
+	mov r4, r1 @save r1 contents
+	ldr r0, =  0x828
+	ldr r1, = (0x806E6D0 +1) @checkflag
+	bl linkerOne
+	lsl r0, r0, #0x18
+	lsr r0, r0, #0x18
+	@cmp r0, #0x1
+	@bne end_
+	mov r0, #0x1 @load rest of menu manually
+	ldr r1, = (0x806ED94 +1) 
+	bl linkerOne
+	mov r0, #0x2
+	ldr r1, = (0x806ED94 +1)
+	bl linkerOne
+	mov r0, #0x3
+	ldr r1, = (0x806ED94 +1)
+	bl linkerOne
+	mov r0, #0x4
+	ldr r1, = (0x806ED94 +1)
+	bl linkerOne
+	mov r0, #0x5
+	ldr r1, = (0x806ED94 +1)
+	bl linkerOne
+	mov r0, #0x6
+	ldr r1, = (0x806ED94 +1)
+	bl linkerOne
+	pop {r4-r5}
+	pop {r0} @put separately for readability 
+	bx r0
+	
+
+end_:
+	pop {r4-r5}
+	ldr r0, =(0x806EDDA +1) @if no party
+	bx r0
+
+
+linkerOne:
+	bx r1
+	
+
+.align 2
+
 .include "xse_commands.s"
 .include "xse_defines.s"
 
