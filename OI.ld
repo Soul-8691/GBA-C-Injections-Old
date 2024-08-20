@@ -60,3 +60,4 @@ ChooseWildMonLevel = 0x080828f8|1;
 ChooseWildMonIndex_Land = 0x808274C | 1;
 GenerateWildMon = 0x080829fc|1;
 IsWildLevelAllowedByRepel = 0x0808310c|1;
+sLearningMoveTableID = 0x02024028;

@@ -28,6 +28,9 @@
         "sound.h": "c",
         "data.h": "c",
         "metatile_behaviors.h": "c",
-        "event_object_movement.h": "c"
+        "event_object_movement.h": "c",
+        "easy_chat.h": "c",
+        "hold_effects.h": "c",
+        "battle_move_effects.h": "c"
     }
 }

@@ -134,7 +134,7 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
                         species = GetEggSpecies(sBirdKeeperMons[10]);
                 }
                 if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMaps)) {
-                    if (badgeCount == 0) level = (Random() % 4) + 2;
+                    if (badgeCount == 0) level = (Random() % 4) + 10;
                     else if (badgeCount == 1) level = (Random() % 6) + 8;
                     else if (badgeCount == 2) level = (Random() % 6) + 13;
                     else if (badgeCount == 3) level = (Random() % 6) + 18;
