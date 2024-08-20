@@ -13,8 +13,8 @@
 #define MAP_UNION_ROOM          (4 | (0 << 8))
 
 // gMapGroup_Dungeons
-#define MAP_VIRIDIAN_FOREST                      (0 | (1 << 8))
-#define MAP_MT_MOON_1F                           (1 | (1 << 8))
+#define MAP_VALENCIA_PARK                        (0 | (1 << 8))
+#define MAP_POKEMON_PARK                         (1 | (1 << 8))
 #define MAP_MT_MOON_B1F                          (2 | (1 << 8))
 #define MAP_MT_MOON_B2F                          (3 | (1 << 8))
 #define MAP_SSANNE_EXTERIOR                      (4 | (1 << 8))
@@ -256,7 +256,7 @@
 #define MAP_PROTOTYPE_SEVII_ISLE_9               (53 | (3 << 8))
 #define MAP_FIVE_ISLAND_RESORT_GORGEOUS          (54 | (3 << 8))
 #define MAP_FIVE_ISLAND_WATER_LABYRINTH          (55 | (3 << 8))
-#define MAP_FIVE_ISLAND_MEADOW                   (56 | (3 << 8))
+#define MAP_NAVEL_MOUNTAIN                       (56 | (3 << 8))
 #define MAP_FIVE_ISLAND_MEMORIAL_PILLAR          (57 | (3 << 8))
 #define MAP_SIX_ISLAND_OUTCAST_ISLAND            (58 | (3 << 8))
 #define MAP_SIX_ISLAND_GREEN_PATH                (59 | (3 << 8))
@@ -297,7 +297,7 @@
 #define MAP_CERULEAN_CITY_HOUSE3            (2 | (7 << 8))
 #define MAP_CERULEAN_CITY_POKEMON_CENTER_1F (3 | (7 << 8))
 #define MAP_CERULEAN_CITY_POKEMON_CENTER_2F (4 | (7 << 8))
-#define MAP_CERULEAN_CITY_GYM               (5 | (7 << 8))
+#define MAP_MIKAN_GYM                       (5 | (7 << 8))
 #define MAP_CERULEAN_CITY_BIKE_SHOP         (6 | (7 << 8))
 #define MAP_CERULEAN_CITY_MART              (7 | (7 << 8))
 #define MAP_CERULEAN_CITY_HOUSE4            (8 | (7 << 8))
@@ -330,7 +330,7 @@
 #define MAP_CELADON_CITY_DEPARTMENT_STORE_ROOF     (5 | (10 << 8))
 #define MAP_CELADON_CITY_DEPARTMENT_STORE_ELEVATOR (6 | (10 << 8))
 #define MAP_CELADON_CITY_CONDOMINIUMS_1F           (7 | (10 << 8))
-#define MAP_CELADON_CITY_CONDOMINIUMS_2F           (8 | (10 << 8))
+#define MAP_TROVITA_ISLAND_GYM                     (8 | (10 << 8))
 #define MAP_CELADON_CITY_CONDOMINIUMS_3F           (9 | (10 << 8))
 #define MAP_CELADON_CITY_CONDOMINIUMS_ROOF         (10 | (10 << 8))
 #define MAP_CELADON_CITY_CONDOMINIUMS_ROOF_ROOM    (11 | (10 << 8))
@@ -477,7 +477,7 @@
 #define MAP_THREE_ISLAND_HOUSE5            (7 | (34 << 8))
 
 // gMapGroup_IndoorFourIsland
-#define MAP_FOUR_ISLAND_POKEMON_DAY_CARE  (0 | (35 << 8))
+#define MAP_KUMQUAT_ISLAND_GYM            (0 | (35 << 8))
 #define MAP_FOUR_ISLAND_POKEMON_CENTER_1F (1 | (35 << 8))
 #define MAP_FOUR_ISLAND_POKEMON_CENTER_2F (2 | (35 << 8))
 #define MAP_FOUR_ISLAND_HOUSE1            (3 | (35 << 8))

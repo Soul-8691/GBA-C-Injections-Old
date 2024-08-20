@@ -22,3 +22,11 @@ SortPocketAndPlaceHMsFirst_ 0809a5e4 2
 BufferTMHMMoveName_ 080cc8cc 2
 SanitizeItemId_ 0809a8a4 1
 TMSlotsHack 08099E6C 0
+HMFlyFromMenu2 0806EDC8 0
+FldEff_FieldMoveShowMonInit_ 08086084 0
+GetInteractedWaterScript 0806d548 0
+GetMapsecType 080c35dc 1
+CreateNPCTrainerPartyBadgeLevelScaling 080112e0 3
+TryGenerateWildMonLevelScaling 08082aec 2
+MonTryLearningNewMove_ 0803ea88 2
+CreateMon_ 0803da54 0
