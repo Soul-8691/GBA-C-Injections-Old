@@ -79,33 +79,32 @@ bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 are
     else if (badgeCount == 6) level = (Random() % 6) + 27;
     else if (badgeCount == 7) level = (Random() % 6) + 31;
     else if (badgeCount == 8) level = (Random() % 6) + 35;
-    if (IsCurMapInLocationList(sForestMaps))
-    {
-        if (Random() % 100 < 15)
-            species = GetEggSpecies(sForestMons[0]);
-        else if (Random() % 100 < 30)
-            species = GetEggSpecies(sForestMons[1]);
-        else if (Random() % 100 < 45)
-            species = GetEggSpecies(sForestMons[2]);
-        else if (Random() % 100 < 55)
-            species = GetEggSpecies(sForestMons[3]);
-        else if (Random() % 100 < 65)
-            species = GetEggSpecies(sForestMons[4]);
-        else if (Random() % 100 < 75)
-            species = GetEggSpecies(sForestMons[5]);
-        else if (Random() % 100 < 85)
-            species = GetEggSpecies(sForestMons[6]);
-        else if (Random() % 100 < 90)
-            species = GetEggSpecies(sForestMons[7]);
-        else if (Random() % 100 < 94)
-            species = GetEggSpecies(sForestMons[8]);
-        else if (Random() % 100 < 97)
-            species = GetEggSpecies(sForestMons[9]);
-        else
-            species = GetEggSpecies(sForestMons[10]);
-    }
-    else
-        species = GetEggSpecies(info->wildPokemon[slot].species);
+    species = GetEggSpecies(info->wildPokemon[slot].species);
+    // if (IsCurMapInLocationList(sForestMaps))
+    // {
+    //     if (Random() % 100 < 15)
+    //         species = GetEggSpecies(sForestMons[0]);
+    //     else if (Random() % 100 < 30)
+    //         species = GetEggSpecies(sForestMons[1]);
+    //     else if (Random() % 100 < 45)
+    //         species = GetEggSpecies(sForestMons[2]);
+    //     else if (Random() % 100 < 55)
+    //         species = GetEggSpecies(sForestMons[3]);
+    //     else if (Random() % 100 < 65)
+    //         species = GetEggSpecies(sForestMons[4]);
+    //     else if (Random() % 100 < 75)
+    //         species = GetEggSpecies(sForestMons[5]);
+    //     else if (Random() % 100 < 85)
+    //         species = GetEggSpecies(sForestMons[6]);
+    //     else if (Random() % 100 < 90)
+    //         species = GetEggSpecies(sForestMons[7]);
+    //     else if (Random() % 100 < 94)
+    //         species = GetEggSpecies(sForestMons[8]);
+    //     else if (Random() % 100 < 97)
+    //         species = GetEggSpecies(sForestMons[9]);
+    //     else
+    //         species = GetEggSpecies(sForestMons[10]);
+    // }
     if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
     if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
     if (flags == WILD_CHECK_REPEL && !IsWildLevelAllowedByRepel(level))
