@@ -168,12 +168,38 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
             {
                 const struct TrainerMonNoItemCustomMoves *partyData = gTrainers[trainerNum].party.NoItemCustomMoves;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                u8 level = partyData[i].lvl;
+                u16 species = GetEggSpecies(partyData[i].species);
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 10;
+                    else if (badgeCount == 1) level = (Random() % 6) + 20;
+                    else if (badgeCount == 2) level = (Random() % 6) + 30;
+                    else if (badgeCount == 3) level = (Random() % 6) + 35;
+                    else if (badgeCount == 4) level = (Random() % 6) + 40;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 13;
+                    else if (badgeCount == 1) level = (Random() % 6) + 23;
+                    else if (badgeCount == 2) level = (Random() % 6) + 33;
+                    else if (badgeCount == 3) level = (Random() % 6) + 38;
+                    else if (badgeCount == 4) level = (Random() % 6) + 43;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LEADER) {
+                    if (badgeCount == 0) level = (Random() % 4) + 15;
+                    else if (badgeCount == 1) level = (Random() % 6) + 25;
+                    else if (badgeCount == 2) level = (Random() % 6) + 35;
+                    else if (badgeCount == 3) level = (Random() % 6) + 40;
+                    else if (badgeCount == 4) level = (Random() % 6) + 45;
+                }
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
+
+                for (j = 0; gSpeciesNames[species][j] != EOS; j++)
+                    nameHash += gSpeciesNames[species][j];
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
-                CreateMon_(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
+                CreateMon_(&party[i], species, level, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
 
                 for (j = 0; j < MAX_MON_MOVES; j++)
                 {
@@ -185,13 +211,38 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
             case F_TRAINER_PARTY_HELD_ITEM:
             {
                 const struct TrainerMonItemDefaultMoves *partyData = gTrainers[trainerNum].party.ItemDefaultMoves;
+                u8 level = partyData[i].lvl;
+                u16 species = GetEggSpecies(partyData[i].species);
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 10;
+                    else if (badgeCount == 1) level = (Random() % 6) + 20;
+                    else if (badgeCount == 2) level = (Random() % 6) + 30;
+                    else if (badgeCount == 3) level = (Random() % 6) + 35;
+                    else if (badgeCount == 4) level = (Random() % 6) + 40;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 13;
+                    else if (badgeCount == 1) level = (Random() % 6) + 23;
+                    else if (badgeCount == 2) level = (Random() % 6) + 33;
+                    else if (badgeCount == 3) level = (Random() % 6) + 38;
+                    else if (badgeCount == 4) level = (Random() % 6) + 43;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LEADER) {
+                    if (badgeCount == 0) level = (Random() % 4) + 15;
+                    else if (badgeCount == 1) level = (Random() % 6) + 25;
+                    else if (badgeCount == 2) level = (Random() % 6) + 35;
+                    else if (badgeCount == 3) level = (Random() % 6) + 40;
+                    else if (badgeCount == 4) level = (Random() % 6) + 45;
+                }
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                for (j = 0; gSpeciesNames[species][j] != EOS; j++)
+                    nameHash += gSpeciesNames[species][j];
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
-                CreateMon_(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
+                CreateMon_(&party[i], species, level, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
 
                 SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
                 break;
@@ -199,13 +250,38 @@ u8 CreateNPCTrainerPartyBadgeLevelScaling(struct Pokemon *party, u16 trainerNum)
             case F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM:
             {
                 const struct TrainerMonItemCustomMoves *partyData = gTrainers[trainerNum].party.ItemCustomMoves;
+                u8 level = partyData[i].lvl;
+                u16 species = GetEggSpecies(partyData[i].species);
+                if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && !IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 10;
+                    else if (badgeCount == 1) level = (Random() % 6) + 20;
+                    else if (badgeCount == 2) level = (Random() % 6) + 30;
+                    else if (badgeCount == 3) level = (Random() % 6) + 35;
+                    else if (badgeCount == 4) level = (Random() % 6) + 40;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass != TRAINER_CLASS_LEADER && IsCurMapInLocationList(sGymMaps)) {
+                    if (badgeCount == 0) level = (Random() % 4) + 13;
+                    else if (badgeCount == 1) level = (Random() % 6) + 23;
+                    else if (badgeCount == 2) level = (Random() % 6) + 33;
+                    else if (badgeCount == 3) level = (Random() % 6) + 38;
+                    else if (badgeCount == 4) level = (Random() % 6) + 43;
+                }
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LEADER) {
+                    if (badgeCount == 0) level = (Random() % 4) + 15;
+                    else if (badgeCount == 1) level = (Random() % 6) + 25;
+                    else if (badgeCount == 2) level = (Random() % 6) + 35;
+                    else if (badgeCount == 3) level = (Random() % 6) + 40;
+                    else if (badgeCount == 4) level = (Random() % 6) + 45;
+                }
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
+                if (gEvolutionTable[species][0].method == EVO_LEVEL && gEvolutionTable[species][0].param <= level) species = gEvolutionTable[species][0].targetSpecies;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                for (j = 0; gSpeciesNames[species][j] != EOS; j++)
+                    nameHash += gSpeciesNames[species][j];
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
-                CreateMon_(&party[i], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
+                CreateMon_(&party[i], species, level, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0);
                 SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
 
                 for (j = 0; j < MAX_MON_MOVES; j++)
