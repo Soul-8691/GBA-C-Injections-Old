@@ -240,7 +240,7 @@ void CreateMon_(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFi
 {
     u32 arg;
     ZeroMonData(mon);
-    CreateBoxMon_(&mon->box, species, level, fixedIV, hasFixedPersonality, fixedPersonality, otIdType, fixedOtId);
+    CreateBoxMon_(&mon->box, species, level, USE_RANDOM_IVS, hasFixedPersonality, fixedPersonality, otIdType, fixedOtId);
     SetMonData(mon, MON_DATA_LEVEL, &level);
     arg = MAIL_NONE;
     SetMonData(mon, MON_DATA_MAIL, &arg);
