@@ -70,15 +70,11 @@ bool8 TryGenerateWildMonLevelScaling(const struct WildPokemonInfo * info, u8 are
         break;
     }
     level = ChooseWildMonLevel(&info->wildPokemon[slot]);
-    if (badgeCount == 0) level = (Random() % 3) + 10;
-    else if (badgeCount == 1) level = (Random() % 6) + 7;
-    else if (badgeCount == 2) level = (Random() % 6) + 11;
-    else if (badgeCount == 3) level = (Random() % 6) + 15;
-    else if (badgeCount == 4) level = (Random() % 6) + 19;
-    else if (badgeCount == 5) level = (Random() % 6) + 23;
-    else if (badgeCount == 6) level = (Random() % 6) + 27;
-    else if (badgeCount == 7) level = (Random() % 6) + 31;
-    else if (badgeCount == 8) level = (Random() % 6) + 35;
+    if (badgeCount == 0) level = (Random() % 4) + 9;
+    else if (badgeCount == 1) level = (Random() % 6) + 15;
+    else if (badgeCount == 2) level = (Random() % 6) + 23;
+    else if (badgeCount == 3) level = (Random() % 6) + 29;
+    else if (badgeCount == 4) level = (Random() % 6) + 33;
     species = GetEggSpecies(info->wildPokemon[slot].species);
     // if (IsCurMapInLocationList(sForestMaps))
     // {

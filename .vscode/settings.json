@@ -26,6 +26,7 @@
         "party_menu.h": "c",
         "menu_indicators.h": "c",
         "sound.h": "c",
-        "data.h": "c"
+        "data.h": "c",
+        "maps.h": "c"
     }
 }
