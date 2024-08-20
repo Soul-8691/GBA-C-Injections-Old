@@ -26,7 +26,7 @@ HMFlyFromMenu2 0806EDC8 0
 FldEff_FieldMoveShowMonInit_ 08086084 0
 GetInteractedWaterScript 0806d548 0
 GetMapsecType 080c35dc 1
-CreateNPCTrainerPartyBadgeLevelScaling 080112e0 3
+CreateNPCTrainerPartyBadgeLevelScaling 080112e0 2
 TryGenerateWildMonLevelScaling 08082aec 2
 MonTryLearningNewMove_ 0803ea88 2
 CreateMon_ 0803da54 3
