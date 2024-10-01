@@ -1681,3 +1681,8 @@ struct CardStats {
     u32 level:4;
     u32 attribute:3;
 };
+
+struct CardName
+{
+    u8 cardName[64];
+};

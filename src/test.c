@@ -9041,3 +9041,3291 @@ const struct CardStats gCardStats [] =
 		.attribute = ATTRIBUTE_EARTH,
 	}
 };
+
+const struct CardName gCardNames [] =
+{
+	[CARD_NUMBER_NONE]
+	{
+		.cardName = ""
+	},
+	[CARD_NUMBER_7_COLORED_FISH]
+	{
+		.cardName = "7 Colored Fish"
+	},
+	[CARD_NUMBER_7_COMPLETED]
+	{
+		.cardName = "7 Completed"
+	},
+	[CARD_NUMBER_ACID_CRAWLER]
+	{
+		.cardName = "Acid Crawler"
+	},
+	[CARD_NUMBER_ACID_TRAP_HOLE]
+	{
+		.cardName = "Acid Trap Hole"
+	},
+	[CARD_NUMBER_AIR_EATER]
+	{
+		.cardName = "Air Eater"
+	},
+	[CARD_NUMBER_AIR_MARMOT_OF_NEFARIOUSNESS]
+	{
+		.cardName = "Air Marmot of Nefariousness"
+	},
+	[CARD_NUMBER_AKAKIEISU]
+	{
+		.cardName = "Akakieisu"
+	},
+	[CARD_NUMBER_AKIHIRON]
+	{
+		.cardName = "Akihiron"
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD]
+	{
+		.cardName = "Alligator's Sword"
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD_DRAGON]
+	{
+		.cardName = "Alligator's Sword Dragon"
+	},
+	[CARD_NUMBER_ALPHA_THE_MAGNET_WARRIOR]
+	{
+		.cardName = "Alpha The Magnet Warrior"
+	},
+	[CARD_NUMBER_AMAZON_OF_THE_SEAS]
+	{
+		.cardName = "Amazon of the Seas"
+	},
+	[CARD_NUMBER_AMEBA]
+	{
+		.cardName = "Ameba"
+	},
+	[CARD_NUMBER_AMPHIBIOUS_BUGROTH]
+	{
+		.cardName = "Amphibious Bugroth"
+	},
+	[CARD_NUMBER_ANCIENT_BRAIN]
+	{
+		.cardName = "Ancient Brain"
+	},
+	[CARD_NUMBER_ANCIENT_ELF]
+	{
+		.cardName = "Ancient Elf"
+	},
+	[CARD_NUMBER_ANCIENT_JAR]
+	{
+		.cardName = "Ancient Jar"
+	},
+	[CARD_NUMBER_ANCIENT_LIZARD_WARRIOR]
+	{
+		.cardName = "Ancient Lizard Warrior"
+	},
+	[CARD_NUMBER_ANCIENT_ONE_OF_THE_DEEP_FOREST]
+	{
+		.cardName = "Ancient One of the Deep Forest"
+	},
+	[CARD_NUMBER_ANCIENT_TELESCOPE]
+	{
+		.cardName = "Ancient Telescope"
+	},
+	[CARD_NUMBER_ANCIENT_TOOL]
+	{
+		.cardName = "Ancient Tool"
+	},
+	[CARD_NUMBER_ANSATSU]
+	{
+		.cardName = "Ansatsu"
+	},
+	[CARD_NUMBER_ANTHROSAURUS]
+	{
+		.cardName = "Anthrosaurus"
+	},
+	[CARD_NUMBER_ANTI_RAIGEKI]
+	{
+		.cardName = "Anti Raigeki"
+	},
+	[CARD_NUMBER_ANTI_MAGIC_FRAGRANCE]
+	{
+		.cardName = "Anti-Magic Fragrance"
+	},
+	[CARD_NUMBER_APPROPRIATE]
+	{
+		.cardName = "Appropriate"
+	},
+	[CARD_NUMBER_AQUA_CHORUS]
+	{
+		.cardName = "Aqua Chorus"
+	},
+	[CARD_NUMBER_AQUA_DRAGON]
+	{
+		.cardName = "Aqua Dragon"
+	},
+	[CARD_NUMBER_AQUA_MADOOR]
+	{
+		.cardName = "Aqua Madoor"
+	},
+	[CARD_NUMBER_ARLOWNAY]
+	{
+		.cardName = "Arlownay"
+	},
+	[CARD_NUMBER_ARMA_KNIGHT]
+	{
+		.cardName = "Arma Knight"
+	},
+	[CARD_NUMBER_ARMAILL]
+	{
+		.cardName = "Armaill"
+	},
+	[CARD_NUMBER_ARMED_NINJA]
+	{
+		.cardName = "Armed Ninja"
+	},
+	[CARD_NUMBER_ARMORED_GLASS]
+	{
+		.cardName = "Armored Glass"
+	},
+	[CARD_NUMBER_ARMORED_LIZARD]
+	{
+		.cardName = "Armored Lizard"
+	},
+	[CARD_NUMBER_ARMORED_RAT]
+	{
+		.cardName = "Armored Rat"
+	},
+	[CARD_NUMBER_ARMORED_STARFISH]
+	{
+		.cardName = "Armored Starfish"
+	},
+	[CARD_NUMBER_ARMORED_ZOMBIE]
+	{
+		.cardName = "Armored Zombie"
+	},
+	[CARD_NUMBER_AXE_OF_DESPAIR]
+	{
+		.cardName = "Axe of Despair"
+	},
+	[CARD_NUMBER_AXE_RAIDER]
+	{
+		.cardName = "Axe Raider"
+	},
+	[CARD_NUMBER_B_DRAGON_JUNGLE_KING]
+	{
+		.cardName = "B. Dragon Jungle King"
+	},
+	[CARD_NUMBER_B_SKULL_DRAGON]
+	{
+		.cardName = "B. Skull Dragon"
+	},
+	[CARD_NUMBER_BABY_DRAGON]
+	{
+		.cardName = "Baby Dragon"
+	},
+	[CARD_NUMBER_BACKUP_SOLDIER]
+	{
+		.cardName = "Backup Soldier"
+	},
+	[CARD_NUMBER_BANISHER_OF_THE_LIGHT]
+	{
+		.cardName = "Banisher of the Light"
+	},
+	[CARD_NUMBER_BAROX]
+	{
+		.cardName = "Barox"
+	},
+	[CARD_NUMBER_BARREL_DRAGON]
+	{
+		.cardName = "Barrel Dragon"
+	},
+	[CARD_NUMBER_BARREL_LILY]
+	{
+		.cardName = "Barrel Lily"
+	},
+	[CARD_NUMBER_BARREL_ROCK]
+	{
+		.cardName = "Barrel Rock"
+	},
+	[CARD_NUMBER_BASIC_INSECT]
+	{
+		.cardName = "Basic Insect"
+	},
+	[CARD_NUMBER_BATTLE_OX]
+	{
+		.cardName = "Battle Ox"
+	},
+	[CARD_NUMBER_BATTLE_STEER]
+	{
+		.cardName = "Battle Steer"
+	},
+	[CARD_NUMBER_BATTLE_WARRIOR]
+	{
+		.cardName = "Battle Warrior"
+	},
+	[CARD_NUMBER_BEAN_SOLDIER]
+	{
+		.cardName = "Bean Soldier"
+	},
+	[CARD_NUMBER_BEAST_FANGS]
+	{
+		.cardName = "Beast Fangs"
+	},
+	[CARD_NUMBER_BEASTKING_OF_THE_SWAMPS]
+	{
+		.cardName = "Beastking of the Swamps"
+	},
+	[CARD_NUMBER_BEASTLY_MIRROR_RITUAL]
+	{
+		.cardName = "Beastly Mirror Ritual"
+	},
+	[CARD_NUMBER_BEAUTIFUL_HEADHUNTRESS]
+	{
+		.cardName = "Beautiful Headhuntress"
+	},
+	[CARD_NUMBER_BEAVER_WARRIOR]
+	{
+		.cardName = "Beaver Warrior"
+	},
+	[CARD_NUMBER_BEHEGON]
+	{
+		.cardName = "Behegon"
+	},
+	[CARD_NUMBER_BELL_OF_DESTRUCTION]
+	{
+		.cardName = "Bell of Destruction"
+	},
+	[CARD_NUMBER_BETA_THE_MAGNET_WARRIOR]
+	{
+		.cardName = "Beta The Magnet Warrior"
+	},
+	[CARD_NUMBER_BICKURIBOX]
+	{
+		.cardName = "Bickuribox"
+	},
+	[CARD_NUMBER_BIG_EYE]
+	{
+		.cardName = "Big Eye"
+	},
+	[CARD_NUMBER_BIG_INSECT]
+	{
+		.cardName = "Big Insect"
+	},
+	[CARD_NUMBER_BIG_SHIELD_GARDNA]
+	{
+		.cardName = "Big Shield Gardna"
+	},
+	[CARD_NUMBER_BINDING_CHAIN]
+	{
+		.cardName = "Binding Chain"
+	},
+	[CARD_NUMBER_BIO_PLANT]
+	{
+		.cardName = "Bio Plant"
+	},
+	[CARD_NUMBER_BLACK_ILLUSION_RITUAL]
+	{
+		.cardName = "Black Illusion Ritual"
+	},
+	[CARD_NUMBER_BLACK_LUSTER_RITUAL]
+	{
+		.cardName = "Black Luster Ritual"
+	},
+	[CARD_NUMBER_BLACK_LUSTER_SOLDIER]
+	{
+		.cardName = "Black Luster Soldier"
+	},
+	[CARD_NUMBER_BLACK_PENDANT]
+	{
+		.cardName = "Black Pendant"
+	},
+	[CARD_NUMBER_BLACKLAND_FIRE_DRAGON]
+	{
+		.cardName = "Blackland Fire Dragon"
+	},
+	[CARD_NUMBER_BLADEFLY]
+	{
+		.cardName = "Bladefly"
+	},
+	[CARD_NUMBER_BLAST_JUGGLER]
+	{
+		.cardName = "Blast Juggler"
+	},
+	[CARD_NUMBER_BLAST_SPHERE]
+	{
+		.cardName = "Blast Sphere"
+	},
+	[CARD_NUMBER_BLOCK_ATTACK]
+	{
+		.cardName = "Block Attack"
+	},
+	[CARD_NUMBER_BLUE_MEDICINE]
+	{
+		.cardName = "Blue Medicine"
+	},
+	[CARD_NUMBER_BLUE_EYED_SILVER_ZOMBIE]
+	{
+		.cardName = "Blue-Eyed Silver Zombie"
+	},
+	[CARD_NUMBER_BLUE_EYES_TOON_DRAGON]
+	{
+		.cardName = "Blue-Eyes Toon Dragon"
+	},
+	[CARD_NUMBER_BLUE_EYES_ULTIMATE_DRAGON]
+	{
+		.cardName = "Blue-Eyes Ultimate Dragon"
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON]
+	{
+		.cardName = "Blue-Eyes White Dragon"
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON_2]
+	{
+		.cardName = "Blue-Eyes White Dragon"
+	},
+	[CARD_NUMBER_BLUE_WINGED_CROWN]
+	{
+		.cardName = "Blue-Winged Crown"
+	},
+	[CARD_NUMBER_BOAR_SOLDIER]
+	{
+		.cardName = "Boar Soldier"
+	},
+	[CARD_NUMBER_BOLT_ESCARGOT]
+	{
+		.cardName = "Bolt Escargot"
+	},
+	[CARD_NUMBER_BOOK_OF_SECRET_ARTS]
+	{
+		.cardName = "Book of Secret Arts"
+	},
+	[CARD_NUMBER_BOTTOM_DWELLER]
+	{
+		.cardName = "Bottom Dweller"
+	},
+	[CARD_NUMBER_BRACCHIO_RAIDUS]
+	{
+		.cardName = "Bracchio-raidus"
+	},
+	[CARD_NUMBER_BREATH_OF_LIGHT]
+	{
+		.cardName = "Breath of Light"
+	},
+	[CARD_NUMBER_BRIGHT_CASTLE]
+	{
+		.cardName = "Bright Castle"
+	},
+	[CARD_NUMBER_BURGLAR]
+	{
+		.cardName = "Burglar"
+	},
+	[CARD_NUMBER_BURNING_SPEAR]
+	{
+		.cardName = "Burning Spear"
+	},
+	[CARD_NUMBER_BUSTER_BLADER]
+	{
+		.cardName = "Buster Blader"
+	},
+	[CARD_NUMBER_CALL_OF_THE_DARK]
+	{
+		.cardName = "Call of the Dark"
+	},
+	[CARD_NUMBER_CALL_OF_THE_GRAVE]
+	{
+		.cardName = "Call of the Grave"
+	},
+	[CARD_NUMBER_CALL_OF_THE_HAUNTED]
+	{
+		.cardName = "Call Of The Haunted"
+	},
+	[CARD_NUMBER_CANDLE_OF_FATE]
+	{
+		.cardName = "Candle of Fate"
+	},
+	[CARD_NUMBER_CANNON_SOLDIER]
+	{
+		.cardName = "Cannon Soldier"
+	},
+	[CARD_NUMBER_CASTLE_OF_DARK_ILLUSIONS]
+	{
+		.cardName = "Castle of Dark Illusions"
+	},
+	[CARD_NUMBER_CASTLE_WALLS]
+	{
+		.cardName = "Castle Walls"
+	},
+	[CARD_NUMBER_CATAPULT_TURTLE]
+	{
+		.cardName = "Catapult Turtle"
+	},
+	[CARD_NUMBER_CEASEFIRE]
+	{
+		.cardName = "Ceasefire"
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN]
+	{
+		.cardName = "Celtic Guardian"
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN_2]
+	{
+		.cardName = "Celtic Guardian"
+	},
+	[CARD_NUMBER_CEREMONIAL_BELL]
+	{
+		.cardName = "Ceremonial Bell"
+	},
+	[CARD_NUMBER_CHAIN_DESTRUCTION]
+	{
+		.cardName = "Chain Destruction"
+	},
+	[CARD_NUMBER_CHAIN_ENERGY]
+	{
+		.cardName = "Chain Energy"
+	},
+	[CARD_NUMBER_CHAKRA]
+	{
+		.cardName = "Chakra"
+	},
+	[CARD_NUMBER_CHANGE_OF_HEART]
+	{
+		.cardName = "Change of Heart"
+	},
+	[CARD_NUMBER_CHARUBIN_THE_FIRE_KNIGHT]
+	{
+		.cardName = "Charubin the Fire Knight"
+	},
+	[CARD_NUMBER_CHORUS_OF_SANCTUARY]
+	{
+		.cardName = "Chorus of Sanctuary"
+	},
+	[CARD_NUMBER_CLAW_REACHER]
+	{
+		.cardName = "Claw Reacher"
+	},
+	[CARD_NUMBER_CLOWN_ZOMBIE]
+	{
+		.cardName = "Clown Zombie"
+	},
+	[CARD_NUMBER_COCKROACH_KNIGHT]
+	{
+		.cardName = "Cockroach Knight"
+	},
+	[CARD_NUMBER_COCOON_OF_EVOLUTION]
+	{
+		.cardName = "Cocoon of Evolution"
+	},
+	[CARD_NUMBER_COMMENCEMENT_DANCE]
+	{
+		.cardName = "Commencement Dance"
+	},
+	[CARD_NUMBER_CONFISCATION]
+	{
+		.cardName = "Confiscation"
+	},
+	[CARD_NUMBER_COSMO_QUEEN]
+	{
+		.cardName = "Cosmo Queen"
+	},
+	[CARD_NUMBER_CRAB_TURTLE]
+	{
+		.cardName = "Crab Turtle"
+	},
+	[CARD_NUMBER_CRASS_CLOWN]
+	{
+		.cardName = "Crass Clown"
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON]
+	{
+		.cardName = "Crawling Dragon"
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON_2]
+	{
+		.cardName = "Crawling Dragon #2"
+	},
+	[CARD_NUMBER_CRAZY_FISH]
+	{
+		.cardName = "Crazy Fish"
+	},
+	[CARD_NUMBER_CRIMSON_SUNBIRD]
+	{
+		.cardName = "Crimson Sunbird"
+	},
+	[CARD_NUMBER_CROW_GOBLIN]
+	{
+		.cardName = "Crow Goblin"
+	},
+	[CARD_NUMBER_CRUSH_CARD]
+	{
+		.cardName = "Crush Card"
+	},
+	[CARD_NUMBER_CURSE_OF_DRAGON]
+	{
+		.cardName = "Curse of Dragon"
+	},
+	[CARD_NUMBER_CURSE_OF_FIEND]
+	{
+		.cardName = "Curse of Fiend"
+	},
+	[CARD_NUMBER_CURTAIN_OF_THE_DARK_ONES]
+	{
+		.cardName = "Curtain of the Dark Ones"
+	},
+	[CARD_NUMBER_CYBER_COMMANDER]
+	{
+		.cardName = "Cyber Commander"
+	},
+	[CARD_NUMBER_CYBER_FALCON]
+	{
+		.cardName = "Cyber Falcon"
+	},
+	[CARD_NUMBER_CYBER_JAR]
+	{
+		.cardName = "Cyber Jar"
+	},
+	[CARD_NUMBER_CYBER_SAURUS]
+	{
+		.cardName = "Cyber Saurus"
+	},
+	[CARD_NUMBER_CYBER_SHIELD]
+	{
+		.cardName = "Cyber Shield"
+	},
+	[CARD_NUMBER_CYBER_SOLDIER]
+	{
+		.cardName = "Cyber Soldier"
+	},
+	[CARD_NUMBER_CYBER_STEIN]
+	{
+		.cardName = "Cyber-Stein"
+	},
+	[CARD_NUMBER_CYBER_TECH_ALLIGATOR]
+	{
+		.cardName = "Cyber-Tech Alligator"
+	},
+	[CARD_NUMBER_D_HUMAN]
+	{
+		.cardName = "D. Human"
+	},
+	[CARD_NUMBER_DANCING_ELF]
+	{
+		.cardName = "Dancing Elf"
+	},
+	[CARD_NUMBER_DARK_ARTIST]
+	{
+		.cardName = "Dark Artist"
+	},
+	[CARD_NUMBER_DARK_ASSAILANT]
+	{
+		.cardName = "Dark Assailant"
+	},
+	[CARD_NUMBER_DARK_CHIMERA]
+	{
+		.cardName = "Dark Chimera"
+	},
+	[CARD_NUMBER_DARK_ELF]
+	{
+		.cardName = "Dark Elf"
+	},
+	[CARD_NUMBER_DARK_ENERGY]
+	{
+		.cardName = "Dark Energy"
+	},
+	[CARD_NUMBER_DARK_GRAY]
+	{
+		.cardName = "Dark Gray"
+	},
+	[CARD_NUMBER_DARK_HOLE]
+	{
+		.cardName = "Dark Hole"
+	},
+	[CARD_NUMBER_DARK_KING_OF_THE_ABYSS]
+	{
+		.cardName = "Dark King of the Abyss"
+	},
+	[CARD_NUMBER_DARK_MAGIC_RITUAL]
+	{
+		.cardName = "Dark Magic Ritual"
+	},
+	[CARD_NUMBER_DARK_MAGICIAN]
+	{
+		.cardName = "Dark Magician"
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_2]
+	{
+		.cardName = "Dark Magician"
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_GIRL]
+	{
+		.cardName = "Dark Magician Girl"
+	},
+	[CARD_NUMBER_DARK_RABBIT]
+	{
+		.cardName = "Dark Rabbit"
+	},
+	[CARD_NUMBER_DARK_SAGE]
+	{
+		.cardName = "Dark Sage"
+	},
+	[CARD_NUMBER_DARK_SHADE]
+	{
+		.cardName = "Dark Shade"
+	},
+	[CARD_NUMBER_DARK_WITCH]
+	{
+		.cardName = "Dark Witch"
+	},
+	[CARD_NUMBER_DARK_ZEBRA]
+	{
+		.cardName = "Dark Zebra"
+	},
+	[CARD_NUMBER_DARK_EYES_ILLUSIONIST]
+	{
+		.cardName = "Dark-Eyes Illusionist"
+	},
+	[CARD_NUMBER_DARKFIRE_DRAGON]
+	{
+		.cardName = "Darkfire Dragon"
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_1]
+	{
+		.cardName = "Darkfire Soldier #1"
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_2]
+	{
+		.cardName = "Darkfire Soldier #2"
+	},
+	[CARD_NUMBER_DARKNESS_APPROACHES]
+	{
+		.cardName = "Darkness Approaches"
+	},
+	[CARD_NUMBER_DARK_PIERCING_LIGHT]
+	{
+		.cardName = "Dark-Piercing Light"
+	},
+	[CARD_NUMBER_DARKWORLD_THORNS]
+	{
+		.cardName = "Darkworld Thorns"
+	},
+	[CARD_NUMBER_DEEPSEA_SHARK]
+	{
+		.cardName = "Deepsea Shark"
+	},
+	[CARD_NUMBER_DELINQUENT_DUO]
+	{
+		.cardName = "Delinquent Duo"
+	},
+	[CARD_NUMBER_DE_SPELL]
+	{
+		.cardName = "De-Spell"
+	},
+	[CARD_NUMBER_DESTROYER_GOLEM]
+	{
+		.cardName = "Destroyer Golem"
+	},
+	[CARD_NUMBER_DIAN_KETO_THE_CURE_MASTER]
+	{
+		.cardName = "Dian Keto the Cure Master"
+	},
+	[CARD_NUMBER_DICE_ARMADILLO]
+	{
+		.cardName = "Dice Armadillo"
+	},
+	[CARD_NUMBER_DIMENSIONAL_WARRIOR]
+	{
+		.cardName = "Dimensional Warrior"
+	},
+	[CARD_NUMBER_DISK_MAGICIAN]
+	{
+		.cardName = "Disk Magician"
+	},
+	[CARD_NUMBER_DISSOLVEROCK]
+	{
+		.cardName = "Dissolverock"
+	},
+	[CARD_NUMBER_DNA_SURGERY]
+	{
+		.cardName = "DNA Surgery"
+	},
+	[CARD_NUMBER_DOKUROIZO_THE_GRIM_REAPER]
+	{
+		.cardName = "Dokuroizo the Grim Reaper"
+	},
+	[CARD_NUMBER_DOKURORIDER]
+	{
+		.cardName = "Dokurorider"
+	},
+	[CARD_NUMBER_DOMA_THE_ANGEL_OF_SILENCE]
+	{
+		.cardName = "Doma The Angel of Silence"
+	},
+	[CARD_NUMBER_DORON]
+	{
+		.cardName = "Doron"
+	},
+	[CARD_NUMBER_DOROVER]
+	{
+		.cardName = "Dorover"
+	},
+	[CARD_NUMBER_DRAGON_CAPTURE_JAR]
+	{
+		.cardName = "Dragon Capture Jar"
+	},
+	[CARD_NUMBER_DRAGON_PIPER]
+	{
+		.cardName = "Dragon Piper"
+	},
+	[CARD_NUMBER_DRAGON_SEEKER]
+	{
+		.cardName = "Dragon Seeker"
+	},
+	[CARD_NUMBER_DRAGON_TREASURE]
+	{
+		.cardName = "Dragon Treasure"
+	},
+	[CARD_NUMBER_DRAGON_ZOMBIE]
+	{
+		.cardName = "Dragon Zombie"
+	},
+	[CARD_NUMBER_DRAGONESS_THE_WICKED_KNIGHT]
+	{
+		.cardName = "Dragoness the Wicked Knight"
+	},
+	[CARD_NUMBER_DREAM_CLOWN]
+	{
+		.cardName = "Dream Clown"
+	},
+	[CARD_NUMBER_DRIVING_SNOW]
+	{
+		.cardName = "Driving Snow"
+	},
+	[CARD_NUMBER_DROOLING_LIZARD]
+	{
+		.cardName = "Drooling Lizard"
+	},
+	[CARD_NUMBER_DRYAD]
+	{
+		.cardName = "Dryad"
+	},
+	[CARD_NUMBER_DUNAMES_DARK_WITCH]
+	{
+		.cardName = "Dunames Dark Witch"
+	},
+	[CARD_NUMBER_DUNGEON_WORM]
+	{
+		.cardName = "Dungeon Worm"
+	},
+	[CARD_NUMBER_DUST_TORNADO]
+	{
+		.cardName = "Dust Tornado"
+	},
+	[CARD_NUMBER_EARTHSHAKER]
+	{
+		.cardName = "Earthshaker"
+	},
+	[CARD_NUMBER_EATGABOON]
+	{
+		.cardName = "Eatgaboon"
+	},
+	[CARD_NUMBER_ELDEEN]
+	{
+		.cardName = "Eldeen"
+	},
+	[CARD_NUMBER_ELECTRIC_LIZARD]
+	{
+		.cardName = "Electric Lizard"
+	},
+	[CARD_NUMBER_ELECTRIC_SNAKE]
+	{
+		.cardName = "Electric Snake"
+	},
+	[CARD_NUMBER_ELECTRO_WHIP]
+	{
+		.cardName = "Electro-Whip"
+	},
+	[CARD_NUMBER_ELEGANT_EGOTIST]
+	{
+		.cardName = "Elegant Egotist"
+	},
+	[CARD_NUMBER_ELF_S_LIGHT]
+	{
+		.cardName = "Elf's Light"
+	},
+	[CARD_NUMBER_EMPRESS_JUDGE]
+	{
+		.cardName = "Empress Judge"
+	},
+	[CARD_NUMBER_ENCHANTED_JAVELIN]
+	{
+		.cardName = "Enchanted Javelin"
+	},
+	[CARD_NUMBER_ENCHANTING_MERMAID]
+	{
+		.cardName = "Enchanting Mermaid"
+	},
+	[CARD_NUMBER_ERADICATING_AEROSOL]
+	{
+		.cardName = "Eradicating Aerosol"
+	},
+	[CARD_NUMBER_ETERNAL_DRAUGHT]
+	{
+		.cardName = "Eternal Draught"
+	},
+	[CARD_NUMBER_ETERNAL_REST]
+	{
+		.cardName = "Eternal Rest"
+	},
+	[CARD_NUMBER_EXCHANGE]
+	{
+		.cardName = "Exchange"
+	},
+	[CARD_NUMBER_EXILE_OF_THE_WICKED]
+	{
+		.cardName = "Exile of the Wicked"
+	},
+	[CARD_NUMBER_EXODIA_THE_FORBIDDEN_ONE]
+	{
+		.cardName = "Exodia the Forbidden One"
+	},
+	[CARD_NUMBER_EYEARMOR]
+	{
+		.cardName = "Eyearmor"
+	},
+	[CARD_NUMBER_FAIRY_DRAGON]
+	{
+		.cardName = "Fairy Dragon"
+	},
+	[CARD_NUMBER_FAIRY_S_HAND_MIRROR]
+	{
+		.cardName = "Fairy's Hand Mirror"
+	},
+	[CARD_NUMBER_FAIRYWITCH]
+	{
+		.cardName = "Fairywitch"
+	},
+	[CARD_NUMBER_FAITH_BIRD]
+	{
+		.cardName = "Faith Bird"
+	},
+	[CARD_NUMBER_FAKE_TRAP]
+	{
+		.cardName = "Fake Trap"
+	},
+	[CARD_NUMBER_FERAL_IMP]
+	{
+		.cardName = "Feral Imp"
+	},
+	[CARD_NUMBER_FIEND_KRAKEN]
+	{
+		.cardName = "Fiend Kraken"
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_1]
+	{
+		.cardName = "Fiend Reflection #1"
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_2]
+	{
+		.cardName = "Fiend Reflection #2"
+	},
+	[CARD_NUMBER_FIEND_SWORD]
+	{
+		.cardName = "Fiend Sword"
+	},
+	[CARD_NUMBER_FIEND_S_HAND]
+	{
+		.cardName = "Fiend's Hand"
+	},
+	[CARD_NUMBER_FIEND_S_MIRROR]
+	{
+		.cardName = "Fiend's Mirror"
+	},
+	[CARD_NUMBER_FINAL_DESTINY]
+	{
+		.cardName = "Final Destiny"
+	},
+	[CARD_NUMBER_FINAL_FLAME]
+	{
+		.cardName = "Final Flame"
+	},
+	[CARD_NUMBER_FIRE_KRAKEN]
+	{
+		.cardName = "Fire Kraken"
+	},
+	[CARD_NUMBER_FIRE_REAPER]
+	{
+		.cardName = "Fire Reaper"
+	},
+	[CARD_NUMBER_FIREGRASS]
+	{
+		.cardName = "Firegrass"
+	},
+	[CARD_NUMBER_FIREWING_PEGASUS]
+	{
+		.cardName = "Firewing Pegasus"
+	},
+	[CARD_NUMBER_FIREYAROU]
+	{
+		.cardName = "Fireyarou"
+	},
+	[CARD_NUMBER_FISSURE]
+	{
+		.cardName = "Fissure"
+	},
+	[CARD_NUMBER_FLAME_CEREBRUS]
+	{
+		.cardName = "Flame Cerebrus"
+	},
+	[CARD_NUMBER_FLAME_CHAMPION]
+	{
+		.cardName = "Flame Champion"
+	},
+	[CARD_NUMBER_FLAME_GHOST]
+	{
+		.cardName = "Flame Ghost"
+	},
+	[CARD_NUMBER_FLAME_MANIPULATOR]
+	{
+		.cardName = "Flame Manipulator"
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN]
+	{
+		.cardName = "Flame Swordsman"
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN_2]
+	{
+		.cardName = "Flame Swordsman"
+	},
+	[CARD_NUMBER_FLAME_VIPER]
+	{
+		.cardName = "Flame Viper"
+	},
+	[CARD_NUMBER_FLASH_ASSAILANT]
+	{
+		.cardName = "Flash Assailant"
+	},
+	[CARD_NUMBER_FLOWER_WOLF]
+	{
+		.cardName = "Flower Wolf"
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_1]
+	{
+		.cardName = "Flying Kamakiri #1"
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_2]
+	{
+		.cardName = "Flying Kamakiri #2"
+	},
+	[CARD_NUMBER_FOLLOW_WIND]
+	{
+		.cardName = "Follow Wind"
+	},
+	[CARD_NUMBER_FORCED_REQUISITION]
+	{
+		.cardName = "Forced Requisition"
+	},
+	[CARD_NUMBER_FOREST]
+	{
+		.cardName = "Forest"
+	},
+	[CARD_NUMBER_FORTRESS_WHALE]
+	{
+		.cardName = "Fortress Whale"
+	},
+	[CARD_NUMBER_FORTRESS_WHALE_S_OATH]
+	{
+		.cardName = "Fortress Whale's Oath"
+	},
+	[CARD_NUMBER_FRENZIED_PANDA]
+	{
+		.cardName = "Frenzied Panda"
+	},
+	[CARD_NUMBER_FUSION_SAGE]
+	{
+		.cardName = "Fusion Sage"
+	},
+	[CARD_NUMBER_FUSIONIST]
+	{
+		.cardName = "Fusionist"
+	},
+	[CARD_NUMBER_GAIA_POWER]
+	{
+		.cardName = "Gaia Power"
+	},
+	[CARD_NUMBER_GAIA_THE_DRAGON_CHAMPION]
+	{
+		.cardName = "Gaia the Dragon Champion"
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT]
+	{
+		.cardName = "Gaia The Fierce Knight"
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT_2]
+	{
+		.cardName = "Gaia The Fierce Knight"
+	},
+	[CARD_NUMBER_GALE_DOGRA]
+	{
+		.cardName = "Gale Dogra"
+	},
+	[CARD_NUMBER_GAMMA_THE_MAGNET_WARRIOR]
+	{
+		.cardName = "Gamma The Magnet Warrior"
+	},
+	[CARD_NUMBER_GANIGUMO]
+	{
+		.cardName = "Ganigumo"
+	},
+	[CARD_NUMBER_GARMA_SWORD]
+	{
+		.cardName = "Garma Sword"
+	},
+	[CARD_NUMBER_GARMA_SWORD_OATH]
+	{
+		.cardName = "Garma Sword Oath"
+	},
+	[CARD_NUMBER_GARNECIA_ELEFANTIS]
+	{
+		.cardName = "Garnecia Elefantis"
+	},
+	[CARD_NUMBER_GAROOZIS]
+	{
+		.cardName = "Garoozis"
+	},
+	[CARD_NUMBER_GARVAS]
+	{
+		.cardName = "Garvas"
+	},
+	[CARD_NUMBER_GATE_GUARDIAN]
+	{
+		.cardName = "Gate Guardian"
+	},
+	[CARD_NUMBER_GATEKEEPER]
+	{
+		.cardName = "Gatekeeper"
+	},
+	[CARD_NUMBER_GAZELLE_THE_KING_OF_MYTHICAL_BEASTS]
+	{
+		.cardName = "Gazelle the King of Mythical Beasts"
+	},
+	[CARD_NUMBER_GEMINI_ELF]
+	{
+		.cardName = "Gemini Elf"
+	},
+	[CARD_NUMBER_GENIN]
+	{
+		.cardName = "Genin"
+	},
+	[CARD_NUMBER_GERM_INFECTION]
+	{
+		.cardName = "Germ Infection"
+	},
+	[CARD_NUMBER_GHOUL_WITH_AN_APPETITE]
+	{
+		.cardName = "Ghoul with an Appetite"
+	},
+	[CARD_NUMBER_GIANT_FLEA]
+	{
+		.cardName = "Giant Flea"
+	},
+	[CARD_NUMBER_GIANT_GERM]
+	{
+		.cardName = "Giant Germ"
+	},
+	[CARD_NUMBER_GIANT_MECH_SOLDIER]
+	{
+		.cardName = "Giant Mech-Soldier"
+	},
+	[CARD_NUMBER_GIANT_RAT]
+	{
+		.cardName = "Giant Rat"
+	},
+	[CARD_NUMBER_GIANT_RED_SEASNAKE]
+	{
+		.cardName = "Giant Red Seasnake"
+	},
+	[CARD_NUMBER_GIANT_SCORPION_OF_THE_TUNDRA]
+	{
+		.cardName = "Giant Scorpion of the Tundra"
+	},
+	[CARD_NUMBER_GIANT_SOLDIER_OF_STONE]
+	{
+		.cardName = "Giant Soldier of Stone"
+	},
+	[CARD_NUMBER_GIANT_TRUNADE]
+	{
+		.cardName = "Giant Trunade"
+	},
+	[CARD_NUMBER_GIANT_TURTLE_WHO_FEEDS_ON_FLAMES]
+	{
+		.cardName = "Giant Turtle Who Feeds on Flames"
+	},
+	[CARD_NUMBER_GIFT_OF_THE_MYSTICAL_ELF]
+	{
+		.cardName = "Gift of The Mystical Elf"
+	},
+	[CARD_NUMBER_GIGANTO]
+	{
+		.cardName = "Giganto"
+	},
+	[CARD_NUMBER_GIGA_TECH_WOLF]
+	{
+		.cardName = "Giga-tech Wolf"
+	},
+	[CARD_NUMBER_GILTIA_THE_D_KNIGHT]
+	{
+		.cardName = "Giltia the D. Knight"
+	},
+	[CARD_NUMBER_GOBLIN_FAN]
+	{
+		.cardName = "Goblin Fan"
+	},
+	[CARD_NUMBER_GOBLIN_S_SECRET_REMEDY]
+	{
+		.cardName = "Goblin's Secret Remedy"
+	},
+	[CARD_NUMBER_GODDESS_OF_WHIM]
+	{
+		.cardName = "Goddess of Whim"
+	},
+	[CARD_NUMBER_GODDESS_WITH_THE_THIRD_EYE]
+	{
+		.cardName = "Goddess with the Third Eye"
+	},
+	[CARD_NUMBER_GOKIBORE]
+	{
+		.cardName = "Gokibore"
+	},
+	[CARD_NUMBER_GRACEFUL_CHARITY]
+	{
+		.cardName = "Graceful Charity"
+	},
+	[CARD_NUMBER_GRACEFUL_DICE]
+	{
+		.cardName = "Graceful Dice"
+	},
+	[CARD_NUMBER_GRAPPLER]
+	{
+		.cardName = "Grappler"
+	},
+	[CARD_NUMBER_GRAVEDIGGER_GHOUL]
+	{
+		.cardName = "Gravedigger Ghoul"
+	},
+	[CARD_NUMBER_GRAVEKEEPER_S_SERVANT]
+	{
+		.cardName = "Gravekeeper's Servant"
+	},
+	[CARD_NUMBER_GRAVEROBBER]
+	{
+		.cardName = "Graverobber"
+	},
+	[CARD_NUMBER_GRAVEYARD_AND_THE_HAND_OF_INVITATION]
+	{
+		.cardName = "Graveyard and the Hand of Invitation"
+	},
+	[CARD_NUMBER_GREAT_BILL]
+	{
+		.cardName = "Great Bill"
+	},
+	[CARD_NUMBER_GREAT_MAMMOTH_OF_GOLDFINE]
+	{
+		.cardName = "Great Mammoth of Goldfine"
+	},
+	[CARD_NUMBER_GREAT_MOTH]
+	{
+		.cardName = "Great Moth"
+	},
+	[CARD_NUMBER_GREAT_WHITE]
+	{
+		.cardName = "Great White"
+	},
+	[CARD_NUMBER_GREEN_PHANTOM_KING]
+	{
+		.cardName = "Green Phantom King"
+	},
+	[CARD_NUMBER_GREENKAPPA]
+	{
+		.cardName = "Greenkappa"
+	},
+	[CARD_NUMBER_GRIFFORE]
+	{
+		.cardName = "Griffore"
+	},
+	[CARD_NUMBER_GRIGGLE]
+	{
+		.cardName = "Griggle"
+	},
+	[CARD_NUMBER_GROUND_ATTACKER_BUGROTH]
+	{
+		.cardName = "Ground Attacker Bugroth"
+	},
+	[CARD_NUMBER_GRUESOME_GOO]
+	{
+		.cardName = "Gruesome Goo"
+	},
+	[CARD_NUMBER_GRYPHON_WING]
+	{
+		.cardName = "Gryphon Wing"
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_LABYRINTH]
+	{
+		.cardName = "Guardian of the Labyrinth"
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_SEA]
+	{
+		.cardName = "Guardian of the Sea"
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_THRONE_ROOM]
+	{
+		.cardName = "Guardian of the Throne Room"
+	},
+	[CARD_NUMBER_GUST]
+	{
+		.cardName = "Gust"
+	},
+	[CARD_NUMBER_GUST_FAN]
+	{
+		.cardName = "Gust Fan"
+	},
+	[CARD_NUMBER_GYAKUTENNO_MEGAMI]
+	{
+		.cardName = "Gyakutenno Megami"
+	},
+	[CARD_NUMBER_HAMBURGER_RECIPE]
+	{
+		.cardName = "Hamburger Recipe"
+	},
+	[CARD_NUMBER_HANE_HANE]
+	{
+		.cardName = "Hane-Hane"
+	},
+	[CARD_NUMBER_HANIWA]
+	{
+		.cardName = "Haniwa"
+	},
+	[CARD_NUMBER_HAPPY_LOVER]
+	{
+		.cardName = "Happy Lover"
+	},
+	[CARD_NUMBER_HARD_ARMOR]
+	{
+		.cardName = "Hard Armor"
+	},
+	[CARD_NUMBER_HARPIE_LADY]
+	{
+		.cardName = "Harpie Lady"
+	},
+	[CARD_NUMBER_HARPIE_LADY_SISTERS]
+	{
+		.cardName = "Harpie Lady Sisters"
+	},
+	[CARD_NUMBER_HARPIE_S_BROTHER]
+	{
+		.cardName = "Harpie's Brother"
+	},
+	[CARD_NUMBER_HARPIE_S_FEATHER_DUSTER]
+	{
+		.cardName = "Harpie's Feather Duster"
+	},
+	[CARD_NUMBER_HARPIE_S_PET_DRAGON]
+	{
+		.cardName = "Harpie's Pet Dragon"
+	},
+	[CARD_NUMBER_HEAVY_STORM]
+	{
+		.cardName = "Heavy Storm"
+	},
+	[CARD_NUMBER_HERCULES_BEETLE]
+	{
+		.cardName = "Hercules Beetle"
+	},
+	[CARD_NUMBER_HERO_OF_THE_EAST]
+	{
+		.cardName = "Hero of the East"
+	},
+	[CARD_NUMBER_HIBIKIME]
+	{
+		.cardName = "Hibikime"
+	},
+	[CARD_NUMBER_HIGH_TIDE_GYOJIN]
+	{
+		.cardName = "High Tide Gyojin"
+	},
+	[CARD_NUMBER_HINOTAMA]
+	{
+		.cardName = "Hinotama"
+	},
+	[CARD_NUMBER_HINOTAMA_SOUL]
+	{
+		.cardName = "Hinotama Soul"
+	},
+	[CARD_NUMBER_HIRO_S_SHADOW_SCOUT]
+	{
+		.cardName = "Hiro's Shadow Scout"
+	},
+	[CARD_NUMBER_HITODENCHAK]
+	{
+		.cardName = "Hitodenchak"
+	},
+	[CARD_NUMBER_HITOTSU_ME_GIANT]
+	{
+		.cardName = "Hitotsu-Me Giant"
+	},
+	[CARD_NUMBER_HOLOGRAH]
+	{
+		.cardName = "Holograh"
+	},
+	[CARD_NUMBER_HORN_IMP]
+	{
+		.cardName = "Horn Imp"
+	},
+	[CARD_NUMBER_HORN_OF_HEAVEN]
+	{
+		.cardName = "Horn of Heaven"
+	},
+	[CARD_NUMBER_HORN_OF_LIGHT]
+	{
+		.cardName = "Horn of Light"
+	},
+	[CARD_NUMBER_HORN_OF_THE_UNICORN]
+	{
+		.cardName = "Horn of the Unicorn"
+	},
+	[CARD_NUMBER_HOSHININGEN]
+	{
+		.cardName = "Hoshiningen"
+	},
+	[CARD_NUMBER_HOURGLASS_OF_COURAGE]
+	{
+		.cardName = "Hourglass of Courage"
+	},
+	[CARD_NUMBER_HOURGLASS_OF_LIFE]
+	{
+		.cardName = "Hourglass of Life"
+	},
+	[CARD_NUMBER_HOUSE_OF_ADHESIVE_TAPE]
+	{
+		.cardName = "House of Adhesive Tape"
+	},
+	[CARD_NUMBER_HUNGRY_BURGER]
+	{
+		.cardName = "Hungry Burger"
+	},
+	[CARD_NUMBER_HUNTER_SPIDER]
+	{
+		.cardName = "Hunter Spider"
+	},
+	[CARD_NUMBER_HYO]
+	{
+		.cardName = "Hyo"
+	},
+	[CARD_NUMBER_HYOSUBE]
+	{
+		.cardName = "Hyosube"
+	},
+	[CARD_NUMBER_HYOZANRYU]
+	{
+		.cardName = "Hyozanryu"
+	},
+	[CARD_NUMBER_ICE_WATER]
+	{
+		.cardName = "Ice Water"
+	},
+	[CARD_NUMBER_ILL_WITCH]
+	{
+		.cardName = "Ill Witch"
+	},
+	[CARD_NUMBER_ILLUSIONIST_FACELESS_MAGE]
+	{
+		.cardName = "Illusionist Faceless Mage"
+	},
+	[CARD_NUMBER_IMPERIAL_ORDER]
+	{
+		.cardName = "Imperial Order"
+	},
+	[CARD_NUMBER_INSECT_ARMOR_WITH_LASER_CANNON]
+	{
+		.cardName = "Insect Armor with Laser Cannon"
+	},
+	[CARD_NUMBER_INSECT_QUEEN]
+	{
+		.cardName = "Insect Queen"
+	},
+	[CARD_NUMBER_INSECT_SOLDIERS_OF_THE_SKY]
+	{
+		.cardName = "Insect Soldiers of the Sky"
+	},
+	[CARD_NUMBER_INSPECTION]
+	{
+		.cardName = "Inspection"
+	},
+	[CARD_NUMBER_INVADER_FROM_ANOTHER_DIMENSION]
+	{
+		.cardName = "Invader from Another Dimension"
+	},
+	[CARD_NUMBER_INVADER_OF_THE_THRONE]
+	{
+		.cardName = "Invader of the Throne"
+	},
+	[CARD_NUMBER_INVIGORATION]
+	{
+		.cardName = "Invigoration"
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE]
+	{
+		.cardName = "Javelin Beetle"
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE_PACT]
+	{
+		.cardName = "Javelin Beetle Pact"
+	},
+	[CARD_NUMBER_JELLYFISH]
+	{
+		.cardName = "Jellyfish"
+	},
+	[CARD_NUMBER_JIGEN_BAKUDAN]
+	{
+		.cardName = "Jigen Bakudan"
+	},
+	[CARD_NUMBER_JINZO]
+	{
+		.cardName = "Jinzo"
+	},
+	[CARD_NUMBER_JINZO_7]
+	{
+		.cardName = "Jinzo #7"
+	},
+	[CARD_NUMBER_JIRAI_GUMO]
+	{
+		.cardName = "Jirai Gumo"
+	},
+	[CARD_NUMBER_JUDGE_MAN]
+	{
+		.cardName = "Judge Man"
+	},
+	[CARD_NUMBER_JUST_DESSERTS]
+	{
+		.cardName = "Just Desserts"
+	},
+	[CARD_NUMBER_KAGEMUSHA_OF_THE_BLUE_FLAME]
+	{
+		.cardName = "Kagemusha of the Blue Flame"
+	},
+	[CARD_NUMBER_KAGENINGEN]
+	{
+		.cardName = "Kageningen"
+	},
+	[CARD_NUMBER_KAIRYU_SHIN]
+	{
+		.cardName = "Kairyu-Shin"
+	},
+	[CARD_NUMBER_KAISER_DRAGON]
+	{
+		.cardName = "Kaiser Dragon"
+	},
+	[CARD_NUMBER_KAMAKIRIMAN]
+	{
+		.cardName = "Kamakiriman"
+	},
+	[CARD_NUMBER_KAMINARI_ATTACK]
+	{
+		.cardName = "Kaminari Attack"
+	},
+	[CARD_NUMBER_KAMINARIKOZOU]
+	{
+		.cardName = "Kaminarikozou"
+	},
+	[CARD_NUMBER_KAMIONWIZARD]
+	{
+		.cardName = "Kamionwizard"
+	},
+	[CARD_NUMBER_KANAN_THE_SWORDMISTRESS]
+	{
+		.cardName = "Kanan the Swordmistress"
+	},
+	[CARD_NUMBER_KANIKABUTO]
+	{
+		.cardName = "Kanikabuto"
+	},
+	[CARD_NUMBER_KARATE_MAN]
+	{
+		.cardName = "Karate Man"
+	},
+	[CARD_NUMBER_KARBONALA_WARRIOR]
+	{
+		.cardName = "Karbonala Warrior"
+	},
+	[CARD_NUMBER_KATTAPILLAR]
+	{
+		.cardName = "Kattapillar"
+	},
+	[CARD_NUMBER_KAZEJIN]
+	{
+		.cardName = "Kazejin"
+	},
+	[CARD_NUMBER_KEY_MACE_2]
+	{
+		.cardName = "Key Mace #2"
+	},
+	[CARD_NUMBER_KILLER_NEEDLE]
+	{
+		.cardName = "Killer Needle"
+	},
+	[CARD_NUMBER_KING_FOG]
+	{
+		.cardName = "King Fog"
+	},
+	[CARD_NUMBER_KING_OF_YAMIMAKAI]
+	{
+		.cardName = "King of Yamimakai"
+	},
+	[CARD_NUMBER_KISEITAI]
+	{
+		.cardName = "Kiseitai"
+	},
+	[CARD_NUMBER_KOJIKOCY]
+	{
+		.cardName = "Kojikocy"
+	},
+	[CARD_NUMBER_KOTODAMA]
+	{
+		.cardName = "Kotodama"
+	},
+	[CARD_NUMBER_KOUMORI_DRAGON]
+	{
+		.cardName = "Koumori Dragon"
+	},
+	[CARD_NUMBER_KROKODILUS]
+	{
+		.cardName = "Krokodilus"
+	},
+	[CARD_NUMBER_KUMOOTOKO]
+	{
+		.cardName = "Kumootoko"
+	},
+	[CARD_NUMBER_KUNAI_WITH_CHAIN]
+	{
+		.cardName = "Kunai with Chain"
+	},
+	[CARD_NUMBER_KURAMA]
+	{
+		.cardName = "Kurama"
+	},
+	[CARD_NUMBER_KURIBOH]
+	{
+		.cardName = "Kuriboh"
+	},
+	[CARD_NUMBER_KUWAGATA_A]
+	{
+		.cardName = "Kuwagata a"
+	},
+	[CARD_NUMBER_KWAGAR_HERCULES]
+	{
+		.cardName = "Kwagar Hercules"
+	},
+	[CARD_NUMBER_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP]
+	{
+		.cardName = "La Jinn the Mystical Genie of the Lamp"
+	},
+	[CARD_NUMBER_LABYRINTH_TANK]
+	{
+		.cardName = "Labyrinth Tank"
+	},
+	[CARD_NUMBER_LABYRINTH_WALL]
+	{
+		.cardName = "Labyrinth Wall"
+	},
+	[CARD_NUMBER_LADY_OF_FAITH]
+	{
+		.cardName = "Lady of Faith"
+	},
+	[CARD_NUMBER_LALA_LI_OON]
+	{
+		.cardName = "LaLa Li-oon"
+	},
+	[CARD_NUMBER_LARVAE_MOTH]
+	{
+		.cardName = "Larvae Moth"
+	},
+	[CARD_NUMBER_LARVAS]
+	{
+		.cardName = "Larvas"
+	},
+	[CARD_NUMBER_LASER_CANNON_ARMOR]
+	{
+		.cardName = "Laser Cannon Armor"
+	},
+	[CARD_NUMBER_LAST_DAY_OF_WITCH]
+	{
+		.cardName = "Last Day of Witch"
+	},
+	[CARD_NUMBER_LAST_WILL]
+	{
+		.cardName = "Last Will"
+	},
+	[CARD_NUMBER_LAUGHING_FLOWER]
+	{
+		.cardName = "Laughing Flower"
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER]
+	{
+		.cardName = "Launcher Spider"
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER_2]
+	{
+		.cardName = "Launcher Spider"
+	},
+	[CARD_NUMBER_LAVA_BATTLEGUARD]
+	{
+		.cardName = "Lava Battleguard"
+	},
+	[CARD_NUMBER_LEFT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.cardName = "Left Arm of the Forbidden One"
+	},
+	[CARD_NUMBER_LEFT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.cardName = "Left Leg of the Forbidden One"
+	},
+	[CARD_NUMBER_LEGENDARY_SWORD]
+	{
+		.cardName = "Legendary Sword"
+	},
+	[CARD_NUMBER_LEGHUL]
+	{
+		.cardName = "Leghul"
+	},
+	[CARD_NUMBER_LEOGUN]
+	{
+		.cardName = "Leogun"
+	},
+	[CARD_NUMBER_LESSER_DRAGON]
+	{
+		.cardName = "Lesser Dragon"
+	},
+	[CARD_NUMBER_LIGHT_OF_INTERVENTION]
+	{
+		.cardName = "Light of Intervention"
+	},
+	[CARD_NUMBER_LIGHTFORCE_SWORD]
+	{
+		.cardName = "Lightforce Sword"
+	},
+	[CARD_NUMBER_LIQUID_BEAST]
+	{
+		.cardName = "Liquid Beast"
+	},
+	[CARD_NUMBER_LITTLE_CHIMERA]
+	{
+		.cardName = "Little Chimera"
+	},
+	[CARD_NUMBER_LITTLE_D]
+	{
+		.cardName = "Little D"
+	},
+	[CARD_NUMBER_LORD_OF_D]
+	{
+		.cardName = "Lord of D."
+	},
+	[CARD_NUMBER_LORD_OF_THE_LAMP]
+	{
+		.cardName = "Lord of the Lamp"
+	},
+	[CARD_NUMBER_LORD_OF_ZEMIA]
+	{
+		.cardName = "Lord of Zemia"
+	},
+	[CARD_NUMBER_LUMINOUS_SPARK]
+	{
+		.cardName = "Luminous Spark"
+	},
+	[CARD_NUMBER_LUNAR_QUEEN_ELZAIM]
+	{
+		.cardName = "Lunar Queen Elzaim"
+	},
+	[CARD_NUMBER_MABARREL]
+	{
+		.cardName = "Mabarrel"
+	},
+	[CARD_NUMBER_MACHINE_CONVERSION_FACTORY]
+	{
+		.cardName = "Machine Conversion Factory"
+	},
+	[CARD_NUMBER_MACHINE_KING]
+	{
+		.cardName = "Machine King"
+	},
+	[CARD_NUMBER_MAGIC_JAMMER]
+	{
+		.cardName = "Magic Jammer"
+	},
+	[CARD_NUMBER_MAGIC_THORN]
+	{
+		.cardName = "Magic Thorn"
+	},
+	[CARD_NUMBER_MAGICAL_GHOST]
+	{
+		.cardName = "Magical Ghost"
+	},
+	[CARD_NUMBER_MAGICAL_HATS]
+	{
+		.cardName = "Magical Hats"
+	},
+	[CARD_NUMBER_MAGICAL_LABYRINTH]
+	{
+		.cardName = "Magical Labyrinth"
+	},
+	[CARD_NUMBER_MAGIC_ARM_SHIELD]
+	{
+		.cardName = "Magic-Arm Shield"
+	},
+	[CARD_NUMBER_MAGICIAN_OF_BLACK_CHAOS]
+	{
+		.cardName = "Magician of Black Chaos"
+	},
+	[CARD_NUMBER_MAGICIAN_OF_FAITH]
+	{
+		.cardName = "Magician of Faith"
+	},
+	[CARD_NUMBER_MAHA_VAILO]
+	{
+		.cardName = "Maha Vailo"
+	},
+	[CARD_NUMBER_MAIDEN_OF_THE_MOONLIGHT]
+	{
+		.cardName = "Maiden of the Moonlight"
+	},
+	[CARD_NUMBER_MAJOR_RIOT]
+	{
+		.cardName = "Major Riot"
+	},
+	[CARD_NUMBER_MALEVOLENT_NUZZLER]
+	{
+		.cardName = "Malevolent Nuzzler"
+	},
+	[CARD_NUMBER_MAMMOTH_GRAVEYARD]
+	{
+		.cardName = "Mammoth Graveyard"
+	},
+	[CARD_NUMBER_MAN_EATER]
+	{
+		.cardName = "Man Eater"
+	},
+	[CARD_NUMBER_MAN_EATER_BUG]
+	{
+		.cardName = "Man-Eater Bug"
+	},
+	[CARD_NUMBER_MAN_EATING_BLACK_SHARK]
+	{
+		.cardName = "Man-eating Black Shark"
+	},
+	[CARD_NUMBER_MAN_EATING_PLANT]
+	{
+		.cardName = "Man-Eating Plant"
+	},
+	[CARD_NUMBER_MAN_EATING_TREASURE_CHEST]
+	{
+		.cardName = "Man-Eating Treasure Chest"
+	},
+	[CARD_NUMBER_MANGA_RYU_RAN]
+	{
+		.cardName = "Manga Ryu-Ran"
+	},
+	[CARD_NUMBER_MARINE_BEAST]
+	{
+		.cardName = "Marine Beast"
+	},
+	[CARD_NUMBER_MASAKI_THE_LEGENDARY_SWORDSMAN]
+	{
+		.cardName = "Masaki the Legendary Swordsman"
+	},
+	[CARD_NUMBER_MASK_OF_DARKNESS]
+	{
+		.cardName = "Mask of Darkness"
+	},
+	[CARD_NUMBER_MASKED_SORCERER]
+	{
+		.cardName = "Masked Sorcerer"
+	},
+	[CARD_NUMBER_MASTER_AND_EXPERT]
+	{
+		.cardName = "Master & Expert"
+	},
+	[CARD_NUMBER_MAVELUS]
+	{
+		.cardName = "Mavelus"
+	},
+	[CARD_NUMBER_MECHANICAL_SNAIL]
+	{
+		.cardName = "Mechanical Snail"
+	},
+	[CARD_NUMBER_MECHANICAL_SPIDER]
+	{
+		.cardName = "Mechanical Spider"
+	},
+	[CARD_NUMBER_MECHANICALCHASER]
+	{
+		.cardName = "Mechanicalchaser"
+	},
+	[CARD_NUMBER_MEDA_BAT]
+	{
+		.cardName = "Meda Bat"
+	},
+	[CARD_NUMBER_MEGA_THUNDERBALL]
+	{
+		.cardName = "Mega Thunderball"
+	},
+	[CARD_NUMBER_MEGAMORPH]
+	{
+		.cardName = "Megamorph"
+	},
+	[CARD_NUMBER_MEGAZOWLER]
+	{
+		.cardName = "Megazowler"
+	},
+	[CARD_NUMBER_MEOTOKO]
+	{
+		.cardName = "Meotoko"
+	},
+	[CARD_NUMBER_MESMERIC_CONTROL]
+	{
+		.cardName = "Mesmeric Control"
+	},
+	[CARD_NUMBER_MESSENGER_OF_PEACE]
+	{
+		.cardName = "Messenger of Peace"
+	},
+	[CARD_NUMBER_METAL_DETECTOR]
+	{
+		.cardName = "Metal Detector"
+	},
+	[CARD_NUMBER_METAL_DRAGON]
+	{
+		.cardName = "Metal Dragon"
+	},
+	[CARD_NUMBER_METAL_FISH]
+	{
+		.cardName = "Metal Fish"
+	},
+	[CARD_NUMBER_METAL_GUARDIAN]
+	{
+		.cardName = "Metal Guardian"
+	},
+	[CARD_NUMBER_METALMORPH]
+	{
+		.cardName = "Metalmorph"
+	},
+	[CARD_NUMBER_METALZOA]
+	{
+		.cardName = "Metalzoa"
+	},
+	[CARD_NUMBER_METEOR_B_DRAGON]
+	{
+		.cardName = "Meteor B. Dragon"
+	},
+	[CARD_NUMBER_METEOR_DRAGON]
+	{
+		.cardName = "Meteor Dragon"
+	},
+	[CARD_NUMBER_MIKAZUKINOYAIBA]
+	{
+		.cardName = "Mikazukinoyaiba"
+	},
+	[CARD_NUMBER_MILLENNIUM_GOLEM]
+	{
+		.cardName = "Millennium Golem"
+	},
+	[CARD_NUMBER_MILLENNIUM_SHIELD]
+	{
+		.cardName = "Millennium Shield"
+	},
+	[CARD_NUMBER_MILUS_RADIANT]
+	{
+		.cardName = "Milus Radiant"
+	},
+	[CARD_NUMBER_MINAR]
+	{
+		.cardName = "Minar"
+	},
+	[CARD_NUMBER_MINOMUSHI_WARRIOR]
+	{
+		.cardName = "Minomushi Warrior"
+	},
+	[CARD_NUMBER_MIRROR_FORCE]
+	{
+		.cardName = "Mirror Force"
+	},
+	[CARD_NUMBER_MIRROR_WALL]
+	{
+		.cardName = "Mirror Wall"
+	},
+	[CARD_NUMBER_MISAIRUZAME]
+	{
+		.cardName = "Misairuzame"
+	},
+	[CARD_NUMBER_MOLTEN_DESTRUCTION]
+	{
+		.cardName = "Molten Destruction"
+	},
+	[CARD_NUMBER_MONSTER_EGG]
+	{
+		.cardName = "Monster Egg"
+	},
+	[CARD_NUMBER_MONSTER_EYE]
+	{
+		.cardName = "Monster Eye"
+	},
+	[CARD_NUMBER_MONSTER_REBORN]
+	{
+		.cardName = "Monster Reborn"
+	},
+	[CARD_NUMBER_MONSTER_TAMER]
+	{
+		.cardName = "Monster Tamer"
+	},
+	[CARD_NUMBER_MONSTROUS_BIRD]
+	{
+		.cardName = "Monstrous Bird"
+	},
+	[CARD_NUMBER_MOON_ENVOY]
+	{
+		.cardName = "Moon Envoy"
+	},
+	[CARD_NUMBER_MOOYAN_CURRY]
+	{
+		.cardName = "Mooyan Curry"
+	},
+	[CARD_NUMBER_MORINPHEN]
+	{
+		.cardName = "Morinphen"
+	},
+	[CARD_NUMBER_MORPHING_JAR]
+	{
+		.cardName = "Morphing Jar"
+	},
+	[CARD_NUMBER_MORPHING_JAR_2]
+	{
+		.cardName = "Morphing Jar #2"
+	},
+	[CARD_NUMBER_MOTHER_GRIZZLY]
+	{
+		.cardName = "Mother Grizzly"
+	},
+	[CARD_NUMBER_MOUNTAIN]
+	{
+		.cardName = "Mountain"
+	},
+	[CARD_NUMBER_MOUNTAIN_WARRIOR]
+	{
+		.cardName = "Mountain Warrior"
+	},
+	[CARD_NUMBER_MR_VOLCANO]
+	{
+		.cardName = "Mr. Volcano"
+	},
+	[CARD_NUMBER_MUKA_MUKA]
+	{
+		.cardName = "Muka Muka"
+	},
+	[CARD_NUMBER_MUSHROOM_MAN]
+	{
+		.cardName = "Mushroom Man"
+	},
+	[CARD_NUMBER_MUSHROOM_MAN_2]
+	{
+		.cardName = "Mushroom Man #2"
+	},
+	[CARD_NUMBER_MUSICIAN_KING]
+	{
+		.cardName = "Musician King"
+	},
+	[CARD_NUMBER_M_WARRIOR_1]
+	{
+		.cardName = "M-Warrior #1"
+	},
+	[CARD_NUMBER_M_WARRIOR_2]
+	{
+		.cardName = "M-Warrior #2"
+	},
+	[CARD_NUMBER_MYSTERIOUS_PUPPETEER]
+	{
+		.cardName = "Mysterious Puppeteer"
+	},
+	[CARD_NUMBER_MYSTIC_HORSEMAN]
+	{
+		.cardName = "Mystic Horseman"
+	},
+	[CARD_NUMBER_MYSTIC_LAMP]
+	{
+		.cardName = "Mystic Lamp"
+	},
+	[CARD_NUMBER_MYSTIC_PLASMA_ZONE]
+	{
+		.cardName = "Mystic Plasma Zone"
+	},
+	[CARD_NUMBER_MYSTIC_PROBE]
+	{
+		.cardName = "Mystic Probe"
+	},
+	[CARD_NUMBER_MYSTIC_TOMATO]
+	{
+		.cardName = "Mystic Tomato"
+	},
+	[CARD_NUMBER_MYSTICAL_CAPTURE_CHAIN]
+	{
+		.cardName = "Mystical Capture Chain"
+	},
+	[CARD_NUMBER_MYSTICAL_ELF]
+	{
+		.cardName = "Mystical Elf"
+	},
+	[CARD_NUMBER_MYSTICAL_MOON]
+	{
+		.cardName = "Mystical Moon"
+	},
+	[CARD_NUMBER_MYSTICAL_SAND]
+	{
+		.cardName = "Mystical Sand"
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_1]
+	{
+		.cardName = "Mystical Sheep #1"
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_2]
+	{
+		.cardName = "Mystical Sheep #2"
+	},
+	[CARD_NUMBER_MYSTICAL_SPACE_TYPHOON]
+	{
+		.cardName = "Mystical Space Typhoon"
+	},
+	[CARD_NUMBER_NEEDLE_BALL]
+	{
+		.cardName = "Needle Ball"
+	},
+	[CARD_NUMBER_NEEDLE_WORM]
+	{
+		.cardName = "Needle Worm"
+	},
+	[CARD_NUMBER_NEGATE_ATTACK]
+	{
+		.cardName = "Negate Attack"
+	},
+	[CARD_NUMBER_NEKOGAL_1]
+	{
+		.cardName = "Nekogal #1"
+	},
+	[CARD_NUMBER_NEKOGAL_2]
+	{
+		.cardName = "Nekogal #2"
+	},
+	[CARD_NUMBER_NEMURIKO]
+	{
+		.cardName = "Nemuriko"
+	},
+	[CARD_NUMBER_NEO_THE_MAGIC_SWORDSMAN]
+	{
+		.cardName = "Neo the Magic Swordsman"
+	},
+	[CARD_NUMBER_NIMBLE_MOMONGA]
+	{
+		.cardName = "Nimble Momonga"
+	},
+	[CARD_NUMBER_NIWATORI]
+	{
+		.cardName = "Niwatori"
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_CROSSOUT]
+	{
+		.cardName = "Nobleman of Crossout"
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_EXTERMINATION]
+	{
+		.cardName = "Nobleman of Extermination"
+	},
+	[CARD_NUMBER_NOVOX_S_PRAYER]
+	{
+		.cardName = "Novox's Prayer"
+	},
+	[CARD_NUMBER_NUMINOUS_HEALER]
+	{
+		.cardName = "Numinous Healer"
+	},
+	[CARD_NUMBER_OCTOBERSER]
+	{
+		.cardName = "Octoberser"
+	},
+	[CARD_NUMBER_OCUBEAM]
+	{
+		.cardName = "Ocubeam"
+	},
+	[CARD_NUMBER_OGRE_OF_THE_BLACK_SHADOW]
+	{
+		.cardName = "Ogre of the Black Shadow"
+	},
+	[CARD_NUMBER_ONE_EYED_SHIELD_DRAGON]
+	{
+		.cardName = "One-Eyed Shield Dragon"
+	},
+	[CARD_NUMBER_OOGUCHI]
+	{
+		.cardName = "Ooguchi"
+	},
+	[CARD_NUMBER_OOKAZI]
+	{
+		.cardName = "Ookazi"
+	},
+	[CARD_NUMBER_ORION_THE_BATTLE_KING]
+	{
+		.cardName = "Orion the Battle King"
+	},
+	[CARD_NUMBER_OSCILLO_HERO]
+	{
+		.cardName = "Oscillo Hero"
+	},
+	[CARD_NUMBER_OSCILLO_HERO_2]
+	{
+		.cardName = "Oscillo Hero #2"
+	},
+	[CARD_NUMBER_PAINFUL_CHOICE]
+	{
+		.cardName = "Painful Choice"
+	},
+	[CARD_NUMBER_PALE_BEAST]
+	{
+		.cardName = "Pale Beast"
+	},
+	[CARD_NUMBER_PANTHER_WARRIOR]
+	{
+		.cardName = "Panther Warrior"
+	},
+	[CARD_NUMBER_PARALYZING_POTION]
+	{
+		.cardName = "Paralyzing Potion"
+	},
+	[CARD_NUMBER_PARASITE_PARACIDE]
+	{
+		.cardName = "Parasite Paracide"
+	},
+	[CARD_NUMBER_PARROT_DRAGON]
+	{
+		.cardName = "Parrot Dragon"
+	},
+	[CARD_NUMBER_PATROL_ROBO]
+	{
+		.cardName = "Patrol Robo"
+	},
+	[CARD_NUMBER_PEACOCK]
+	{
+		.cardName = "Peacock"
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE]
+	{
+		.cardName = "Pendulum Machine"
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE_2]
+	{
+		.cardName = "Pendulum Machine"
+	},
+	[CARD_NUMBER_PENGUIN_KNIGHT]
+	{
+		.cardName = "Penguin Knight"
+	},
+	[CARD_NUMBER_PENGUIN_SOLDIER]
+	{
+		.cardName = "Penguin Soldier"
+	},
+	[CARD_NUMBER_PERFECTLY_ULTIMATE_GREAT_MOTH]
+	{
+		.cardName = "Perfectly Ultimate Great Moth"
+	},
+	[CARD_NUMBER_PERFORMANCE_OF_SWORD]
+	{
+		.cardName = "Performance of Sword"
+	},
+	[CARD_NUMBER_PETIT_ANGEL]
+	{
+		.cardName = "Petit Angel"
+	},
+	[CARD_NUMBER_PETIT_DRAGON]
+	{
+		.cardName = "Petit Dragon"
+	},
+	[CARD_NUMBER_PETIT_MOTH]
+	{
+		.cardName = "Petit Moth"
+	},
+	[CARD_NUMBER_POLYMERIZATION]
+	{
+		.cardName = "Polymerization"
+	},
+	[CARD_NUMBER_POLYMERIZATION_2]
+	{
+		.cardName = "Polymerization"
+	},
+	[CARD_NUMBER_POT_OF_GREED]
+	{
+		.cardName = "Pot of Greed"
+	},
+	[CARD_NUMBER_POWER_OF_KAISHIN]
+	{
+		.cardName = "Power of Kaishin"
+	},
+	[CARD_NUMBER_PRAGTICAL]
+	{
+		.cardName = "Pragtical"
+	},
+	[CARD_NUMBER_PREMATURE_BURIAL]
+	{
+		.cardName = "Premature Burial"
+	},
+	[CARD_NUMBER_PREVENT_RAT]
+	{
+		.cardName = "Prevent Rat"
+	},
+	[CARD_NUMBER_PRINCESS_OF_TSURUGI]
+	{
+		.cardName = "Princess of Tsurugi"
+	},
+	[CARD_NUMBER_PRISMAN]
+	{
+		.cardName = "Prisman"
+	},
+	[CARD_NUMBER_PROHIBITION]
+	{
+		.cardName = "Prohibition"
+	},
+	[CARD_NUMBER_PROTECTOR_OF_THE_THRONE]
+	{
+		.cardName = "Protector of the Throne"
+	},
+	[CARD_NUMBER_PSYCHIC_KAPPA]
+	{
+		.cardName = "Psychic Kappa"
+	},
+	[CARD_NUMBER_PUMPKING_THE_KING_OF_GHOSTS]
+	{
+		.cardName = "Pumpking the King of Ghosts"
+	},
+	[CARD_NUMBER_PUNISHED_EAGLE]
+	{
+		.cardName = "Punished Eagle"
+	},
+	[CARD_NUMBER_QUEEN_BIRD]
+	{
+		.cardName = "Queen Bird"
+	},
+	[CARD_NUMBER_QUEEN_OF_AUTUMN_LEAVES]
+	{
+		.cardName = "Queen of Autumn Leaves"
+	},
+	[CARD_NUMBER_QUEEN_S_DOUBLE]
+	{
+		.cardName = "Queen's Double"
+	},
+	[CARD_NUMBER_RABID_HORSEMAN]
+	{
+		.cardName = "Rabid Horseman"
+	},
+	[CARD_NUMBER_RAIGEKI]
+	{
+		.cardName = "Raigeki"
+	},
+	[CARD_NUMBER_RAIMEI]
+	{
+		.cardName = "Raimei"
+	},
+	[CARD_NUMBER_RAINBOW_FLOWER]
+	{
+		.cardName = "Rainbow Flower"
+	},
+	[CARD_NUMBER_RAISE_BODY_HEAT]
+	{
+		.cardName = "Raise Body Heat"
+	},
+	[CARD_NUMBER_RARE_FISH]
+	{
+		.cardName = "Rare Fish"
+	},
+	[CARD_NUMBER_RAY_AND_TEMPERATURE]
+	{
+		.cardName = "Ray & Temperature"
+	},
+	[CARD_NUMBER_REAPER_OF_THE_CARDS]
+	{
+		.cardName = "Reaper of the Cards"
+	},
+	[CARD_NUMBER_RED_ARCHERY_GIRL]
+	{
+		.cardName = "Red Archery Girl"
+	},
+	[CARD_NUMBER_RED_MEDICINE]
+	{
+		.cardName = "Red Medicine"
+	},
+	[CARD_NUMBER_RED_EYES_B_DRAGON]
+	{
+		.cardName = "Red-Eyes B. Dragon"
+	},
+	[CARD_NUMBER_RED_EYES_BLACK_METAL_DRAGON]
+	{
+		.cardName = "Red-Eyes Black Metal Dragon"
+	},
+	[CARD_NUMBER_REINFORCEMENTS]
+	{
+		.cardName = "Reinforcements"
+	},
+	[CARD_NUMBER_RELINQUISHED]
+	{
+		.cardName = "Relinquished"
+	},
+	[CARD_NUMBER_REMOVE_TRAP]
+	{
+		.cardName = "Remove Trap"
+	},
+	[CARD_NUMBER_RESPECT_PLAY]
+	{
+		.cardName = "Respect Play"
+	},
+	[CARD_NUMBER_RESTRUCTER_REVOLUTION]
+	{
+		.cardName = "Restructer Revolution"
+	},
+	[CARD_NUMBER_RESURRECTION_OF_CHAKRA]
+	{
+		.cardName = "Resurrection of Chakra"
+	},
+	[CARD_NUMBER_REVERSE_TRAP]
+	{
+		.cardName = "Reverse Trap"
+	},
+	[CARD_NUMBER_REVIVAL_OF_DOKURORIDER]
+	{
+		.cardName = "Revival of Dokurorider"
+	},
+	[CARD_NUMBER_RHAIMUNDOS_OF_THE_RED_SWORD]
+	{
+		.cardName = "Rhaimundos of the Red Sword"
+	},
+	[CARD_NUMBER_RIGHT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.cardName = "Right Arm of the Forbidden One"
+	},
+	[CARD_NUMBER_RIGHT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.cardName = "Right Leg of the Forbidden One"
+	},
+	[CARD_NUMBER_RING_OF_MAGNETISM]
+	{
+		.cardName = "Ring of Magnetism"
+	},
+	[CARD_NUMBER_RIRYOKU]
+	{
+		.cardName = "Riryoku"
+	},
+	[CARD_NUMBER_RISING_AIR_CURRENT]
+	{
+		.cardName = "Rising Air Current"
+	},
+	[CARD_NUMBER_ROARING_OCEAN_SNAKE]
+	{
+		.cardName = "Roaring Ocean Snake"
+	},
+	[CARD_NUMBER_ROBBIN_GOBLIN]
+	{
+		.cardName = "Robbin' Goblin"
+	},
+	[CARD_NUMBER_ROCK_OGRE_GROTTO_1]
+	{
+		.cardName = "Rock Ogre Grotto #1"
+	},
+	[CARD_NUMBER_ROGUE_DOLL]
+	{
+		.cardName = "Rogue Doll"
+	},
+	[CARD_NUMBER_ROOT_WATER]
+	{
+		.cardName = "Root Water"
+	},
+	[CARD_NUMBER_ROSE_SPECTRE_OF_DUNN]
+	{
+		.cardName = "Rose Spectre of Dunn"
+	},
+	[CARD_NUMBER_ROYAL_DECREE]
+	{
+		.cardName = "Royal Decree"
+	},
+	[CARD_NUMBER_ROYAL_GUARD]
+	{
+		.cardName = "Royal Guard"
+	},
+	[CARD_NUMBER_RUDE_KAISER]
+	{
+		.cardName = "Rude Kaiser"
+	},
+	[CARD_NUMBER_RUSH_RECKLESSLY]
+	{
+		.cardName = "Rush Recklessly"
+	},
+	[CARD_NUMBER_RYU_KISHIN]
+	{
+		.cardName = "Ryu-Kishin"
+	},
+	[CARD_NUMBER_RYU_KISHIN_POWERED]
+	{
+		.cardName = "Ryu-Kishin Powered"
+	},
+	[CARD_NUMBER_RYU_RAN]
+	{
+		.cardName = "Ryu-Ran"
+	},
+	[CARD_NUMBER_SABER_SLASHER]
+	{
+		.cardName = "Saber Slasher"
+	},
+	[CARD_NUMBER_SAGGI_THE_DARK_CLOWN]
+	{
+		.cardName = "Saggi the Dark Clown"
+	},
+	[CARD_NUMBER_SALAMANDRA]
+	{
+		.cardName = "Salamandra"
+	},
+	[CARD_NUMBER_SAND_STONE]
+	{
+		.cardName = "Sand Stone"
+	},
+	[CARD_NUMBER_SANGA_OF_THE_THUNDER]
+	{
+		.cardName = "Sanga of the Thunder"
+	},
+	[CARD_NUMBER_SANGAN]
+	{
+		.cardName = "Sangan"
+	},
+	[CARD_NUMBER_SEA_KAMEN]
+	{
+		.cardName = "Sea Kamen"
+	},
+	[CARD_NUMBER_SEA_KING_DRAGON]
+	{
+		.cardName = "Sea King Dragon"
+	},
+	[CARD_NUMBER_SEAL_OF_THE_ANCIENTS]
+	{
+		.cardName = "Seal of the Ancients"
+	},
+	[CARD_NUMBER_SEBEK_S_BLESSING]
+	{
+		.cardName = "Sebek's Blessing"
+	},
+	[CARD_NUMBER_SECTARIAN_OF_SECRETS]
+	{
+		.cardName = "Sectarian of Secrets"
+	},
+	[CARD_NUMBER_SEIYARYU]
+	{
+		.cardName = "Seiyaryu"
+	},
+	[CARD_NUMBER_SENGENJIN]
+	{
+		.cardName = "Sengenjin"
+	},
+	[CARD_NUMBER_SENJU_OF_THE_THOUSAND_HANDS]
+	{
+		.cardName = "Senju of the Thousand Hands"
+	},
+	[CARD_NUMBER_SERPENT_NIGHT_DRAGON]
+	{
+		.cardName = "Serpent Night Dragon"
+	},
+	[CARD_NUMBER_SEVEN_TOOLS_OF_THE_BANDIT]
+	{
+		.cardName = "Seven Tools of the Bandit"
+	},
+	[CARD_NUMBER_SHADOW_GHOUL]
+	{
+		.cardName = "Shadow Ghoul"
+	},
+	[CARD_NUMBER_SHADOW_SPECTER]
+	{
+		.cardName = "Shadow Specter"
+	},
+	[CARD_NUMBER_SHARE_THE_PAIN]
+	{
+		.cardName = "Share the Pain"
+	},
+	[CARD_NUMBER_SHIELD_AND_SWORD]
+	{
+		.cardName = "Shield & Sword"
+	},
+	[CARD_NUMBER_SHINING_FAIRY]
+	{
+		.cardName = "Shining Fairy"
+	},
+	[CARD_NUMBER_SHOVEL_CRUSHER]
+	{
+		.cardName = "Shovel Crusher"
+	},
+	[CARD_NUMBER_SILVER_BOW_AND_ARROW]
+	{
+		.cardName = "Silver Bow and Arrow"
+	},
+	[CARD_NUMBER_SILVER_FANG]
+	{
+		.cardName = "Silver Fang"
+	},
+	[CARD_NUMBER_SINISTER_SERPENT]
+	{
+		.cardName = "Sinister Serpent"
+	},
+	[CARD_NUMBER_SKELENGEL]
+	{
+		.cardName = "Skelengel"
+	},
+	[CARD_NUMBER_SKELGON]
+	{
+		.cardName = "Skelgon"
+	},
+	[CARD_NUMBER_SKULL_DICE]
+	{
+		.cardName = "Skull Dice"
+	},
+	[CARD_NUMBER_SKULL_GUARDIAN]
+	{
+		.cardName = "Skull Guardian"
+	},
+	[CARD_NUMBER_SKULL_KNIGHT]
+	{
+		.cardName = "Skull Knight"
+	},
+	[CARD_NUMBER_SKULL_RED_BIRD]
+	{
+		.cardName = "Skull Red Bird"
+	},
+	[CARD_NUMBER_SKULL_SERVANT]
+	{
+		.cardName = "Skull Servant"
+	},
+	[CARD_NUMBER_SKULL_STALKER]
+	{
+		.cardName = "Skull Stalker"
+	},
+	[CARD_NUMBER_SKULLBIRD]
+	{
+		.cardName = "Skullbird"
+	},
+	[CARD_NUMBER_SLEEPING_LION]
+	{
+		.cardName = "Sleeping Lion"
+	},
+	[CARD_NUMBER_SLOT_MACHINE]
+	{
+		.cardName = "Slot Machine"
+	},
+	[CARD_NUMBER_SNAKE_FANG]
+	{
+		.cardName = "Snake Fang"
+	},
+	[CARD_NUMBER_SNAKEYASHI]
+	{
+		.cardName = "Snakeyashi"
+	},
+	[CARD_NUMBER_SNATCH_STEAL]
+	{
+		.cardName = "Snatch Steal"
+	},
+	[CARD_NUMBER_SOGEN]
+	{
+		.cardName = "Sogen"
+	},
+	[CARD_NUMBER_SOLEMN_JUDGMENT]
+	{
+		.cardName = "Solemn Judgment"
+	},
+	[CARD_NUMBER_SOLITUDE]
+	{
+		.cardName = "Solitude"
+	},
+	[CARD_NUMBER_SOLOMON_S_LAWBOOK]
+	{
+		.cardName = "Solomon's Lawbook"
+	},
+	[CARD_NUMBER_SONIC_BIRD]
+	{
+		.cardName = "Sonic Bird"
+	},
+	[CARD_NUMBER_SONIC_MAID]
+	{
+		.cardName = "Sonic Maid"
+	},
+	[CARD_NUMBER_SOUL_HUNTER]
+	{
+		.cardName = "Soul Hunter"
+	},
+	[CARD_NUMBER_SOUL_OF_THE_PURE]
+	{
+		.cardName = "Soul of the Pure"
+	},
+	[CARD_NUMBER_SOUL_RELEASE]
+	{
+		.cardName = "Soul Release"
+	},
+	[CARD_NUMBER_SPARKS]
+	{
+		.cardName = "Sparks"
+	},
+	[CARD_NUMBER_SPEAR_CRETIN]
+	{
+		.cardName = "Spear Cretin"
+	},
+	[CARD_NUMBER_SPELLBINDING_CIRCLE]
+	{
+		.cardName = "Spellbinding Circle"
+	},
+	[CARD_NUMBER_SPIKE_SEADRA]
+	{
+		.cardName = "Spike Seadra"
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_BOOKS]
+	{
+		.cardName = "Spirit of the Books"
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_HARP]
+	{
+		.cardName = "Spirit of the Harp"
+	},
+	[CARD_NUMBER_STAIN_STORM]
+	{
+		.cardName = "Stain Storm"
+	},
+	[CARD_NUMBER_STAR_BOY]
+	{
+		.cardName = "Star Boy"
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_1]
+	{
+		.cardName = "Steel Ogre Grotto #1"
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_2]
+	{
+		.cardName = "Steel Ogre Grotto #2"
+	},
+	[CARD_NUMBER_STEEL_SCORPION]
+	{
+		.cardName = "Steel Scorpion"
+	},
+	[CARD_NUMBER_STEEL_SHELL]
+	{
+		.cardName = "Steel Shell"
+	},
+	[CARD_NUMBER_STIM_PACK]
+	{
+		.cardName = "Stim-Pack"
+	},
+	[CARD_NUMBER_STONE_ARMADILLER]
+	{
+		.cardName = "Stone Armadiller"
+	},
+	[CARD_NUMBER_STONE_OGRE_GROTTO]
+	{
+		.cardName = "Stone Ogre Grotto"
+	},
+	[CARD_NUMBER_STOP_DEFENSE]
+	{
+		.cardName = "Stop Defense"
+	},
+	[CARD_NUMBER_STUFFED_ANIMAL]
+	{
+		.cardName = "Stuffed Animal"
+	},
+	[CARD_NUMBER_SUCCUBUS_KNIGHT]
+	{
+		.cardName = "Succubus Knight"
+	},
+	[CARD_NUMBER_SUIJIN]
+	{
+		.cardName = "Suijin"
+	},
+	[CARD_NUMBER_SUMMONED_SKULL]
+	{
+		.cardName = "Summoned Skull"
+	},
+	[CARD_NUMBER_SUPER_WAR_LION]
+	{
+		.cardName = "Super War-Lion"
+	},
+	[CARD_NUMBER_SUPPORTER_IN_THE_SHADOWS]
+	{
+		.cardName = "Supporter in the Shadows"
+	},
+	[CARD_NUMBER_SWAMP_BATTLEGUARD]
+	{
+		.cardName = "Swamp Battleguard"
+	},
+	[CARD_NUMBER_SWORD_ARM_OF_DRAGON]
+	{
+		.cardName = "Sword Arm of Dragon"
+	},
+	[CARD_NUMBER_SWORD_OF_DARK_DESTRUCTION]
+	{
+		.cardName = "Sword of Dark Destruction"
+	},
+	[CARD_NUMBER_SWORD_OF_DEEP_SEATED]
+	{
+		.cardName = "Sword of Deep-Seated"
+	},
+	[CARD_NUMBER_SWORD_OF_DRAGON_S_SOUL]
+	{
+		.cardName = "Sword of Dragon's Soul"
+	},
+	[CARD_NUMBER_SWORDS_OF_REVEALING_LIGHT]
+	{
+		.cardName = "Swords of Revealing Light"
+	},
+	[CARD_NUMBER_SWORDSMAN_FROM_A_FOREIGN_LAND]
+	{
+		.cardName = "Swordsman from a Foreign Land"
+	},
+	[CARD_NUMBER_SWORDSTALKER]
+	{
+		.cardName = "Swordstalker"
+	},
+	[CARD_NUMBER_TAILOR_OF_THE_FICKLE]
+	{
+		.cardName = "Tailor of the Fickle"
+	},
+	[CARD_NUMBER_TAINTED_WISDOM]
+	{
+		.cardName = "Tainted Wisdom"
+	},
+	[CARD_NUMBER_TAKRIMINOS]
+	{
+		.cardName = "Takriminos"
+	},
+	[CARD_NUMBER_TAKUHEE]
+	{
+		.cardName = "Takuhee"
+	},
+	[CARD_NUMBER_TAO_THE_CHANTER]
+	{
+		.cardName = "Tao the Chanter"
+	},
+	[CARD_NUMBER_TEMPLE_OF_SKULLS]
+	{
+		.cardName = "Temple of Skulls"
+	},
+	[CARD_NUMBER_TENDERNESS]
+	{
+		.cardName = "Tenderness"
+	},
+	[CARD_NUMBER_TERRA_THE_TERRIBLE]
+	{
+		.cardName = "Terra the Terrible"
+	},
+	[CARD_NUMBER_THE_13TH_GRAVE]
+	{
+		.cardName = "The 13th Grave"
+	},
+	[CARD_NUMBER_THE_BEWITCHING_PHANTOM_THIEF]
+	{
+		.cardName = "The Bewitching Phantom Thief"
+	},
+	[CARD_NUMBER_THE_BISTRO_BUTCHER]
+	{
+		.cardName = "The Bistro Butcher"
+	},
+	[CARD_NUMBER_THE_CHEERFUL_COFFIN]
+	{
+		.cardName = "The Cheerful Coffin"
+	},
+	[CARD_NUMBER_THE_DRDEK]
+	{
+		.cardName = "The Drdek "
+	},
+	[CARD_NUMBER_THE_EYE_OF_TRUTH]
+	{
+		.cardName = "The Eye of Truth"
+	},
+	[CARD_NUMBER_THE_FLUTE_OF_SUMMONING_DRAGON]
+	{
+		.cardName = "The Flute of Summoning Dragon"
+	},
+	[CARD_NUMBER_THE_FORCEFUL_SENTRY]
+	{
+		.cardName = "The Forceful Sentry"
+	},
+	[CARD_NUMBER_THE_FURIOUS_SEA_KING]
+	{
+		.cardName = "The Furious Sea King"
+	},
+	[CARD_NUMBER_THE_IMMORTAL_OF_THUNDER]
+	{
+		.cardName = "The Immortal of Thunder"
+	},
+	[CARD_NUMBER_THE_INEXPERIENCED_SPY]
+	{
+		.cardName = "The Inexperienced Spy"
+	},
+	[CARD_NUMBER_THE_LITTLE_SWORDSMAN_OF_AILE]
+	{
+		.cardName = "The Little Swordsman of Aile"
+	},
+	[CARD_NUMBER_THE_REGULATION_OF_TRIBE]
+	{
+		.cardName = "The Regulation of Tribe"
+	},
+	[CARD_NUMBER_THE_RELIABLE_GUARDIAN]
+	{
+		.cardName = "The Reliable Guardian"
+	},
+	[CARD_NUMBER_THE_SHALLOW_GRAVE]
+	{
+		.cardName = "The Shallow Grave"
+	},
+	[CARD_NUMBER_THE_SNAKE_HAIR]
+	{
+		.cardName = "The Snake Hair"
+	},
+	[CARD_NUMBER_THE_STERN_MYSTIC]
+	{
+		.cardName = "The Stern Mystic"
+	},
+	[CARD_NUMBER_THE_THING_THAT_HIDES_IN_THE_MUD]
+	{
+		.cardName = "The Thing That Hides in the Mud"
+	},
+	[CARD_NUMBER_THE_UNHAPPY_MAIDEN]
+	{
+		.cardName = "The Unhappy Maiden"
+	},
+	[CARD_NUMBER_THE_WANDERING_DOOMED]
+	{
+		.cardName = "The Wandering Doomed"
+	},
+	[CARD_NUMBER_THE_WICKED_WORM_BEAST]
+	{
+		.cardName = "The Wicked Worm Beast"
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON]
+	{
+		.cardName = "Thousand Dragon"
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON_2]
+	{
+		.cardName = "Thousand Dragon"
+	},
+	[CARD_NUMBER_THREE_HEADED_GEEDO]
+	{
+		.cardName = "Three-Headed Geedo"
+	},
+	[CARD_NUMBER_THREE_LEGGED_ZOMBIES]
+	{
+		.cardName = "Three-Legged Zombies"
+	},
+	[CARD_NUMBER_THUNDER_DRAGON]
+	{
+		.cardName = "Thunder Dragon"
+	},
+	[CARD_NUMBER_TIGER_AXE]
+	{
+		.cardName = "Tiger Axe"
+	},
+	[CARD_NUMBER_TIGER_AXE_2]
+	{
+		.cardName = "Tiger Axe"
+	},
+	[CARD_NUMBER_TIME_MACHINE]
+	{
+		.cardName = "Time Machine"
+	},
+	[CARD_NUMBER_TIME_SEAL]
+	{
+		.cardName = "Time Seal"
+	},
+	[CARD_NUMBER_TIME_WIZARD]
+	{
+		.cardName = "Time Wizard"
+	},
+	[CARD_NUMBER_TOAD_MASTER]
+	{
+		.cardName = "Toad Master"
+	},
+	[CARD_NUMBER_TOGEX]
+	{
+		.cardName = "Togex"
+	},
+	[CARD_NUMBER_TOLL]
+	{
+		.cardName = "Toll"
+	},
+	[CARD_NUMBER_TOMOZAURUS]
+	{
+		.cardName = "Tomozaurus"
+	},
+	[CARD_NUMBER_TONGYO]
+	{
+		.cardName = "Tongyo"
+	},
+	[CARD_NUMBER_TOON_ALLIGATOR]
+	{
+		.cardName = "Toon Alligator"
+	},
+	[CARD_NUMBER_TOON_MERMAID]
+	{
+		.cardName = "Toon Mermaid"
+	},
+	[CARD_NUMBER_TOON_SUMMONED_SKULL]
+	{
+		.cardName = "Toon Summoned Skull"
+	},
+	[CARD_NUMBER_TOON_WORLD]
+	{
+		.cardName = "Toon World"
+	},
+	[CARD_NUMBER_TORIKE]
+	{
+		.cardName = "Torike"
+	},
+	[CARD_NUMBER_TOTAL_DEFENSE_SHOGUN]
+	{
+		.cardName = "Total Defense Shogun"
+	},
+	[CARD_NUMBER_TRAKADON]
+	{
+		.cardName = "Trakadon"
+	},
+	[CARD_NUMBER_TRAP_HOLE]
+	{
+		.cardName = "Trap Hole"
+	},
+	[CARD_NUMBER_TRAP_MASTER]
+	{
+		.cardName = "Trap Master"
+	},
+	[CARD_NUMBER_TREMENDOUS_FIRE]
+	{
+		.cardName = "Tremendous Fire"
+	},
+	[CARD_NUMBER_TRENT]
+	{
+		.cardName = "Trent"
+	},
+	[CARD_NUMBER_TRIAL_OF_NIGHTMARE]
+	{
+		.cardName = "Trial of Nightmare"
+	},
+	[CARD_NUMBER_TRIBUTE_TO_THE_DOOMED]
+	{
+		.cardName = "Tribute to The Doomed"
+	},
+	[CARD_NUMBER_TRI_HORNED_DRAGON]
+	{
+		.cardName = "Tri-Horned Dragon"
+	},
+	[CARD_NUMBER_TRIPWIRE_BEAST]
+	{
+		.cardName = "Tripwire Beast"
+	},
+	[CARD_NUMBER_TURTLE_OATH]
+	{
+		.cardName = "Turtle Oath"
+	},
+	[CARD_NUMBER_TURTLE_TIGER]
+	{
+		.cardName = "Turtle Tiger"
+	},
+	[CARD_NUMBER_TWIN_LONG_RODS_2]
+	{
+		.cardName = "Twin Long Rods #2"
+	},
+	[CARD_NUMBER_TWIN_HEADED_FIRE_DRAGON]
+	{
+		.cardName = "Twin-Headed Fire Dragon"
+	},
+	[CARD_NUMBER_TWIN_HEADED_THUNDER_DRAGON]
+	{
+		.cardName = "Twin-Headed Thunder Dragon"
+	},
+	[CARD_NUMBER_TWO_HEADED_KING_REX]
+	{
+		.cardName = "Two-Headed King Rex"
+	},
+	[CARD_NUMBER_TWO_MOUTH_DARKRULER]
+	{
+		.cardName = "Two-Mouth Darkruler"
+	},
+	[CARD_NUMBER_TWO_PRONGED_ATTACK]
+	{
+		.cardName = "Two-Pronged Attack"
+	},
+	[CARD_NUMBER_TYHONE]
+	{
+		.cardName = "Tyhone"
+	},
+	[CARD_NUMBER_TYHONE_2]
+	{
+		.cardName = "Tyhone #2"
+	},
+	[CARD_NUMBER_UFO_TURTLE]
+	{
+		.cardName = "UFO Turtle"
+	},
+	[CARD_NUMBER_ULTIMATE_OFFERING]
+	{
+		.cardName = "Ultimate Offering"
+	},
+	[CARD_NUMBER_UMI]
+	{
+		.cardName = "Umi "
+	},
+	[CARD_NUMBER_UMIIRUKA]
+	{
+		.cardName = "Umiiruka"
+	},
+	[CARD_NUMBER_UNKNOWN_WARRIOR_OF_FIEND]
+	{
+		.cardName = "Unknown Warrior of Fiend"
+	},
+	[CARD_NUMBER_UPSTART_GOBLIN]
+	{
+		.cardName = "Upstart Goblin"
+	},
+	[CARD_NUMBER_URABY]
+	{
+		.cardName = "Uraby"
+	},
+	[CARD_NUMBER_USHI_ONI]
+	{
+		.cardName = "Ushi Oni"
+	},
+	[CARD_NUMBER_VALKYRION_THE_MAGNA_WARRIOR]
+	{
+		.cardName = "Valkyrion the Magna Warrior"
+	},
+	[CARD_NUMBER_VERMILLION_SPARROW]
+	{
+		.cardName = "Vermillion Sparrow"
+	},
+	[CARD_NUMBER_VERSAGO_THE_DESTROYER]
+	{
+		.cardName = "Versago the Destroyer"
+	},
+	[CARD_NUMBER_VILE_GERMS]
+	{
+		.cardName = "Vile Germs"
+	},
+	[CARD_NUMBER_VIOLENT_RAIN]
+	{
+		.cardName = "Violent Rain"
+	},
+	[CARD_NUMBER_VIOLET_CRYSTAL]
+	{
+		.cardName = "Violet Crystal"
+	},
+	[CARD_NUMBER_VISHWAR_RANDI]
+	{
+		.cardName = "Vishwar Randi"
+	},
+	[CARD_NUMBER_VORSE_RAIDER]
+	{
+		.cardName = "Vorse Raider"
+	},
+	[CARD_NUMBER_WABOKU]
+	{
+		.cardName = "Waboku"
+	},
+	[CARD_NUMBER_WALL_OF_ILLUSION]
+	{
+		.cardName = "Wall of Illusion"
+	},
+	[CARD_NUMBER_WALL_SHADOW]
+	{
+		.cardName = "Wall Shadow"
+	},
+	[CARD_NUMBER_WAR_LION_RITUAL]
+	{
+		.cardName = "War-Lion Ritual"
+	},
+	[CARD_NUMBER_WARRIOR_ELIMINATION]
+	{
+		.cardName = "Warrior Elimination"
+	},
+	[CARD_NUMBER_WARRIOR_OF_TRADITION]
+	{
+		.cardName = "Warrior of Tradition"
+	},
+	[CARD_NUMBER_WASTELAND]
+	{
+		.cardName = "Wasteland"
+	},
+	[CARD_NUMBER_WATER_ELEMENT]
+	{
+		.cardName = "Water Element"
+	},
+	[CARD_NUMBER_WATER_GIRL]
+	{
+		.cardName = "Water Girl"
+	},
+	[CARD_NUMBER_WATER_MAGICIAN]
+	{
+		.cardName = "Water Magician"
+	},
+	[CARD_NUMBER_WATER_OMOTICS]
+	{
+		.cardName = "Water Omotics"
+	},
+	[CARD_NUMBER_WATERDRAGON_FAIRY]
+	{
+		.cardName = "Waterdragon Fairy"
+	},
+	[CARD_NUMBER_WEATHER_CONTROL]
+	{
+		.cardName = "Weather Control"
+	},
+	[CARD_NUMBER_WEATHER_REPORT]
+	{
+		.cardName = "Weather Report"
+	},
+	[CARD_NUMBER_WHIPTAIL_CROW]
+	{
+		.cardName = "Whiptail Crow"
+	},
+	[CARD_NUMBER_WHITE_HOLE]
+	{
+		.cardName = "White Hole"
+	},
+	[CARD_NUMBER_WHITE_MAGICAL_HAT]
+	{
+		.cardName = "White Magical Hat"
+	},
+	[CARD_NUMBER_WICKED_MIRROR]
+	{
+		.cardName = "Wicked Mirror"
+	},
+	[CARD_NUMBER_WIDESPREAD_RUIN]
+	{
+		.cardName = "Widespread Ruin"
+	},
+	[CARD_NUMBER_WINDSTORM_OF_ETAQUA]
+	{
+		.cardName = "Windstorm of Etaqua"
+	},
+	[CARD_NUMBER_WING_EGG_ELF]
+	{
+		.cardName = "Wing Egg Elf"
+	},
+	[CARD_NUMBER_WINGED_CLEAVER]
+	{
+		.cardName = "Winged Cleaver"
+	},
+	[CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_1]
+	{
+		.cardName = "Winged Dragon,Guardian of the Fortress #1"
+	},
+	[CARD_NUMBER_WINGS_OF_WICKED_FLAME]
+	{
+		.cardName = "Wings of Wicked Flame"
+	},
+	[CARD_NUMBER_WITCH_OF_THE_BLACK_FOREST]
+	{
+		.cardName = "Witch of the Black Forest"
+	},
+	[CARD_NUMBER_WITCH_S_APPRENTICE]
+	{
+		.cardName = "Witch's Apprentice"
+	},
+	[CARD_NUMBER_WITTY_PHANTOM]
+	{
+		.cardName = "Witty Phantom"
+	},
+	[CARD_NUMBER_WODAN_THE_RESIDENT_OF_THE_FOREST]
+	{
+		.cardName = "Wodan the Resident of the Forest"
+	},
+	[CARD_NUMBER_WOOD_REMAINS]
+	{
+		.cardName = "Wood Remains"
+	},
+	[CARD_NUMBER_WORLD_SUPPRESSION]
+	{
+		.cardName = "World Suppression"
+	},
+	[CARD_NUMBER_WOW_WARRIOR]
+	{
+		.cardName = "Wow Warrior"
+	},
+	[CARD_NUMBER_WRETCHED_GHOST_OF_THE_ATTIC]
+	{
+		.cardName = "Wretched Ghost of the Attic"
+	},
+	[CARD_NUMBER_YADO_KARU]
+	{
+		.cardName = "Yado Karu"
+	},
+	[CARD_NUMBER_YAIBA_ROBO]
+	{
+		.cardName = "Yaiba Robo"
+	},
+	[CARD_NUMBER_YAMATANO_DRAGON_SCROLL]
+	{
+		.cardName = "Yamatano Dragon Scroll"
+	},
+	[CARD_NUMBER_YAMI]
+	{
+		.cardName = "Yami"
+	},
+	[CARD_NUMBER_YARANZO]
+	{
+		.cardName = "Yaranzo"
+	},
+	[CARD_NUMBER_ZANKI]
+	{
+		.cardName = "Zanki"
+	},
+	[CARD_NUMBER_ZERA_RITUAL]
+	{
+		.cardName = "Zera Ritual"
+	},
+	[CARD_NUMBER_ZERA_THE_MANT]
+	{
+		.cardName = "Zera The Mant"
+	},
+	[CARD_NUMBER_ZOA]
+	{
+		.cardName = "Zoa"
+	},
+	[CARD_NUMBER_ZOMBIE_WARRIOR]
+	{
+		.cardName = "Zombie Warrior"
+	},
+	[CARD_NUMBER_ZONE_EATER]
+	{
+		.cardName = "Zone Eater"
+	},
+	[CARD_NUMBER_THE_MONARCHY]
+	{
+		.cardName = "The Monarchy"
+	},
+	[CARD_NUMBER_SET_SAIL_FOR_THE_KINGDOM]
+	{
+		.cardName = "Set Sail for the Kingdom"
+	},
+	[CARD_NUMBER_GLORY_OF_THE_KING_S_HAND]
+	{
+		.cardName = "Glory of the King's Hand"
+	},
+	[CARD_NUMBER_OBELISK_THE_TORMENTOR]
+	{
+		.cardName = "Obelisk the Tormentor"
+	},
+	[CARD_NUMBER_SLIFER_THE_SKY_DRAGON]
+	{
+		.cardName = "Slifer the Sky Dragon"
+	},
+	[CARD_NUMBER_THE_WINGED_DRAGON_OF_RA]
+	{
+		.cardName = "The Winged Dragon of Ra"
+	},
+	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
+	{
+		.cardName = "Insect Monster Token"
+	}
+};
