@@ -1,4 +1,5 @@
 #include "../include/gba/types.h"
+#include "../include/card.h"
 
 const u8 gCardGraphics[] = INCBIN_U8(
 	"graphics/Resize/gCardGraphicsNone.6bpp",
@@ -1647,3 +1648,7396 @@ const u8 gCardPalettes[] = INCBIN_U8(
 	"graphics/Resize/gCardGraphicsTheWingedDragonofRa.gbapal",
 	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal"
 );
+
+const struct CardStats gCardStats [] =
+{
+	[CARD_NUMBER_NONE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_7_COLORED_FISH]
+	{
+		.defense = 80,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_7_COMPLETED]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ACID_CRAWLER]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ACID_TRAP_HOLE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_AIR_EATER]
+	{
+		.defense = 160,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_AIR_MARMOT_OF_NEFARIOUSNESS]
+	{
+		.defense = 60,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_AKAKIEISU]
+	{
+		.defense = 80,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_AKIHIRON]
+	{
+		.defense = 140,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD_DRAGON]
+	{
+		.defense = 150,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_ALPHA_THE_MAGNET_WARRIOR]
+	{
+		.defense = 170,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_AMAZON_OF_THE_SEAS]
+	{
+		.defense = 140,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_AMEBA]
+	{
+		.defense = 35,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 1,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_AMPHIBIOUS_BUGROTH]
+	{
+		.defense = 130,
+		.attack = 185,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_AQUA,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ANCIENT_BRAIN]
+	{
+		.defense = 70,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ANCIENT_ELF]
+	{
+		.defense = 120,
+		.attack = 145,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ANCIENT_JAR]
+	{
+		.defense = 20,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ANCIENT_LIZARD_WARRIOR]
+	{
+		.defense = 110,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ANCIENT_ONE_OF_THE_DEEP_FOREST]
+	{
+		.defense = 190,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ANCIENT_TELESCOPE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ANCIENT_TOOL]
+	{
+		.defense = 140,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ANSATSU]
+	{
+		.defense = 120,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ANTHROSAURUS]
+	{
+		.defense = 85,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ANTI_RAIGEKI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ANTI_MAGIC_FRAGRANCE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_APPROPRIATE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_AQUA_CHORUS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_AQUA_DRAGON]
+	{
+		.defense = 190,
+		.attack = 225,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_SEA_SERPENT,
+		.level = 6,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_AQUA_MADOOR]
+	{
+		.defense = 200,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ARLOWNAY]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ARMA_KNIGHT]
+	{
+		.defense = 120,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ARMAILL]
+	{
+		.defense = 130,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ARMED_NINJA]
+	{
+		.defense = 30,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ARMORED_GLASS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ARMORED_LIZARD]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ARMORED_RAT]
+	{
+		.defense = 110,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ARMORED_STARFISH]
+	{
+		.defense = 140,
+		.attack = 85,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ARMORED_ZOMBIE]
+	{
+		.defense = 0,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_AXE_OF_DESPAIR]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_AXE_RAIDER]
+	{
+		.defense = 115,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_B_DRAGON_JUNGLE_KING]
+	{
+		.defense = 180,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_B_SKULL_DRAGON]
+	{
+		.defense = 250,
+		.attack = 320,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 9,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BABY_DRAGON]
+	{
+		.defense = 70,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_BACKUP_SOLDIER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BANISHER_OF_THE_LIGHT]
+	{
+		.defense = 200,
+		.attack = 10,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BAROX]
+	{
+		.defense = 153,
+		.attack = 138,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BARREL_DRAGON]
+	{
+		.defense = 220,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BARREL_LILY]
+	{
+		.defense = 60,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BARREL_ROCK]
+	{
+		.defense = 130,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BASIC_INSECT]
+	{
+		.defense = 70,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BATTLE_OX]
+	{
+		.defense = 100,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BATTLE_STEER]
+	{
+		.defense = 130,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BATTLE_WARRIOR]
+	{
+		.defense = 100,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BEAN_SOLDIER]
+	{
+		.defense = 130,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BEAST_FANGS]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BEASTKING_OF_THE_SWAMPS]
+	{
+		.defense = 110,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_BEASTLY_MIRROR_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BEAUTIFUL_HEADHUNTRESS]
+	{
+		.defense = 80,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BEAVER_WARRIOR]
+	{
+		.defense = 150,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BEHEGON]
+	{
+		.defense = 100,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_BELL_OF_DESTRUCTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BETA_THE_MAGNET_WARRIOR]
+	{
+		.defense = 160,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BICKURIBOX]
+	{
+		.defense = 200,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FIEND,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BIG_EYE]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BIG_INSECT]
+	{
+		.defense = 150,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BIG_SHIELD_GARDNA]
+	{
+		.defense = 260,
+		.attack = 10,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BINDING_CHAIN]
+	{
+		.defense = 110,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BIO_PLANT]
+	{
+		.defense = 130,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BLACK_ILLUSION_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BLACK_LUSTER_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BLACK_LUSTER_SOLDIER]
+	{
+		.defense = 250,
+		.attack = 300,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_WARRIOR,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BLACK_PENDANT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BLACKLAND_FIRE_DRAGON]
+	{
+		.defense = 80,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BLADEFLY]
+	{
+		.defense = 70,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_BLAST_JUGGLER]
+	{
+		.defense = 90,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 3,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_BLAST_SPHERE]
+	{
+		.defense = 140,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BLOCK_ATTACK]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BLUE_MEDICINE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BLUE_EYED_SILVER_ZOMBIE]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_BLUE_EYES_TOON_DRAGON]
+	{
+		.defense = 250,
+		.attack = 300,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_DRAGON,
+		.level = 8,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BLUE_EYES_ULTIMATE_DRAGON]
+	{
+		.defense = 380,
+		.attack = 450,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 12,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON]
+	{
+		.defense = 250,
+		.attack = 300,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 8,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON_2]
+	{
+		.defense = 250,
+		.attack = 300,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 8,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_BLUE_WINGED_CROWN]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_BOAR_SOLDIER]
+	{
+		.defense = 50,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BOLT_ESCARGOT]
+	{
+		.defense = 150,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_BOOK_OF_SECRET_ARTS]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BOTTOM_DWELLER]
+	{
+		.defense = 170,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_BRACCHIO_RAIDUS]
+	{
+		.defense = 200,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DINOSAUR,
+		.level = 6,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_BREATH_OF_LIGHT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BRIGHT_CASTLE]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BURGLAR]
+	{
+		.defense = 80,
+		.attack = 85,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_BURNING_SPEAR]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_BUSTER_BLADER]
+	{
+		.defense = 230,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CALL_OF_THE_DARK]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CALL_OF_THE_GRAVE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CALL_OF_THE_HAUNTED]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CANDLE_OF_FATE]
+	{
+		.defense = 60,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CANNON_SOLDIER]
+	{
+		.defense = 130,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CASTLE_OF_DARK_ILLUSIONS]
+	{
+		.defense = 193,
+		.attack = 92,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CASTLE_WALLS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CATAPULT_TURTLE]
+	{
+		.defense = 200,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_CEASEFIRE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN_2]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CEREMONIAL_BELL]
+	{
+		.defense = 185,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CHAIN_DESTRUCTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CHAIN_ENERGY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CHAKRA]
+	{
+		.defense = 200,
+		.attack = 245,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_FIEND,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CHANGE_OF_HEART]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CHARUBIN_THE_FIRE_KNIGHT]
+	{
+		.defense = 80,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_PYRO,
+		.level = 3,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_CHORUS_OF_SANCTUARY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CLAW_REACHER]
+	{
+		.defense = 80,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CLOWN_ZOMBIE]
+	{
+		.defense = 0,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_COCKROACH_KNIGHT]
+	{
+		.defense = 90,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_COCOON_OF_EVOLUTION]
+	{
+		.defense = 200,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_COMMENCEMENT_DANCE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CONFISCATION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_COSMO_QUEEN]
+	{
+		.defense = 245,
+		.attack = 290,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CRAB_TURTLE]
+	{
+		.defense = 250,
+		.attack = 255,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_AQUA,
+		.level = 8,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_CRASS_CLOWN]
+	{
+		.defense = 140,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON]
+	{
+		.defense = 140,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON_2]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CRAZY_FISH]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_CRIMSON_SUNBIRD]
+	{
+		.defense = 180,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WINGED_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_CROW_GOBLIN]
+	{
+		.defense = 160,
+		.attack = 185,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_CRUSH_CARD]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_CURSE_OF_DRAGON]
+	{
+		.defense = 150,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CURSE_OF_FIEND]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CURTAIN_OF_THE_DARK_ONES]
+	{
+		.defense = 50,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CYBER_COMMANDER]
+	{
+		.defense = 70,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CYBER_FALCON]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_CYBER_JAR]
+	{
+		.defense = 90,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CYBER_SAURUS]
+	{
+		.defense = 140,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CYBER_SHIELD]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_CYBER_SOLDIER]
+	{
+		.defense = 170,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CYBER_STEIN]
+	{
+		.defense = 50,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_CYBER_TECH_ALLIGATOR]
+	{
+		.defense = 160,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_D_HUMAN]
+	{
+		.defense = 110,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DANCING_ELF]
+	{
+		.defense = 20,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 1,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_DARK_ARTIST]
+	{
+		.defense = 140,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_ASSAILANT]
+	{
+		.defense = 120,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_CHIMERA]
+	{
+		.defense = 146,
+		.attack = 161,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_ELF]
+	{
+		.defense = 80,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_ENERGY]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DARK_GRAY]
+	{
+		.defense = 90,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DARK_HOLE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DARK_KING_OF_THE_ABYSS]
+	{
+		.defense = 80,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_MAGIC_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DARK_MAGICIAN]
+	{
+		.defense = 210,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_2]
+	{
+		.defense = 210,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_GIRL]
+	{
+		.defense = 170,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_RABBIT]
+	{
+		.defense = 150,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_SAGE]
+	{
+		.defense = 320,
+		.attack = 280,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 9,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARK_SHADE]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_DARK_WITCH]
+	{
+		.defense = 170,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_DARK_ZEBRA]
+	{
+		.defense = 40,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DARK_EYES_ILLUSIONIST]
+	{
+		.defense = 140,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARKFIRE_DRAGON]
+	{
+		.defense = 125,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_1]
+	{
+		.defense = 115,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_2]
+	{
+		.defense = 110,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_DARKNESS_APPROACHES]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DARK_PIERCING_LIGHT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DARKWORLD_THORNS]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DEEPSEA_SHARK]
+	{
+		.defense = 160,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FISH,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_DELINQUENT_DUO]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DE_SPELL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DESTROYER_GOLEM]
+	{
+		.defense = 100,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DIAN_KETO_THE_CURE_MASTER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DICE_ARMADILLO]
+	{
+		.defense = 180,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DIMENSIONAL_WARRIOR]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DISK_MAGICIAN]
+	{
+		.defense = 100,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DISSOLVEROCK]
+	{
+		.defense = 100,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DNA_SURGERY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_DOKUROIZO_THE_GRIM_REAPER]
+	{
+		.defense = 120,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DOKURORIDER]
+	{
+		.defense = 185,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_ZOMBIE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DOMA_THE_ANGEL_OF_SILENCE]
+	{
+		.defense = 140,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DORON]
+	{
+		.defense = 50,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DOROVER]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_DRAGON_CAPTURE_JAR]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_DRAGON_PIPER]
+	{
+		.defense = 180,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_PYRO,
+		.level = 3,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_DRAGON_SEEKER]
+	{
+		.defense = 210,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DRAGON_TREASURE]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_DRAGON_ZOMBIE]
+	{
+		.defense = 0,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DRAGONESS_THE_WICKED_KNIGHT]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_DREAM_CLOWN]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DRIVING_SNOW]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_DROOLING_LIZARD]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DRYAD]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DUNAMES_DARK_WITCH]
+	{
+		.defense = 105,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_DUNGEON_WORM]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_DUST_TORNADO]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_EARTHSHAKER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_EATGABOON]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ELDEEN]
+	{
+		.defense = 100,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ELECTRIC_LIZARD]
+	{
+		.defense = 80,
+		.attack = 85,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_THUNDER,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ELECTRIC_SNAKE]
+	{
+		.defense = 90,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_THUNDER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ELECTRO_WHIP]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ELEGANT_EGOTIST]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ELF_S_LIGHT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_EMPRESS_JUDGE]
+	{
+		.defense = 170,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ENCHANTED_JAVELIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ENCHANTING_MERMAID]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ERADICATING_AEROSOL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ETERNAL_DRAUGHT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ETERNAL_REST]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_EXCHANGE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_EXILE_OF_THE_WICKED]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_EXODIA_THE_FORBIDDEN_ONE]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_EYEARMOR]
+	{
+		.defense = 50,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_FAIRY_DRAGON]
+	{
+		.defense = 120,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_FAIRY_S_HAND_MIRROR]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_FAIRYWITCH]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FAITH_BIRD]
+	{
+		.defense = 110,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_FAKE_TRAP]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_FERAL_IMP]
+	{
+		.defense = 140,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FIEND_KRAKEN]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_1]
+	{
+		.defense = 140,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_2]
+	{
+		.defense = 140,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_FIEND_SWORD]
+	{
+		.defense = 80,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FIEND_S_HAND]
+	{
+		.defense = 60,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FIEND_S_MIRROR]
+	{
+		.defense = 180,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FINAL_DESTINY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FINAL_FLAME]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FIRE_KRAKEN]
+	{
+		.defense = 150,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FIRE_REAPER]
+	{
+		.defense = 50,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FIREGRASS]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_FIREWING_PEGASUS]
+	{
+		.defense = 180,
+		.attack = 225,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FIREYAROU]
+	{
+		.defense = 100,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FISSURE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FLAME_CEREBRUS]
+	{
+		.defense = 180,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 6,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FLAME_CHAMPION]
+	{
+		.defense = 130,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FLAME_GHOST]
+	{
+		.defense = 80,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FLAME_MANIPULATOR]
+	{
+		.defense = 100,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN]
+	{
+		.defense = 160,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN_2]
+	{
+		.defense = 160,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_FLAME_VIPER]
+	{
+		.defense = 45,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_FLASH_ASSAILANT]
+	{
+		.defense = 200,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_FLOWER_WOLF]
+	{
+		.defense = 140,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_1]
+	{
+		.defense = 90,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_2]
+	{
+		.defense = 80,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_FOLLOW_WIND]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FORCED_REQUISITION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_FOREST]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FORTRESS_WHALE]
+	{
+		.defense = 215,
+		.attack = 235,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_FISH,
+		.level = 7,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_FORTRESS_WHALE_S_OATH]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FRENZIED_PANDA]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_FUSION_SAGE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_FUSIONIST]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GAIA_POWER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GAIA_THE_DRAGON_CHAMPION]
+	{
+		.defense = 210,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT]
+	{
+		.defense = 210,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT_2]
+	{
+		.defense = 210,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GALE_DOGRA]
+	{
+		.defense = 60,
+		.attack = 65,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GAMMA_THE_MAGNET_WARRIOR]
+	{
+		.defense = 180,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GANIGUMO]
+	{
+		.defense = 80,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GARMA_SWORD]
+	{
+		.defense = 215,
+		.attack = 255,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GARMA_SWORD_OATH]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GARNECIA_ELEFANTIS]
+	{
+		.defense = 200,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GAROOZIS]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_GARVAS]
+	{
+		.defense = 170,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GATE_GUARDIAN]
+	{
+		.defense = 340,
+		.attack = 375,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 11,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GATEKEEPER]
+	{
+		.defense = 180,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GAZELLE_THE_KING_OF_MYTHICAL_BEASTS]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GEMINI_ELF]
+	{
+		.defense = 90,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GENIN]
+	{
+		.defense = 90,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GERM_INFECTION]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GHOUL_WITH_AN_APPETITE]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GIANT_FLEA]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GIANT_GERM]
+	{
+		.defense = 10,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GIANT_MECH_SOLDIER]
+	{
+		.defense = 190,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GIANT_RAT]
+	{
+		.defense = 145,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GIANT_RED_SEASNAKE]
+	{
+		.defense = 80,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GIANT_SCORPION_OF_THE_TUNDRA]
+	{
+		.defense = 100,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GIANT_SOLDIER_OF_STONE]
+	{
+		.defense = 200,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GIANT_TRUNADE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GIANT_TURTLE_WHO_FEEDS_ON_FLAMES]
+	{
+		.defense = 180,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GIFT_OF_THE_MYSTICAL_ELF]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GIGANTO]
+	{
+		.defense = 180,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GIGA_TECH_WOLF]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_GILTIA_THE_D_KNIGHT]
+	{
+		.defense = 150,
+		.attack = 185,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GOBLIN_FAN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GOBLIN_S_SECRET_REMEDY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GODDESS_OF_WHIM]
+	{
+		.defense = 70,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GODDESS_WITH_THE_THIRD_EYE]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GOKIBORE]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GRACEFUL_CHARITY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GRACEFUL_DICE]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GRAPPLER]
+	{
+		.defense = 120,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GRAVEDIGGER_GHOUL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GRAVEKEEPER_S_SERVANT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GRAVEROBBER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GRAVEYARD_AND_THE_HAND_OF_INVITATION]
+	{
+		.defense = 90,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GREAT_BILL]
+	{
+		.defense = 130,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GREAT_MAMMOTH_OF_GOLDFINE]
+	{
+		.defense = 180,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_ZOMBIE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GREAT_MOTH]
+	{
+		.defense = 250,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GREAT_WHITE]
+	{
+		.defense = 80,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GREEN_PHANTOM_KING]
+	{
+		.defense = 160,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GREENKAPPA]
+	{
+		.defense = 90,
+		.attack = 65,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_GRIFFORE]
+	{
+		.defense = 150,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GRIGGLE]
+	{
+		.defense = 30,
+		.attack = 35,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_PLANT,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GROUND_ATTACKER_BUGROTH]
+	{
+		.defense = 100,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GRUESOME_GOO]
+	{
+		.defense = 70,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GRYPHON_WING]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_LABYRINTH]
+	{
+		.defense = 120,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_SEA]
+	{
+		.defense = 100,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_THRONE_ROOM]
+	{
+		.defense = 160,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GUST]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_GUST_FAN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GYAKUTENNO_MEGAMI]
+	{
+		.defense = 200,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 6,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HAMBURGER_RECIPE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HANE_HANE]
+	{
+		.defense = 50,
+		.attack = 45,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HANIWA]
+	{
+		.defense = 50,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HAPPY_LOVER]
+	{
+		.defense = 50,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HARD_ARMOR]
+	{
+		.defense = 120,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HARPIE_LADY]
+	{
+		.defense = 140,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_HARPIE_LADY_SISTERS]
+	{
+		.defense = 210,
+		.attack = 195,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WINGED_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_HARPIE_S_BROTHER]
+	{
+		.defense = 60,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_HARPIE_S_FEATHER_DUSTER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HARPIE_S_PET_DRAGON]
+	{
+		.defense = 250,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_HEAVY_STORM]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HERCULES_BEETLE]
+	{
+		.defense = 200,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HERO_OF_THE_EAST]
+	{
+		.defense = 100,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HIBIKIME]
+	{
+		.defense = 100,
+		.attack = 145,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HIGH_TIDE_GYOJIN]
+	{
+		.defense = 130,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_HINOTAMA]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HINOTAMA_SOUL]
+	{
+		.defense = 50,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 2,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_HIRO_S_SHADOW_SCOUT]
+	{
+		.defense = 50,
+		.attack = 65,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_HITODENCHAK]
+	{
+		.defense = 70,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 2,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_HITOTSU_ME_GIANT]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HOLOGRAH]
+	{
+		.defense = 70,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HORN_IMP]
+	{
+		.defense = 100,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_HORN_OF_HEAVEN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HORN_OF_LIGHT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HORN_OF_THE_UNICORN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_HOSHININGEN]
+	{
+		.defense = 70,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HOURGLASS_OF_COURAGE]
+	{
+		.defense = 120,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HOURGLASS_OF_LIFE]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HOUSE_OF_ADHESIVE_TAPE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_HUNGRY_BURGER]
+	{
+		.defense = 185,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_HUNTER_SPIDER]
+	{
+		.defense = 140,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_HYO]
+	{
+		.defense = 120,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_HYOSUBE]
+	{
+		.defense = 90,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_HYOZANRYU]
+	{
+		.defense = 280,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ICE_WATER]
+	{
+		.defense = 90,
+		.attack = 115,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ILL_WITCH]
+	{
+		.defense = 150,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ILLUSIONIST_FACELESS_MAGE]
+	{
+		.defense = 220,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_IMPERIAL_ORDER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_INSECT_ARMOR_WITH_LASER_CANNON]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_INSECT_QUEEN]
+	{
+		.defense = 240,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_INSECT_SOLDIERS_OF_THE_SKY]
+	{
+		.defense = 80,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_INSPECTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_INVADER_FROM_ANOTHER_DIMENSION]
+	{
+		.defense = 140,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_INVADER_OF_THE_THRONE]
+	{
+		.defense = 170,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_INVIGORATION]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE]
+	{
+		.defense = 255,
+		.attack = 245,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_INSECT,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE_PACT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_JELLYFISH]
+	{
+		.defense = 150,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_JIGEN_BAKUDAN]
+	{
+		.defense = 100,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_PYRO,
+		.level = 2,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_JINZO]
+	{
+		.defense = 150,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_JINZO_7]
+	{
+		.defense = 40,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_JIRAI_GUMO]
+	{
+		.defense = 10,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_JUDGE_MAN]
+	{
+		.defense = 150,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_JUST_DESSERTS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_KAGEMUSHA_OF_THE_BLUE_FLAME]
+	{
+		.defense = 40,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KAGENINGEN]
+	{
+		.defense = 60,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KAIRYU_SHIN]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SEA_SERPENT,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_KAISER_DRAGON]
+	{
+		.defense = 200,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_KAMAKIRIMAN]
+	{
+		.defense = 140,
+		.attack = 115,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KAMINARI_ATTACK]
+	{
+		.defense = 140,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_THUNDER,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_KAMINARIKOZOU]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_KAMIONWIZARD]
+	{
+		.defense = 110,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KANAN_THE_SWORDMISTRESS]
+	{
+		.defense = 140,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KANIKABUTO]
+	{
+		.defense = 90,
+		.attack = 65,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_KARATE_MAN]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KARBONALA_WARRIOR]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KATTAPILLAR]
+	{
+		.defense = 30,
+		.attack = 25,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KAZEJIN]
+	{
+		.defense = 220,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 7,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_KEY_MACE_2]
+	{
+		.defense = 120,
+		.attack = 105,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KILLER_NEEDLE]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_KING_FOG]
+	{
+		.defense = 90,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KING_OF_YAMIMAKAI]
+	{
+		.defense = 153,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KISEITAI]
+	{
+		.defense = 80,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KOJIKOCY]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KOTODAMA]
+	{
+		.defense = 160,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KOUMORI_DRAGON]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KROKODILUS]
+	{
+		.defense = 120,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_KUMOOTOKO]
+	{
+		.defense = 140,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KUNAI_WITH_CHAIN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_KURAMA]
+	{
+		.defense = 80,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_KURIBOH]
+	{
+		.defense = 20,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_KUWAGATA_A]
+	{
+		.defense = 100,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_KWAGAR_HERCULES]
+	{
+		.defense = 170,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_INSECT,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP]
+	{
+		.defense = 100,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LABYRINTH_TANK]
+	{
+		.defense = 240,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MACHINE,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LABYRINTH_WALL]
+	{
+		.defense = 300,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LADY_OF_FAITH]
+	{
+		.defense = 80,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_LALA_LI_OON]
+	{
+		.defense = 60,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_LARVAE_MOTH]
+	{
+		.defense = 40,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LARVAS]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LASER_CANNON_ARMOR]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_LAST_DAY_OF_WITCH]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_LAST_WILL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_LAUGHING_FLOWER]
+	{
+		.defense = 50,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER]
+	{
+		.defense = 250,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 7,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER_2]
+	{
+		.defense = 250,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 7,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_LAVA_BATTLEGUARD]
+	{
+		.defense = 180,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LEFT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.defense = 30,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LEFT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.defense = 30,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LEGENDARY_SWORD]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_LEGHUL]
+	{
+		.defense = 35,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LEOGUN]
+	{
+		.defense = 155,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LESSER_DRAGON]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_LIGHT_OF_INTERVENTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_LIGHTFORCE_SWORD]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_LIQUID_BEAST]
+	{
+		.defense = 80,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_LITTLE_CHIMERA]
+	{
+		.defense = 55,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 2,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_LITTLE_D]
+	{
+		.defense = 70,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_LORD_OF_D]
+	{
+		.defense = 110,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LORD_OF_THE_LAMP]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LORD_OF_ZEMIA]
+	{
+		.defense = 100,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_LUMINOUS_SPARK]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_LUNAR_QUEEN_ELZAIM]
+	{
+		.defense = 110,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MABARREL]
+	{
+		.defense = 140,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MACHINE_CONVERSION_FACTORY]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MACHINE_KING]
+	{
+		.defense = 200,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAGIC_JAMMER]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAGIC_THORN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAGICAL_GHOST]
+	{
+		.defense = 140,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MAGICAL_HATS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAGICAL_LABYRINTH]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MAGIC_ARM_SHIELD]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAGICIAN_OF_BLACK_CHAOS]
+	{
+		.defense = 260,
+		.attack = 280,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_SPELLCASTER,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MAGICIAN_OF_FAITH]
+	{
+		.defense = 40,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAHA_VAILO]
+	{
+		.defense = 140,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAIDEN_OF_THE_MOONLIGHT]
+	{
+		.defense = 130,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MAJOR_RIOT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MALEVOLENT_NUZZLER]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MAMMOTH_GRAVEYARD]
+	{
+		.defense = 80,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAN_EATER]
+	{
+		.defense = 60,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAN_EATER_BUG]
+	{
+		.defense = 60,
+		.attack = 45,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAN_EATING_BLACK_SHARK]
+	{
+		.defense = 130,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FISH,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_MAN_EATING_PLANT]
+	{
+		.defense = 60,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAN_EATING_TREASURE_CHEST]
+	{
+		.defense = 100,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MANGA_RYU_RAN]
+	{
+		.defense = 260,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_MARINE_BEAST]
+	{
+		.defense = 160,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FISH,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_MASAKI_THE_LEGENDARY_SWORDSMAN]
+	{
+		.defense = 110,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MASK_OF_DARKNESS]
+	{
+		.defense = 40,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MASKED_SORCERER]
+	{
+		.defense = 140,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MASTER_AND_EXPERT]
+	{
+		.defense = 100,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MAVELUS]
+	{
+		.defense = 90,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_MECHANICAL_SNAIL]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MECHANICAL_SPIDER]
+	{
+		.defense = 50,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MECHANICALCHASER]
+	{
+		.defense = 80,
+		.attack = 185,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MEDA_BAT]
+	{
+		.defense = 40,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MEGA_THUNDERBALL]
+	{
+		.defense = 60,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_MEGAMORPH]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MEGAZOWLER]
+	{
+		.defense = 200,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MEOTOKO]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MESMERIC_CONTROL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MESSENGER_OF_PEACE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_METAL_DETECTOR]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_METAL_DRAGON]
+	{
+		.defense = 170,
+		.attack = 185,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_METAL_FISH]
+	{
+		.defense = 190,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_METAL_GUARDIAN]
+	{
+		.defense = 215,
+		.attack = 115,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_METALMORPH]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_METALZOA]
+	{
+		.defense = 230,
+		.attack = 300,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_METEOR_B_DRAGON]
+	{
+		.defense = 200,
+		.attack = 350,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 8,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_METEOR_DRAGON]
+	{
+		.defense = 200,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MIKAZUKINOYAIBA]
+	{
+		.defense = 235,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MILLENNIUM_GOLEM]
+	{
+		.defense = 220,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MILLENNIUM_SHIELD]
+	{
+		.defense = 300,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MILUS_RADIANT]
+	{
+		.defense = 25,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MINAR]
+	{
+		.defense = 75,
+		.attack = 85,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MINOMUSHI_WARRIOR]
+	{
+		.defense = 120,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MIRROR_FORCE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MIRROR_WALL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MISAIRUZAME]
+	{
+		.defense = 160,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_MOLTEN_DESTRUCTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MONSTER_EGG]
+	{
+		.defense = 90,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MONSTER_EYE]
+	{
+		.defense = 35,
+		.attack = 25,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MONSTER_REBORN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MONSTER_TAMER]
+	{
+		.defense = 160,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MONSTROUS_BIRD]
+	{
+		.defense = 190,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_MOON_ENVOY]
+	{
+		.defense = 100,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MOOYAN_CURRY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MORINPHEN]
+	{
+		.defense = 130,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MORPHING_JAR]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ROCK,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MORPHING_JAR_2]
+	{
+		.defense = 70,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MOTHER_GRIZZLY]
+	{
+		.defense = 100,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_MOUNTAIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MOUNTAIN_WARRIOR]
+	{
+		.defense = 100,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MR_VOLCANO]
+	{
+		.defense = 130,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_MUKA_MUKA]
+	{
+		.defense = 30,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ROCK,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MUSHROOM_MAN]
+	{
+		.defense = 60,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MUSHROOM_MAN_2]
+	{
+		.defense = 80,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MUSICIAN_KING]
+	{
+		.defense = 150,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_SPELLCASTER,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_M_WARRIOR_1]
+	{
+		.defense = 50,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_M_WARRIOR_2]
+	{
+		.defense = 100,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTERIOUS_PUPPETEER]
+	{
+		.defense = 150,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTIC_HORSEMAN]
+	{
+		.defense = 155,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTIC_LAMP]
+	{
+		.defense = 30,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MYSTIC_PLASMA_ZONE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MYSTIC_PROBE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MYSTIC_TOMATO]
+	{
+		.defense = 110,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_PLANT,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MYSTICAL_CAPTURE_CHAIN]
+	{
+		.defense = 70,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MYSTICAL_ELF]
+	{
+		.defense = 200,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_MYSTICAL_MOON]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_MYSTICAL_SAND]
+	{
+		.defense = 170,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_ROCK,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_1]
+	{
+		.defense = 90,
+		.attack = 115,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_2]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_MYSTICAL_SPACE_TYPHOON]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_NEEDLE_BALL]
+	{
+		.defense = 70,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_NEEDLE_WORM]
+	{
+		.defense = 60,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_NEGATE_ATTACK]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_NEKOGAL_1]
+	{
+		.defense = 90,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_NEKOGAL_2]
+	{
+		.defense = 200,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_NEMURIKO]
+	{
+		.defense = 70,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_NEO_THE_MAGIC_SWORDSMAN]
+	{
+		.defense = 100,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_NIMBLE_MOMONGA]
+	{
+		.defense = 10,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_NIWATORI]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_CROSSOUT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_EXTERMINATION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_NOVOX_S_PRAYER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_NUMINOUS_HEALER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_OCTOBERSER]
+	{
+		.defense = 140,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_OCUBEAM]
+	{
+		.defense = 165,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_OGRE_OF_THE_BLACK_SHADOW]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ONE_EYED_SHIELD_DRAGON]
+	{
+		.defense = 130,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_OOGUCHI]
+	{
+		.defense = 25,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 1,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_OOKAZI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ORION_THE_BATTLE_KING]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_OSCILLO_HERO]
+	{
+		.defense = 70,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_OSCILLO_HERO_2]
+	{
+		.defense = 50,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_PAINFUL_CHOICE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_PALE_BEAST]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PANTHER_WARRIOR]
+	{
+		.defense = 160,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PARALYZING_POTION]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_PARASITE_PARACIDE]
+	{
+		.defense = 30,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PARROT_DRAGON]
+	{
+		.defense = 130,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_PATROL_ROBO]
+	{
+		.defense = 90,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PEACOCK]
+	{
+		.defense = 150,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE]
+	{
+		.defense = 200,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE_2]
+	{
+		.defense = 200,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_PENGUIN_KNIGHT]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_PENGUIN_SOLDIER]
+	{
+		.defense = 50,
+		.attack = 75,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 2,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_PERFECTLY_ULTIMATE_GREAT_MOTH]
+	{
+		.defense = 300,
+		.attack = 350,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PERFORMANCE_OF_SWORD]
+	{
+		.defense = 185,
+		.attack = 195,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PETIT_ANGEL]
+	{
+		.defense = 90,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_PETIT_DRAGON]
+	{
+		.defense = 70,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_PETIT_MOTH]
+	{
+		.defense = 20,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_POLYMERIZATION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_POLYMERIZATION_2]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_POT_OF_GREED]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_POWER_OF_KAISHIN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_PRAGTICAL]
+	{
+		.defense = 150,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DINOSAUR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PREMATURE_BURIAL]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_PREVENT_RAT]
+	{
+		.defense = 200,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PRINCESS_OF_TSURUGI]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_PRISMAN]
+	{
+		.defense = 100,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_PROHIBITION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_PROTECTOR_OF_THE_THRONE]
+	{
+		.defense = 150,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_PSYCHIC_KAPPA]
+	{
+		.defense = 100,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 2,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_PUMPKING_THE_KING_OF_GHOSTS]
+	{
+		.defense = 200,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ZOMBIE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_PUNISHED_EAGLE]
+	{
+		.defense = 180,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WINGED_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_QUEEN_BIRD]
+	{
+		.defense = 200,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_QUEEN_OF_AUTUMN_LEAVES]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_QUEEN_S_DOUBLE]
+	{
+		.defense = 30,
+		.attack = 35,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RABID_HORSEMAN]
+	{
+		.defense = 170,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RAIGEKI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RAIMEI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RAINBOW_FLOWER]
+	{
+		.defense = 50,
+		.attack = 40,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_PLANT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RAISE_BODY_HEAT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RARE_FISH]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_RAY_AND_TEMPERATURE]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_REAPER_OF_THE_CARDS]
+	{
+		.defense = 193,
+		.attack = 138,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RED_ARCHERY_GIRL]
+	{
+		.defense = 150,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_RED_MEDICINE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RED_EYES_B_DRAGON]
+	{
+		.defense = 200,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RED_EYES_BLACK_METAL_DRAGON]
+	{
+		.defense = 240,
+		.attack = 280,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_REINFORCEMENTS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_RELINQUISHED]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_REMOVE_TRAP]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RESPECT_PLAY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_RESTRUCTER_REVOLUTION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RESURRECTION_OF_CHAKRA]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_REVERSE_TRAP]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_REVIVAL_OF_DOKURORIDER]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RHAIMUNDOS_OF_THE_RED_SWORD]
+	{
+		.defense = 130,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RIGHT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.defense = 30,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RIGHT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.defense = 30,
+		.attack = 20,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RING_OF_MAGNETISM]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RIRYOKU]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RISING_AIR_CURRENT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ROARING_OCEAN_SNAKE]
+	{
+		.defense = 180,
+		.attack = 210,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_AQUA,
+		.level = 6,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ROBBIN_GOBLIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ROCK_OGRE_GROTTO_1]
+	{
+		.defense = 120,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ROGUE_DOLL]
+	{
+		.defense = 100,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ROOT_WATER]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ROSE_SPECTRE_OF_DUNN]
+	{
+		.defense = 180,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_PLANT,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ROYAL_DECREE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_ROYAL_GUARD]
+	{
+		.defense = 220,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RUDE_KAISER]
+	{
+		.defense = 160,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_RUSH_RECKLESSLY]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_RYU_KISHIN]
+	{
+		.defense = 50,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RYU_KISHIN_POWERED]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_RYU_RAN]
+	{
+		.defense = 260,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_SABER_SLASHER]
+	{
+		.defense = 150,
+		.attack = 145,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SAGGI_THE_DARK_CLOWN]
+	{
+		.defense = 150,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SALAMANDRA]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SAND_STONE]
+	{
+		.defense = 160,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SANGA_OF_THE_THUNDER]
+	{
+		.defense = 220,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_THUNDER,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SANGAN]
+	{
+		.defense = 60,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SEA_KAMEN]
+	{
+		.defense = 130,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_SEA_KING_DRAGON]
+	{
+		.defense = 170,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SEA_SERPENT,
+		.level = 6,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_SEAL_OF_THE_ANCIENTS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SEBEK_S_BLESSING]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SECTARIAN_OF_SECRETS]
+	{
+		.defense = 50,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SEIYARYU]
+	{
+		.defense = 230,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SENGENJIN]
+	{
+		.defense = 250,
+		.attack = 275,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SENJU_OF_THE_THOUSAND_HANDS]
+	{
+		.defense = 100,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SERPENT_NIGHT_DRAGON]
+	{
+		.defense = 240,
+		.attack = 235,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SEVEN_TOOLS_OF_THE_BANDIT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SHADOW_GHOUL]
+	{
+		.defense = 130,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ZOMBIE,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SHADOW_SPECTER]
+	{
+		.defense = 20,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SHARE_THE_PAIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SHIELD_AND_SWORD]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SHINING_FAIRY]
+	{
+		.defense = 80,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SHOVEL_CRUSHER]
+	{
+		.defense = 120,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SILVER_BOW_AND_ARROW]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SILVER_FANG]
+	{
+		.defense = 80,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SINISTER_SERPENT]
+	{
+		.defense = 25,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_REPTILE,
+		.level = 1,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_SKELENGEL]
+	{
+		.defense = 40,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SKELGON]
+	{
+		.defense = 190,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_ZOMBIE,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SKULL_DICE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SKULL_GUARDIAN]
+	{
+		.defense = 250,
+		.attack = 205,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SKULL_KNIGHT]
+	{
+		.defense = 225,
+		.attack = 265,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_SPELLCASTER,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SKULL_RED_BIRD]
+	{
+		.defense = 120,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_SKULL_SERVANT]
+	{
+		.defense = 20,
+		.attack = 30,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SKULL_STALKER]
+	{
+		.defense = 80,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SKULLBIRD]
+	{
+		.defense = 170,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WINGED_BEAST,
+		.level = 6,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_SLEEPING_LION]
+	{
+		.defense = 170,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SLOT_MACHINE]
+	{
+		.defense = 230,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SNAKE_FANG]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SNAKEYASHI]
+	{
+		.defense = 120,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SNATCH_STEAL]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SOGEN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SOLEMN_JUDGMENT]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SOLITUDE]
+	{
+		.defense = 100,
+		.attack = 105,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SOLOMON_S_LAWBOOK]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SONIC_BIRD]
+	{
+		.defense = 100,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_SONIC_MAID]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SOUL_HUNTER]
+	{
+		.defense = 180,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SOUL_OF_THE_PURE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SOUL_RELEASE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SPARKS]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SPEAR_CRETIN]
+	{
+		.defense = 50,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SPELLBINDING_CIRCLE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_SPIKE_SEADRA]
+	{
+		.defense = 130,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SEA_SERPENT,
+		.level = 5,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_BOOKS]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_HARP]
+	{
+		.defense = 200,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_STAIN_STORM]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_STAR_BOY]
+	{
+		.defense = 50,
+		.attack = 55,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 2,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_1]
+	{
+		.defense = 180,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_2]
+	{
+		.defense = 220,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_STEEL_SCORPION]
+	{
+		.defense = 30,
+		.attack = 25,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_STEEL_SHELL]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_STIM_PACK]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_STONE_ARMADILLER]
+	{
+		.defense = 120,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_STONE_OGRE_GROTTO]
+	{
+		.defense = 150,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_STOP_DEFENSE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_STUFFED_ANIMAL]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SUCCUBUS_KNIGHT]
+	{
+		.defense = 130,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SUIJIN]
+	{
+		.defense = 240,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 7,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_SUMMONED_SKULL]
+	{
+		.defense = 120,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SUPER_WAR_LION]
+	{
+		.defense = 210,
+		.attack = 230,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_BEAST,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SUPPORTER_IN_THE_SHADOWS]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SWAMP_BATTLEGUARD]
+	{
+		.defense = 150,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SWORD_ARM_OF_DRAGON]
+	{
+		.defense = 203,
+		.attack = 175,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SWORD_OF_DARK_DESTRUCTION]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SWORD_OF_DEEP_SEATED]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SWORD_OF_DRAGON_S_SOUL]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SWORDS_OF_REVEALING_LIGHT]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SWORDSMAN_FROM_A_FOREIGN_LAND]
+	{
+		.defense = 25,
+		.attack = 25,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_SWORDSTALKER]
+	{
+		.defense = 160,
+		.attack = 200,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TAILOR_OF_THE_FICKLE]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TAINTED_WISDOM]
+	{
+		.defense = 80,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TAKRIMINOS]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SEA_SERPENT,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TAKUHEE]
+	{
+		.defense = 100,
+		.attack = 145,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_TAO_THE_CHANTER]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TEMPLE_OF_SKULLS]
+	{
+		.defense = 130,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TENDERNESS]
+	{
+		.defense = 140,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TERRA_THE_TERRIBLE]
+	{
+		.defense = 130,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_13TH_GRAVE]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_BEWITCHING_PHANTOM_THIEF]
+	{
+		.defense = 70,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_BISTRO_BUTCHER]
+	{
+		.defense = 100,
+		.attack = 180,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_CHEERFUL_COFFIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_DRDEK]
+	{
+		.defense = 80,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_EYE_OF_TRUTH]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_FLUTE_OF_SUMMONING_DRAGON]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_FORCEFUL_SENTRY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_FURIOUS_SEA_KING]
+	{
+		.defense = 70,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_THE_IMMORTAL_OF_THUNDER]
+	{
+		.defense = 130,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_THUNDER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_INEXPERIENCED_SPY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_LITTLE_SWORDSMAN_OF_AILE]
+	{
+		.defense = 130,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_THE_REGULATION_OF_TRIBE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_RELIABLE_GUARDIAN]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_SHALLOW_GRAVE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_THE_SNAKE_HAIR]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_STERN_MYSTIC]
+	{
+		.defense = 120,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_THING_THAT_HIDES_IN_THE_MUD]
+	{
+		.defense = 130,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ROCK,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_THE_UNHAPPY_MAIDEN]
+	{
+		.defense = 10,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_WANDERING_DOOMED]
+	{
+		.defense = 60,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_WICKED_WORM_BEAST]
+	{
+		.defense = 70,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON]
+	{
+		.defense = 200,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON_2]
+	{
+		.defense = 200,
+		.attack = 240,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_DRAGON,
+		.level = 7,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_THREE_HEADED_GEEDO]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THREE_LEGGED_ZOMBIES]
+	{
+		.defense = 80,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THUNDER_DRAGON]
+	{
+		.defense = 150,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_THUNDER,
+		.level = 5,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TIGER_AXE]
+	{
+		.defense = 110,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TIGER_AXE_2]
+	{
+		.defense = 110,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TIME_MACHINE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TIME_SEAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TIME_WIZARD]
+	{
+		.defense = 40,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TOAD_MASTER]
+	{
+		.defense = 100,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TOGEX]
+	{
+		.defense = 180,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TOLL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TOMOZAURUS]
+	{
+		.defense = 40,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TONGYO]
+	{
+		.defense = 80,
+		.attack = 135,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TOON_ALLIGATOR]
+	{
+		.defense = 160,
+		.attack = 80,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_REPTILE,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TOON_MERMAID]
+	{
+		.defense = 150,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TOON_SUMMONED_SKULL]
+	{
+		.defense = 120,
+		.attack = 250,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TOON_WORLD]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TORIKE]
+	{
+		.defense = 60,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TOTAL_DEFENSE_SHOGUN]
+	{
+		.defense = 250,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TRAKADON]
+	{
+		.defense = 80,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TRAP_HOLE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TRAP_MASTER]
+	{
+		.defense = 110,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TREMENDOUS_FIRE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TRENT]
+	{
+		.defense = 180,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PLANT,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TRIAL_OF_NIGHTMARE]
+	{
+		.defense = 90,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TRIBUTE_TO_THE_DOOMED]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TRI_HORNED_DRAGON]
+	{
+		.defense = 235,
+		.attack = 285,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TRIPWIRE_BEAST]
+	{
+		.defense = 130,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_THUNDER,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TURTLE_OATH]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_TURTLE_TIGER]
+	{
+		.defense = 150,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TWIN_LONG_RODS_2]
+	{
+		.defense = 70,
+		.attack = 85,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_TWIN_HEADED_FIRE_DRAGON]
+	{
+		.defense = 170,
+		.attack = 220,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 6,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_TWIN_HEADED_THUNDER_DRAGON]
+	{
+		.defense = 210,
+		.attack = 280,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_THUNDER,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TWO_HEADED_KING_REX]
+	{
+		.defense = 120,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TWO_MOUTH_DARKRULER]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_TWO_PRONGED_ATTACK]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_TYHONE]
+	{
+		.defense = 140,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WINGED_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_TYHONE_2]
+	{
+		.defense = 190,
+		.attack = 170,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 6,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_UFO_TURTLE]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_ULTIMATE_OFFERING]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_UMI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_UMIIRUKA]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_UNKNOWN_WARRIOR_OF_FIEND]
+	{
+		.defense = 50,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_UPSTART_GOBLIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_URABY]
+	{
+		.defense = 80,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DINOSAUR,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_USHI_ONI]
+	{
+		.defense = 195,
+		.attack = 215,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_VALKYRION_THE_MAGNA_WARRIOR]
+	{
+		.defense = 385,
+		.attack = 350,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_ROCK,
+		.level = 8,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_VERMILLION_SPARROW]
+	{
+		.defense = 150,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_PYRO,
+		.level = 5,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_VERSAGO_THE_DESTROYER]
+	{
+		.defense = 90,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_VILE_GERMS]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_VIOLENT_RAIN]
+	{
+		.defense = 80,
+		.attack = 155,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_VIOLET_CRYSTAL]
+	{
+		.defense = 0,
+		.attack = 256,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_VISHWAR_RANDI]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_VORSE_RAIDER]
+	{
+		.defense = 120,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_BEAST_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WABOKU]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WALL_OF_ILLUSION]
+	{
+		.defense = 185,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WALL_SHADOW]
+	{
+		.defense = 300,
+		.attack = 160,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WAR_LION_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_WARRIOR_ELIMINATION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_WARRIOR_OF_TRADITION]
+	{
+		.defense = 170,
+		.attack = 190,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_WASTELAND]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_WATER_ELEMENT]
+	{
+		.defense = 70,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WATER_GIRL]
+	{
+		.defense = 100,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WATER_MAGICIAN]
+	{
+		.defense = 100,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WATER_OMOTICS]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WATERDRAGON_FAIRY]
+	{
+		.defense = 70,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WEATHER_CONTROL]
+	{
+		.defense = 40,
+		.attack = 60,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 2,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WEATHER_REPORT]
+	{
+		.defense = 150,
+		.attack = 95,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WHIPTAIL_CROW]
+	{
+		.defense = 160,
+		.attack = 165,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WHITE_HOLE]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WHITE_MAGICAL_HAT]
+	{
+		.defense = 70,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WICKED_MIRROR]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WIDESPREAD_RUIN]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WINDSTORM_OF_ETAQUA]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WING_EGG_ELF]
+	{
+		.defense = 130,
+		.attack = 50,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FAIRY,
+		.level = 3,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WINGED_CLEAVER]
+	{
+		.defense = 70,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 2,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_1]
+	{
+		.defense = 120,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 4,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_WINGS_OF_WICKED_FLAME]
+	{
+		.defense = 60,
+		.attack = 70,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_PYRO,
+		.level = 2,
+		.attribute = ATTRIBUTE_FIRE,
+	},
+	[CARD_NUMBER_WITCH_OF_THE_BLACK_FOREST]
+	{
+		.defense = 120,
+		.attack = 110,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WITCH_S_APPRENTICE]
+	{
+		.defense = 50,
+		.attack = 55,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WITTY_PHANTOM]
+	{
+		.defense = 130,
+		.attack = 140,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WODAN_THE_RESIDENT_OF_THE_FOREST]
+	{
+		.defense = 120,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 3,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_WOOD_REMAINS]
+	{
+		.defense = 90,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_WORLD_SUPPRESSION]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TRAP,
+		.level = 0,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_WOW_WARRIOR]
+	{
+		.defense = 90,
+		.attack = 125,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FISH,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_WRETCHED_GHOST_OF_THE_ATTIC]
+	{
+		.defense = 40,
+		.attack = 55,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 2,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_YADO_KARU]
+	{
+		.defense = 170,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 4,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_YAIBA_ROBO]
+	{
+		.defense = 130,
+		.attack = 100,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_MACHINE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_YAMATANO_DRAGON_SCROLL]
+	{
+		.defense = 30,
+		.attack = 90,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DRAGON,
+		.level = 2,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_YAMI]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_YARANZO]
+	{
+		.defense = 150,
+		.attack = 130,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_ZOMBIE,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ZANKI]
+	{
+		.defense = 170,
+		.attack = 150,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_WARRIOR,
+		.level = 5,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_ZERA_RITUAL]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_MAGIC,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_ZERA_THE_MANT]
+	{
+		.defense = 230,
+		.attack = 280,
+		.monsterType = MONSTER_TYPE_RITUAL,
+		.race = RACE_FIEND,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ZOA]
+	{
+		.defense = 190,
+		.attack = 260,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_FIEND,
+		.level = 7,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ZOMBIE_WARRIOR]
+	{
+		.defense = 90,
+		.attack = 120,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_ZOMBIE,
+		.level = 3,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_ZONE_EATER]
+	{
+		.defense = 20,
+		.attack = 25,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 1,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_THE_MONARCHY]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TICKET,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_SET_SAIL_FOR_THE_KINGDOM]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TICKET,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_GLORY_OF_THE_KING_S_HAND]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_TICKET,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[CARD_NUMBER_OBELISK_THE_TORMENTOR]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DIVINE,
+		.level = 0,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_SLIFER_THE_SKY_DRAGON]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DIVINE,
+		.level = 0,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_WINGED_DRAGON_OF_RA]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_DIVINE,
+		.level = 0,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
+	{
+		.defense = 10,
+		.attack = 10,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_INSECT,
+		.level = 1,
+		.attribute = ATTRIBUTE_EARTH,
+	}
+};
