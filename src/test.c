@@ -1649,7 +1649,7 @@ const u8 gCardPalettes[] = INCBIN_U8(
 	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal"
 );
 
-const struct CardStats gCardStats [] =
+const struct CardStats gCardStats[] =
 {
 	[CARD_NUMBER_NONE]
 	{
@@ -9042,7 +9042,7 @@ const struct CardStats gCardStats [] =
 	}
 };
 
-const struct CardName gCardNames [] =
+const struct CardName gCardNames[] =
 {
 	[CARD_NUMBER_NONE]
 	{
@@ -12327,5 +12327,3293 @@ const struct CardName gCardNames [] =
 	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
 	{
 		.cardName = "Insect Monster Token"
+	}
+};
+
+const struct CardDescription gCardDescriptions[] =
+{
+	[CARD_NUMBER_NONE]
+	{
+		.description = ""
+	},
+	[CARD_NUMBER_7_COLORED_FISH]
+	{
+		.description = "A rare rainbow fish that has never been caught by mortal man."
+	},
+	[CARD_NUMBER_7_COMPLETED]
+	{
+		.description = "A Machine-type monster equipped with this card increases its ATK and DEF by 700 points."
+	},
+	[CARD_NUMBER_ACID_CRAWLER]
+	{
+		.description = "A giant caterpillar that secretes an acid mist that melts anything.  "
+	},
+	[CARD_NUMBER_ACID_TRAP_HOLE]
+	{
+		.description = "Frip 1 face-down Defense Position monster face-up.  If the monster's DEF is 2000 points or less, the monster is destroyed.  If the DEF is more than 2000 points, return the monster to its face-down Defense Position."
+	},
+	[CARD_NUMBER_AIR_EATER]
+	{
+		.description = "A monster that feeds on oxygen, suffocating any who stand near."
+	},
+	[CARD_NUMBER_AIR_MARMOT_OF_NEFARIOUSNESS]
+	{
+		.description = "A horned beaver that dive-bombs enemies with acorns."
+	},
+	[CARD_NUMBER_AKAKIEISU]
+	{
+		.description = "A sorcerer who utters spells that can render monsters unconscious."
+	},
+	[CARD_NUMBER_AKIHIRON]
+	{
+		.description = "This strange creature hides in the deep, dark corners of the seven seas."
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD]
+	{
+		.description = "This lizard man can swing a sword at velocities that exceed the speed of sound."
+	},
+	[CARD_NUMBER_ALLIGATOR_S_SWORD_DRAGON]
+	{
+		.description = "\"Baby Dragon\"+\"Alligator's Sword\".  You can Inflict Direct Damage to your opponent's Life Points with this card if the only Attributes of Monster Cards on your opponent's side of the field are EARTH, WATER, or FIRE."
+	},
+	[CARD_NUMBER_ALPHA_THE_MAGNET_WARRIOR]
+	{
+		.description = "Alpha, Beta, and Gamma meld as one to form a powerful monster."
+	},
+	[CARD_NUMBER_AMAZON_OF_THE_SEAS]
+	{
+		.description = "A mermaid who serves as herald of the Sea King and guards the sanctuary."
+	},
+	[CARD_NUMBER_AMEBA]
+	{
+		.description = "When this card is face-up on the field and control shifts to your opponent, inflict 2000 points of Direct Damage to your opponent's Life Points. This effect can only be used once as long as this card remains face-up on the field."
+	},
+	[CARD_NUMBER_AMPHIBIOUS_BUGROTH]
+	{
+		.description = "Ground Attacker Bugroth + Guardian of the Sea"
+	},
+	[CARD_NUMBER_ANCIENT_BRAIN]
+	{
+		.description = "A fallen fairy that is powerful in the dark."
+	},
+	[CARD_NUMBER_ANCIENT_ELF]
+	{
+		.description = "This elf is rumored to have lived for thousands of years. He leads an army of spirits against his enemies."
+	},
+	[CARD_NUMBER_ANCIENT_JAR]
+	{
+		.description = "A very fragile jar that contains something ancient and dangerous."
+	},
+	[CARD_NUMBER_ANCIENT_LIZARD_WARRIOR]
+	{
+		.description = "Before the dawn of man, this lizard warrior ruled supreme.  "
+	},
+	[CARD_NUMBER_ANCIENT_ONE_OF_THE_DEEP_FOREST]
+	{
+		.description = "This creature adopts the form of a white goat living in the forest, but is actually a Forest Elder."
+	},
+	[CARD_NUMBER_ANCIENT_TELESCOPE]
+	{
+		.description = "See the top 5 cards of your opponent's Deck. Return the cards to the Deck in the same order."
+	},
+	[CARD_NUMBER_ANCIENT_TOOL]
+	{
+		.description = "A destructive machine discovered in the Ruins of the Ancients."
+	},
+	[CARD_NUMBER_ANSATSU]
+	{
+		.description = "A silent and deadly warrior specializing in assassinations."
+	},
+	[CARD_NUMBER_ANTHROSAURUS]
+	{
+		.description = "Man-like dinosaur with a high I.Q. that is lacking in strength."
+	},
+	[CARD_NUMBER_ANTI_RAIGEKI]
+	{
+		.description = "When your opponent activates \"Raigeki\", all of your opponent's monsters are destroyed in place of your own. "
+	},
+	[CARD_NUMBER_ANTI_MAGIC_FRAGRANCE]
+	{
+		.description = "As long as this card remains on the field, Magic Cards must always be Set on the field and cannot be activated until a player's following turn."
+	},
+	[CARD_NUMBER_APPROPRIATE]
+	{
+		.description = "You can activate this card when your opponent draws a card outside of his/her Draw Phase. Draw 2 cards from your Deck."
+	},
+	[CARD_NUMBER_AQUA_CHORUS]
+	{
+		.description = "If there are Monster Cards of the same name on the field, the ATK and DEF of those cards are increased by 500 points."
+	},
+	[CARD_NUMBER_AQUA_DRAGON]
+	{
+		.description = "Fairy Dragon + Amazon of the Seas + Zone Eater"
+	},
+	[CARD_NUMBER_AQUA_MADOOR]
+	{
+		.description = "A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him."
+	},
+	[CARD_NUMBER_ARLOWNAY]
+	{
+		.description = "A lady monster dwelling in a flower, she sprinkles the air with poisonous pollen."
+	},
+	[CARD_NUMBER_ARMA_KNIGHT]
+	{
+		.description = "An ammonite warrior that has protected the seas throughout history."
+	},
+	[CARD_NUMBER_ARMAILL]
+	{
+		.description = "A strange warrior who manipulates three deadly blades with both hands and his tail."
+	},
+	[CARD_NUMBER_ARMED_NINJA]
+	{
+		.description = "FLIP: Destroys 1 Magic Card on the field. If this card's target is face-down, flip it face-up. If the card is a Magic Card, it is destroyed. If not, it is returned to its face-down position. The flipped card is not activated."
+	},
+	[CARD_NUMBER_ARMORED_GLASS]
+	{
+		.description = "You can activate this card when a monster is equpped with an Equip Magic Card to deactivate the effects of all Equip Magic Cards on the field."
+	},
+	[CARD_NUMBER_ARMORED_LIZARD]
+	{
+		.description = "A lizard with a very tough hide and a vicious bite."
+	},
+	[CARD_NUMBER_ARMORED_RAT]
+	{
+		.description = "The fur on this monster rat is tough enough to repel swords."
+	},
+	[CARD_NUMBER_ARMORED_STARFISH]
+	{
+		.description = "A bluish starfish with a solid hide capable of fending off attacks."
+	},
+	[CARD_NUMBER_ARMORED_ZOMBIE]
+	{
+		.description = "This warrior blindly swings a deadly blade with devastating force."
+	},
+	[CARD_NUMBER_AXE_OF_DESPAIR]
+	{
+		.description = "A monster equipped with this card increases its ATK by 1000 points. When this card is sent from the field to the Graveyard, you can offer 1 monster from the field as a Tribute to place it on top of your Deck. "
+	},
+	[CARD_NUMBER_AXE_RAIDER]
+	{
+		.description = "An axe-wielding monster of tremendous strength and agility."
+	},
+	[CARD_NUMBER_B_DRAGON_JUNGLE_KING]
+	{
+		.description = "A jet-black dragon found in the deepest jungles who normally devours trees."
+	},
+	[CARD_NUMBER_B_SKULL_DRAGON]
+	{
+		.description = "Summoned Skull + Red-Eyes B. Dragon"
+	},
+	[CARD_NUMBER_BABY_DRAGON]
+	{
+		.description = "Much more than just a child, this dragon is gifted with untapped power."
+	},
+	[CARD_NUMBER_BACKUP_SOLDIER]
+	{
+		.description = "You can activate this card when there are 5 or more Monster Cards in your Graveyard. Take up to 3 Normal Monster Cards with an ATK of 1500 points or less from your Graveyard and add them to your hand."
+	},
+	[CARD_NUMBER_BANISHER_OF_THE_LIGHT]
+	{
+		.description = "As long as this card remains face-up on the field, any card sent to the Graveyard is removed from play."
+	},
+	[CARD_NUMBER_BAROX]
+	{
+		.description = "Frenzied Panda + Ryu-Kishin"
+	},
+	[CARD_NUMBER_BARREL_DRAGON]
+	{
+		.description = "Toss a coin 3 times. If 2 out of 3 results are Heads, destroy 1 opponent's monster. This card can only be used during your own turn, once per turn."
+	},
+	[CARD_NUMBER_BARREL_LILY]
+	{
+		.description = "This wicked flower attacks enemies with pollen projectiles."
+	},
+	[CARD_NUMBER_BARREL_ROCK]
+	{
+		.description = "Shouldering a pair of machine guns, this monster is unstoppable."
+	},
+	[CARD_NUMBER_BASIC_INSECT]
+	{
+		.description = "Usually found traveling in swarms, this creature's ideal environment is the forest."
+	},
+	[CARD_NUMBER_BATTLE_OX]
+	{
+		.description = "A monster with tremendous power, it destroys enemies with a swing of its axe."
+	},
+	[CARD_NUMBER_BATTLE_STEER]
+	{
+		.description = "A bull monster often found in the woods, it charges enemy monsters with a pair of deadly horns."
+	},
+	[CARD_NUMBER_BATTLE_WARRIOR]
+	{
+		.description = "A warrior that fights with his bare hands."
+	},
+	[CARD_NUMBER_BEAN_SOLDIER]
+	{
+		.description = "A plant-warrior that attacks with seeds and sword."
+	},
+	[CARD_NUMBER_BEAST_FANGS]
+	{
+		.description = "A Beast-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_BEASTKING_OF_THE_SWAMPS]
+	{
+		.description = "You can substitute this card for any 1 Fusion-Material Monster. You cannot substitute for any other Fusion-Material Monsters in the current Fusion."
+	},
+	[CARD_NUMBER_BEASTLY_MIRROR_RITUAL]
+	{
+		.description = "This card is used to summon \"Fiend's Mirror\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_BEAUTIFUL_HEADHUNTRESS]
+	{
+		.description = "A vicious creature that has decapitated numerous enemy monsters."
+	},
+	[CARD_NUMBER_BEAVER_WARRIOR]
+	{
+		.description = "What this creature lacks in size it makes up for in defense when battling in the prairie."
+	},
+	[CARD_NUMBER_BEHEGON]
+	{
+		.description = "With a large mouth and massive teeth, this is one dangerous and strange sea snake."
+	},
+	[CARD_NUMBER_BELL_OF_DESTRUCTION]
+	{
+		.description = "Destroy 1 face-up Monster Card and inflict Direct Damage equal to the destroyed card's ATK to the Life Points of both you and your opponent."
+	},
+	[CARD_NUMBER_BETA_THE_MAGNET_WARRIOR]
+	{
+		.description = "Alpha, Beta, and Gamma meld as one to form a powerful monster."
+	},
+	[CARD_NUMBER_BICKURIBOX]
+	{
+		.description = "Crass Clown + Dream Clown"
+	},
+	[CARD_NUMBER_BIG_EYE]
+	{
+		.description = "FLIP: Draw 5 cards from the top of your Deck, arrange them in any order desired, and replace them on top of the Deck."
+	},
+	[CARD_NUMBER_BIG_INSECT]
+	{
+		.description = "A giant ant that dwells in the jungle, it is powerful whether attacking or defending."
+	},
+	[CARD_NUMBER_BIG_SHIELD_GARDNA]
+	{
+		.description = "When this card is face-down and targeted by a Magic Card whose effect targets only 1 monster the Magic Card is negated and this card is turned face-up in Defense Position. When this card is attacked, it is shifted to Attack Position following the Damage step."
+	},
+	[CARD_NUMBER_BINDING_CHAIN]
+	{
+		.description = "The mystic links of this chain can rob enemies of their power."
+	},
+	[CARD_NUMBER_BIO_PLANT]
+	{
+		.description = "A monster created from a major accident in an underground lab."
+	},
+	[CARD_NUMBER_BLACK_ILLUSION_RITUAL]
+	{
+		.description = "This card is used to Ritual Summon \"Relinquished\". You must also offer monsters whose total Level Stars equal 1 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_BLACK_LUSTER_RITUAL]
+	{
+		.description = "This card is used to summon \"Black Luster Soldier\". You must also offer monsters whose total Level stars equal 8 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_BLACK_LUSTER_SOLDIER]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Black Luster Ritual\". You must also offer monsters whose total Level stars equal 8 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_BLACK_PENDANT]
+	{
+		.description = "A monster equipped with this card increases its ATK by 500 points. When this card is sent from the field to the Graveyard, inflict 500 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_BLACKLAND_FIRE_DRAGON]
+	{
+		.description = "A dragon that dwells in the depths of darkness, its vulnerability lies in its poor eyesight."
+	},
+	[CARD_NUMBER_BLADEFLY]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all WIND monsters by 500 points and decrease the ATK of all EARTH monsters by 400 points."
+	},
+	[CARD_NUMBER_BLAST_JUGGLER]
+	{
+		.description = "You can destroy 2 monsters with an ATK of 1000 or less by offering this card as a Tribute if it is face-up on the field during your Standby Phase."
+	},
+	[CARD_NUMBER_BLAST_SPHERE]
+	{
+		.description = "When your opponent attacks this monster in face-down Defense Position, this card is treated as an Equip Card and is used to equip the attacking monster (damage is not calculated). The equipped monster and this card are destroyed during your opponent's next Standby Phase. Your opponent then receives Direct Damage equal to the equipped monster's ATK. "
+	},
+	[CARD_NUMBER_BLOCK_ATTACK]
+	{
+		.description = "You can select 1 of your opponent's monsters and shift it to Defense Position."
+	},
+	[CARD_NUMBER_BLUE_MEDICINE]
+	{
+		.description = "Increase your Life Points by 400 points."
+	},
+	[CARD_NUMBER_BLUE_EYED_SILVER_ZOMBIE]
+	{
+		.description = "The beams from the eyes of this creature are said to turn enemies into zombies."
+	},
+	[CARD_NUMBER_BLUE_EYES_TOON_DRAGON]
+	{
+		.description = "This card cannot be summoned unless \"Toon World\" is on the field. This card cannot attack in the same turn that it is summoned. Pay 500 Life Points each time this monster attacks. When \"Toon World\" is destroyed, this card is also destroyed. If your opponent doesn't control a Toon monster on the field, this card may inflict Direct Damage to your opponent's Life Points. If a Toon monster is on your opponent's side of the field, your attacks must target the Toon monster. "
+	},
+	[CARD_NUMBER_BLUE_EYES_ULTIMATE_DRAGON]
+	{
+		.description = "Blue-Eyes White Dragon + Blue-Eyes White Dragon + Blue-Eyes White Dragon"
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON]
+	{
+		.description = "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
+	},
+	[CARD_NUMBER_BLUE_EYES_WHITE_DRAGON_2]
+	{
+		.description = "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
+	},
+	[CARD_NUMBER_BLUE_WINGED_CROWN]
+	{
+		.description = "With hair shaped like a crown and a body encased in bluish white flames, this bird is a formidable sight."
+	},
+	[CARD_NUMBER_BOAR_SOLDIER]
+	{
+		.description = "This card can only be summoned by a Flip Summon. If summoned by a Normal Summon, the card is destroyed. If your opponent has 1 or more monsters under his/her control, the ATK of this card is decreased by 1000 points."
+	},
+	[CARD_NUMBER_BOLT_ESCARGOT]
+	{
+		.description = "After rendering an opponent immobile by spitting a sticky goo, this monster closes in for the attack."
+	},
+	[CARD_NUMBER_BOOK_OF_SECRET_ARTS]
+	{
+		.description = "A Spellcaster-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_BOTTOM_DWELLER]
+	{
+		.description = "This is one sea creature whose wrath is something monsters fear to face."
+	},
+	[CARD_NUMBER_BRACCHIO_RAIDUS]
+	{
+		.description = "Two-Headed King Rex + Crawling Dragon #2"
+	},
+	[CARD_NUMBER_BREATH_OF_LIGHT]
+	{
+		.description = "Destroys all Rock-type monsters on the field."
+	},
+	[CARD_NUMBER_BRIGHT_CASTLE]
+	{
+		.description = "Increases the ATK of all LIGHT monsters by 700 points. "
+	},
+	[CARD_NUMBER_BURGLAR]
+	{
+		.description = "A wily rat armed with a huge left claw."
+	},
+	[CARD_NUMBER_BURNING_SPEAR]
+	{
+		.description = "A FIRE monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points."
+	},
+	[CARD_NUMBER_BUSTER_BLADER]
+	{
+		.description = "The ATK of this card increases by 500 points for every Dragon-type monster in your opponent's side of the field and Graveyard."
+	},
+	[CARD_NUMBER_CALL_OF_THE_DARK]
+	{
+		.description = "All monsters restored with \"Monster Reborn\" are sent to the Graveyard. \"Monster Reborn\" also cannot be played as long as this card remains on the field."
+	},
+	[CARD_NUMBER_CALL_OF_THE_GRAVE]
+	{
+		.description = "Deactivate the effect of \"Monster Reborn\" when your opponent plays it."
+	},
+	[CARD_NUMBER_CALL_OF_THE_HAUNTED]
+	{
+		.description = "Select 1 monster from your Graveyard and Special Summon it in Attack Position. When this card is destroyed or removed from the field, the summoned monster is also destroyed, and vice-versa."
+	},
+	[CARD_NUMBER_CANDLE_OF_FATE]
+	{
+		.description = "Decides the fate of an opponent when the candle on its fingertip burns out."
+	},
+	[CARD_NUMBER_CANNON_SOLDIER]
+	{
+		.description = "Offer 1 or more monsters on your side of the field as a Tribute to inflict 500 points of Direct Damage per monster to your opponent's Life Points.  Monsters used for a Tribute Summon or that are offered as Tributes due to other cards' effects are excluded. "
+	},
+	[CARD_NUMBER_CASTLE_OF_DARK_ILLUSIONS]
+	{
+		.description = "Increases the ATK and DEF of all Zombie-type monsters by 200 points for each turn this card is face-up. This effect remains for 5 turns."
+	},
+	[CARD_NUMBER_CASTLE_WALLS]
+	{
+		.description = "Increase a selected monster's DEF by 500 points during the turn this card is activated."
+	},
+	[CARD_NUMBER_CATAPULT_TURTLE]
+	{
+		.description = "Offer 1 of your monsters on the field as a Tribute. Half of the Tribute monster's ATK is inflicted to your opponent's Life Points as Direct Damage."
+	},
+	[CARD_NUMBER_CEASEFIRE]
+	{
+		.description = "Flip all face-down Monster Cards on the field face-up (Flip Effects are not activated). For every Effect Monster Card on the field, decrease your opponent's Life Points by 500 points."
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN]
+	{
+		.description = "An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks."
+	},
+	[CARD_NUMBER_CELTIC_GUARDIAN_2]
+	{
+		.description = "An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks."
+	},
+	[CARD_NUMBER_CEREMONIAL_BELL]
+	{
+		.description = "As long as this card remains face-up on the field, you and your opponent must show your respective hands to each other."
+	},
+	[CARD_NUMBER_CHAIN_DESTRUCTION]
+	{
+		.description = "You can activate this card when a monster with an ATK of 2000 points or less is summoned (including Special Summon). Destroys all Monster Cards of the same name in the summoning player's hand and Deck. The summoning player's Deck is then shuffled."
+	},
+	[CARD_NUMBER_CHAIN_ENERGY]
+	{
+		.description = "As long as this card remains face-up on the field, both you and your opponent must pay 500 Life Points per card to play or Set cards from your respective hands."
+	},
+	[CARD_NUMBER_CHAKRA]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Resurrection of Chakra\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_CHANGE_OF_HEART]
+	{
+		.description = "Select and control 1 opposing monster (regardless of position) on the field until the end of your turn."
+	},
+	[CARD_NUMBER_CHARUBIN_THE_FIRE_KNIGHT]
+	{
+		.description = "Monster Egg + Hinotama Soul"
+	},
+	[CARD_NUMBER_CHORUS_OF_SANCTUARY]
+	{
+		.description = "Increases the DEF of all Defense Position monsters by 500 points."
+	},
+	[CARD_NUMBER_CLAW_REACHER]
+	{
+		.description = "Stretching arms and razor-sharp claws make this monster a formidable opponent."
+	},
+	[CARD_NUMBER_CLOWN_ZOMBIE]
+	{
+		.description = "A clown revived by the powers of darkness, its deadly dance has sent many monsters to their grave."
+	},
+	[CARD_NUMBER_COCKROACH_KNIGHT]
+	{
+		.description = "When this card is sent to the Graveyard, it is returned to the top of the Deck instead."
+	},
+	[CARD_NUMBER_COCOON_OF_EVOLUTION]
+	{
+		.description = "You may treat this card as an Equip Magic Card on a face-up \"Petit Moth\" on the field.  When equipped, the ATK and DEF of \"Petit Moth\" becomes the same as \"Cocoon of Evolution\". "
+	},
+	[CARD_NUMBER_COMMENCEMENT_DANCE]
+	{
+		.description = "This card is used to Ritual Summon \"Performance of Sword\". You must also offer monsters whose total Level Stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_CONFISCATION]
+	{
+		.description = "Pay 1000 Life Points to look at your opponent's hand. Select 1 card and discard it to the Graveyard."
+	},
+	[CARD_NUMBER_COSMO_QUEEN]
+	{
+		.description = "Queen of the galaxies and mistress of the stars."
+	},
+	[CARD_NUMBER_CRAB_TURTLE]
+	{
+		.description = "This monster can only be Ritual Summoned with the Ritual Magic Card, \"Turtle Oath\". You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_CRASS_CLOWN]
+	{
+		.description = "When this card is shifted from Defense Position to Attack Position, return 1 of your opponent's monsters to the owner's hand."
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON]
+	{
+		.description = "This weakened dragon can no longer fly, but is still a deadly force to be reckoned with."
+	},
+	[CARD_NUMBER_CRAWLING_DRAGON_2]
+	{
+		.description = "A powerful dragon with teeth that can grind almost anything to dust."
+	},
+	[CARD_NUMBER_CRAZY_FISH]
+	{
+		.description = "A flying fish that attacks with its pointed head."
+	},
+	[CARD_NUMBER_CRIMSON_SUNBIRD]
+	{
+		.description = "Faith Bird + Skull Red Bird"
+	},
+	[CARD_NUMBER_CROW_GOBLIN]
+	{
+		.description = "A clever long-nosed goblin, he is a force to be reckoned with."
+	},
+	[CARD_NUMBER_CRUSH_CARD]
+	{
+		.description = "Offer 1 DARK monster with an ATK of 1000 or less as a Tribute.  Any opponent's monster with an ATK of 1500 or higher on the field, in your opponent's hand, or drawn in the next 3 turns is automatically destroyed."
+	},
+	[CARD_NUMBER_CURSE_OF_DRAGON]
+	{
+		.description = "A wicked dragon that taps into dark forces to execute a powerful attack."
+	},
+	[CARD_NUMBER_CURSE_OF_FIEND]
+	{
+		.description = "Changes the battle positions of all Attack Position monsters on the field to Defense Position and vice-versa. These positions cannot be changed during the turn this card is activated except by the effect of a Magic, Trap or Effect Monster Card. You can activate this card only during your Standby Phase."
+	},
+	[CARD_NUMBER_CURTAIN_OF_THE_DARK_ONES]
+	{
+		.description = "A curtain that a spellcaster made.  It is said to raise a dark power.  "
+	},
+	[CARD_NUMBER_CYBER_COMMANDER]
+	{
+		.description = "A strike force equipped with rocket launchers and bazookas."
+	},
+	[CARD_NUMBER_CYBER_FALCON]
+	{
+		.description = "A jet-powered hawk that travels at the speed of sound."
+	},
+	[CARD_NUMBER_CYBER_JAR]
+	{
+		.description = "FLIP: Destroys all monsters on the field (including this monster). Both players then pick up (not Draw) 5 cards from the top of their respective Decks and show the cards to each other. Immediately Special Summon any Monster Cards of Level 4 or lower among them on the field in face-up Attack Position or face-down Defense Position. The rest of the cards picked up are placed in the players' hands."
+	},
+	[CARD_NUMBER_CYBER_SAURUS]
+	{
+		.description = "Blast Juggler + Two-Headed King Rex"
+	},
+	[CARD_NUMBER_CYBER_SHIELD]
+	{
+		.description = "Increases the ATK of either \"Harpie Lady\" or \"Harpie Lady Sisters\" by 500 points."
+	},
+	[CARD_NUMBER_CYBER_SOLDIER]
+	{
+		.description = "Guardian of the Machine Master, it crushes opposition by rolling over them."
+	},
+	[CARD_NUMBER_CYBER_STEIN]
+	{
+		.description = "At the cost of 5000 of your own Life Points, you can Special Summon 1 Fusion Monster from your Fusion Deck in face-up Attack Position."
+	},
+	[CARD_NUMBER_CYBER_TECH_ALLIGATOR]
+	{
+		.description = "A winged dragon brought back to life by means of modern technology. "
+	},
+	[CARD_NUMBER_D_HUMAN]
+	{
+		.description = "Gifted with the power of dragons, this warrior wields a sword created from a dragon's fang."
+	},
+	[CARD_NUMBER_DANCING_ELF]
+	{
+		.description = "An elf that dances across the sky with wings of razor-sharp blades."
+	},
+	[CARD_NUMBER_DARK_ARTIST]
+	{
+		.description = "The DEF of this monster is decreased by half when attacked by LIGHT monsters."
+	},
+	[CARD_NUMBER_DARK_ASSAILANT]
+	{
+		.description = "Armed with the Psycho Sword, this sinister assassin rules the bad land."
+	},
+	[CARD_NUMBER_DARK_CHIMERA]
+	{
+		.description = "A fire-breathing monster that dwells in the netherworld."
+	},
+	[CARD_NUMBER_DARK_ELF]
+	{
+		.description = "This card requires a cost of 1000  of your own Life Points to attack."
+	},
+	[CARD_NUMBER_DARK_ENERGY]
+	{
+		.description = "A Fiend-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_DARK_GRAY]
+	{
+		.description = "Entirely gray, this beast has rarely been seen by mortal eyes."
+	},
+	[CARD_NUMBER_DARK_HOLE]
+	{
+		.description = "Destroys all monsters on the field."
+	},
+	[CARD_NUMBER_DARK_KING_OF_THE_ABYSS]
+	{
+		.description = "It's said that this King of the Netherworld once had the power to rule over the dark."
+	},
+	[CARD_NUMBER_DARK_MAGIC_RITUAL]
+	{
+		.description = "This card is used to summon \"Magician of Black Chaos\". You must also offer monsters whose total Level stars equal 8 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_DARK_MAGICIAN]
+	{
+		.description = "The ultimate wizard in terms of attack and defense."
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_2]
+	{
+		.description = "The ultimate wizard in terms of attack and defense."
+	},
+	[CARD_NUMBER_DARK_MAGICIAN_GIRL]
+	{
+		.description = "This card's ATK increases by 300 points for every \"Dark Magician\" or \"Magician of Black Chaos\" in either player's Graveyard."
+	},
+	[CARD_NUMBER_DARK_RABBIT]
+	{
+		.description = "A cartoon rabbit that quickly leaps all over the place, making it a difficult target."
+	},
+	[CARD_NUMBER_DARK_SAGE]
+	{
+		.description = "When you activate the effect of \"Time Wizard\" and call it right, you can summon this card from either your hand or your Deck by offering 1\"Dark Magician\" as a Tribute.  Then move 1 Magic Card from your Deck to your hand and shuffle your Deck."
+	},
+	[CARD_NUMBER_DARK_SHADE]
+	{
+		.description = "A crystal monster that unleashes a brilliant light to blind enemies."
+	},
+	[CARD_NUMBER_DARK_WITCH]
+	{
+		.description = "A popular creature in mythology that delivers fatal attacks with a sharp spear."
+	},
+	[CARD_NUMBER_DARK_ZEBRA]
+	{
+		.description = "If this is the only card in your control during your Standby Phase, it is automatically placed in Defense Position. You cannot change the position of this card during the same turn."
+	},
+	[CARD_NUMBER_DARK_EYES_ILLUSIONIST]
+	{
+		.description = "FLIP : As long as this card remains on the field, 1 designated monster cannot attack."
+	},
+	[CARD_NUMBER_DARKFIRE_DRAGON]
+	{
+		.description = "Firegrass + Petit Dragon"
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_1]
+	{
+		.description = "An explosive expert from a special elite force."
+	},
+	[CARD_NUMBER_DARKFIRE_SOLDIER_2]
+	{
+		.description = "A warrior who gained immeasurable power from the heart of a volcano."
+	},
+	[CARD_NUMBER_DARKNESS_APPROACHES]
+	{
+		.description = "Discard 2 cards from your hand. Select 1 face-up monster and flip it face-down, but do not change its battle position. "
+	},
+	[CARD_NUMBER_DARK_PIERCING_LIGHT]
+	{
+		.description = "Flip all of your opponent's face-down Monster Cards on the field face-up.  The effect of the monster will activate at this time."
+	},
+	[CARD_NUMBER_DARKWORLD_THORNS]
+	{
+		.description = "A thorny plant found in the darklands that wraps itself around any  unwary traveler."
+	},
+	[CARD_NUMBER_DEEPSEA_SHARK]
+	{
+		.description = "Bottom Dweller + Tongyo"
+	},
+	[CARD_NUMBER_DELINQUENT_DUO]
+	{
+		.description = "Pay 1000 Life Points. Randomly select and discard 1 card from your opponent's hand. Your opponent then selects and discards another card from his/her hand. "
+	},
+	[CARD_NUMBER_DE_SPELL]
+	{
+		.description = "Destroys 1 Magic Card on the field. If this card's target is face-down, flip it face-up. If the card is a Magic Card, it is destroyed. If not, it is returned to its face-down position. The flipped card is not activated."
+	},
+	[CARD_NUMBER_DESTROYER_GOLEM]
+	{
+		.description = "A golem with a massive right hand for crushing its victims."
+	},
+	[CARD_NUMBER_DIAN_KETO_THE_CURE_MASTER]
+	{
+		.description = "Increases your Life Points by 1000 points."
+	},
+	[CARD_NUMBER_DICE_ARMADILLO]
+	{
+		.description = "An armadillo monster that rolls up to form a dice-like shape."
+	},
+	[CARD_NUMBER_DIMENSIONAL_WARRIOR]
+	{
+		.description = "When this card Attacks or is attacked, both this card and the opposing monster are removed from play and cannot return during the current Duel."
+	},
+	[CARD_NUMBER_DISK_MAGICIAN]
+	{
+		.description = "This monster hides in a saucer and only appears when executing an attack."
+	},
+	[CARD_NUMBER_DISSOLVEROCK]
+	{
+		.description = "A monster born in the lava pits, it generates intense heat that can melt away its enemies."
+	},
+	[CARD_NUMBER_DNA_SURGERY]
+	{
+		.description = "Select 1 Type of monster.  As long as this card remains on the field, all face-up Monster Cards will be treated as the Type you selected."
+	},
+	[CARD_NUMBER_DOKUROIZO_THE_GRIM_REAPER]
+	{
+		.description = "A messenger of doom that steals a soul with a single blow."
+	},
+	[CARD_NUMBER_DOKURORIDER]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Revival of Dokurorider\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_DOMA_THE_ANGEL_OF_SILENCE]
+	{
+		.description = "This fairy rules over death, and administers it when necessary."
+	},
+	[CARD_NUMBER_DORON]
+	{
+		.description = "This monster splits in two and attacks from opposite sides."
+	},
+	[CARD_NUMBER_DOROVER]
+	{
+		.description = "This ugly monster emits a highly poisonous gas."
+	},
+	[CARD_NUMBER_DRAGON_CAPTURE_JAR]
+	{
+		.description = "All Dragon-type monsters on the field are switched to Defense Position and remain in this position as long as this card is active."
+	},
+	[CARD_NUMBER_DRAGON_PIPER]
+	{
+		.description = "FLIP: Destroys \"Dragon Capture Jar\", and turns all face-up Dragon-type monsters to Attack Position."
+	},
+	[CARD_NUMBER_DRAGON_SEEKER]
+	{
+		.description = "When this card is summoned to the field (excluding Special Summon), one Dragon-type monster can be automatically destroyed."
+	},
+	[CARD_NUMBER_DRAGON_TREASURE]
+	{
+		.description = "A Dragon-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_DRAGON_ZOMBIE]
+	{
+		.description = "A dragon revived by sorcery. Its breath is highly corrosive."
+	},
+	[CARD_NUMBER_DRAGONESS_THE_WICKED_KNIGHT]
+	{
+		.description = "Armaill + One-Eyed Shield Dragon"
+	},
+	[CARD_NUMBER_DREAM_CLOWN]
+	{
+		.description = "When this card is changed from Attack to Defense Position, 1 opposing monster is automatically destroyed."
+	},
+	[CARD_NUMBER_DRIVING_SNOW]
+	{
+		.description = "You can activate this card when 1 or more of your Magic Cards are destroyed and sent from the field to the Graveyard. Destroy 1 Magic or Trap Card on the field."
+	},
+	[CARD_NUMBER_DROOLING_LIZARD]
+	{
+		.description = "A blood-sucking snake in human form that attacks any living being that passes nearby."
+	},
+	[CARD_NUMBER_DRYAD]
+	{
+		.description = "A spirit of the forest powered by the surrounding trees and wildlife."
+	},
+	[CARD_NUMBER_DUNAMES_DARK_WITCH]
+	{
+		.description = "Even when the odds are against this brave fairy, this monster will engage in battle and never run away."
+	},
+	[CARD_NUMBER_DUNGEON_WORM]
+	{
+		.description = "Hidden under the floors of a labyrinth, it swallows any who pass above."
+	},
+	[CARD_NUMBER_DUST_TORNADO]
+	{
+		.description = "Destroy 1 of your opponent's Magic or Trap Cards on the field. You can then Set 1 Magic or Trap Card from your hand."
+	},
+	[CARD_NUMBER_EARTHSHAKER]
+	{
+		.description = "Select 2 Monster Card Attributes. Your opponent then select 1 of the 2 Attributes and destroys face-up monsters of that Attribute on the field."
+	},
+	[CARD_NUMBER_EATGABOON]
+	{
+		.description = "If the ATK of a monster summoned by your opponent (excluding Special Summon) is 500 points or less, the monster is destroyed."
+	},
+	[CARD_NUMBER_ELDEEN]
+	{
+		.description = "The cane of this monster is the source of many powerful spells."
+	},
+	[CARD_NUMBER_ELECTRIC_LIZARD]
+	{
+		.description = "A non Zombie-type monster that attacks \"Electric Lizard\" cannot attack on their following turn."
+	},
+	[CARD_NUMBER_ELECTRIC_SNAKE]
+	{
+		.description = "When this card is sent directly from your hand to the Graveyard by your opponent's card effect, you can draw 2 cards from your Deck. "
+	},
+	[CARD_NUMBER_ELECTRO_WHIP]
+	{
+		.description = "A Thunder-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_ELEGANT_EGOTIST]
+	{
+		.description = "When you have 1 or more \"Harpie Lady\" cards on the field, you can Special Summon a \"Harpie Lady\" or \"Harpie Lady Sisters\" card from your hand or your Deck. "
+	},
+	[CARD_NUMBER_ELF_S_LIGHT]
+	{
+		.description = "Increases the ATK of all LIGHT monsters by 400 points and decreases their DEF by 200 points."
+	},
+	[CARD_NUMBER_EMPRESS_JUDGE]
+	{
+		.description = "Queen's Double + Hibikime"
+	},
+	[CARD_NUMBER_ENCHANTED_JAVELIN]
+	{
+		.description = "Select 1 of your opponent's monsters in Attack Position and add its ATK points to your Life Points."
+	},
+	[CARD_NUMBER_ENCHANTING_MERMAID]
+	{
+		.description = "A beautiful mermaid that lures voyagers to a watery death."
+	},
+	[CARD_NUMBER_ERADICATING_AEROSOL]
+	{
+		.description = "Destroys all Insect-type monsters on the field."
+	},
+	[CARD_NUMBER_ETERNAL_DRAUGHT]
+	{
+		.description = "Destroys all Fish-type monsters on the field."
+	},
+	[CARD_NUMBER_ETERNAL_REST]
+	{
+		.description = "Destroys all monsters equipped with Equip Cards."
+	},
+	[CARD_NUMBER_EXCHANGE]
+	{
+		.description = "Both players show their hands to each other. You both select 1 card from each other's hand and add it your own. When sent to the Graveyard, the cards are placed in the Graveyard of the original owner."
+	},
+	[CARD_NUMBER_EXILE_OF_THE_WICKED]
+	{
+		.description = "Destroys all face-up Fiend-type monsters on the field."
+	},
+	[CARD_NUMBER_EXODIA_THE_FORBIDDEN_ONE]
+	{
+		.description = "An automatic victory can be declared by the player whose hand contains this card together with the Left Leg/Right Leg/Left Arm/Right Arm of the Forbidden One."
+	},
+	[CARD_NUMBER_EYEARMOR]
+	{
+		.description = "This warrior transforms into various creatures to confuse enemies in battle."
+	},
+	[CARD_NUMBER_FAIRY_DRAGON]
+	{
+		.description = "A beautiful and powerful dragon fairy."
+	},
+	[CARD_NUMBER_FAIRY_S_HAND_MIRROR]
+	{
+		.description = "Switch the opponent's Magic Card effect that specifically designates 1 monster as a target to another correctly targeted monster."
+	},
+	[CARD_NUMBER_FAIRYWITCH]
+	{
+		.description = "Though destined to be a fairy, this creature chose the way of the witch instead."
+	},
+	[CARD_NUMBER_FAITH_BIRD]
+	{
+		.description = "This long-tailed bird blinds its enemies with mystical light."
+	},
+	[CARD_NUMBER_FAKE_TRAP]
+	{
+		.description = "When your opponent uses a Magic, Trap, or Effect Monster Card to destroy your Trap Card(s), this card can be destroyed as a substitute for your Trap Card(s)."
+	},
+	[CARD_NUMBER_FERAL_IMP]
+	{
+		.description = "A playful little fiend that lurks in the dark, waiting to attack an unwary enemy."
+	},
+	[CARD_NUMBER_FIEND_KRAKEN]
+	{
+		.description = "A giant squid that drags its enemies to a watery grave."
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_1]
+	{
+		.description = "This monster can draw its enemies into mirror world that renders them helpless."
+	},
+	[CARD_NUMBER_FIEND_REFLECTION_2]
+	{
+		.description = "A bird-beast that summons reinforcements with a hand mirror."
+	},
+	[CARD_NUMBER_FIEND_SWORD]
+	{
+		.description = "Whoever resists the curse of this blade will gain untold power."
+	},
+	[CARD_NUMBER_FIEND_S_HAND]
+	{
+		.description = "Arms that reach out from the Swamp of Chaos to drag down the unwary."
+	},
+	[CARD_NUMBER_FIEND_S_MIRROR]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Beastly Mirror Ritual\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_FINAL_DESTINY]
+	{
+		.description = "Discard 5 cards from your hand to destroy all the cards on the field."
+	},
+	[CARD_NUMBER_FINAL_FLAME]
+	{
+		.description = "Inflicts 600 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_FIRE_KRAKEN]
+	{
+		.description = "A squid that thrives on fire and heat."
+	},
+	[CARD_NUMBER_FIRE_REAPER]
+	{
+		.description = "A reaper with a flaming arrow that burns an enemy to a crisp."
+	},
+	[CARD_NUMBER_FIREGRASS]
+	{
+		.description = "A fire-breathing plant found growing near volcanoes."
+	},
+	[CARD_NUMBER_FIREWING_PEGASUS]
+	{
+		.description = "A heavenly stallion soaring through the skies on crimson wings."
+	},
+	[CARD_NUMBER_FIREYAROU]
+	{
+		.description = "A malevolent creature wrapped in flames that attacks enemies with intense fire."
+	},
+	[CARD_NUMBER_FISSURE]
+	{
+		.description = "Destroys 1 opponent's face-up monster with the lowest ATK."
+	},
+	[CARD_NUMBER_FLAME_CEREBRUS]
+	{
+		.description = "Known to many as the \"Burning Executioner\", this monster is capable of burning enemies to cinders."
+	},
+	[CARD_NUMBER_FLAME_CHAMPION]
+	{
+		.description = "A warrior protected by a flaming shield that nullifies any attack."
+	},
+	[CARD_NUMBER_FLAME_GHOST]
+	{
+		.description = "Skull Servant + Dissolverock"
+	},
+	[CARD_NUMBER_FLAME_MANIPULATOR]
+	{
+		.description = "This Spellcaster attacks enemies with fire-related spells such as \"Sea of Flames\" and \"Wall of Fire\"."
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN]
+	{
+		.description = "Flame Manipulator + Masaki the Legendary Swordsman"
+	},
+	[CARD_NUMBER_FLAME_SWORDSMAN_2]
+	{
+		.description = "Flame Manipulator + Masaki the Legendary Swordsman"
+	},
+	[CARD_NUMBER_FLAME_VIPER]
+	{
+		.description = "A fire-breathing snake whose speed makes it a difficult target."
+	},
+	[CARD_NUMBER_FLASH_ASSAILANT]
+	{
+		.description = "Decrease the ATK and DEF of this card by 400 points for every card in your hand."
+	},
+	[CARD_NUMBER_FLOWER_WOLF]
+	{
+		.description = "Silver Fang + Darkworld Thorns"
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_1]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you may select 1 WIND monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_FLYING_KAMAKIRI_2]
+	{
+		.description = "A flying mantis that feeds primarily on insects."
+	},
+	[CARD_NUMBER_FOLLOW_WIND]
+	{
+		.description = "A Winged Beast-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_FORCED_REQUISITION]
+	{
+		.description = "You can activate this card when you discard from your hand.  Every time you discard from your hand, your opponent must also discard from his/her hand."
+	},
+	[CARD_NUMBER_FOREST]
+	{
+		.description = "Increases the ATK and DEF of all Insect, Beast, Plant, and Beast-Warrior-type monsters by 200 points."
+	},
+	[CARD_NUMBER_FORTRESS_WHALE]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Fortress Whale's Oath\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_FORTRESS_WHALE_S_OATH]
+	{
+		.description = "This card is used to summon \"Fortress Whale\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_FRENZIED_PANDA]
+	{
+		.description = "A savage beast that carries a big bamboo stick for beating down its enemies."
+	},
+	[CARD_NUMBER_FUSION_SAGE]
+	{
+		.description = "Take 1 \"Polymerization\" from your Deck and add it your hand. The Deck is then shuffled."
+	},
+	[CARD_NUMBER_FUSIONIST]
+	{
+		.description = "Petit Angel + Mystical Sheep #2"
+	},
+	[CARD_NUMBER_GAIA_POWER]
+	{
+		.description = "Increases the ATK of all EARTH monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_GAIA_THE_DRAGON_CHAMPION]
+	{
+		.description = "Gaia The Fierce Knight + Curse of Dragon"
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT]
+	{
+		.description = "A knight whose horse travels faster than the wind. His battle-charge is a force to be reckoned with."
+	},
+	[CARD_NUMBER_GAIA_THE_FIERCE_KNIGHT_2]
+	{
+		.description = "A knight whose horse travels faster than the wind. His battle-charge is a force to be reckoned with."
+	},
+	[CARD_NUMBER_GALE_DOGRA]
+	{
+		.description = "At the cost of 3000 Life Points, you can discard 1 monster from your Fusion Deck to the Graveyard."
+	},
+	[CARD_NUMBER_GAMMA_THE_MAGNET_WARRIOR]
+	{
+		.description = "Alpha, Beta, and Gamma meld as one to form a powerful monster."
+	},
+	[CARD_NUMBER_GANIGUMO]
+	{
+		.description = "A crab that binds its enemies with a sticky web and attacks them with its sharp claws."
+	},
+	[CARD_NUMBER_GARMA_SWORD]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Garma Sword Oath\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_GARMA_SWORD_OATH]
+	{
+		.description = "This card is used to summon \"Garma Sword\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_GARNECIA_ELEFANTIS]
+	{
+		.description = "A monster so heavy that each step rocks the earth."
+	},
+	[CARD_NUMBER_GAROOZIS]
+	{
+		.description = "An axe-swinging beast-warrior with the head of a dragon."
+	},
+	[CARD_NUMBER_GARVAS]
+	{
+		.description = "A wicked beast that resembles a winged lion."
+	},
+	[CARD_NUMBER_GATE_GUARDIAN]
+	{
+		.description = "This card can only be summoned by offering \"Sanga of the Thunder\", \"Kazejin\" and \"Suijin\" as a Tribute."
+	},
+	[CARD_NUMBER_GATEKEEPER]
+	{
+		.description = "An indestructible machine created for the sole purpose of protecting entrances."
+	},
+	[CARD_NUMBER_GAZELLE_THE_KING_OF_MYTHICAL_BEASTS]
+	{
+		.description = "This monster moves so fast that it looks like an illusion to mortal eyes."
+	},
+	[CARD_NUMBER_GEMINI_ELF]
+	{
+		.description = "Elf twins that alternate their attacks."
+	},
+	[CARD_NUMBER_GENIN]
+	{
+		.description = "A creature that defeats its enemies using sleight-of-hand."
+	},
+	[CARD_NUMBER_GERM_INFECTION]
+	{
+		.description = "The ATK of a non-Machine-type monster equipped with this card is decreased by 300 points at each of its Standby Phases ."
+	},
+	[CARD_NUMBER_GHOUL_WITH_AN_APPETITE]
+	{
+		.description = "A monster with a very big appetite that has never been satisfied. "
+	},
+	[CARD_NUMBER_GIANT_FLEA]
+	{
+		.description = "A massive flea that feeds on the blood of its enemies."
+	},
+	[CARD_NUMBER_GIANT_GERM]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, inflict 500 points of Direct Damage to your opponent's Life Points. You can also take cards of the same name from your Deck and Special Summon them to the field in face-up Attack Position. The Deck is then shuffled."
+	},
+	[CARD_NUMBER_GIANT_MECH_SOLDIER]
+	{
+		.description = "This monster swings an earth-shaking axe that cannot be blocked by a common sword."
+	},
+	[CARD_NUMBER_GIANT_RAT]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you may select 1 EARTH monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_GIANT_RED_SEASNAKE]
+	{
+		.description = "A sea-dwelling snake that attacks passing enemies with its sharp teeth."
+	},
+	[CARD_NUMBER_GIANT_SCORPION_OF_THE_TUNDRA]
+	{
+		.description = "An extraordinary blue scorpion found in the tundra, not in the desert."
+	},
+	[CARD_NUMBER_GIANT_SOLDIER_OF_STONE]
+	{
+		.description = "A giant warrior made of stone. A punch from this creature has earth-shaking results."
+	},
+	[CARD_NUMBER_GIANT_TRUNADE]
+	{
+		.description = "Returns all Magic and Trap Cards on the field to the respective owner's hands."
+	},
+	[CARD_NUMBER_GIANT_TURTLE_WHO_FEEDS_ON_FLAMES]
+	{
+		.description = "A crimson-shelled tortoise that feeds on flames."
+	},
+	[CARD_NUMBER_GIFT_OF_THE_MYSTICAL_ELF]
+	{
+		.description = "Increase your Life Points by 300 points for each monster on the field, regardless of position."
+	},
+	[CARD_NUMBER_GIGANTO]
+	{
+		.description = "A massive monster that swings a huge steel ball to destroy anything in its path."
+	},
+	[CARD_NUMBER_GIGA_TECH_WOLF]
+	{
+		.description = "An iron wolf with razor-sharp fangs that can penetrate any armor."
+	},
+	[CARD_NUMBER_GILTIA_THE_D_KNIGHT]
+	{
+		.description = "Guardian of the Labyrinth + Protector of the Throne"
+	},
+	[CARD_NUMBER_GOBLIN_FAN]
+	{
+		.description = "As long as this card remains face-up on the field, all Flip Summoned monsters of Level 2 or lower are immediately destroyed without their effects being activated"
+	},
+	[CARD_NUMBER_GOBLIN_S_SECRET_REMEDY]
+	{
+		.description = "Increases a selected player's Life Points by 600 points."
+	},
+	[CARD_NUMBER_GODDESS_OF_WHIM]
+	{
+		.description = "Toss a coin and call \"Heads\" or \"Tails\". Call it right and this card's ATK will be doubled during this turn. Call it wrong and the ATK will be halved during this turn."
+	},
+	[CARD_NUMBER_GODDESS_WITH_THE_THIRD_EYE]
+	{
+		.description = "You can substitute this card for any 1 Fusion-Material Monster. You cannot substitute for any other Fusion-Material Monsters in the current Fusion."
+	},
+	[CARD_NUMBER_GOKIBORE]
+	{
+		.description = "A large, spherical roach that attacks its enemies by rolling over them."
+	},
+	[CARD_NUMBER_GRACEFUL_CHARITY]
+	{
+		.description = "Draw 3 cards from your Deck, then discard any 2 cards from your hand."
+	},
+	[CARD_NUMBER_GRACEFUL_DICE]
+	{
+		.description = "Roll a die. The result is multiplied by 100 points and added to the ATK and DEF of all monsters you control until the end of your turn."
+	},
+	[CARD_NUMBER_GRAPPLER]
+	{
+		.description = "A devious snake with a thick body that wraps around an enemy monster and squeezes the life out of it."
+	},
+	[CARD_NUMBER_GRAVEDIGGER_GHOUL]
+	{
+		.description = "Select 2 Monster Cards from your opponent's Graveyard. These Monster Cards are removed from play for the remainder of the Duel."
+	},
+	[CARD_NUMBER_GRAVEKEEPER_S_SERVANT]
+	{
+		.description = "Each time your opponent attacks with a monster, the opponent must send 1 card from the top of his/her Deck to the Graveyard."
+	},
+	[CARD_NUMBER_GRAVEROBBER]
+	{
+		.description = "You can take 1 Magic Card from your opponent's Graveyard and play it during this turn.  If you choose to play it, you must pay 2000 of your own Life Points."
+	},
+	[CARD_NUMBER_GRAVEYARD_AND_THE_HAND_OF_INVITATION]
+	{
+		.description = "A graveyard that serves as a power source for zombies."
+	},
+	[CARD_NUMBER_GREAT_BILL]
+	{
+		.description = "This beast has a mouth that will swallow anything."
+	},
+	[CARD_NUMBER_GREAT_MAMMOTH_OF_GOLDFINE]
+	{
+		.description = "The Snake Hair + Dragon Zombie"
+	},
+	[CARD_NUMBER_GREAT_MOTH]
+	{
+		.description = "This monster is summoned by offering \"Petit Moth\" as a Tribute on the 4th of your turns after it has been equipped with \"Cocoon of Evolution\"."
+	},
+	[CARD_NUMBER_GREAT_WHITE]
+	{
+		.description = "A giant white shark with razor-sharp teeth."
+	},
+	[CARD_NUMBER_GREEN_PHANTOM_KING]
+	{
+		.description = "This youthful king of the forests lives in a green world, abundant with trees and wildlife."
+	},
+	[CARD_NUMBER_GREENKAPPA]
+	{
+		.description = "FLIP : Select 2 face-down Magic or Trap Cards on the field and destroy them."
+	},
+	[CARD_NUMBER_GRIFFORE]
+	{
+		.description = "This monster's tough hide deflects almost any attack."
+	},
+	[CARD_NUMBER_GRIGGLE]
+	{
+		.description = "When this card is face-up on the field and control shifts to your opponent, you gain 3000 Life Points. This effect can only be used once as long as this card remains face-up on the field."
+	},
+	[CARD_NUMBER_GROUND_ATTACKER_BUGROTH]
+	{
+		.description = "A surface battle robot that was once used for sea warfare."
+	},
+	[CARD_NUMBER_GRUESOME_GOO]
+	{
+		.description = "A slime boss that is definitely tougher than it looks."
+	},
+	[CARD_NUMBER_GRYPHON_WING]
+	{
+		.description = "When your opponent activates \"Harpie's Feather Duster\", all of your opponent's Magic and Trap Cards are destroyed in place of your own. "
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_LABYRINTH]
+	{
+		.description = "A monster that guards the entrance to the Netherworld."
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_SEA]
+	{
+		.description = "A merman warrior that relentlessly attacks those who pollute the seas with their presence."
+	},
+	[CARD_NUMBER_GUARDIAN_OF_THE_THRONE_ROOM]
+	{
+		.description = "A robot guard built to protect throne rooms, it is armed with homing missiles."
+	},
+	[CARD_NUMBER_GUST]
+	{
+		.description = "You can activate this card when 1 or more of your Magic Cards are destroyed and sent from the field to the Graveyard. Destroy 1 Magic or Trap Card on the field."
+	},
+	[CARD_NUMBER_GUST_FAN]
+	{
+		.description = "A WIND monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points."
+	},
+	[CARD_NUMBER_GYAKUTENNO_MEGAMI]
+	{
+		.description = "This fairy uses her mystical power to protect the weak and provide spiritual support."
+	},
+	[CARD_NUMBER_HAMBURGER_RECIPE]
+	{
+		.description = "This card is used to Ritual Summon \"Hungry Burger\". You must also offer monsters whose total Level Stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_HANE_HANE]
+	{
+		.description = "FLIP: Select 1 Monster Card on the field (regardless of position) and return it to its owner's hand."
+	},
+	[CARD_NUMBER_HANIWA]
+	{
+		.description = "An earthen figure that protects the tomb of an ancient ruler."
+	},
+	[CARD_NUMBER_HAPPY_LOVER]
+	{
+		.description = "A little fairy that fires beams of happiness from the heart-shaped jewel on its forehead."
+	},
+	[CARD_NUMBER_HARD_ARMOR]
+	{
+		.description = "A living suit of armor that attacks enemies with a bone-jarring tackle."
+	},
+	[CARD_NUMBER_HARPIE_LADY]
+	{
+		.description = "This human-shaped animal with wings is beautiful to watch but deadly in battle."
+	},
+	[CARD_NUMBER_HARPIE_LADY_SISTERS]
+	{
+		.description = "This monster can only be Special Summoned with the Magic Card \"Elegant Egotist\"."
+	},
+	[CARD_NUMBER_HARPIE_S_BROTHER]
+	{
+		.description = "With eyes like a hawk and a flying speed exceeding Mach 5, this monster is a master of the sky."
+	},
+	[CARD_NUMBER_HARPIE_S_FEATHER_DUSTER]
+	{
+		.description = "Destroys all of your opponent's Magic and Trap Cards on the field."
+	},
+	[CARD_NUMBER_HARPIE_S_PET_DRAGON]
+	{
+		.description = "Increases the ATK and DEF of this card by 300 points for each face-up \"Harpie Lady\" on the field."
+	},
+	[CARD_NUMBER_HEAVY_STORM]
+	{
+		.description = "Destroys all Magic/Trap Cards on the field."
+	},
+	[CARD_NUMBER_HERCULES_BEETLE]
+	{
+		.description = "A massive beetle with a tough carapace and a dangerous horn."
+	},
+	[CARD_NUMBER_HERO_OF_THE_EAST]
+	{
+		.description = "A sword-swinging samurai from the Far East."
+	},
+	[CARD_NUMBER_HIBIKIME]
+	{
+		.description = "Confuses enemy monsters with a noise that is harsh to the ears. "
+	},
+	[CARD_NUMBER_HIGH_TIDE_GYOJIN]
+	{
+		.description = "A very agile half-fish warrior known for its relentless attacks."
+	},
+	[CARD_NUMBER_HINOTAMA]
+	{
+		.description = "Inflicts 500 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_HINOTAMA_SOUL]
+	{
+		.description = "An intensely hot flame creature that rams anything standing in its way."
+	},
+	[CARD_NUMBER_HIRO_S_SHADOW_SCOUT]
+	{
+		.description = "FLIP: Your opponent draws 3 cards. Both players check the cards and any Magic Cards among them must be immediately discarded to the Graveyard."
+	},
+	[CARD_NUMBER_HITODENCHAK]
+	{
+		.description = "A rabid starfish that spits a lethal acid that can melt almost anything."
+	},
+	[CARD_NUMBER_HITOTSU_ME_GIANT]
+	{
+		.description = "A one-eyed behemoth with thick, powerful arms made for delivering punishing blows."
+	},
+	[CARD_NUMBER_HOLOGRAH]
+	{
+		.description = "This machine generates illusions that leave an enemy wide open to attacks."
+	},
+	[CARD_NUMBER_HORN_IMP]
+	{
+		.description = "A small fiend that dwells in the dark, its single horn makes it a formidable opponent."
+	},
+	[CARD_NUMBER_HORN_OF_HEAVEN]
+	{
+		.description = "Offer 1 of your own monsters on the field as a Tribute to negate the summon of a monster and send it to the Graveyard."
+	},
+	[CARD_NUMBER_HORN_OF_LIGHT]
+	{
+		.description = "A monster equipped with this card increases its DEF by 800 points. When this card is sent from the field to the Graveyard, you can pay 500 Life Points to place it on top of your Deck."
+	},
+	[CARD_NUMBER_HORN_OF_THE_UNICORN]
+	{
+		.description = "A monster equipped with this card increases its ATK and DEF by 700 points. When this card is sent from the field to the Graveyard, it returns to the top of your Deck."
+	},
+	[CARD_NUMBER_HOSHININGEN]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all LIGHT monsters by 500 points and decrease the ATK of all DARK monsters by 400 points."
+	},
+	[CARD_NUMBER_HOURGLASS_OF_COURAGE]
+	{
+		.description = "For 3 turns (including your opponent's) following the Summon of this card (including Flip Summon), the ATK and DEF of this monster is halved. After that, both ATK and DEF are doubled for the remainder of the Duel."
+	},
+	[CARD_NUMBER_HOURGLASS_OF_LIFE]
+	{
+		.description = "This creature grants power instead of shortening life."
+	},
+	[CARD_NUMBER_HOUSE_OF_ADHESIVE_TAPE]
+	{
+		.description = "If the DEF of a monster summoned by your opponent (excluding Special Summon) is 500 points or less, the monster is destroyed."
+	},
+	[CARD_NUMBER_HUNGRY_BURGER]
+	{
+		.description = "This monster can only be Ritual Summoned with the Ritual Magic Card, \"Hamburger Recipe\". You must also offer monsters whose total Level Stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_HUNTER_SPIDER]
+	{
+		.description = "This monster feeds on whatever it catches in its web."
+	},
+	[CARD_NUMBER_HYO]
+	{
+		.description = "None can survive the cold touch of this sub-zero warrior."
+	},
+	[CARD_NUMBER_HYOSUBE]
+	{
+		.description = "This amphibian is strong on the attack, but leaves much to be desired when defending."
+	},
+	[CARD_NUMBER_HYOZANRYU]
+	{
+		.description = "A dragon created from a massive diamond that sparkles with blinding light."
+	},
+	[CARD_NUMBER_ICE_WATER]
+	{
+		.description = "A very aggressive mermaid that attacks enemies with the spikes growing from its body."
+	},
+	[CARD_NUMBER_ILL_WITCH]
+	{
+		.description = "This monster blasts enemies with unexpected bursts of wind."
+	},
+	[CARD_NUMBER_ILLUSIONIST_FACELESS_MAGE]
+	{
+		.description = "Manipulates enemy attacks with the power of illusion."
+	},
+	[CARD_NUMBER_IMPERIAL_ORDER]
+	{
+		.description = "As long as this card remains face-up on the field, the effects of all Magic Cards are deactivated. To keep this card in effect, you must pay 700 Life Points at your Standby Phase. If you cannot pay, this card is destroyed."
+	},
+	[CARD_NUMBER_INSECT_ARMOR_WITH_LASER_CANNON]
+	{
+		.description = "Increases the ATK of all Insect-type monsters by 700 points."
+	},
+	[CARD_NUMBER_INSECT_QUEEN]
+	{
+		.description = "This card cannot attack unless you offer 1 of your monsters on the field as a Tribute. The ATK of this card increases by 200 points for each Insect-type monster on the field. When this card destroys an enemy monster, you can place an Insect Monster Token (face-up Attack Position/Insect-type/EARTH/1 Star/ATK 100/DEF 100) on the field at the end of your turn."
+	},
+	[CARD_NUMBER_INSECT_SOLDIERS_OF_THE_SKY]
+	{
+		.description = "The ATK of this card increases by 1000 points whenever it attacks a WIND monster."
+	},
+	[CARD_NUMBER_INSPECTION]
+	{
+		.description = "At your opponent's Standby Phase, you can randomly select 1 card in your opponent's hand and look at it at the cost of 500 Life Points."
+	},
+	[CARD_NUMBER_INVADER_FROM_ANOTHER_DIMENSION]
+	{
+		.description = "An extraterrestrial monster that came from a distant galaxy."
+	},
+	[CARD_NUMBER_INVADER_OF_THE_THRONE]
+	{
+		.description = "FLIP: Select 1 opponent's monster and switch control of it with this card. This effect cannot be activated during the Battle Phase."
+	},
+	[CARD_NUMBER_INVIGORATION]
+	{
+		.description = "An EARTH monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points."
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Javelin Beetle Pact\". You must also offer monsters whose total Level stars equal 8 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_JAVELIN_BEETLE_PACT]
+	{
+		.description = "This card is used to summon \"Javelin Beetle\". You must also offer monsters whose total Level stars equal 8 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_JELLYFISH]
+	{
+		.description = "An almost invisible, semi-transparent jellyfish that drifts in the sea."
+	},
+	[CARD_NUMBER_JIGEN_BAKUDAN]
+	{
+		.description = "FLIP: After this card is flipped, offer it as a Tribute during your Standby Phase to destroy all monsters on your side of the field and inflict Direct Damage equal to half of the total ATK of the destroyed cards (excluding this monster) to your opponent's Life Points."
+	},
+	[CARD_NUMBER_JINZO]
+	{
+		.description = "As long as this card remains face-up on the field, all the effects of Trap Cards are deactivated."
+	},
+	[CARD_NUMBER_JINZO_7]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_JIRAI_GUMO]
+	{
+		.description = "When you attack with this card, toss a coin and call it. If you call it right, attack normally. If you call it wrong, reduce your Life Points by half before attacking."
+	},
+	[CARD_NUMBER_JUDGE_MAN]
+	{
+		.description = "This club-wielding warrior battles to the end and will never surrender."
+	},
+	[CARD_NUMBER_JUST_DESSERTS]
+	{
+		.description = "Inflict 500 points of Direct Damage to your opponent's Life Points for each monster your opponent has on the field."
+	},
+	[CARD_NUMBER_KAGEMUSHA_OF_THE_BLUE_FLAME]
+	{
+		.description = "Serving as a double for the Ruler of the Blue Flame, he's a master swordsman that wields a fine blade."
+	},
+	[CARD_NUMBER_KAGENINGEN]
+	{
+		.description = "Uses both its physical and shadow forms to attack, making it a difficult monster to overcome."
+	},
+	[CARD_NUMBER_KAIRYU_SHIN]
+	{
+		.description = "A sea dragon known as the King of the Ocean, it attacks its enemies with huge tidal waves."
+	},
+	[CARD_NUMBER_KAISER_DRAGON]
+	{
+		.description = "Winged Dragon,Guardian of the Fortress #1 + Fairy Dragon"
+	},
+	[CARD_NUMBER_KAMAKIRIMAN]
+	{
+		.description = "A man-shaped mantis with two razor-sharp scythes."
+	},
+	[CARD_NUMBER_KAMINARI_ATTACK]
+	{
+		.description = "Ocubeam + Mega Thunderball"
+	},
+	[CARD_NUMBER_KAMINARIKOZOU]
+	{
+		.description = "This monster stores electricity within its body, unleashing it with lethal effect."
+	},
+	[CARD_NUMBER_KAMIONWIZARD]
+	{
+		.description = "Mystical Elf + Curtain of the Dark Ones"
+	},
+	[CARD_NUMBER_KANAN_THE_SWORDMISTRESS]
+	{
+		.description = "A lady warrior armed with sword and shield, she floats like a butterfly and stings like a bee."
+	},
+	[CARD_NUMBER_KANIKABUTO]
+	{
+		.description = "A monster crab with huge claws for clipping enemies to little pieces."
+	},
+	[CARD_NUMBER_KARATE_MAN]
+	{
+		.description = "Once per turn, the original ATK of this card can be doubled. When this effect is applied, the card is immediately destroyed at the end of the turn. "
+	},
+	[CARD_NUMBER_KARBONALA_WARRIOR]
+	{
+		.description = "M-Warrior #1 + M-Warrior #2"
+	},
+	[CARD_NUMBER_KATTAPILLAR]
+	{
+		.description = "Attacks enemies by spitting thin, sticky webs. "
+	},
+	[CARD_NUMBER_KAZEJIN]
+	{
+		.description = "Reduce the ATK of an opponent's monster attacking this card to 0. This effect can be used only once. The card's owner chooses when to activate this effect."
+	},
+	[CARD_NUMBER_KEY_MACE_2]
+	{
+		.description = "The power of this monster lies in its ability to suppress the good and bring out the bad in any monster."
+	},
+	[CARD_NUMBER_KILLER_NEEDLE]
+	{
+		.description = "A huge bee with exceptional strength that's particularly dangerous in a swarm."
+	},
+	[CARD_NUMBER_KING_FOG]
+	{
+		.description = "A fiend that dwells in a blinding curtain of smoke."
+	},
+	[CARD_NUMBER_KING_OF_YAMIMAKAI]
+	{
+		.description = "Wields the power of darkness to destroy its enemies."
+	},
+	[CARD_NUMBER_KISEITAI]
+	{
+		.description = "When your opponent's monster attacks this card in face-down Defense Position, the attacking monster is equipped with this card (damage calculations are canceled).  At each of your opponent's Standby Phases, increase your Life Points by half of the ATK of the monster equipped with this card."
+	},
+	[CARD_NUMBER_KOJIKOCY]
+	{
+		.description = "A man-hunter with powerful arms that can crush boulders."
+	},
+	[CARD_NUMBER_KOTODAMA]
+	{
+		.description = "As long as this card remains face-up on the field, monsters of the same name cannot exist on the field at the same time (face-down cards not included). If a card of the same name is summoned in a later turn, that card is destroyed. If 2 cards of the same name are played at the same time, both cards are destroyed."
+	},
+	[CARD_NUMBER_KOUMORI_DRAGON]
+	{
+		.description = "A vicious, fire-breathing dragon whose wicked flame corrupts the souls of its victims."
+	},
+	[CARD_NUMBER_KROKODILUS]
+	{
+		.description = "A vicious crocodile with great intelligence."
+	},
+	[CARD_NUMBER_KUMOOTOKO]
+	{
+		.description = "A massive, intelligent spider that traps enemies with webbing."
+	},
+	[CARD_NUMBER_KUNAI_WITH_CHAIN]
+	{
+		.description = "You can shift an opponent's monster in Attack Position to Defense Position. In addition, you can increase the ATK of 1 of your own monsters by 500 points."
+	},
+	[CARD_NUMBER_KURAMA]
+	{
+		.description = "A vicious bird that attacks from the skies with its whip-like tail."
+	},
+	[CARD_NUMBER_KURIBOH]
+	{
+		.description = "Discard this card from your hand to the Graveyard to negate the damage inflicted by an opponent's monster. This effect can only be used once, and must be activated during your opponent's Battle Phase."
+	},
+	[CARD_NUMBER_KUWAGATA_A]
+	{
+		.description = "A very vicious stag beetle that goes for the head."
+	},
+	[CARD_NUMBER_KWAGAR_HERCULES]
+	{
+		.description = "Kuwagata a + Hercules Beetle"
+	},
+	[CARD_NUMBER_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP]
+	{
+		.description = "A genie of the lamp that's at the beck and call of its master."
+	},
+	[CARD_NUMBER_LABYRINTH_TANK]
+	{
+		.description = "Giga-tech Wolf + Cannon Soldier"
+	},
+	[CARD_NUMBER_LABYRINTH_WALL]
+	{
+		.description = "These walls form a labyrinth with no exit for enemies."
+	},
+	[CARD_NUMBER_LADY_OF_FAITH]
+	{
+		.description = "Soothes the souls of others by chanting a mysterious spell."
+	},
+	[CARD_NUMBER_LALA_LI_OON]
+	{
+		.description = "An electric cloud creature, its acid rain makes it very dangerous."
+	},
+	[CARD_NUMBER_LARVAE_MOTH]
+	{
+		.description = "This monster is summoned by offering \"Petit Moth\" as a Tribute on the 2nd of your turns after it has been equipped with \"Cocoon of Evolution\"."
+	},
+	[CARD_NUMBER_LARVAS]
+	{
+		.description = "A fast-moving, bird-like creature that strangles opposing monsters with its long, thin arms."
+	},
+	[CARD_NUMBER_LASER_CANNON_ARMOR]
+	{
+		.description = "An Insect-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_LAST_DAY_OF_WITCH]
+	{
+		.description = "Destroys all face-up Spellcaster-type monsters on the field."
+	},
+	[CARD_NUMBER_LAST_WILL]
+	{
+		.description = "If a monster of yours is sent from the field to the Graveyard during the turn that you've played this card, you can select a monster with an ATK of 1500 points or less from your Deck and play it as a Special Summon. Shuffle the Deck after playing the card. This card is active for 1 turn only."
+	},
+	[CARD_NUMBER_LAUGHING_FLOWER]
+	{
+		.description = "A flower whose laugh can confuse the minds of enemies."
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER]
+	{
+		.description = "A mechanical spider with rocket launchers capable of random fire."
+	},
+	[CARD_NUMBER_LAUNCHER_SPIDER_2]
+	{
+		.description = "A mechanical spider with rocket launchers capable of random fire."
+	},
+	[CARD_NUMBER_LAVA_BATTLEGUARD]
+	{
+		.description = "Increase the ATK of this card by 500 points for each face-up \"Swamp Battleguard\" on your side of the field."
+	},
+	[CARD_NUMBER_LEFT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.description = "A forbidden left arm sealed by magic. Whosoever breaks this seal will know infinite power."
+	},
+	[CARD_NUMBER_LEFT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.description = "A forbidden left leg sealed by magic. Whosoever breaks this seal will know infinite power."
+	},
+	[CARD_NUMBER_LEGENDARY_SWORD]
+	{
+		.description = "A Warrior-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_LEGHUL]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_LEOGUN]
+	{
+		.description = "Huge monster with a lion's mane similar to the King of Beasts."
+	},
+	[CARD_NUMBER_LESSER_DRAGON]
+	{
+		.description = "A minor dragon incapable of breathing fire."
+	},
+	[CARD_NUMBER_LIGHT_OF_INTERVENTION]
+	{
+		.description = "Monster Cards cannot be played face-down. Monsters Set in Defense Position are played face-up on the field. Flip Effects are not activated."
+	},
+	[CARD_NUMBER_LIGHTFORCE_SWORD]
+	{
+		.description = "Select 1 card at random from your opponent's hand. Keep it face-down and place it outside of the field. The card is returned to it's owner's hand on your opponent's 4th Standby Phase following this turn."
+	},
+	[CARD_NUMBER_LIQUID_BEAST]
+	{
+		.description = "A liquid life form that thrives on water."
+	},
+	[CARD_NUMBER_LITTLE_CHIMERA]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all FIRE monsters by 500 points and decrease the ATK of all WATER monsters by 400 points."
+	},
+	[CARD_NUMBER_LITTLE_D]
+	{
+		.description = "A tyrannosaurus offspring with a vicious disposition."
+	},
+	[CARD_NUMBER_LORD_OF_D]
+	{
+		.description = "All Dragon-type monsters are not affected by Magic Cards, Trap Cards, or other effects while this card is face-up on the field."
+	},
+	[CARD_NUMBER_LORD_OF_THE_LAMP]
+	{
+		.description = "A giant that appears from a mystic lamp and follows the orders of the lamp's owner."
+	},
+	[CARD_NUMBER_LORD_OF_ZEMIA]
+	{
+		.description = "A wicked entity that manipulates enemies towards a path of destruction."
+	},
+	[CARD_NUMBER_LUMINOUS_SPARK]
+	{
+		.description = "Increases the ATK of all LIGHT monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_LUNAR_QUEEN_ELZAIM]
+	{
+		.description = "A lovely creature guarded by the moon. Her lunar curtain can block just about any attack."
+	},
+	[CARD_NUMBER_MABARREL]
+	{
+		.description = "This cannon-like creature fires eyeballs so fast they can't be seen."
+	},
+	[CARD_NUMBER_MACHINE_CONVERSION_FACTORY]
+	{
+		.description = "A Machine-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_MACHINE_KING]
+	{
+		.description = "Increase the ATK of this card by 100 points for each face-up Machine-type monster on the field."
+	},
+	[CARD_NUMBER_MAGIC_JAMMER]
+	{
+		.description = "Discard 1 card from your hand to the Graveyard to negate the activation of a Magic Card. The Magic Card is sent to the Graveyard."
+	},
+	[CARD_NUMBER_MAGIC_THORN]
+	{
+		.description = "You can inflict 500 points of damage per card to your opponent's Life Points when your opponent's cards are discarded to the Graveyard by the effects of Magic, Trap or Effect Monster Cards."
+	},
+	[CARD_NUMBER_MAGICAL_GHOST]
+	{
+		.description = "This creature casts a spell of terror and confusion just before attacking its enemies."
+	},
+	[CARD_NUMBER_MAGICAL_HATS]
+	{
+		.description = "Take 2 non-Monster Cards from your Deck and select 1 of your Monster Card on the field, then shuffle your Deck. Shuffle the 3 selected cards and place them on the field in face-down Defense Position. These 3 cards are treated as monsters (ATK 0/DEF 0) and are destroyed at the end of your Battle Phase. This card can only be activated during your opponent's Battle Phase."
+	},
+	[CARD_NUMBER_MAGICAL_LABYRINTH]
+	{
+		.description = "Equip \"Labyrinth Wall\" with this card. If you offer \"Labyrinth Wall\" equipped with this card as a Tribute, you can Special Summon \"Wall Shadow\" from your Deck."
+	},
+	[CARD_NUMBER_MAGIC_ARM_SHIELD]
+	{
+		.description = "You can activate this card when your opponent announces an attack. Select 1 of your opponent's face-up Defense Position Monster Cards on the field and designate it as the target of the attack."
+	},
+	[CARD_NUMBER_MAGICIAN_OF_BLACK_CHAOS]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Dark Magic Ritual\". You must also offer monsters whose total Level stars equal 8 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_MAGICIAN_OF_FAITH]
+	{
+		.description = "FLIP: Select a Magic Card from your Graveyard and return it to your hand."
+	},
+	[CARD_NUMBER_MAHA_VAILO]
+	{
+		.description = "In addition to the effects of Equip Cards, the ATK of this monster is increased by 500 points for each card equipped to this monster."
+	},
+	[CARD_NUMBER_MAIDEN_OF_THE_MOONLIGHT]
+	{
+		.description = "A sorcerer blessed by lunar light with powers far beyond mortal comprehension."
+	},
+	[CARD_NUMBER_MAJOR_RIOT]
+	{
+		.description = "You can activate this card when 1 of your monsters are returned from the field to your hand. Return all Monster Cards on the field to your respective hands. Both you and your opponent can then place the same number of Monster Cards on the field in face-down Defense Position."
+	},
+	[CARD_NUMBER_MALEVOLENT_NUZZLER]
+	{
+		.description = "A monster equipped with this card increases its ATK by 700 points. When this card is sent from the field to the Graveyard, you can pay 500 Life Points to place it on top of your Deck."
+	},
+	[CARD_NUMBER_MAMMOTH_GRAVEYARD]
+	{
+		.description = "A mammoth that protects the graves of its pack and is absolutely merciless when facing grave-robbers."
+	},
+	[CARD_NUMBER_MAN_EATER]
+	{
+		.description = "Man-eating plant with poison feelers for attacking enemies."
+	},
+	[CARD_NUMBER_MAN_EATER_BUG]
+	{
+		.description = "FLIP: Destroys 1 monster on the field (regardless of position)."
+	},
+	[CARD_NUMBER_MAN_EATING_BLACK_SHARK]
+	{
+		.description = "Sea Kamen + Gruesome Goo + Amazon of the Seas"
+	},
+	[CARD_NUMBER_MAN_EATING_PLANT]
+	{
+		.description = "A meat-eating plant that is attractive to the eye but dangerous when approached."
+	},
+	[CARD_NUMBER_MAN_EATING_TREASURE_CHEST]
+	{
+		.description = "A monster disguised as a treasure chest that is known to attack the unwary adventurer."
+	},
+	[CARD_NUMBER_MANGA_RYU_RAN]
+	{
+		.description = "This card cannot be summoned unless \"Toon World\" is on the field. This card cannot attack in the same turn that it is summoned. Pay 500 Life Points each time this monster attacks. When \"Toon World\" is destroyed, this card is also destroyed. If your opponent doesn't control a Toon monster on the field, this card may inflict Direct Damage to your opponent's Life Points. If a Toon monster is on your opponent's side of the field, your attacks must target the Toon monster. "
+	},
+	[CARD_NUMBER_MARINE_BEAST]
+	{
+		.description = "Water Magician + Behegon"
+	},
+	[CARD_NUMBER_MASAKI_THE_LEGENDARY_SWORDSMAN]
+	{
+		.description = "Legendary swordmaster Masaki is a veteran of over 100 battles."
+	},
+	[CARD_NUMBER_MASK_OF_DARKNESS]
+	{
+		.description = "FLIP: Select a Trap Card from your Graveyard and return it to your hand."
+	},
+	[CARD_NUMBER_MASKED_SORCERER]
+	{
+		.description = "Draw 1 card from your Deck when you inflict Direct Damage to your opponent's Life Points with this card."
+	},
+	[CARD_NUMBER_MASTER_AND_EXPERT]
+	{
+		.description = "A deadly duo consisting of a beast master and its loyal servant."
+	},
+	[CARD_NUMBER_MAVELUS]
+	{
+		.description = "Tyhone + Wings of Wicked Flame"
+	},
+	[CARD_NUMBER_MECHANICAL_SNAIL]
+	{
+		.description = "A cyborg snail that still travels at a slow pace."
+	},
+	[CARD_NUMBER_MECHANICAL_SPIDER]
+	{
+		.description = "Any DARK monster attacked by this card is automatically destroyed. Damage calculations apply."
+	},
+	[CARD_NUMBER_MECHANICALCHASER]
+	{
+		.description = "A hunter that relentlessly pursues its target by order of the Machine King."
+	},
+	[CARD_NUMBER_MEDA_BAT]
+	{
+		.description = "An eyeball fiend created by a servant of the wicked, it uses \"Dark Blasts\" to blow away its enemies."
+	},
+	[CARD_NUMBER_MEGA_THUNDERBALL]
+	{
+		.description = "Rolls along the ground releasing bolts of electricity to attack its enemies."
+	},
+	[CARD_NUMBER_MEGAMORPH]
+	{
+		.description = "If your Life Points are lower than your opponent's, the original ATK of a monster equipped with this card is doubled. If your Life Points are higher, the original ATK is halved. "
+	},
+	[CARD_NUMBER_MEGAZOWLER]
+	{
+		.description = "Nothing stands in the way of this spike-covered dinosaur."
+	},
+	[CARD_NUMBER_MEOTOKO]
+	{
+		.description = "A huge monster with a single eye that fires a deadly beam."
+	},
+	[CARD_NUMBER_MESMERIC_CONTROL]
+	{
+		.description = "When this card is played your opponent cannot change the position of monsters during his/her next turn."
+	},
+	[CARD_NUMBER_MESSENGER_OF_PEACE]
+	{
+		.description = "You must pay 100 Life Points at each of your Standby Phases. If you cannot pay, this card is destroyed. All monsters with an ATK of 1500 points or more cannot attack."
+	},
+	[CARD_NUMBER_METAL_DETECTOR]
+	{
+		.description = "You can activate this card when a Continuous Magic Card is played to deactivate all Continuous Magic Cards for the current turn."
+	},
+	[CARD_NUMBER_METAL_DRAGON]
+	{
+		.description = "Steel Ogre Grotto #1 + Lesser Dragon"
+	},
+	[CARD_NUMBER_METAL_FISH]
+	{
+		.description = "A metal fish with a razor-sharp caudal fin."
+	},
+	[CARD_NUMBER_METAL_GUARDIAN]
+	{
+		.description = "A fiend guarding the treasures of the netherworld, it's most at home in the dark."
+	},
+	[CARD_NUMBER_METALMORPH]
+	{
+		.description = "After activation, this card is used to equip a face-up monster. The monster equipped with this card increases its ATK and DEF by 300 points. When attacking with a monster equipped with this card, you can further increase its ATK by an amount equal to half the ATK of your target.  "
+	},
+	[CARD_NUMBER_METALZOA]
+	{
+		.description = "This monster is Special Summoned from the Deck to the field by offering \"Zoa\" equipped with \"Metalmorph\" as a Tribute."
+	},
+	[CARD_NUMBER_METEOR_B_DRAGON]
+	{
+		.description = "Red-Eyes B. Dragon + Meteor Dragon"
+	},
+	[CARD_NUMBER_METEOR_DRAGON]
+	{
+		.description = "This dragon appeared from the heavens and crashed to earth."
+	},
+	[CARD_NUMBER_MIKAZUKINOYAIBA]
+	{
+		.description = "A dragon warrior of the moon armed with a crescent sword."
+	},
+	[CARD_NUMBER_MILLENNIUM_GOLEM]
+	{
+		.description = "For nearly a millennium, this golem has served as guardian of an ancient treasure trove."
+	},
+	[CARD_NUMBER_MILLENNIUM_SHIELD]
+	{
+		.description = "A Millennium item, it's rumored to block any strong attack."
+	},
+	[CARD_NUMBER_MILUS_RADIANT]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all EARTH monsters by 500 points and decrease the ATK of all WIND monsters by 400 points."
+	},
+	[CARD_NUMBER_MINAR]
+	{
+		.description = "When this card is sent directly from your hand to the Graveyard by your opponent's card effect, inflict 1000 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_MINOMUSHI_WARRIOR]
+	{
+		.description = "A rock warrior that wields a heavy blade carved from stone."
+	},
+	[CARD_NUMBER_MIRROR_FORCE]
+	{
+		.description = "When an opponent's monster attacks, negate the attack and destroy all opponent's monsters in Attack Position."
+	},
+	[CARD_NUMBER_MIRROR_WALL]
+	{
+		.description = "You must pay 2000 of your own Life Points during each Standby Phase.  If you cannot, this card is destroyed. Decrease the ATK of all your opponent's attacking monsters by half. "
+	},
+	[CARD_NUMBER_MISAIRUZAME]
+	{
+		.description = "A missile-launching fish protected by deadly spikes."
+	},
+	[CARD_NUMBER_MOLTEN_DESTRUCTION]
+	{
+		.description = "Increases the ATK of all FIRE monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_MONSTER_EGG]
+	{
+		.description = "A warrior hidden within an egg that attacks enemies by flinging eggshells."
+	},
+	[CARD_NUMBER_MONSTER_EYE]
+	{
+		.description = "At the cost of 1000 Life Points, you can return \"Polymerization\" from the Graveyard to your hand."
+	},
+	[CARD_NUMBER_MONSTER_REBORN]
+	{
+		.description = "Select 1 Monster Card from either your opponent's or your own Graveyard and place it on the field under your control in Attack or Defense Position (face-up). This is considered a Special Summon."
+	},
+	[CARD_NUMBER_MONSTER_TAMER]
+	{
+		.description = "A master of monsters that exercises control over several creatures."
+	},
+	[CARD_NUMBER_MONSTROUS_BIRD]
+	{
+		.description = "Few have set eyes on this dive-bombing bird and lived to tell the tale. "
+	},
+	[CARD_NUMBER_MOON_ENVOY]
+	{
+		.description = "Many have fallen victim to this lunar warrior's crescent pike."
+	},
+	[CARD_NUMBER_MOOYAN_CURRY]
+	{
+		.description = "Increase your Life Points by 200 points."
+	},
+	[CARD_NUMBER_MORINPHEN]
+	{
+		.description = "A strange fiend with long arms and razor-sharp talons."
+	},
+	[CARD_NUMBER_MORPHING_JAR]
+	{
+		.description = "FLIP: Both you and your opponent discard your hands and draw 5 new cards from your respective Decks."
+	},
+	[CARD_NUMBER_MORPHING_JAR_2]
+	{
+		.description = "FLIP: Return all Monster Cards on the field to their respective Decks and shuffle them. You and your opponent then draw cards until you both have the same number of Monster Cards that were returned to each Deck. Place the monsters on the field in face-down Defense Position. Any other cards drawn are discarded to the Graveyard."
+	},
+	[CARD_NUMBER_MOTHER_GRIZZLY]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you may select 1 WATER monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_MOUNTAIN]
+	{
+		.description = "Increases the ATK and DEF of all Dragon, Winged Beast, and Thunder-type monsters by 200 points."
+	},
+	[CARD_NUMBER_MOUNTAIN_WARRIOR]
+	{
+		.description = "A tough warrior that can move smoothly on even the roughest terrain."
+	},
+	[CARD_NUMBER_MR_VOLCANO]
+	{
+		.description = "This seemingly mild-mannered creature has an extremely volatile temper."
+	},
+	[CARD_NUMBER_MUKA_MUKA]
+	{
+		.description = "Increase the ATK and DEF of this card by 300 points for every card in your hand."
+	},
+	[CARD_NUMBER_MUSHROOM_MAN]
+	{
+		.description = "Found in humid regions, this creature attacks enemies with a lethal rain of poison spores."
+	},
+	[CARD_NUMBER_MUSHROOM_MAN_2]
+	{
+		.description = "A player controlling this monster loses 300 Life Points during each his/her Standby Phase when this card is on the field. Control of this card is shifted to your opponent by paying 500 Life Points at your own End Phase."
+	},
+	[CARD_NUMBER_MUSICIAN_KING]
+	{
+		.description = "Witch of the Black Forest + Lady of Faith"
+	},
+	[CARD_NUMBER_M_WARRIOR_1]
+	{
+		.description = "Specializing in combination attacks, this warrior uses magnetism to block an enemy's escape."
+	},
+	[CARD_NUMBER_M_WARRIOR_2]
+	{
+		.description = "Specializing in combination attacks, this warrior is equipped with a tough, magnetically coated armor."
+	},
+	[CARD_NUMBER_MYSTERIOUS_PUPPETEER]
+	{
+		.description = "When the monster is summoned (excluding Special Summon) or flipped face-up by attack or some effect, the Life Points of this card's owner increase by 500 points for each monster while this card is face-up on the field."
+	},
+	[CARD_NUMBER_MYSTIC_HORSEMAN]
+	{
+		.description = "Half man and half horse, this monster is known for its extreme speed."
+	},
+	[CARD_NUMBER_MYSTIC_LAMP]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_MYSTIC_PLASMA_ZONE]
+	{
+		.description = "Increases the ATK of all DARK monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_MYSTIC_PROBE]
+	{
+		.description = "You can activate this card when a Continuous Magic Card is played to deactivate all Continuous Magic Cards for the current turn."
+	},
+	[CARD_NUMBER_MYSTIC_TOMATO]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you may select 1 DARK monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_MYSTICAL_CAPTURE_CHAIN]
+	{
+		.description = "A mystical chain that binds enemies, rendering them immobile."
+	},
+	[CARD_NUMBER_MYSTICAL_ELF]
+	{
+		.description = "A delicate elf that lacks offense, but has a terrific defense backed by mystical power."
+	},
+	[CARD_NUMBER_MYSTICAL_MOON]
+	{
+		.description = "A Beast-Warrior-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_MYSTICAL_SAND]
+	{
+		.description = "Giant Soldier of Stone + Ancient Elf"
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_1]
+	{
+		.description = "You can substitute this card for any 1 Fusion-Material Monster. You cannot substitute for any other Fusion-Material Monsters in the current Fusion."
+	},
+	[CARD_NUMBER_MYSTICAL_SHEEP_2]
+	{
+		.description = "A monstrous sheep with a long tail for hypnotizing enemies."
+	},
+	[CARD_NUMBER_MYSTICAL_SPACE_TYPHOON]
+	{
+		.description = "Destroy 1 Magic or Trap Card on the field."
+	},
+	[CARD_NUMBER_NEEDLE_BALL]
+	{
+		.description = "FLIP: You can inflict 1000 points of Direct Damage to your opponent's Life Points at the cost of 2000 of your own Life Points."
+	},
+	[CARD_NUMBER_NEEDLE_WORM]
+	{
+		.description = "FLIP: Discard 5 cards from the top of your opponent's Deck to his/her Graveyard."
+	},
+	[CARD_NUMBER_NEGATE_ATTACK]
+	{
+		.description = "When your opponent attacks with a monster, all attacks are negated and your opponent's Battle Phase ends."
+	},
+	[CARD_NUMBER_NEKOGAL_1]
+	{
+		.description = "Deceptively cute, this feline fairy has a set of fast and lethal claws."
+	},
+	[CARD_NUMBER_NEKOGAL_2]
+	{
+		.description = "A fast and lethal creature with very dangerous claws."
+	},
+	[CARD_NUMBER_NEMURIKO]
+	{
+		.description = "A child-like creature that controls a sleep fiend to beckon enemies into eternal slumber."
+	},
+	[CARD_NUMBER_NEO_THE_MAGIC_SWORDSMAN]
+	{
+		.description = "A dimensional drifter who not only practices sorcery, but is also a sword and martial arts master."
+	},
+	[CARD_NUMBER_NIMBLE_MOMONGA]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, increase your Life Points by 1000 points. You can also take cards of the same name from your Deck and Special Summon them to the field in face-down Defense Position. The Deck is then shuffled."
+	},
+	[CARD_NUMBER_NIWATORI]
+	{
+		.description = "Swallows enemies whole and uses their essence as energy."
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_CROSSOUT]
+	{
+		.description = "Destroy 1 face-down monster and remove it from play. If the monster destroyed is a Flip Effect Monster, both players must remove Monster Cards of the same name from their respective Decks and remove them from play. The Decks are then shuffled."
+	},
+	[CARD_NUMBER_NOBLEMAN_OF_EXTERMINATION]
+	{
+		.description = "Destroy 1 face-down Magic or Trap Card and remove it from play. If the card is a Trap Card, both players must remove Trap Cards of the same name from their respective Decks and remove them from play. The Decks are then shuffled."
+	},
+	[CARD_NUMBER_NOVOX_S_PRAYER]
+	{
+		.description = "This card is used to summon \"Skull Guardian\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_NUMINOUS_HEALER]
+	{
+		.description = "You can activate this card when you take damage to your Life Points. Increase your Life Points by 1000 points. In addition, increase your Life Points by 500 points per card if there are additional \"Numinous Healer\" cards in the Graveyard. "
+	},
+	[CARD_NUMBER_OCTOBERSER]
+	{
+		.description = "With the head of a fish and the legs of an octopus, this strange creature attacks enemies by flinging spears."
+	},
+	[CARD_NUMBER_OCUBEAM]
+	{
+		.description = "Frightening in appearance, this creature uses its large eyes and ears to keep track of any movement."
+	},
+	[CARD_NUMBER_OGRE_OF_THE_BLACK_SHADOW]
+	{
+		.description = "An ogre possessed by the powers of the dark. Few can withstand its rapid charge."
+	},
+	[CARD_NUMBER_ONE_EYED_SHIELD_DRAGON]
+	{
+		.description = "This dragon wears a shield not only for its own protection, but also for ramming its enemies."
+	},
+	[CARD_NUMBER_OOGUCHI]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_OOKAZI]
+	{
+		.description = "Inflict 800 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_ORION_THE_BATTLE_KING]
+	{
+		.description = "None have lived to tell tales of this powerful battle fairy."
+	},
+	[CARD_NUMBER_OSCILLO_HERO]
+	{
+		.description = "A strange warrior from another dimension."
+	},
+	[CARD_NUMBER_OSCILLO_HERO_2]
+	{
+		.description = "A creature that electrocutes opponents with bolts of lightning."
+	},
+	[CARD_NUMBER_PAINFUL_CHOICE]
+	{
+		.description = "Select 5 cards from your Deck and show them to your opponent. Your opponent must select 1 card that will be added to your hand. Discard the remaining cards to the Graveyard."
+	},
+	[CARD_NUMBER_PALE_BEAST]
+	{
+		.description = "With skin tinged a bluish-white, this strange creature is a fearsome sight to behold."
+	},
+	[CARD_NUMBER_PANTHER_WARRIOR]
+	{
+		.description = "This card cannot attack unless you offer 1 of your monsters on the field as a Tribute."
+	},
+	[CARD_NUMBER_PARALYZING_POTION]
+	{
+		.description = "A non-Machine-type monster equipped with this card cannot attack."
+	},
+	[CARD_NUMBER_PARASITE_PARACIDE]
+	{
+		.description = "FLIP: Put this card face-up in your opponent's Deck and shuffle it. When your opponent draws this card, it is Special Summoned on the field face-up in Defense Position. Your opponent's Life Points are decreased by 1000 points, and from this point, all of your opponent's face-up Monster Cards are treated as Insect-type monsters as long as this card remains face-up on the field."
+	},
+	[CARD_NUMBER_PARROT_DRAGON]
+	{
+		.description = "A dragon from the cartoons that's more dangerous than it appears to be."
+	},
+	[CARD_NUMBER_PATROL_ROBO]
+	{
+		.description = "During your Standby Phase, you can look at 1 face-down card that's been Set by your opponent as long as this card remains face-up on the field."
+	},
+	[CARD_NUMBER_PEACOCK]
+	{
+		.description = "A large peacock that launches its feathers in a lethal attack."
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE]
+	{
+		.description = "A horrible torture machine with a large pendulum blade."
+	},
+	[CARD_NUMBER_PENDULUM_MACHINE_2]
+	{
+		.description = "A horrible torture machine with a large pendulum blade."
+	},
+	[CARD_NUMBER_PENGUIN_KNIGHT]
+	{
+		.description = "When this card is sent directly from your Deck to the Graveyard by an opponent's card effect, combine your Graveyard cards with your own Deck, shuffle them and form a new Deck."
+	},
+	[CARD_NUMBER_PENGUIN_SOLDIER]
+	{
+		.description = "FLIP: You can return up to 2 Monster Cards from the field to the owner's hand."
+	},
+	[CARD_NUMBER_PERFECTLY_ULTIMATE_GREAT_MOTH]
+	{
+		.description = "This monster is summoned by offering \"Petit Moth\" as a Tribute on the 6th of your turns after it has been equipped with \"Cocoon of Evolution\"."
+	},
+	[CARD_NUMBER_PERFORMANCE_OF_SWORD]
+	{
+		.description = "This monster can only be Ritual Summoned with the Ritual Magic Card, \"Commencement Dance\". You must also offer monsters whose total Level Stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_PETIT_ANGEL]
+	{
+		.description = "A quick-moving and tiny fairy that's very difficult to hit."
+	},
+	[CARD_NUMBER_PETIT_DRAGON]
+	{
+		.description = "A very small dragon known for its vicious attacks."
+	},
+	[CARD_NUMBER_PETIT_MOTH]
+	{
+		.description = "This small but deadly creature is better off avoided."
+	},
+	[CARD_NUMBER_POLYMERIZATION]
+	{
+		.description = "Fuses 2 or more Fusion-Material Monsters to form a new Fusion Monster."
+	},
+	[CARD_NUMBER_POLYMERIZATION_2]
+	{
+		.description = "Fuses 2 or more Fusion-Material Monsters to form a new Fusion Monster."
+	},
+	[CARD_NUMBER_POT_OF_GREED]
+	{
+		.description = "Draw 2 cards from your Deck."
+	},
+	[CARD_NUMBER_POWER_OF_KAISHIN]
+	{
+		.description = "An Aqua-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_PRAGTICAL]
+	{
+		.description = "Trakadon + Flame Viper"
+	},
+	[CARD_NUMBER_PREMATURE_BURIAL]
+	{
+		.description = "Pay 800 Life Points. Select 1 Monster Card from your Graveyard, place it on the field in Attack Position, and equip it with this card.  When this card is destroyed, the monster is also destroyed."
+	},
+	[CARD_NUMBER_PREVENT_RAT]
+	{
+		.description = "This creature is shielded with a tough hide of hair and is excellent at defending itself."
+	},
+	[CARD_NUMBER_PRINCESS_OF_TSURUGI]
+	{
+		.description = "FLIP: Inflicts 500 points of Direct Damage to your opponent's Life Points for each Magic and Trap Card your opponent has on the field."
+	},
+	[CARD_NUMBER_PRISMAN]
+	{
+		.description = "This crystalline monster filters light to create a lethal laser."
+	},
+	[CARD_NUMBER_PROHIBITION]
+	{
+		.description = "When you play this card, declare the name of 1 card. As long as this card remains on the field, the declared card cannot be played."
+	},
+	[CARD_NUMBER_PROTECTOR_OF_THE_THRONE]
+	{
+		.description = "While the king is away, this queen protects his throne with a mighty defense."
+	},
+	[CARD_NUMBER_PSYCHIC_KAPPA]
+	{
+		.description = "An amphibian with a myriad of powers to shield it from enemy attacks."
+	},
+	[CARD_NUMBER_PUMPKING_THE_KING_OF_GHOSTS]
+	{
+		.description = "As long as the \"Castle of Dark Illusions\" remains face-up on the field, the ATK and DEF of this card increases by 100 points each turn. This effect remains active for 5 turns."
+	},
+	[CARD_NUMBER_PUNISHED_EAGLE]
+	{
+		.description = "Blue-Winged Crown + Niwatori"
+	},
+	[CARD_NUMBER_QUEEN_BIRD]
+	{
+		.description = "This monster attacks enemies using its huge beak."
+	},
+	[CARD_NUMBER_QUEEN_OF_AUTUMN_LEAVES]
+	{
+		.description = "Queen of the Emerald Forest and wife of the Spirit King, she lives surrounded by vivid red leaves."
+	},
+	[CARD_NUMBER_QUEEN_S_DOUBLE]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_RABID_HORSEMAN]
+	{
+		.description = "Battle Ox + Mystic Horseman"
+	},
+	[CARD_NUMBER_RAIGEKI]
+	{
+		.description = "Destroys all of your opponent's monsters on the field."
+	},
+	[CARD_NUMBER_RAIMEI]
+	{
+		.description = "Decrease your opponent's Life Points by 300 points."
+	},
+	[CARD_NUMBER_RAINBOW_FLOWER]
+	{
+		.description = "This monster attacks your opponent's Life Points directly."
+	},
+	[CARD_NUMBER_RAISE_BODY_HEAT]
+	{
+		.description = "A Dinosaur-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_RARE_FISH]
+	{
+		.description = "Fusionist + Enchanting Mermaid"
+	},
+	[CARD_NUMBER_RAY_AND_TEMPERATURE]
+	{
+		.description = "The Sun and the North Wind join hands to deliver a devastating combination of heat and gale-force winds."
+	},
+	[CARD_NUMBER_REAPER_OF_THE_CARDS]
+	{
+		.description = "FLIP: Destroys 1 Trap Card on the field. If this card's target is face-down, flip it face-up. If the card is a Trap Card, it is destroyed. If not, it is returned to its face-down position. The flipped card is not activated."
+	},
+	[CARD_NUMBER_RED_ARCHERY_GIRL]
+	{
+		.description = "A mermaid archer that hides in a protective shell, waiting for the right moment to strike."
+	},
+	[CARD_NUMBER_RED_MEDICINE]
+	{
+		.description = "Increases your Life Points by 500 points."
+	},
+	[CARD_NUMBER_RED_EYES_B_DRAGON]
+	{
+		.description = "A ferocious dragon with a deadly attack."
+	},
+	[CARD_NUMBER_RED_EYES_BLACK_METAL_DRAGON]
+	{
+		.description = "This card can be Special Summoned from the Deck to the field by offering \"Red-Eyes B. Dragon\" equipped with \"Metalmorph\" as a Tribute."
+	},
+	[CARD_NUMBER_REINFORCEMENTS]
+	{
+		.description = "Increase 1 selected monster's ATK by 500 points during the turn this card is activated."
+	},
+	[CARD_NUMBER_RELINQUISHED]
+	{
+		.description = "This monster can take on the ATK and DEF of 1 opponent's monster on the field (a face-down monster results in an ATK and DEF of 0). Treat the selected monster as an Equip Magic Card and use it to equip \"Relinquished\". You may use this effect only once per turn and can equip \"Relinquished\" with only 1 monster at a time. When your opponent's monster attacks this monster with an ATK higher than \"Relinquished\", the equipped monster is destroyed instead of \"Relinquished\"."
+	},
+	[CARD_NUMBER_REMOVE_TRAP]
+	{
+		.description = "Destroys 1 face-up Trap Card on the field."
+	},
+	[CARD_NUMBER_RESPECT_PLAY]
+	{
+		.description = "During their respective turns, each player must show their opponent their hands."
+	},
+	[CARD_NUMBER_RESTRUCTER_REVOLUTION]
+	{
+		.description = "Inflict 200 points of damage to your opponent's Life Points for each card in your opponent's hand."
+	},
+	[CARD_NUMBER_RESURRECTION_OF_CHAKRA]
+	{
+		.description = "This card is used to summon \"Chakra\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_REVERSE_TRAP]
+	{
+		.description = "All increases and decreases to ATK and DEF are reversed for the turn in which this card is activated."
+	},
+	[CARD_NUMBER_REVIVAL_OF_DOKURORIDER]
+	{
+		.description = "This card is used to summon \"Dokurorider\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_RHAIMUNDOS_OF_THE_RED_SWORD]
+	{
+		.description = "Armed with the Sword of Crimson Flames, this warrior can bind a monster with fiery restraints."
+	},
+	[CARD_NUMBER_RIGHT_ARM_OF_THE_FORBIDDEN_ONE]
+	{
+		.description = "A forbidden right arm sealed by magic. Whosoever breaks this seal will know infinite power."
+	},
+	[CARD_NUMBER_RIGHT_LEG_OF_THE_FORBIDDEN_ONE]
+	{
+		.description = "A forbidden right leg sealed by magic. Whosoever breaks this seal will know infinite power."
+	},
+	[CARD_NUMBER_RING_OF_MAGNETISM]
+	{
+		.description = "A monster equipped with this card decreases its ATK and DEF by 500 points. All your opponent's monsters must attack the monster equipped with this card."
+	},
+	[CARD_NUMBER_RIRYOKU]
+	{
+		.description = "During your turn, you can reduce the ATK of 1 monster by half and add that amount to the ATK of another monster on the field."
+	},
+	[CARD_NUMBER_RISING_AIR_CURRENT]
+	{
+		.description = "Increases the ATK of all WIND monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_ROARING_OCEAN_SNAKE]
+	{
+		.description = "Mystic Lamp + Hyosube"
+	},
+	[CARD_NUMBER_ROBBIN_GOBLIN]
+	{
+		.description = "Each time 1 of your monsters inflicts damage to your opponent's Life Points, 1 card is randomly selected from your opponent's hand and discarded."
+	},
+	[CARD_NUMBER_ROCK_OGRE_GROTTO_1]
+	{
+		.description = "Protected by a solid body of rock, this monster throws a bone-shattering punch."
+	},
+	[CARD_NUMBER_ROGUE_DOLL]
+	{
+		.description = "A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces."
+	},
+	[CARD_NUMBER_ROOT_WATER]
+	{
+		.description = "An amphibian capable of calling up a massive tidal wave from the dark seas to wipe out enemy monsters."
+	},
+	[CARD_NUMBER_ROSE_SPECTRE_OF_DUNN]
+	{
+		.description = "Feral Imp + Snakeyashi"
+	},
+	[CARD_NUMBER_ROYAL_DECREE]
+	{
+		.description = "As long as this card remains face-up on the field, the effects of all Trap Cards except this one are deactivated."
+	},
+	[CARD_NUMBER_ROYAL_GUARD]
+	{
+		.description = "A mechanized soldier created to protect royalty."
+	},
+	[CARD_NUMBER_RUDE_KAISER]
+	{
+		.description = "With an axe in each hand, this monster delivers heavy damage."
+	},
+	[CARD_NUMBER_RUSH_RECKLESSLY]
+	{
+		.description = "Increase 1 monster's ATK by 700 points during the turn this card is activated."
+	},
+	[CARD_NUMBER_RYU_KISHIN]
+	{
+		.description = "A very elusive creature that looks like a harmless statue until it attacks."
+	},
+	[CARD_NUMBER_RYU_KISHIN_POWERED]
+	{
+		.description = "A gargoyle enhanced by the powers of darkness. Very sharp talons make it a worthy opponent."
+	},
+	[CARD_NUMBER_RYU_RAN]
+	{
+		.description = "A vicious little dragon sheltered in an egg that looks deceptively harmless."
+	},
+	[CARD_NUMBER_SABER_SLASHER]
+	{
+		.description = "A lethal engine of destruction that wields a well-honed blade."
+	},
+	[CARD_NUMBER_SAGGI_THE_DARK_CLOWN]
+	{
+		.description = "This clown appears from nowhere and executes very strange moves to avoid enemy attacks."
+	},
+	[CARD_NUMBER_SALAMANDRA]
+	{
+		.description = "A FIRE monster equipped with this card increases its ATK by 700 points."
+	},
+	[CARD_NUMBER_SAND_STONE]
+	{
+		.description = "Appears from underground and attacks with long, snake-like tentacles."
+	},
+	[CARD_NUMBER_SANGA_OF_THE_THUNDER]
+	{
+		.description = "Reduce the ATK of an opponent's monster attacking this card to 0. This effect can be used only once. The card's owner chooses when to activate this effect."
+	},
+	[CARD_NUMBER_SANGAN]
+	{
+		.description = "When this card is sent from the field to the Graveyard, you can move 1 monster with a ATK of 1500 or less from your Deck to your hand.  Your Deck is then shuffled."
+	},
+	[CARD_NUMBER_SEA_KAMEN]
+	{
+		.description = "A merciless monster that tears opponents to shreds with razor-like claws."
+	},
+	[CARD_NUMBER_SEA_KING_DRAGON]
+	{
+		.description = "Protected by a tough shell, this master of the sea attacks its enemies with toxic bubbles."
+	},
+	[CARD_NUMBER_SEAL_OF_THE_ANCIENTS]
+	{
+		.description = "At the cost of 1000 of your own Life Points, flip all of your opponent's face-down cards face-up. After seeing the cards, return them to their original positions (card effects are not activated)."
+	},
+	[CARD_NUMBER_SEBEK_S_BLESSING]
+	{
+		.description = "You can activate this card when your Monster Card inflicts Direct Damage to your opponent's Life Points. Increase your own Life Points by an amount equal to the Direct Damage you inflicted to your opponent. "
+	},
+	[CARD_NUMBER_SECTARIAN_OF_SECRETS]
+	{
+		.description = "A spellcaster that worships the dark, it is served by a sinister hand that drags enemies into oblivion."
+	},
+	[CARD_NUMBER_SEIYARYU]
+	{
+		.description = "A sacred dragon that burns away the unworthy  with its holy flames."
+	},
+	[CARD_NUMBER_SENGENJIN]
+	{
+		.description = "An unstoppable savage that carries a Millennium Item."
+	},
+	[CARD_NUMBER_SENJU_OF_THE_THOUSAND_HANDS]
+	{
+		.description = "When this card is summoned to the field (excluding Special Summon), you may move 1 Ritual Monster Card from your Deck to your hand. The Deck is then shuffled."
+	},
+	[CARD_NUMBER_SERPENT_NIGHT_DRAGON]
+	{
+		.description = "A dragon created from the soul of a wicked knight."
+	},
+	[CARD_NUMBER_SEVEN_TOOLS_OF_THE_BANDIT]
+	{
+		.description = "At the cost of 1,000 of your own Life Points, negate the activation of a Trap Card and destroy it."
+	},
+	[CARD_NUMBER_SHADOW_GHOUL]
+	{
+		.description = "Increase the ATK of this monster by 100 points for each monster in your own Graveyard."
+	},
+	[CARD_NUMBER_SHADOW_SPECTER]
+	{
+		.description = "Powerful in groups, this animal spirit can be found in the wastelands."
+	},
+	[CARD_NUMBER_SHARE_THE_PAIN]
+	{
+		.description = "Both you and your opponent must select 1 of your own Monster Cards on the field and offer it as a Tribute."
+	},
+	[CARD_NUMBER_SHIELD_AND_SWORD]
+	{
+		.description = "For 1 turn, each face-up monster's ATK becomes their DEF and vice-versa."
+	},
+	[CARD_NUMBER_SHINING_FAIRY]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you can select 1 LIGHT monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_SHOVEL_CRUSHER]
+	{
+		.description = "Armed with a pair of shovels, this monster will destroy anything that stands in its way."
+	},
+	[CARD_NUMBER_SILVER_BOW_AND_ARROW]
+	{
+		.description = "A Fairy-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_SILVER_FANG]
+	{
+		.description = "A snow wolf that's beautiful to the eye, but absolutely vicious in battle."
+	},
+	[CARD_NUMBER_SINISTER_SERPENT]
+	{
+		.description = "During your Standby Phase, if a \"Sinister Serpent\" exists in your Graveyard, you can return the \"Sinister Serpent\" to your hand."
+	},
+	[CARD_NUMBER_SKELENGEL]
+	{
+		.description = "FLIP: You can draw 1 card from your deck."
+	},
+	[CARD_NUMBER_SKELGON]
+	{
+		.description = "The Snake Hair + Blackland Fire Dragon"
+	},
+	[CARD_NUMBER_SKULL_DICE]
+	{
+		.description = "Roll a die. The result is multiplied by 100 points and subtracted from the ATK and DEF of all monsters in your opponent's control until the end of your turn."
+	},
+	[CARD_NUMBER_SKULL_GUARDIAN]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Novox's Prayer\". You must also offer monsters whose total Level stars equal 7 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_SKULL_KNIGHT]
+	{
+		.description = "Tainted Wisdom + Ancient Brain"
+	},
+	[CARD_NUMBER_SKULL_RED_BIRD]
+	{
+		.description = "This monster swoops down and attacks with a rain of knives stored in its wings.  "
+	},
+	[CARD_NUMBER_SKULL_SERVANT]
+	{
+		.description = "A skeletal ghost that isn't strong but can mean trouble in large numbers."
+	},
+	[CARD_NUMBER_SKULL_STALKER]
+	{
+		.description = "Swift and deadly, this monster grabs victims with its claws and attacks with a poison stinger."
+	},
+	[CARD_NUMBER_SKULLBIRD]
+	{
+		.description = "Takuhee + Temple of Skulls"
+	},
+	[CARD_NUMBER_SLEEPING_LION]
+	{
+		.description = "A very vicious creature that's best left sleeping."
+	},
+	[CARD_NUMBER_SLOT_MACHINE]
+	{
+		.description = "The machine's ability is said to vary according to its slot results."
+	},
+	[CARD_NUMBER_SNAKE_FANG]
+	{
+		.description = "Decrease 1 selected monster's DEF by 500 points during the turn this card is activated."
+	},
+	[CARD_NUMBER_SNAKEYASHI]
+	{
+		.description = "This monster is formed by several serpents that break off to individually attack nearby enemies."
+	},
+	[CARD_NUMBER_SNATCH_STEAL]
+	{
+		.description = "Take control of 1 of your opponent's face-up monsters. Your opponent gains 1000 Life Points at each of his/her Standby Phases."
+	},
+	[CARD_NUMBER_SOGEN]
+	{
+		.description = "Increases the ATK and DEF of all Beast-Warrior and Warrior-type monsters by 200 points."
+	},
+	[CARD_NUMBER_SOLEMN_JUDGMENT]
+	{
+		.description = "When your opponent either activates a Magic or Trap Card or summons a monster (including Special Summon), you can negate the action and destroy the cards involved at the cost of half your Life Points."
+	},
+	[CARD_NUMBER_SOLITUDE]
+	{
+		.description = "This beast-warrior swings a massive scythe that feeds on the souls of the slain."
+	},
+	[CARD_NUMBER_SOLOMON_S_LAWBOOK]
+	{
+		.description = "Skip your own Standby Phase."
+	},
+	[CARD_NUMBER_SONIC_BIRD]
+	{
+		.description = "When this card is summoned (excluding Special Summon), you may move 1 Ritual Magic Card from your Deck to your hand.  The Deck is then shuffled."
+	},
+	[CARD_NUMBER_SONIC_MAID]
+	{
+		.description = "A maiden that uses sound to her advantage, she wields a scythe that's shaped like a musical note."
+	},
+	[CARD_NUMBER_SOUL_HUNTER]
+	{
+		.description = "Lord of the Lamp + Invader from Another Dimension"
+	},
+	[CARD_NUMBER_SOUL_OF_THE_PURE]
+	{
+		.description = "Increases a selected player's Life Points by 800 points."
+	},
+	[CARD_NUMBER_SOUL_RELEASE]
+	{
+		.description = "Select 5 cards from either you or your opponent's Graveyard and remove them from the current duel."
+	},
+	[CARD_NUMBER_SPARKS]
+	{
+		.description = "Inflicts 200 points of Direct Damage to your opponent's Life Points."
+	},
+	[CARD_NUMBER_SPEAR_CRETIN]
+	{
+		.description = "FLIP: After this card is flipped, when it is sent to the Graveyard, both you and your opponent select 1 monster from your respective Graveyards and Special Summon it on the field in face-up Attack Position or face-down Defense Position (no Tribute is required for monsters of Level 5 or more)."
+	},
+	[CARD_NUMBER_SPELLBINDING_CIRCLE]
+	{
+		.description = "Select 1 monster.  As long as this card remains face-up on the field, the selected monster cannot attack or change its battle position except by the effect of a Magic, Trap or Effect Monster Card. When the selected monster is destroyed, this card is also destroyed. If the selected monster is offered as a Tribute, this card is not destroyed."
+	},
+	[CARD_NUMBER_SPIKE_SEADRA]
+	{
+		.description = "Using the spikes sprouting from its body, this creature stabs its opponents and floods them with electricity."
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_BOOKS]
+	{
+		.description = "This wise spirit dwells in books, using its accumulated knowledge to defeat enemies."
+	},
+	[CARD_NUMBER_SPIRIT_OF_THE_HARP]
+	{
+		.description = "A spirit that soothes the soul with the music of its heavenly harp."
+	},
+	[CARD_NUMBER_STAIN_STORM]
+	{
+		.description = "Destroys all Machine-type monsters on the field."
+	},
+	[CARD_NUMBER_STAR_BOY]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all WATER monsters by 500 points and decrease the ATK of all FIRE monsters by 400 points."
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_1]
+	{
+		.description = "A steel idol worshipped in the Land of Machines."
+	},
+	[CARD_NUMBER_STEEL_OGRE_GROTTO_2]
+	{
+		.description = "A mechanized iron doll with tremendous strength."
+	},
+	[CARD_NUMBER_STEEL_SCORPION]
+	{
+		.description = "Non Machine-type Monsters attacking \"Steel Scorpion\" will be destroyed at the End Phase of your opponent's turn 3 turns later."
+	},
+	[CARD_NUMBER_STEEL_SHELL]
+	{
+		.description = "A WATER monster equipped with this card increases its ATK by 400 ponits and decreases its DEF by 200 points."
+	},
+	[CARD_NUMBER_STIM_PACK]
+	{
+		.description = "A monster equipped with this card increases its ATK by 700 points. Its ATK is then decreased by 300 points at each of its Standby Phases."
+	},
+	[CARD_NUMBER_STONE_ARMADILLER]
+	{
+		.description = "With a body armored by rock-hard fur, this monster features excellent defense capabilities."
+	},
+	[CARD_NUMBER_STONE_OGRE_GROTTO]
+	{
+		.description = "A behemoth shaped by giant boulders."
+	},
+	[CARD_NUMBER_STOP_DEFENSE]
+	{
+		.description = "Select 1 of your opponent's monsters and switch it to Attack Position. If the card is face-down, flip it face-up. If the card has a flip effect, it is activated immediately."
+	},
+	[CARD_NUMBER_STUFFED_ANIMAL]
+	{
+		.description = "It may look like a harmless stuffed animal, but its zipper mouth deals a deadly bite."
+	},
+	[CARD_NUMBER_SUCCUBUS_KNIGHT]
+	{
+		.description = "An unworthy warrior wizard adept in casting death-dealing spells."
+	},
+	[CARD_NUMBER_SUIJIN]
+	{
+		.description = "Reduce the ATK of an opponent's monster attacking this card to 0. This effect can be used only once. The card's owner chooses when to activate this effect."
+	},
+	[CARD_NUMBER_SUMMONED_SKULL]
+	{
+		.description = "A fiend with dark powers for confusing the enemy.  Among the Fiend-type monsters, this monster boasts considerable force. "
+	},
+	[CARD_NUMBER_SUPER_WAR_LION]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"War-Lion Ritual\". You must also offer monsters whose total Level stars equal 7 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_SUPPORTER_IN_THE_SHADOWS]
+	{
+		.description = "A cute little elf that hides in the shadows and provides spiritual support."
+	},
+	[CARD_NUMBER_SWAMP_BATTLEGUARD]
+	{
+		.description = "Increase the ATK of this monster by 500 points for every face-up \"Lava Battleguard\" on your side of the field. "
+	},
+	[CARD_NUMBER_SWORD_ARM_OF_DRAGON]
+	{
+		.description = "With a body covered in sword-like thorns, nothing dares stand in the way of this charging monster.  "
+	},
+	[CARD_NUMBER_SWORD_OF_DARK_DESTRUCTION]
+	{
+		.description = "A DARK monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points."
+	},
+	[CARD_NUMBER_SWORD_OF_DEEP_SEATED]
+	{
+		.description = "A Monster Card equipped with this card increases its ATK and DEF by 500 points.  When this card is sent to the Graveyard, place it on top of your Deck."
+	},
+	[CARD_NUMBER_SWORD_OF_DRAGON_S_SOUL]
+	{
+		.description = "This card can only be used to equip by a Warrior-type monster to increase its ATK by 700 points. Any Dragon-type monster battling a monster equipped with this card is automatically destroyed at the end of a Battle Phase, regardless of ATK/DEF. (Damage calculations are applied normally)."
+	},
+	[CARD_NUMBER_SWORDS_OF_REVEALING_LIGHT]
+	{
+		.description = "Counting from your opponent's turn, none of your opponent's monsters can attack for 3 turns of his/her own. When this card is activated, opponent's face-down monsters at that time are turned face-up, but remain in Defense Position. Any effects the monsters may have are immediately activated."
+	},
+	[CARD_NUMBER_SWORDSMAN_FROM_A_FOREIGN_LAND]
+	{
+		.description = "A monster attacked by this card will be destroyed at the End Phase 5 turns later."
+	},
+	[CARD_NUMBER_SWORDSTALKER]
+	{
+		.description = "A monster formed by the vengeful souls of those who passed away in battle."
+	},
+	[CARD_NUMBER_TAILOR_OF_THE_FICKLE]
+	{
+		.description = "Select 1 equipped Equip Card and switch it to another correct target."
+	},
+	[CARD_NUMBER_TAINTED_WISDOM]
+	{
+		.description = "When this card is changed from Attack to Defense Position, shuffle your own Deck."
+	},
+	[CARD_NUMBER_TAKRIMINOS]
+	{
+		.description = "A member of a race of sea serpents that freely travels through the sea."
+	},
+	[CARD_NUMBER_TAKUHEE]
+	{
+		.description = "This bird is known far and wide as a harbinger of doom."
+	},
+	[CARD_NUMBER_TAO_THE_CHANTER]
+	{
+		.description = "Master of Yin and Yang, this wizard handles a delicate balance of spells and counterspells."
+	},
+	[CARD_NUMBER_TEMPLE_OF_SKULLS]
+	{
+		.description = "A mysterious temple of skulls and bones that sucks in unwary enemies."
+	},
+	[CARD_NUMBER_TENDERNESS]
+	{
+		.description = "An adorable fairy that celebrates the gift of love."
+	},
+	[CARD_NUMBER_TERRA_THE_TERRIBLE]
+	{
+		.description = "Known as a swamp dweller, this creature is a minion of the dark forces."
+	},
+	[CARD_NUMBER_THE_13TH_GRAVE]
+	{
+		.description = "A zombie that suddenly appeared from plot #13  - an empty grave. "
+	},
+	[CARD_NUMBER_THE_BEWITCHING_PHANTOM_THIEF]
+	{
+		.description = "An elegant thief with a black cloak that charms its enemies."
+	},
+	[CARD_NUMBER_THE_BISTRO_BUTCHER]
+	{
+		.description = "When this card inflict a Direct Damage to your opponent, your opponent must draw 2 cards from the Deck."
+	},
+	[CARD_NUMBER_THE_CHEERFUL_COFFIN]
+	{
+		.description = "You can discard up to 3 Monster Cards from your hand."
+	},
+	[CARD_NUMBER_THE_DRDEK]
+	{
+		.description = "A bipedal eyeball that seldom misses an enemy with its lethal talons."
+	},
+	[CARD_NUMBER_THE_EYE_OF_TRUTH]
+	{
+		.description = "As long as this card remains face-up on the field, your opponent must show his/her hand.  Your opponent recovers 1000 Life Points at every Standby Phase if he/she has a Magic Card in his/her hand."
+	},
+	[CARD_NUMBER_THE_FLUTE_OF_SUMMONING_DRAGON]
+	{
+		.description = "Playing this card when you have a \"Lord of D.\" card face-up on the field allows you to play up to 2 Dragon-type cards from your hand as a Special Summon."
+	},
+	[CARD_NUMBER_THE_FORCEFUL_SENTRY]
+	{
+		.description = "Look at your opponent's hand, then select 1 card and return it to his/her Deck. The Deck is then shuffled."
+	},
+	[CARD_NUMBER_THE_FURIOUS_SEA_KING]
+	{
+		.description = "Grand King of the Seven Seas, he's able to summon massive tidal waves to drown the enemy."
+	},
+	[CARD_NUMBER_THE_IMMORTAL_OF_THUNDER]
+	{
+		.description = "FLIP: You gain 3000 Life Points. When this card is sent from the field to the Graveyard, you lose 5000 Life Points."
+	},
+	[CARD_NUMBER_THE_INEXPERIENCED_SPY]
+	{
+		.description = "Select and see 1 card in your opponent's hand."
+	},
+	[CARD_NUMBER_THE_LITTLE_SWORDSMAN_OF_AILE]
+	{
+		.description = "Offer 1 monster on the field as a Tribute to increase this monster's ATK by 700 points until the end of the turn."
+	},
+	[CARD_NUMBER_THE_REGULATION_OF_TRIBE]
+	{
+		.description = "Select 1 Type of monster. Any monster of the selected Type cannot attack. To keep this card in effect, you must offer 1 monster as a Tribute at each of your Standby Phases. If you cannot do so, this card is destroyed."
+	},
+	[CARD_NUMBER_THE_RELIABLE_GUARDIAN]
+	{
+		.description = "Increase 1 monster's DEF by 700 points during the turn this card is activated."
+	},
+	[CARD_NUMBER_THE_SHALLOW_GRAVE]
+	{
+		.description = "Each player takes 1 Monster Card from their respective Graveyards and Sets them on the field in Defense Position."
+	},
+	[CARD_NUMBER_THE_SNAKE_HAIR]
+	{
+		.description = "A monster with a head of poison snakes. One look from this monster can turn an opponent to stone."
+	},
+	[CARD_NUMBER_THE_STERN_MYSTIC]
+	{
+		.description = "FLIP: All face-down cards on the field are turned face-up, and then returned to their original positions. No card effects are activated when cards are turned face-up."
+	},
+	[CARD_NUMBER_THE_THING_THAT_HIDES_IN_THE_MUD]
+	{
+		.description = "This monster melts its way underground to attack enemies from below."
+	},
+	[CARD_NUMBER_THE_UNHAPPY_MAIDEN]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, the Battle Phase for that turn ends immediately."
+	},
+	[CARD_NUMBER_THE_WANDERING_DOOMED]
+	{
+		.description = "A monster that wanders the edges of the netherworld."
+	},
+	[CARD_NUMBER_THE_WICKED_WORM_BEAST]
+	{
+		.description = "This card is returned to your hand at the end of your turn."
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON]
+	{
+		.description = "Time Wizard + Baby Dragon"
+	},
+	[CARD_NUMBER_THOUSAND_DRAGON_2]
+	{
+		.description = "Time Wizard + Baby Dragon"
+	},
+	[CARD_NUMBER_THREE_HEADED_GEEDO]
+	{
+		.description = "A three-headed nocturnal monster that is absolutely ruthless when fighting."
+	},
+	[CARD_NUMBER_THREE_LEGGED_ZOMBIES]
+	{
+		.description = "A pair of friendly skeletons, lean and fat, that travels with extreme difficulty."
+	},
+	[CARD_NUMBER_THUNDER_DRAGON]
+	{
+		.description = "You can add up to 2 \"Thunder Dragon\" card(s) from your Deck to your hand by discarding this card from your hand. After that, shuffle your Deck.  This effect is activated only during a Main Phase."
+	},
+	[CARD_NUMBER_TIGER_AXE]
+	{
+		.description = "A fast and powerful axe-wielding beast-warrior."
+	},
+	[CARD_NUMBER_TIGER_AXE_2]
+	{
+		.description = "A fast and powerful axe-wielding beast-warrior."
+	},
+	[CARD_NUMBER_TIME_MACHINE]
+	{
+		.description = "When 1 monster is sent to the Graveyard as a result of battle, you can return it to the field in the same battle position as a Special Summon."
+	},
+	[CARD_NUMBER_TIME_SEAL]
+	{
+		.description = "Your opponent skips the Draw Phase of his/her next turn."
+	},
+	[CARD_NUMBER_TIME_WIZARD]
+	{
+		.description = "Toss a coin and call Heads or tails. If you call it right, your opponent's monsters on the field are destroyed. If you call it wrong, your own monsters on the field are destroyed and you lose Life Points equal to half the total ATK of the destroyed monsters.  This card can be used only during your own turn, once per turn."
+	},
+	[CARD_NUMBER_TOAD_MASTER]
+	{
+		.description = "A hermit frog that has been in existence for thousands of years, it attacks with tadpoles."
+	},
+	[CARD_NUMBER_TOGEX]
+	{
+		.description = "An agile monster that rolls up to ram its opponents."
+	},
+	[CARD_NUMBER_TOLL]
+	{
+		.description = "As long as this card remains face-up on the field, both you and your opponent must pay 500 Life Points per monster to attack."
+	},
+	[CARD_NUMBER_TOMOZAURUS]
+	{
+		.description = "Small but vicious, this monster even attacks its own kind."
+	},
+	[CARD_NUMBER_TONGYO]
+	{
+		.description = "This monster captures other fish with its long tongue and sucks the energy out of them."
+	},
+	[CARD_NUMBER_TOON_ALLIGATOR]
+	{
+		.description = "An alligator monster straight from the cartoons."
+	},
+	[CARD_NUMBER_TOON_MERMAID]
+	{
+		.description = "This card cannot be summoned unless \"Toon World\" is on the field. This card cannot attack in the same turn that it is summoned. Pay 500 Life Points each time this monster attacks. When \"Toon World\" is destroyed, this card is also destroyed. If your opponent doesn't control a Toon monster on the field, this card may inflict Direct Damage to your opponent's Life Points. If a Toon monster is on your opponent's side of the field, your attacks must target the Toon monster. "
+	},
+	[CARD_NUMBER_TOON_SUMMONED_SKULL]
+	{
+		.description = "This card cannot be summoned unless \"Toon World\" is on the field. This card cannot attack in the same turn that it is summoned. Pay 500 Life Points each time this monster attacks. When \"Toon World\" is destroyed, this card is also destroyed. If your opponent doesn't control a Toon monster on the field, this card may inflict Direct Damage to your opponent's Life Points. If a Toon monster is on your opponent's side of the field, your attacks must target the Toon monster. "
+	},
+	[CARD_NUMBER_TOON_WORLD]
+	{
+		.description = "This card is activated by paying 1000 of your Life Points."
+	},
+	[CARD_NUMBER_TORIKE]
+	{
+		.description = "Although a poor defender, this monster's sharp horn gives it an edge when attacking."
+	},
+	[CARD_NUMBER_TOTAL_DEFENSE_SHOGUN]
+	{
+		.description = "When this card is summoned (excluding Special Summon), it is placed on the field in Defense Position. This card can attack without being shifted to Attack Position. Damage results are calculated normally."
+	},
+	[CARD_NUMBER_TRAKADON]
+	{
+		.description = "A tiger-striped dragon that is often seen racing across the wasteland at tremendous speeds."
+	},
+	[CARD_NUMBER_TRAP_HOLE]
+	{
+		.description = "If the ATK of a monster summoned by your opponent (excluding Special Summon) is 1000 points or more, the monster is destroyed."
+	},
+	[CARD_NUMBER_TRAP_MASTER]
+	{
+		.description = "FLIP: Destroys 1 Trap Card on the field. If this card's target is face-down, flip it face-up. If the card is a Trap Card, it is destroyed. If not, it is returned to its face-down position. The flipped card is not activated."
+	},
+	[CARD_NUMBER_TREMENDOUS_FIRE]
+	{
+		.description = "Inflicts 1000 points of Direct Damage to your opponent's Life Points and 500 points of Direct Damage to your Life Points."
+	},
+	[CARD_NUMBER_TRENT]
+	{
+		.description = "A guardian of the woods, this massive tree is believed to be immortal."
+	},
+	[CARD_NUMBER_TRIAL_OF_NIGHTMARE]
+	{
+		.description = "This fiend passes judgment on enemies that are locked in coffins."
+	},
+	[CARD_NUMBER_TRIBUTE_TO_THE_DOOMED]
+	{
+		.description = "You can destroy 1 opponent's monster (regardless of its position) by discarding 1 card from your hand to the Graveyard."
+	},
+	[CARD_NUMBER_TRI_HORNED_DRAGON]
+	{
+		.description = "An unworthy dragon with three sharp horns sprouting from its head."
+	},
+	[CARD_NUMBER_TRIPWIRE_BEAST]
+	{
+		.description = "This creature attacks with electromagnetic waves."
+	},
+	[CARD_NUMBER_TURTLE_OATH]
+	{
+		.description = "This card is used to Ritual Summon \"Crab Turtle\". You must also offer monsters whose total Level Stars equal 8 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_TURTLE_TIGER]
+	{
+		.description = "A tiger encased in a protective shell that attacks with razor-sharp fangs."
+	},
+	[CARD_NUMBER_TWIN_LONG_RODS_2]
+	{
+		.description = "An amphibious creature with two whip-like tails."
+	},
+	[CARD_NUMBER_TWIN_HEADED_FIRE_DRAGON]
+	{
+		.description = "Two dragons fused as one from the effects of the Big Bang."
+	},
+	[CARD_NUMBER_TWIN_HEADED_THUNDER_DRAGON]
+	{
+		.description = "Thunder Dragon + Thunder Dragon"
+	},
+	[CARD_NUMBER_TWO_HEADED_KING_REX]
+	{
+		.description = "A powerful monster whose two heads attack as one."
+	},
+	[CARD_NUMBER_TWO_MOUTH_DARKRULER]
+	{
+		.description = "A dinosaur with two deadly jaws, it stores electricity in its horn and releases high voltage bolts from the mouth on its back."
+	},
+	[CARD_NUMBER_TWO_PRONGED_ATTACK]
+	{
+		.description = "Select and destroy 2 of your monsters and 1 of your opponent's monsters."
+	},
+	[CARD_NUMBER_TYHONE]
+	{
+		.description = "Capable of firing cannonballs from its mouth for long-range attacks, this creature is particularly effective in mountain battles."
+	},
+	[CARD_NUMBER_TYHONE_2]
+	{
+		.description = "A crimson dragon that spits fireballs to create a blazing sea of fire."
+	},
+	[CARD_NUMBER_UFO_TURTLE]
+	{
+		.description = "When this card is sent to the Graveyard as a result of battle, you may select 1 FIRE monster with an ATK of 1500 or less from your Deck and Special Summon it to the field (no Tribute is required for monsters of Level 5 or more). The Deck is then shuffled."
+	},
+	[CARD_NUMBER_ULTIMATE_OFFERING]
+	{
+		.description = "At the cost of 500 Life Points per monster, a player is allowed  an extra Normal Summon or Set."
+	},
+	[CARD_NUMBER_UMI]
+	{
+		.description = "Increases the ATK and DEF of all Fish, Sea Serpent, Thunder, and Aqua-type monsters by 200 points. Also decreases the ATK and DEF of all Machine and Pyro-type monsters by 200 points."
+	},
+	[CARD_NUMBER_UMIIRUKA]
+	{
+		.description = "Increases the ATK of all WATER monsters by 500 points and decreases their DEF by 400 points."
+	},
+	[CARD_NUMBER_UNKNOWN_WARRIOR_OF_FIEND]
+	{
+		.description = "The speed of this warrior creates an intense vacuum that can slice through a monster's hide."
+	},
+	[CARD_NUMBER_UPSTART_GOBLIN]
+	{
+		.description = "Draw 1 card from your Deck. Your opponent gains 1000 Life Points."
+	},
+	[CARD_NUMBER_URABY]
+	{
+		.description = "Fast on its feet, this dinosaur rips enemies to shreds with its sharp claws."
+	},
+	[CARD_NUMBER_USHI_ONI]
+	{
+		.description = "A bull fiend restored by the dark arts, this monster appears out of a jar."
+	},
+	[CARD_NUMBER_VALKYRION_THE_MAGNA_WARRIOR]
+	{
+		.description = "You may Special Summon this card by offering Alpha The Magnet Warrior, Beta The Magnet Warrior, and %4792 from your hand or the field as a Tribute.  If Alpha The Magnet Warrior, Beta The Magnet Warrior, and Gamma The Magnet Warrior are in the Graveyard, you can offer this card as a Tribute to Special Summon these 3 cards to the field."
+	},
+	[CARD_NUMBER_VERMILLION_SPARROW]
+	{
+		.description = "Rhaimundos of the Red Sword + Fireyarou"
+	},
+	[CARD_NUMBER_VERSAGO_THE_DESTROYER]
+	{
+		.description = "You can substitute this card for any 1 Fusion-Material Monster. You cannot substitute for any other Fusion-Material Monsters in the current Fusion."
+	},
+	[CARD_NUMBER_VILE_GERMS]
+	{
+		.description = "A Plant-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_VIOLENT_RAIN]
+	{
+		.description = "This monster can call up sudden torrents of battering rain."
+	},
+	[CARD_NUMBER_VIOLET_CRYSTAL]
+	{
+		.description = "A Zombie-type monster equipped with this card increases its ATK and DEF by 300 points."
+	},
+	[CARD_NUMBER_VISHWAR_RANDI]
+	{
+		.description = "This lady warrior with unquenchable bloodlust serves the forces of darkness."
+	},
+	[CARD_NUMBER_VORSE_RAIDER]
+	{
+		.description = "The axe in the hand of this evil animal has tasted the blood of many monsters."
+	},
+	[CARD_NUMBER_WABOKU]
+	{
+		.description = "Any damage inflicted by an opponent's monster is decreased to 0 during the turn this card is activated."
+	},
+	[CARD_NUMBER_WALL_OF_ILLUSION]
+	{
+		.description = "The monster attacking this creature is returned to its owner's hand. Any damage resulting from the attack is calculated normally."
+	},
+	[CARD_NUMBER_WALL_SHADOW]
+	{
+		.description = "You cannot Normal Summon this monster. This card can only be Special Summoned by offering \"Labyrinth Wall\" equipped with \"Magical Labyrinth\" as a Tribute. No other Tribute Monsters are necessary. "
+	},
+	[CARD_NUMBER_WAR_LION_RITUAL]
+	{
+		.description = "This card is used to summon \"Super War-Lion\". You must also offer monsters whose total Level stars equal 6 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_WARRIOR_ELIMINATION]
+	{
+		.description = "Destroys all Warrior-type monsters on the field."
+	},
+	[CARD_NUMBER_WARRIOR_OF_TRADITION]
+	{
+		.description = "Sonic Maid + Beautiful Headhuntress"
+	},
+	[CARD_NUMBER_WASTELAND]
+	{
+		.description = "Increases the ATK and DEF of all Dinosaur, Zombie, and Rock-type monsters by 200 points."
+	},
+	[CARD_NUMBER_WATER_ELEMENT]
+	{
+		.description = "A spirit that dwells in water, this creature generates a mist to cloud the vision of foes."
+	},
+	[CARD_NUMBER_WATER_GIRL]
+	{
+		.description = "A lovely lady who can launch water projectiles that turn into lethal ice spikes before they reach an opponent."
+	},
+	[CARD_NUMBER_WATER_MAGICIAN]
+	{
+		.description = "This monster swamps an opponent with an almost endless supply of water."
+	},
+	[CARD_NUMBER_WATER_OMOTICS]
+	{
+		.description = "Transforms the water overflowing from her jar into attacking dragons."
+	},
+	[CARD_NUMBER_WATERDRAGON_FAIRY]
+	{
+		.description = "A water fairy that is said to be able to summon a giant sea serpent."
+	},
+	[CARD_NUMBER_WEATHER_CONTROL]
+	{
+		.description = "This creature controls weather and is often the cause of mountain storms."
+	},
+	[CARD_NUMBER_WEATHER_REPORT]
+	{
+		.description = "FLIP: Destroys all opponent's face-up \"Swords of Revealing Light\" on the field. If \"Swords of Revealing Light\" is destroyed, you can perform your Battle Phase twice this turn (or your next turn, if activated during opponent's turn)."
+	},
+	[CARD_NUMBER_WHIPTAIL_CROW]
+	{
+		.description = "Attacks from the skies with a whip-like tail."
+	},
+	[CARD_NUMBER_WHITE_HOLE]
+	{
+		.description = "Your monsters are not destroyed when your opponent plays \"Dark Hole\"."
+	},
+	[CARD_NUMBER_WHITE_MAGICAL_HAT]
+	{
+		.description = "When this card inflicts damage to your opponent's Life Points, 1 card must be discarded randomly from your opponent's hand to the Graveyard. "
+	},
+	[CARD_NUMBER_WICKED_MIRROR]
+	{
+		.description = "A wicked mirror that hypnotizes enemies, diverting attacks from their intended targets."
+	},
+	[CARD_NUMBER_WIDESPREAD_RUIN]
+	{
+		.description = "When your opponent attacks with a monster, destroy his/her Attack Position monster with the highest ATK."
+	},
+	[CARD_NUMBER_WINDSTORM_OF_ETAQUA]
+	{
+		.description = "Shift the position of all your opponent's face-up Monster Cards on the field to the opposite position (Defense Position to Attack Position or vice versa)."
+	},
+	[CARD_NUMBER_WING_EGG_ELF]
+	{
+		.description = "This fairy in an eggshell uses massive wings to blow back almost any projectile attack."
+	},
+	[CARD_NUMBER_WINGED_CLEAVER]
+	{
+		.description = "Few can withstand the scythe-like arms of this dangerous creature."
+	},
+	[CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_1]
+	{
+		.description = "A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue."
+	},
+	[CARD_NUMBER_WINGS_OF_WICKED_FLAME]
+	{
+		.description = "Crimson wings of fire make this a very lethal creature."
+	},
+	[CARD_NUMBER_WITCH_OF_THE_BLACK_FOREST]
+	{
+		.description = "When this card is sent from the field to the Graveyard, you can move 1 monster with a DEF of 1500 or less from your Deck to your hand.  Your Deck is then shuffled."
+	},
+	[CARD_NUMBER_WITCH_S_APPRENTICE]
+	{
+		.description = "As long as this card remains face-up on the field, increase the ATK of all DARK monsters by 500 points and decrease the ATK of all LIGHT monsters by 400 points."
+	},
+	[CARD_NUMBER_WITTY_PHANTOM]
+	{
+		.description = "Dressed in a night-black tuxedo, this creature presides over death."
+	},
+	[CARD_NUMBER_WODAN_THE_RESIDENT_OF_THE_FOREST]
+	{
+		.description = "Increase this card's ATK by 100 points for every Plant-type monster that is face-up on the field."
+	},
+	[CARD_NUMBER_WOOD_REMAINS]
+	{
+		.description = "A living corpse of wood reanimated by the powers of darkness."
+	},
+	[CARD_NUMBER_WORLD_SUPPRESSION]
+	{
+		.description = "You can activate this card when a Field Magic Card is played to deactivate the Field Magic Card for the current turn."
+	},
+	[CARD_NUMBER_WOW_WARRIOR]
+	{
+		.description = "A fish with arms, legs, and some very sharp teeth."
+	},
+	[CARD_NUMBER_WRETCHED_GHOST_OF_THE_ATTIC]
+	{
+		.description = "A harmless monster found in just about any attic."
+	},
+	[CARD_NUMBER_YADO_KARU]
+	{
+		.description = "When this card's position is changed from Attack to Defense, you can place any number of cards from your hand at the bottom of your Deck in any order you desire."
+	},
+	[CARD_NUMBER_YAIBA_ROBO]
+	{
+		.description = "A cubical machine equipped with cutting blades for shredding an opponent to mincemeat."
+	},
+	[CARD_NUMBER_YAMATANO_DRAGON_SCROLL]
+	{
+		.description = "A dragon conjured from the very scroll in which it was depicted."
+	},
+	[CARD_NUMBER_YAMI]
+	{
+		.description = "Increases the ATK and DEF of all Fiend and Spellcaster-type monsters by 200 points. Also decreases the ATK and DEF of all Fairy-type monsters by 200 points."
+	},
+	[CARD_NUMBER_YARANZO]
+	{
+		.description = "A treasure box containing a monster that attacks any unwary bandit."
+	},
+	[CARD_NUMBER_ZANKI]
+	{
+		.description = "His swiftly drawn blade delivers quick and fatal damage."
+	},
+	[CARD_NUMBER_ZERA_RITUAL]
+	{
+		.description = "This card is used to summon \"Zera The Mant\". You must also offer monsters whose total Level stars equal 8 or more from the field or your hand as a Tribute."
+	},
+	[CARD_NUMBER_ZERA_THE_MANT]
+	{
+		.description = "This monster is summoned with the Ritual Magic Card, \"Zera Ritual\". You must also offer monsters whose total Level stars equal 8 or more as a Tribute from the field or your hand."
+	},
+	[CARD_NUMBER_ZOA]
+	{
+		.description = "A monster whose full potential can be achieved when outfitted with Metalmorph."
+	},
+	[CARD_NUMBER_ZOMBIE_WARRIOR]
+	{
+		.description = "Skull Servant + Battle Warrior"
+	},
+	[CARD_NUMBER_ZONE_EATER]
+	{
+		.description = "A monster attacked by this card will be destroyed at the End Phase 5 turns later."
+	},
+	[CARD_NUMBER_THE_MONARCHY]
+	{
+		.description = ""
+	},
+	[CARD_NUMBER_SET_SAIL_FOR_THE_KINGDOM]
+	{
+		.description = ""
+	},
+	[CARD_NUMBER_GLORY_OF_THE_KING_S_HAND]
+	{
+		.description = ""
+	},
+	[CARD_NUMBER_OBELISK_THE_TORMENTOR]
+	{
+		.description = "The descent of this mighty creature shall be heralded by burning winds and twisted land. And with the coming of this horror, those who draw breath shall know the true meaning of eternal slumber."
+	},
+	[CARD_NUMBER_SLIFER_THE_SKY_DRAGON]
+	{
+		.description = "The heavens twist and thunder roars, signaling the coming of this ancient creature, and the dawn of true power."
+	},
+	[CARD_NUMBER_THE_WINGED_DRAGON_OF_RA]
+	{
+		.description = "Spirits sing of a powerful creature that rules over all that is mystic"
+	},
+	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
+	{
+		.description = ""
 	}
 };

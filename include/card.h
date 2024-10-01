@@ -1686,3 +1686,8 @@ struct CardName
 {
     u8 cardName[64];
 };
+
+struct CardDescription
+{
+    u8 description[480];
+};
