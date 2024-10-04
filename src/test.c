@@ -2655,7 +2655,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -2664,7 +2664,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -2674,7 +2674,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -2682,7 +2682,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2691,7 +2691,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -2700,7 +2700,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 210,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 6,
 		.attribute = ATTRIBUTE_WIND,
@@ -2709,7 +2709,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 40,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2718,7 +2718,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -2727,7 +2727,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -2736,7 +2736,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2754,7 +2754,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2763,7 +2763,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -2790,7 +2790,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -2799,7 +2799,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 145,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -2808,7 +2808,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 20,
 		.attack = 40,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2817,7 +2817,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2826,7 +2826,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2835,8 +2835,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -2844,7 +2844,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -2853,7 +2853,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2862,7 +2862,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 85,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2871,7 +2871,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -2916,7 +2916,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -2925,7 +2925,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2934,7 +2934,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -2943,7 +2943,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2961,7 +2961,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -2970,7 +2970,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2979,7 +2979,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 95,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -2988,7 +2988,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 85,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -2997,7 +2997,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -3007,7 +3007,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3015,7 +3015,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 115,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3024,7 +3024,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 210,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3042,7 +3042,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 3,
 		.attribute = ATTRIBUTE_WIND,
@@ -3051,7 +3051,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3087,7 +3087,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3096,7 +3096,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3105,7 +3105,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3114,7 +3114,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3123,7 +3123,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3132,7 +3132,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3141,7 +3141,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3151,7 +3151,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3169,7 +3169,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3177,7 +3177,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3186,7 +3186,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3195,7 +3195,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 135,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -3204,7 +3204,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3213,7 +3213,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3240,7 +3240,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3258,7 +3258,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3267,7 +3267,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -3277,7 +3277,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3286,7 +3286,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3304,7 +3304,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3312,7 +3312,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -3348,8 +3348,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3357,8 +3357,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3366,7 +3366,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -3393,7 +3393,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 250,
 		.attack = 300,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 8,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3402,7 +3402,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 250,
 		.attack = 300,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 8,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3411,7 +3411,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -3429,7 +3429,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -3439,7 +3439,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3447,7 +3447,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -3465,8 +3465,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3475,7 +3475,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3483,7 +3483,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 85,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3493,7 +3493,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3519,7 +3519,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3537,7 +3537,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -3564,7 +3564,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3582,7 +3582,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3591,7 +3591,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3600,7 +3600,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3618,7 +3618,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3628,7 +3628,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3645,8 +3645,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3664,7 +3664,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3672,7 +3672,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -3681,7 +3681,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 135,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -3709,7 +3709,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3717,8 +3717,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3726,7 +3726,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 245,
 		.attack = 290,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 8,
 		.attribute = ATTRIBUTE_DARK,
@@ -3753,7 +3753,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3762,7 +3762,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3771,7 +3771,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -3789,7 +3789,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 185,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 5,
 		.attribute = ATTRIBUTE_WIND,
@@ -3798,7 +3798,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -3807,7 +3807,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -3816,8 +3816,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3825,7 +3825,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -3834,7 +3834,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 75,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -3843,7 +3843,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -3871,7 +3871,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3879,7 +3879,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -3897,7 +3897,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 250,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_WIND,
@@ -3906,7 +3906,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3915,7 +3915,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 20,
 		.attack = 30,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 1,
 		.attribute = ATTRIBUTE_WIND,
@@ -3933,7 +3933,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -3942,7 +3942,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 146,
 		.attack = 161,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -3961,7 +3961,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3969,7 +3969,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -3978,8 +3978,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -3987,7 +3987,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -3997,7 +3997,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4005,7 +4005,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 210,
 		.attack = 250,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -4014,7 +4014,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 210,
 		.attack = 250,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -4032,7 +4032,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -4050,7 +4050,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_WIND,
@@ -4059,7 +4059,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 5,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4095,7 +4095,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 115,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 4,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4104,7 +4104,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 4,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4113,8 +4113,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4122,8 +4122,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4131,7 +4131,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4149,8 +4149,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4158,8 +4158,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4167,7 +4167,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4176,8 +4176,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4185,7 +4185,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4203,7 +4203,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 135,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -4212,7 +4212,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4230,7 +4230,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -4248,7 +4248,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -4257,7 +4257,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4266,7 +4266,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -4303,7 +4303,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4311,7 +4311,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -4338,7 +4338,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4347,7 +4347,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4356,7 +4356,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4365,7 +4365,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 105,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4374,7 +4374,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4383,7 +4383,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4392,7 +4392,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4401,7 +4401,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4410,7 +4410,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 95,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4438,7 +4438,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4446,8 +4446,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4456,7 +4456,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4473,7 +4473,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4482,7 +4482,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -4491,8 +4491,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4500,8 +4500,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4509,8 +4509,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4518,8 +4518,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4527,8 +4527,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4545,7 +4545,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4554,7 +4554,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -4563,7 +4563,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4572,7 +4572,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -4581,7 +4581,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -4590,7 +4590,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4599,7 +4599,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -4608,7 +4608,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -4617,7 +4617,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -4626,7 +4626,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -4635,7 +4635,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -4644,7 +4644,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -4662,8 +4662,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4671,8 +4671,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4680,7 +4680,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4689,7 +4689,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -4698,7 +4698,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4707,7 +4707,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 225,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 6,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4716,7 +4716,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 4,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4725,8 +4725,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4734,7 +4734,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 210,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 6,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4743,7 +4743,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 5,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4761,7 +4761,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_FIRE,
@@ -4788,7 +4788,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 45,
 		.attack = 40,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4824,7 +4824,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -4834,7 +4834,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4852,7 +4852,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4870,7 +4870,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4878,7 +4878,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4887,8 +4887,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4906,7 +4906,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4923,7 +4923,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 210,
 		.attack = 230,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 7,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4932,7 +4932,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 210,
 		.attack = 230,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 7,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4950,7 +4950,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4959,7 +4959,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4978,7 +4978,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -4986,7 +4986,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 240,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 7,
 		.attribute = ATTRIBUTE_EARTH,
@@ -4995,7 +4995,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_FIRE,
@@ -5004,7 +5004,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5022,7 +5022,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -5031,7 +5031,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5040,7 +5040,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5049,7 +5049,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5059,7 +5059,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5067,7 +5067,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -5076,7 +5076,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5094,7 +5094,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 175,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5112,7 +5112,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5121,7 +5121,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5130,7 +5130,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5139,8 +5139,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5148,7 +5148,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -5157,7 +5157,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5166,7 +5166,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -5175,7 +5175,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_FIRE,
@@ -5202,8 +5202,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5229,7 +5229,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5238,8 +5238,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5248,7 +5248,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5256,7 +5256,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5265,8 +5265,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5275,7 +5275,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5283,7 +5283,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5292,7 +5292,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -5301,7 +5301,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 125,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5328,7 +5328,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5337,7 +5337,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5355,7 +5355,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5373,7 +5373,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5382,7 +5382,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -5391,7 +5391,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5400,7 +5400,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5409,7 +5409,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5418,7 +5418,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5427,7 +5427,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5437,7 +5437,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5445,7 +5445,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 6,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5455,7 +5455,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5472,7 +5472,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5481,7 +5481,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 2,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5490,7 +5490,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 30,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5499,7 +5499,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -5517,7 +5517,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -5526,8 +5526,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5544,8 +5544,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5553,7 +5553,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5562,7 +5562,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5571,7 +5571,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 145,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5580,7 +5580,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5589,8 +5589,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5598,7 +5598,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 2,
 		.attribute = ATTRIBUTE_FIRE,
@@ -5616,7 +5616,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 2,
 		.attribute = ATTRIBUTE_WATER,
@@ -5625,7 +5625,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5634,7 +5634,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5643,7 +5643,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -5652,7 +5652,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 256,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5662,7 +5662,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5671,7 +5671,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5697,7 +5697,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 2,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5706,7 +5706,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5724,7 +5724,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5733,7 +5733,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -5742,7 +5742,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5751,7 +5751,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 280,
 		.attack = 210,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5760,7 +5760,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 115,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -5769,7 +5769,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 5,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5778,7 +5778,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 220,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -5797,7 +5797,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5824,7 +5824,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5832,7 +5832,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 95,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -5851,7 +5851,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5869,7 +5869,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -5877,7 +5877,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -5922,7 +5922,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5931,7 +5931,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -5940,7 +5940,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 40,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5949,7 +5949,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -5958,7 +5958,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SEA_SERPENT,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -5976,7 +5976,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 115,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -5994,7 +5994,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 2,
 		.attribute = ATTRIBUTE_WIND,
@@ -6012,7 +6012,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6021,7 +6021,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 65,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -6048,7 +6048,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 25,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6066,7 +6066,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 105,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6075,7 +6075,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -6084,7 +6084,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -6093,7 +6093,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 153,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -6111,7 +6111,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6129,7 +6129,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6138,7 +6138,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -6147,7 +6147,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6165,7 +6165,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_WIND,
@@ -6183,7 +6183,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 125,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6201,7 +6201,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6219,7 +6219,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 300,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6228,7 +6228,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6237,7 +6237,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 2,
 		.attribute = ATTRIBUTE_WIND,
@@ -6255,7 +6255,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6265,7 +6265,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6273,8 +6273,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6282,8 +6282,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6291,7 +6291,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6300,7 +6300,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 250,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 7,
 		.attribute = ATTRIBUTE_FIRE,
@@ -6309,7 +6309,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 250,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 7,
 		.attribute = ATTRIBUTE_FIRE,
@@ -6327,7 +6327,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 20,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -6336,7 +6336,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 20,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -6346,7 +6346,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6363,7 +6363,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 155,
 		.attack = 175,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6372,7 +6372,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -6390,7 +6390,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6399,7 +6399,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 95,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -6417,7 +6417,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6435,7 +6435,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6444,7 +6444,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6454,7 +6454,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6462,7 +6462,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 75,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6471,7 +6471,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -6481,7 +6481,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6498,7 +6498,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 256,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6516,7 +6516,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6525,7 +6525,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6535,7 +6535,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6543,7 +6543,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6579,7 +6579,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6588,7 +6588,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6598,7 +6598,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6606,7 +6606,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6615,7 +6615,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6642,7 +6642,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6651,7 +6651,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6678,7 +6678,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6705,7 +6705,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6723,7 +6723,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -6741,7 +6741,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 185,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -6750,7 +6750,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 40,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -6759,7 +6759,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 75,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 2,
 		.attribute = ATTRIBUTE_WIND,
@@ -6769,7 +6769,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6777,7 +6777,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6786,7 +6786,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6795,8 +6795,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6805,7 +6805,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6813,7 +6813,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6831,7 +6831,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -6840,7 +6840,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 215,
 		.attack = 115,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -6876,7 +6876,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6885,7 +6885,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 235,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -6894,7 +6894,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 220,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6903,7 +6903,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 300,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6930,7 +6930,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6939,7 +6939,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -6957,7 +6957,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -6967,7 +6967,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -6975,7 +6975,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -6993,8 +6993,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7002,7 +7002,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7011,7 +7011,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 6,
 		.attribute = ATTRIBUTE_WIND,
@@ -7020,7 +7020,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7029,8 +7029,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7038,7 +7038,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 155,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -7075,7 +7075,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7083,7 +7083,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7092,7 +7092,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 210,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 5,
 		.attribute = ATTRIBUTE_FIRE,
@@ -7110,7 +7110,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7137,7 +7137,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7146,7 +7146,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7164,7 +7164,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 155,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7183,7 +7183,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7191,7 +7191,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7209,7 +7209,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 2,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7218,7 +7218,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7228,7 +7228,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7254,7 +7254,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7264,7 +7264,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7290,7 +7290,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 256,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7299,7 +7299,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7308,7 +7308,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7317,7 +7317,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -7326,7 +7326,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7344,7 +7344,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7353,8 +7353,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7362,8 +7362,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7372,7 +7372,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7380,7 +7380,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7389,7 +7389,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -7398,7 +7398,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 165,
 		.attack = 155,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 5,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7407,7 +7407,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7416,7 +7416,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 3,
 		.attribute = ATTRIBUTE_WIND,
@@ -7434,8 +7434,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7443,7 +7443,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 5,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7452,7 +7452,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 125,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7461,7 +7461,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7470,8 +7470,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7479,7 +7479,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7498,7 +7498,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7515,7 +7515,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 5,
 		.attribute = ATTRIBUTE_WIND,
@@ -7533,7 +7533,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 5,
 		.attribute = ATTRIBUTE_WIND,
@@ -7542,7 +7542,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 175,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 6,
 		.attribute = ATTRIBUTE_DARK,
@@ -7551,7 +7551,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 175,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 6,
 		.attribute = ATTRIBUTE_DARK,
@@ -7596,7 +7596,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7605,7 +7605,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 2,
 		.attribute = ATTRIBUTE_WIND,
@@ -7614,7 +7614,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 20,
 		.attack = 30,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7623,8 +7623,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7632,8 +7632,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7641,8 +7641,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7651,7 +7651,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7669,7 +7669,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7677,7 +7677,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7695,7 +7695,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7705,7 +7705,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7713,7 +7713,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7722,7 +7722,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 40,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 2,
 		.attribute = ATTRIBUTE_WATER,
@@ -7749,7 +7749,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 5,
 		.attribute = ATTRIBUTE_WIND,
@@ -7758,7 +7758,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7785,8 +7785,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7794,8 +7794,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7813,7 +7813,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7830,7 +7830,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7848,7 +7848,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -7857,8 +7857,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7866,7 +7866,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 240,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -7884,7 +7884,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7902,8 +7902,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7920,8 +7920,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7930,7 +7930,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7938,7 +7938,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -7948,7 +7948,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7956,7 +7956,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -7965,7 +7965,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 20,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -7974,7 +7974,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 20,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -7984,7 +7984,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -7992,8 +7992,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8002,7 +8002,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8028,7 +8028,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8037,7 +8037,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8046,7 +8046,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -8073,7 +8073,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 220,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8082,7 +8082,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 180,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8092,7 +8092,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8100,7 +8100,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -8109,7 +8109,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -8118,7 +8118,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 260,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_FIRE,
@@ -8127,7 +8127,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 145,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -8136,7 +8136,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -8146,7 +8146,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8154,7 +8154,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8181,7 +8181,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -8190,7 +8190,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SEA_SERPENT,
 		.level = 6,
 		.attribute = ATTRIBUTE_WATER,
@@ -8199,8 +8199,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8209,7 +8209,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8217,7 +8217,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -8226,7 +8226,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 230,
 		.attack = 250,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8235,7 +8235,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 250,
 		.attack = 275,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 8,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8253,7 +8253,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 240,
 		.attack = 235,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -8262,7 +8262,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 256,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8280,7 +8280,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 20,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -8289,8 +8289,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8298,8 +8298,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8316,7 +8316,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8326,7 +8326,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8334,7 +8334,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8370,7 +8370,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8397,7 +8397,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 155,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -8406,7 +8406,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 20,
 		.attack = 30,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 1,
 		.attribute = ATTRIBUTE_DARK,
@@ -8415,7 +8415,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -8433,7 +8433,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8442,7 +8442,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 230,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -8451,7 +8451,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8460,7 +8460,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8470,7 +8470,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8479,7 +8479,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8487,7 +8487,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 256,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8496,7 +8496,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 105,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8505,7 +8505,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8523,7 +8523,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8541,8 +8541,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8550,8 +8550,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8559,8 +8559,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8586,7 +8586,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SEA_SERPENT,
 		.level = 5,
 		.attribute = ATTRIBUTE_WATER,
@@ -8595,7 +8595,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -8604,7 +8604,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 200,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 4,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8613,8 +8613,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8631,7 +8631,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8640,7 +8640,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 220,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8659,7 +8659,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8668,7 +8668,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8676,7 +8676,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8685,7 +8685,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8694,8 +8694,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8703,7 +8703,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8712,7 +8712,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_DARK,
@@ -8730,7 +8730,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 250,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 6,
 		.attribute = ATTRIBUTE_DARK,
@@ -8748,7 +8748,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8766,7 +8766,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 203,
 		.attack = 175,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 6,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8776,7 +8776,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8785,7 +8785,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8794,7 +8794,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8802,8 +8802,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8820,7 +8820,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 200,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 6,
 		.attribute = ATTRIBUTE_DARK,
@@ -8830,7 +8830,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8847,7 +8847,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SEA_SERPENT,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -8856,7 +8856,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 145,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -8865,7 +8865,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -8874,7 +8874,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -8883,7 +8883,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -8892,7 +8892,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -8901,7 +8901,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -8910,7 +8910,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_SPELLCASTER,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -8928,8 +8928,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8937,7 +8937,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -8955,8 +8955,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8964,8 +8964,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -8973,7 +8973,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -8991,8 +8991,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9019,7 +9019,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9027,8 +9027,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9036,7 +9036,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9054,7 +9054,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ROCK,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9072,7 +9072,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -9108,7 +9108,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9117,7 +9117,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -9135,7 +9135,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9144,7 +9144,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 110,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9153,7 +9153,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9162,7 +9162,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9180,7 +9180,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -9189,7 +9189,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9199,7 +9199,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9207,7 +9207,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 40,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9216,7 +9216,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 135,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9225,7 +9225,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 80,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_REPTILE,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9253,7 +9253,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_FUSION,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9261,7 +9261,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9279,7 +9279,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9288,7 +9288,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9306,8 +9306,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9315,7 +9315,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 180,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PLANT,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9324,7 +9324,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9333,8 +9333,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9342,7 +9342,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 235,
 		.attack = 285,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 8,
 		.attribute = ATTRIBUTE_DARK,
@@ -9351,7 +9351,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_THUNDER,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9361,7 +9361,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9369,7 +9369,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9378,7 +9378,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 85,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -9387,7 +9387,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 220,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 6,
 		.attribute = ATTRIBUTE_FIRE,
@@ -9405,7 +9405,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 160,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9414,7 +9414,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 3,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9423,7 +9423,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9432,7 +9432,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 140,
 		.attack = 120,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WINGED_BEAST,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -9441,7 +9441,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 170,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 6,
 		.attribute = ATTRIBUTE_FIRE,
@@ -9469,7 +9469,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9478,7 +9478,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9486,7 +9486,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 50,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -9495,8 +9495,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9504,7 +9504,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DINOSAUR,
 		.level = 4,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9513,7 +9513,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 195,
 		.attack = 215,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 6,
 		.attribute = ATTRIBUTE_DARK,
@@ -9550,7 +9550,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9558,7 +9558,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 80,
 		.attack = 155,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9568,7 +9568,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 256,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9576,7 +9576,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -9585,7 +9585,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 190,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_BEAST_WARRIOR,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9594,7 +9594,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9622,7 +9622,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9630,8 +9630,8 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_MAGIC,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9649,7 +9649,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9657,7 +9657,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -9666,7 +9666,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 125,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9675,7 +9675,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 100,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9684,7 +9684,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9693,7 +9693,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 110,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_AQUA,
 		.level = 3,
 		.attribute = ATTRIBUTE_WATER,
@@ -9702,7 +9702,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 40,
 		.attack = 60,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 2,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9720,7 +9720,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 160,
 		.attack = 165,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9729,7 +9729,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9747,7 +9747,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -9756,7 +9756,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9765,7 +9765,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9774,7 +9774,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 50,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FAIRY,
 		.level = 3,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9783,7 +9783,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 70,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 2,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9792,7 +9792,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 120,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 4,
 		.attribute = ATTRIBUTE_WIND,
@@ -9801,7 +9801,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 60,
 		.attack = 70,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_PYRO,
 		.level = 2,
 		.attribute = ATTRIBUTE_FIRE,
@@ -9828,7 +9828,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 140,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9846,7 +9846,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 3,
 		.attribute = ATTRIBUTE_DARK,
@@ -9855,7 +9855,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_LIGHT,
@@ -9864,7 +9864,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 90,
 		.attack = 125,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FISH,
 		.level = 4,
 		.attribute = ATTRIBUTE_WATER,
@@ -9873,7 +9873,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 40,
 		.attack = 55,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 2,
 		.attribute = ATTRIBUTE_DARK,
@@ -9891,7 +9891,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 130,
 		.attack = 100,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_MACHINE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9900,7 +9900,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 30,
 		.attack = 90,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DRAGON,
 		.level = 2,
 		.attribute = ATTRIBUTE_WIND,
@@ -9910,7 +9910,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_EFFECT,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9918,7 +9918,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 150,
 		.attack = 130,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_ZOMBIE,
 		.level = 4,
 		.attribute = ATTRIBUTE_DARK,
@@ -9927,7 +9927,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 170,
 		.attack = 150,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_WARRIOR,
 		.level = 5,
 		.attribute = ATTRIBUTE_EARTH,
@@ -9937,7 +9937,7 @@ const struct CardStats gCardStats[] =
 		.defense = 0,
 		.attack = 0,
 		.monsterType = MONSTER_TYPE_RITUAL,
-		.race = RACE_MAGIC,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
@@ -9954,7 +9954,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 190,
 		.attack = 260,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_FIEND,
 		.level = 7,
 		.attribute = ATTRIBUTE_DARK,
@@ -9981,7 +9981,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TICKET,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -9990,7 +9990,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TICKET,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -9999,7 +9999,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_TICKET,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10008,7 +10008,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DIVINE,
 		.level = 0,
 		.attribute = ATTRIBUTE_DARK,
@@ -10017,7 +10017,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DIVINE,
 		.level = 0,
 		.attribute = ATTRIBUTE_DARK,
@@ -10026,7 +10026,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_DIVINE,
 		.level = 0,
 		.attribute = ATTRIBUTE_DARK,
@@ -10035,241 +10035,241 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 10,
 		.attack = 10,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_INSECT,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
 	},
-	[821]
+	[CARD_NUMBER_4_STARRED_LADYBUG_OF_DOOM]
+	{
+		.defense = 120,
+		.attack = 80 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_INSECT,
+		.level = 3,
+		.attribute = ATTRIBUTE_WIND,
+	},
+	[CARD_NUMBER_BAZOO_THE_SOUL_EATER]
+	{
+		.defense = 90,
+		.attack = 160 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_BEAST,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_CARD_DESTRUCTION]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[822]
+	[CARD_NUMBER_DARK_NECROFEAR]
+	{
+		.defense = 280,
+		.attack = 220 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 8,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_DARKLORD_MARIE]
+	{
+		.defense = 120,
+		.attack = 170 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FIEND,
+		.level = 5,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_EARTHBOUND_SPIRIT]
+	{
+		.defense = 200,
+		.attack = 50 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_FIEND,
+		.level = 4,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_JAR_OF_GREED]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[823]
+	[CARD_NUMBER_KYCOO_THE_GHOST_DESTROYER]
+	{
+		.defense = 70,
+		.attack = 180 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_SPELLCASTER,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_MAGE_POWER]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[824]
+	[CARD_NUMBER_MAGIC_CYLINDER]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[825]
+	[CARD_NUMBER_MAGIC_DRAIN]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[826]
+	[CARD_NUMBER_MARYOKUTAI]
+	{
+		.defense = 90,
+		.attack = 90 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_AQUA,
+		.level = 3,
+		.attribute = ATTRIBUTE_WATER,
+	},
+	[CARD_NUMBER_ROYAL_COMMAND]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[827]
+	[CARD_NUMBER_SKULL_LAIR]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[828]
+	[CARD_NUMBER_SOLEMN_WISHES]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[829]
+	[CARD_NUMBER_SOUL_EXCHANGE]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[830]
+	[CARD_NUMBER_ST_JOAN]
+	{
+		.defense = 200,
+		.attack = 280 ,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_FAIRY,
+		.level = 7,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_FIEND_MEGACYBER]
+	{
+		.defense = 120,
+		.attack = 220 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 6,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THE_FORGIVING_MAIDEN]
+	{
+		.defense = 200,
+		.attack = 85 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_FAIRY,
+		.level = 4,
+		.attribute = ATTRIBUTE_LIGHT,
+	},
+	[CARD_NUMBER_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET]
+	{
+		.defense = 230,
+		.attack = 235 ,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_WARRIOR,
+		.level = 7,
+		.attribute = ATTRIBUTE_EARTH,
+	},
+	[CARD_NUMBER_THOUSAND_EYES_IDOL]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_THOUSAND_EYES_RESTRICT]
+	{
+		.defense = 0,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_FUSION,
+		.race = RACE_SPELLCASTER,
+		.level = 1,
+		.attribute = ATTRIBUTE_DARK,
+	},
+	[CARD_NUMBER_TORRENTIAL_TRIBUTE]
+	{
+		.defense = 0,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_TRAP,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[831]
+	[CARD_NUMBER_UNITED_WE_STAND]
 	{
 		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
+		.attack = 0 ,
+		.monsterType = MONSTER_TYPE_NORMAL,
+		.race = RACE_SPELL,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
 	},
-	[832]
+	[CARD_NUMBER_ZOMBYRA_THE_DARK]
 	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[833]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[834]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[835]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[836]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[837]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[838]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[839]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[840]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[841]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[842]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[843]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[844]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
-	},
-	[845]
-	{
-		.defense = 0,
-		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
-		.race = RACE_NONE,
-		.level = 0,
-		.attribute = ATTRIBUTE_NONE,
+		.defense = 50,
+		.attack = 210 ,
+		.monsterType = MONSTER_TYPE_EFFECT,
+		.race = RACE_WARRIOR,
+		.level = 4,
+		.attribute = ATTRIBUTE_DARK,
 	},
 	[846]
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10278,7 +10278,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10287,7 +10287,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10296,7 +10296,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10305,7 +10305,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10314,7 +10314,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10323,7 +10323,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10332,7 +10332,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10341,7 +10341,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10350,7 +10350,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10359,7 +10359,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10368,7 +10368,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10377,7 +10377,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10386,7 +10386,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10395,7 +10395,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10404,7 +10404,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10413,7 +10413,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10422,7 +10422,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10431,7 +10431,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10440,7 +10440,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10449,7 +10449,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10458,7 +10458,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10467,7 +10467,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10476,7 +10476,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10485,7 +10485,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10494,7 +10494,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10503,7 +10503,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10512,7 +10512,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10521,7 +10521,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10530,7 +10530,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10539,7 +10539,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10548,7 +10548,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10557,7 +10557,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10566,7 +10566,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10575,7 +10575,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10584,7 +10584,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10593,7 +10593,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10602,7 +10602,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10611,7 +10611,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10620,7 +10620,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10629,7 +10629,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10638,7 +10638,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10647,7 +10647,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10656,7 +10656,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10665,7 +10665,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10674,7 +10674,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10683,7 +10683,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10692,7 +10692,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10701,7 +10701,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10710,7 +10710,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10719,7 +10719,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10728,7 +10728,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10737,7 +10737,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10746,7 +10746,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10755,7 +10755,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10764,7 +10764,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10773,7 +10773,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10782,7 +10782,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10791,7 +10791,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10800,7 +10800,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10809,7 +10809,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10818,7 +10818,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10827,7 +10827,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10836,7 +10836,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10845,7 +10845,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10854,7 +10854,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10863,7 +10863,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10872,7 +10872,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10881,7 +10881,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10890,7 +10890,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10899,7 +10899,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10908,7 +10908,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10917,7 +10917,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10926,7 +10926,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10935,7 +10935,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10944,7 +10944,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10953,7 +10953,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10962,7 +10962,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10971,7 +10971,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10980,7 +10980,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10989,7 +10989,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -10998,7 +10998,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11007,7 +11007,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11016,7 +11016,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11025,7 +11025,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11034,7 +11034,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11043,7 +11043,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11052,7 +11052,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11061,7 +11061,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11070,7 +11070,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11079,7 +11079,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11088,7 +11088,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11097,7 +11097,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11106,7 +11106,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11115,7 +11115,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11124,7 +11124,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11133,7 +11133,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11142,7 +11142,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11151,7 +11151,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11160,7 +11160,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11169,7 +11169,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11178,7 +11178,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11187,7 +11187,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11196,7 +11196,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11205,7 +11205,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11214,7 +11214,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11223,7 +11223,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11232,7 +11232,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11241,7 +11241,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11250,7 +11250,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11259,7 +11259,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11268,7 +11268,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11277,7 +11277,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11286,7 +11286,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11295,7 +11295,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11304,7 +11304,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11313,7 +11313,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11322,7 +11322,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11331,7 +11331,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11340,7 +11340,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11349,7 +11349,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11358,7 +11358,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11367,7 +11367,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11376,7 +11376,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11385,7 +11385,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11394,7 +11394,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11403,7 +11403,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11412,7 +11412,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11421,7 +11421,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11430,7 +11430,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11439,7 +11439,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11448,7 +11448,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11457,7 +11457,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11466,7 +11466,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11475,7 +11475,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11484,7 +11484,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11493,7 +11493,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11502,7 +11502,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11511,7 +11511,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11520,7 +11520,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11529,7 +11529,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11538,7 +11538,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11547,7 +11547,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11556,7 +11556,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11565,7 +11565,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11574,7 +11574,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11583,7 +11583,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11592,7 +11592,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11601,7 +11601,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11610,7 +11610,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11619,7 +11619,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11628,7 +11628,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11637,7 +11637,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11646,7 +11646,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11655,7 +11655,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11664,7 +11664,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11673,7 +11673,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11682,7 +11682,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11691,7 +11691,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11700,7 +11700,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11709,7 +11709,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11718,7 +11718,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11727,7 +11727,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11736,7 +11736,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11745,7 +11745,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11754,7 +11754,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11763,7 +11763,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11772,7 +11772,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11781,7 +11781,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11790,7 +11790,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11799,7 +11799,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11808,7 +11808,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11817,7 +11817,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11826,7 +11826,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11835,7 +11835,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11844,7 +11844,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11853,7 +11853,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11862,7 +11862,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11871,7 +11871,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11880,7 +11880,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11889,7 +11889,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11898,7 +11898,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11907,7 +11907,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11916,7 +11916,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11925,7 +11925,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11934,7 +11934,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11943,7 +11943,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11952,7 +11952,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11961,7 +11961,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11970,7 +11970,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11979,7 +11979,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11988,7 +11988,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -11997,7 +11997,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12006,7 +12006,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12015,7 +12015,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12024,7 +12024,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12033,7 +12033,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12042,7 +12042,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12051,7 +12051,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12060,7 +12060,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12069,7 +12069,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12078,7 +12078,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12087,7 +12087,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12096,7 +12096,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12105,7 +12105,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12114,7 +12114,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12123,7 +12123,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12132,7 +12132,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12141,7 +12141,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12150,7 +12150,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12159,7 +12159,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12168,7 +12168,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12177,7 +12177,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12186,7 +12186,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12195,7 +12195,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12204,7 +12204,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12213,7 +12213,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12222,7 +12222,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12231,7 +12231,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12240,7 +12240,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12249,7 +12249,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12258,7 +12258,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12267,7 +12267,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12276,7 +12276,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12285,7 +12285,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12294,7 +12294,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12303,7 +12303,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12312,7 +12312,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12321,7 +12321,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12330,7 +12330,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12339,7 +12339,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12348,7 +12348,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12357,7 +12357,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12366,7 +12366,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12375,7 +12375,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12384,7 +12384,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12393,7 +12393,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12402,7 +12402,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12411,7 +12411,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12420,7 +12420,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12429,7 +12429,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12438,7 +12438,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12447,7 +12447,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12456,7 +12456,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12465,7 +12465,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12474,7 +12474,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12483,7 +12483,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12492,7 +12492,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12501,7 +12501,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12510,7 +12510,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12519,7 +12519,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12528,7 +12528,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12537,7 +12537,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12546,7 +12546,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12555,7 +12555,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12564,7 +12564,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12573,7 +12573,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12582,7 +12582,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12591,7 +12591,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12600,7 +12600,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12609,7 +12609,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12618,7 +12618,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12627,7 +12627,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12636,7 +12636,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12645,7 +12645,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12654,7 +12654,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12663,7 +12663,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12672,7 +12672,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12681,7 +12681,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12690,7 +12690,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12699,7 +12699,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12708,7 +12708,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12717,7 +12717,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12726,7 +12726,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12735,7 +12735,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12744,7 +12744,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12753,7 +12753,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12762,7 +12762,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12771,7 +12771,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12780,7 +12780,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12789,7 +12789,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12798,7 +12798,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12807,7 +12807,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12816,7 +12816,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12825,7 +12825,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12834,7 +12834,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12843,7 +12843,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12852,7 +12852,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12861,7 +12861,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12870,7 +12870,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12879,7 +12879,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12888,7 +12888,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12897,7 +12897,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12906,7 +12906,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12915,7 +12915,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12924,7 +12924,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12933,7 +12933,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12942,7 +12942,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12951,7 +12951,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12960,7 +12960,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12969,7 +12969,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12978,7 +12978,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12987,7 +12987,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -12996,7 +12996,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13005,7 +13005,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13014,7 +13014,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13023,7 +13023,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13032,7 +13032,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13041,7 +13041,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13050,7 +13050,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13059,7 +13059,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13068,7 +13068,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13077,7 +13077,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13086,7 +13086,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13095,7 +13095,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13104,7 +13104,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13113,7 +13113,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13122,7 +13122,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13131,7 +13131,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13140,7 +13140,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13149,7 +13149,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13158,7 +13158,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13167,7 +13167,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13176,7 +13176,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13185,7 +13185,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13194,7 +13194,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13203,7 +13203,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13212,7 +13212,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13221,7 +13221,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13230,7 +13230,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13239,7 +13239,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13248,7 +13248,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13257,7 +13257,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13266,7 +13266,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13275,7 +13275,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13284,7 +13284,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13293,7 +13293,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13302,7 +13302,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13311,7 +13311,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13320,7 +13320,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13329,7 +13329,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13338,7 +13338,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13347,7 +13347,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13356,7 +13356,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13365,7 +13365,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13374,7 +13374,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13383,7 +13383,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13392,7 +13392,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13401,7 +13401,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13410,7 +13410,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13419,7 +13419,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13428,7 +13428,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13437,7 +13437,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13446,7 +13446,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13455,7 +13455,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13464,7 +13464,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13473,7 +13473,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13482,7 +13482,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13491,7 +13491,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13500,7 +13500,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13509,7 +13509,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13518,7 +13518,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13527,7 +13527,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13536,7 +13536,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13545,7 +13545,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13554,7 +13554,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13563,7 +13563,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13572,7 +13572,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13581,7 +13581,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13590,7 +13590,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13599,7 +13599,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13608,7 +13608,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13617,7 +13617,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13626,7 +13626,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13635,7 +13635,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13644,7 +13644,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13653,7 +13653,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13662,7 +13662,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13671,7 +13671,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13680,7 +13680,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13689,7 +13689,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13698,7 +13698,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13707,7 +13707,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13716,7 +13716,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13725,7 +13725,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13734,7 +13734,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13743,7 +13743,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13752,7 +13752,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13761,7 +13761,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13770,7 +13770,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13779,7 +13779,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13788,7 +13788,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13797,7 +13797,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13806,7 +13806,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13815,7 +13815,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13824,7 +13824,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13833,7 +13833,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13842,7 +13842,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13851,7 +13851,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13860,7 +13860,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13869,7 +13869,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13878,7 +13878,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13887,7 +13887,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13896,7 +13896,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13905,7 +13905,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13914,7 +13914,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13923,7 +13923,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13932,7 +13932,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13941,7 +13941,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13950,7 +13950,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13959,7 +13959,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13968,7 +13968,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13977,7 +13977,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13986,7 +13986,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -13995,7 +13995,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14004,7 +14004,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14013,7 +14013,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14022,7 +14022,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14031,7 +14031,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14040,7 +14040,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14049,7 +14049,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14058,7 +14058,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14067,7 +14067,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14076,7 +14076,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14085,7 +14085,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14094,7 +14094,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14103,7 +14103,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14112,7 +14112,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14121,7 +14121,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14130,7 +14130,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14139,7 +14139,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14148,7 +14148,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14157,7 +14157,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14166,7 +14166,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14175,7 +14175,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14184,7 +14184,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14193,7 +14193,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14202,7 +14202,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14211,7 +14211,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14220,7 +14220,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14229,7 +14229,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14238,7 +14238,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14247,7 +14247,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14256,7 +14256,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14265,7 +14265,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14274,7 +14274,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14283,7 +14283,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14292,7 +14292,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14301,7 +14301,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14310,7 +14310,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14319,7 +14319,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14328,7 +14328,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14337,7 +14337,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14346,7 +14346,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14355,7 +14355,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14364,7 +14364,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14373,7 +14373,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14382,7 +14382,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14391,7 +14391,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14400,7 +14400,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14409,7 +14409,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14418,7 +14418,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14427,7 +14427,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14436,7 +14436,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14445,7 +14445,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14454,7 +14454,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14463,7 +14463,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14472,7 +14472,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14481,7 +14481,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14490,7 +14490,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14499,7 +14499,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14508,7 +14508,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14517,7 +14517,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14526,7 +14526,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -14535,7 +14535,7 @@ const struct CardStats gCardStats[] =
 	{
 		.defense = 0,
 		.attack = 0,
-		.monsterType = MONSTER_TYPE_MONSTER,
+		.monsterType = MONSTER_TYPE_NORMAL,
 		.race = RACE_NONE,
 		.level = 0,
 		.attribute = ATTRIBUTE_NONE,
@@ -17828,105 +17828,105 @@ const struct CardName gCardNames[] =
 	{
 		.cardName = "Insect Monster Token"
 	},
-	[821]
+	[CARD_NUMBER_4_STARRED_LADYBUG_OF_DOOM]
 	{
-		.cardName = ""
+		.cardName = "4-Starred Ladybug of Doom"
 	},
-	[822]
+	[CARD_NUMBER_BAZOO_THE_SOUL_EATER]
 	{
-		.cardName = ""
+		.cardName = "Bazoo the Soul-Eater"
 	},
-	[823]
+	[CARD_NUMBER_CARD_DESTRUCTION]
 	{
-		.cardName = ""
+		.cardName = "Card Destruction"
 	},
-	[824]
+	[CARD_NUMBER_DARK_NECROFEAR]
 	{
-		.cardName = ""
+		.cardName = "Dark Necrofear"
 	},
-	[825]
+	[CARD_NUMBER_DARKLORD_MARIE]
 	{
-		.cardName = ""
+		.cardName = "Darklord Marie"
 	},
-	[826]
+	[CARD_NUMBER_EARTHBOUND_SPIRIT]
 	{
-		.cardName = ""
+		.cardName = "Earthbound Spirit"
 	},
-	[827]
+	[CARD_NUMBER_JAR_OF_GREED]
 	{
-		.cardName = ""
+		.cardName = "Jar of Greed"
 	},
-	[828]
+	[CARD_NUMBER_KYCOO_THE_GHOST_DESTROYER]
 	{
-		.cardName = ""
+		.cardName = "Kycoo the Ghost Destroyer"
 	},
-	[829]
+	[CARD_NUMBER_MAGE_POWER]
 	{
-		.cardName = ""
+		.cardName = "Mage Power"
 	},
-	[830]
+	[CARD_NUMBER_MAGIC_CYLINDER]
 	{
-		.cardName = ""
+		.cardName = "Magic Cylinder"
 	},
-	[831]
+	[CARD_NUMBER_MAGIC_DRAIN]
 	{
-		.cardName = ""
+		.cardName = "Magic Drain"
 	},
-	[832]
+	[CARD_NUMBER_MARYOKUTAI]
 	{
-		.cardName = ""
+		.cardName = "Maryokutai"
 	},
-	[833]
+	[CARD_NUMBER_ROYAL_COMMAND]
 	{
-		.cardName = ""
+		.cardName = "Royal Command"
 	},
-	[834]
+	[CARD_NUMBER_SKULL_LAIR]
 	{
-		.cardName = ""
+		.cardName = "Skull Lair"
 	},
-	[835]
+	[CARD_NUMBER_SOLEMN_WISHES]
 	{
-		.cardName = ""
+		.cardName = "Solemn Wishes"
 	},
-	[836]
+	[CARD_NUMBER_SOUL_EXCHANGE]
 	{
-		.cardName = ""
+		.cardName = "Soul Exchange"
 	},
-	[837]
+	[CARD_NUMBER_ST_JOAN]
 	{
-		.cardName = ""
+		.cardName = "St. Joan"
 	},
-	[838]
+	[CARD_NUMBER_THE_FIEND_MEGACYBER]
 	{
-		.cardName = ""
+		.cardName = "The Fiend Megacyber"
 	},
-	[839]
+	[CARD_NUMBER_THE_FORGIVING_MAIDEN]
 	{
-		.cardName = ""
+		.cardName = "The Forgiving Maiden"
 	},
-	[840]
+	[CARD_NUMBER_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET]
 	{
-		.cardName = ""
+		.cardName = "The Last Warrior from Another Planet"
 	},
-	[841]
+	[CARD_NUMBER_THOUSAND_EYES_IDOL]
 	{
-		.cardName = ""
+		.cardName = "Thousand-Eyes Idol"
 	},
-	[842]
+	[CARD_NUMBER_THOUSAND_EYES_RESTRICT]
 	{
-		.cardName = ""
+		.cardName = "Thousand-Eyes Restrict"
 	},
-	[843]
+	[CARD_NUMBER_TORRENTIAL_TRIBUTE]
 	{
-		.cardName = ""
+		.cardName = "Torrential Tribute"
 	},
-	[844]
+	[CARD_NUMBER_UNITED_WE_STAND]
 	{
-		.cardName = ""
+		.cardName = "United We Stand"
 	},
-	[845]
+	[CARD_NUMBER_ZOMBYRA_THE_DARK]
 	{
-		.cardName = ""
+		.cardName = "Zombyra the Dark"
 	},
 	[846]
 	{
@@ -23116,105 +23116,105 @@ const struct CardDescription gCardDescriptions[] =
 	{
 		.description = ""
 	},
-	[821]
+	[CARD_NUMBER_4_STARRED_LADYBUG_OF_DOOM]
 	{
-		.description = ""
+		.description = "FLIP: Destroy all Level 4 monsters your opponent controls."
 	},
-	[822]
+	[CARD_NUMBER_BAZOO_THE_SOUL_EATER]
 	{
-		.description = ""
+		.description = "Once per turn: You can banish up to 3 monsters from your Graveyard; this card gains 300 ATK for each, until the end of your opponent's turn."
 	},
-	[823]
+	[CARD_NUMBER_CARD_DESTRUCTION]
 	{
-		.description = ""
+		.description = "Both players discard as many cards as possible from their hands, then each player draws the same number of cards they discarded."
 	},
-	[824]
+	[CARD_NUMBER_DARK_NECROFEAR]
 	{
-		.description = ""
+		.description = "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 3 Fiend monsters from your GY. During the End Phase, if this card is in your GY because it was destroyed in your Monster Zone by an opponent's card and sent there this turn: Target 1 face-up monster your opponent controls; equip this card to that target. While this card is equipped to a monster by this effect, take control of that monster."
 	},
-	[825]
+	[CARD_NUMBER_DARKLORD_MARIE]
 	{
-		.description = ""
+		.description = "Once per turn, during your Standby Phase: You gain 200 LP. This card must be in the Graveyard to activate and to resolve this effect."
 	},
-	[826]
+	[CARD_NUMBER_EARTHBOUND_SPIRIT]
 	{
-		.description = ""
+		.description = "A vengeful creature formed by the spirits of fallen warriors, it drags any who dare approach it into the deepest bowels of the earth."
 	},
-	[827]
+	[CARD_NUMBER_JAR_OF_GREED]
 	{
-		.description = ""
+		.description = "Draw 1 card."
 	},
-	[828]
+	[CARD_NUMBER_KYCOO_THE_GHOST_DESTROYER]
 	{
-		.description = ""
+		.description = "When this card inflicts battle damage to your opponent: You can target up to 2 monsters in their Graveyard; banish those targets. Your opponent cannot banish cards from either player's Graveyard."
 	},
-	[829]
+	[CARD_NUMBER_MAGE_POWER]
 	{
-		.description = ""
+		.description = "The equipped monster gains 500 ATK and DEF for each Spell/Trap Card you control."
 	},
-	[830]
+	[CARD_NUMBER_MAGIC_CYLINDER]
 	{
-		.description = ""
+		.description = "When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, inflict damage to your opponent equal to its ATK."
 	},
-	[831]
+	[CARD_NUMBER_MAGIC_DRAIN]
 	{
-		.description = ""
+		.description = "When your opponent activates a Spell Card: They can discard 1 Spell Card to negate this card's effect, otherwise negate the activation of their Spell Card, and if you do, destroy it."
 	},
-	[832]
+	[CARD_NUMBER_MARYOKUTAI]
 	{
-		.description = ""
+		.description = "During your opponent's turn, when your opponent activates a Spell Card (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy it."
 	},
-	[833]
+	[CARD_NUMBER_ROYAL_COMMAND]
 	{
-		.description = ""
+		.description = "Flip monsters' effects cannot be activated, also their effects are negated."
 	},
-	[834]
+	[CARD_NUMBER_SKULL_LAIR]
 	{
-		.description = ""
+		.description = "Remove from play any number of Monster Cards in your Graveyard to destroy 1 face-up monster on the field whose Level is equal to the number of the cards you removed from play."
 	},
-	[835]
+	[CARD_NUMBER_SOLEMN_WISHES]
 	{
-		.description = ""
+		.description = "Increase your Life Points by 500 points each time you draw a card (or cards)."
 	},
-	[836]
+	[CARD_NUMBER_SOUL_EXCHANGE]
 	{
-		.description = ""
+		.description = "Target 1 monster your opponent controls; this turn, if you Tribute a monster, you must Tribute that target, as if you controlled it. You cannot conduct your Battle Phase the turn you activate this card."
 	},
-	[837]
+	[CARD_NUMBER_ST_JOAN]
 	{
-		.description = ""
+		.description = "\"The Forgiving Maiden\" + \"Darklord Marie\""
 	},
-	[838]
+	[CARD_NUMBER_THE_FIEND_MEGACYBER]
 	{
-		.description = ""
+		.description = "If your opponent controls at least 2 more monsters than you do, you can Special Summon this card (from your hand)."
 	},
-	[839]
+	[CARD_NUMBER_THE_FORGIVING_MAIDEN]
 	{
-		.description = ""
+		.description = "Tribute this face-up card to return to your hand 1 of your monsters destroyed as a result of battle during this turn."
 	},
-	[840]
+	[CARD_NUMBER_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET]
 	{
-		.description = ""
+		.description = "\"Zombyra the Dark\" + \"Maryokutai\" If this card is Special Summoned: Destroy all other monsters you control. Neither player can Summon monsters."
 	},
-	[841]
+	[CARD_NUMBER_THOUSAND_EYES_IDOL]
 	{
-		.description = ""
+		.description = "A wicked entity that controls the hearts of men, its thousand eyes are able to see and expand the negative influences in an individual's soul."
 	},
-	[842]
+	[CARD_NUMBER_THOUSAND_EYES_RESTRICT]
 	{
-		.description = ""
+		.description = "\"Relinquished\" + \"Thousand-Eyes Idol\" Other monsters on the field cannot change their battle positions or attack. Once per turn: You can target 1 monster your opponent controls; equip that target to this card (max. 1). This card's ATK/DEF become equal to that equipped monster's. If this card would be destroyed by battle, destroy that equipped monster instead."
 	},
-	[843]
+	[CARD_NUMBER_TORRENTIAL_TRIBUTE]
 	{
-		.description = ""
+		.description = "When a monster(s) is Summoned: Destroy all monsters on the field."
 	},
-	[844]
+	[CARD_NUMBER_UNITED_WE_STAND]
 	{
-		.description = ""
+		.description = "The equipped monster gains 800 ATK/DEF for each face-up monster you control."
 	},
-	[845]
+	[CARD_NUMBER_ZOMBYRA_THE_DARK]
 	{
-		.description = ""
+		.description = "This card cannot attack your opponent directly. If this card destroys a monster by battle: This card loses 200 ATK."
 	},
 	[846]
 	{
