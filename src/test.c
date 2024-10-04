@@ -822,6 +822,506 @@ const u8 gCardGraphics[] = INCBIN_U8(
 	"graphics/Resize/gCardGraphicsObelisktheTormentor.6bpp",
 	"graphics/Resize/gCardGraphicsSlifertheSkyDragon.6bpp",
 	"graphics/Resize/gCardGraphicsTheWingedDragonofRa.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp",
 	"graphics/Resize/gCardGraphicsInsectMonsterToken.6bpp"
 );
 
@@ -1646,6 +2146,506 @@ const u8 gCardPalettes[] = INCBIN_U8(
 	"graphics/Resize/gCardGraphicsObelisktheTormentor.gbapal",
 	"graphics/Resize/gCardGraphicsSlifertheSkyDragon.gbapal",
 	"graphics/Resize/gCardGraphicsTheWingedDragonofRa.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
+	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal",
 	"graphics/Resize/gCardGraphicsInsectMonsterToken.gbapal"
 );
 
@@ -9039,7 +10039,4507 @@ const struct CardStats gCardStats[] =
 		.race = RACE_INSECT,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
-	}
+	},
+	[821]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[822]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[823]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[824]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[825]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[826]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[827]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[828]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[829]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[830]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[831]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[832]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[833]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[834]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[835]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[836]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[837]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[838]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[839]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[840]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[841]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[842]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[843]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[844]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[845]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[846]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[847]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[848]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[849]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[850]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[851]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[852]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[853]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[854]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[855]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[856]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[857]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[858]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[859]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[860]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[861]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[862]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[863]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[864]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[865]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[866]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[867]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[868]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[869]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[870]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[871]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[872]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[873]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[874]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[875]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[876]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[877]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[878]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[879]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[880]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[881]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[882]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[883]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[884]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[885]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[886]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[887]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[888]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[889]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[890]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[891]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[892]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[893]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[894]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[895]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[896]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[897]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[898]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[899]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[900]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[901]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[902]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[903]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[904]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[905]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[906]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[907]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[908]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[909]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[910]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[911]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[912]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[913]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[914]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[915]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[916]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[917]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[918]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[919]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[920]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[921]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[922]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[923]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[924]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[925]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[926]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[927]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[928]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[929]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[930]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[931]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[932]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[933]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[934]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[935]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[936]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[937]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[938]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[939]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[940]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[941]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[942]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[943]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[944]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[945]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[946]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[947]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[948]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[949]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[950]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[951]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[952]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[953]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[954]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[955]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[956]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[957]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[958]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[959]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[960]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[961]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[962]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[963]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[964]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[965]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[966]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[967]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[968]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[969]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[970]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[971]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[972]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[973]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[974]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[975]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[976]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[977]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[978]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[979]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[980]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[981]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[982]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[983]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[984]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[985]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[986]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[987]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[988]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[989]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[990]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[991]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[992]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[993]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[994]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[995]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[996]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[997]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[998]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[999]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1000]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1001]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1002]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1003]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1004]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1005]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1006]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1007]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1008]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1009]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1010]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1011]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1012]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1013]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1014]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1015]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1016]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1017]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1018]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1019]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1020]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1021]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1022]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1023]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1024]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1025]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1026]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1027]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1028]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1029]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1030]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1031]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1032]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1033]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1034]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1035]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1036]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1037]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1038]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1039]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1040]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1041]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1042]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1043]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1044]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1045]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1046]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1047]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1048]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1049]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1050]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1051]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1052]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1053]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1054]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1055]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1056]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1057]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1058]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1059]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1060]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1061]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1062]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1063]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1064]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1065]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1066]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1067]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1068]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1069]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1070]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1071]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1072]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1073]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1074]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1075]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1076]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1077]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1078]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1079]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1080]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1081]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1082]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1083]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1084]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1085]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1086]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1087]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1088]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1089]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1090]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1091]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1092]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1093]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1094]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1095]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1096]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1097]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1098]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1099]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1100]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1101]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1102]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1103]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1104]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1105]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1106]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1107]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1108]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1109]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1110]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1111]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1112]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1113]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1114]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1115]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1116]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1117]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1118]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1119]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1120]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1121]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1122]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1123]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1124]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1125]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1126]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1127]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1128]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1129]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1130]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1131]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1132]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1133]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1134]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1135]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1136]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1137]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1138]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1139]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1140]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1141]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1142]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1143]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1144]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1145]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1146]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1147]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1148]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1149]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1150]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1151]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1152]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1153]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1154]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1155]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1156]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1157]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1158]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1159]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1160]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1161]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1162]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1163]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1164]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1165]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1166]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1167]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1168]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1169]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1170]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1171]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1172]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1173]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1174]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1175]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1176]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1177]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1178]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1179]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1180]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1181]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1182]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1183]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1184]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1185]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1186]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1187]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1188]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1189]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1190]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1191]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1192]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1193]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1194]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1195]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1196]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1197]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1198]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1199]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1200]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1201]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1202]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1203]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1204]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1205]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1206]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1207]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1208]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1209]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1210]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1211]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1212]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1213]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1214]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1215]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1216]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1217]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1218]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1219]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1220]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1221]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1222]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1223]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1224]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1225]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1226]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1227]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1228]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1229]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1230]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1231]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1232]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1233]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1234]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1235]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1236]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1237]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1238]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1239]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1240]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1241]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1242]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1243]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1244]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1245]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1246]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1247]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1248]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1249]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1250]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1251]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1252]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1253]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1254]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1255]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1256]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1257]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1258]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1259]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1260]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1261]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1262]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1263]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1264]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1265]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1266]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1267]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1268]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1269]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1270]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1271]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1272]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1273]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1274]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1275]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1276]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1277]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1278]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1279]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1280]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1281]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1282]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1283]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1284]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1285]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1286]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1287]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1288]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1289]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1290]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1291]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1292]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1293]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1294]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1295]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1296]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1297]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1298]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1299]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1300]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1301]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1302]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1303]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1304]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1305]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1306]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1307]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1308]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1309]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1310]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1311]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1312]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1313]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1314]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1315]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1316]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1317]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1318]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1319]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
+	[1320]
+	{
+		.defense = 0,
+		.attack = 0,
+		.monsterType = MONSTER_TYPE_MONSTER,
+		.race = RACE_NONE,
+		.level = 0,
+		.attribute = ATTRIBUTE_NONE,
+	},
 };
 
 const struct CardName gCardNames[] =
@@ -12327,7 +17827,2007 @@ const struct CardName gCardNames[] =
 	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
 	{
 		.cardName = "Insect Monster Token"
-	}
+	},
+	[821]
+	{
+		.cardName = ""
+	},
+	[822]
+	{
+		.cardName = ""
+	},
+	[823]
+	{
+		.cardName = ""
+	},
+	[824]
+	{
+		.cardName = ""
+	},
+	[825]
+	{
+		.cardName = ""
+	},
+	[826]
+	{
+		.cardName = ""
+	},
+	[827]
+	{
+		.cardName = ""
+	},
+	[828]
+	{
+		.cardName = ""
+	},
+	[829]
+	{
+		.cardName = ""
+	},
+	[830]
+	{
+		.cardName = ""
+	},
+	[831]
+	{
+		.cardName = ""
+	},
+	[832]
+	{
+		.cardName = ""
+	},
+	[833]
+	{
+		.cardName = ""
+	},
+	[834]
+	{
+		.cardName = ""
+	},
+	[835]
+	{
+		.cardName = ""
+	},
+	[836]
+	{
+		.cardName = ""
+	},
+	[837]
+	{
+		.cardName = ""
+	},
+	[838]
+	{
+		.cardName = ""
+	},
+	[839]
+	{
+		.cardName = ""
+	},
+	[840]
+	{
+		.cardName = ""
+	},
+	[841]
+	{
+		.cardName = ""
+	},
+	[842]
+	{
+		.cardName = ""
+	},
+	[843]
+	{
+		.cardName = ""
+	},
+	[844]
+	{
+		.cardName = ""
+	},
+	[845]
+	{
+		.cardName = ""
+	},
+	[846]
+	{
+		.cardName = ""
+	},
+	[847]
+	{
+		.cardName = ""
+	},
+	[848]
+	{
+		.cardName = ""
+	},
+	[849]
+	{
+		.cardName = ""
+	},
+	[850]
+	{
+		.cardName = ""
+	},
+	[851]
+	{
+		.cardName = ""
+	},
+	[852]
+	{
+		.cardName = ""
+	},
+	[853]
+	{
+		.cardName = ""
+	},
+	[854]
+	{
+		.cardName = ""
+	},
+	[855]
+	{
+		.cardName = ""
+	},
+	[856]
+	{
+		.cardName = ""
+	},
+	[857]
+	{
+		.cardName = ""
+	},
+	[858]
+	{
+		.cardName = ""
+	},
+	[859]
+	{
+		.cardName = ""
+	},
+	[860]
+	{
+		.cardName = ""
+	},
+	[861]
+	{
+		.cardName = ""
+	},
+	[862]
+	{
+		.cardName = ""
+	},
+	[863]
+	{
+		.cardName = ""
+	},
+	[864]
+	{
+		.cardName = ""
+	},
+	[865]
+	{
+		.cardName = ""
+	},
+	[866]
+	{
+		.cardName = ""
+	},
+	[867]
+	{
+		.cardName = ""
+	},
+	[868]
+	{
+		.cardName = ""
+	},
+	[869]
+	{
+		.cardName = ""
+	},
+	[870]
+	{
+		.cardName = ""
+	},
+	[871]
+	{
+		.cardName = ""
+	},
+	[872]
+	{
+		.cardName = ""
+	},
+	[873]
+	{
+		.cardName = ""
+	},
+	[874]
+	{
+		.cardName = ""
+	},
+	[875]
+	{
+		.cardName = ""
+	},
+	[876]
+	{
+		.cardName = ""
+	},
+	[877]
+	{
+		.cardName = ""
+	},
+	[878]
+	{
+		.cardName = ""
+	},
+	[879]
+	{
+		.cardName = ""
+	},
+	[880]
+	{
+		.cardName = ""
+	},
+	[881]
+	{
+		.cardName = ""
+	},
+	[882]
+	{
+		.cardName = ""
+	},
+	[883]
+	{
+		.cardName = ""
+	},
+	[884]
+	{
+		.cardName = ""
+	},
+	[885]
+	{
+		.cardName = ""
+	},
+	[886]
+	{
+		.cardName = ""
+	},
+	[887]
+	{
+		.cardName = ""
+	},
+	[888]
+	{
+		.cardName = ""
+	},
+	[889]
+	{
+		.cardName = ""
+	},
+	[890]
+	{
+		.cardName = ""
+	},
+	[891]
+	{
+		.cardName = ""
+	},
+	[892]
+	{
+		.cardName = ""
+	},
+	[893]
+	{
+		.cardName = ""
+	},
+	[894]
+	{
+		.cardName = ""
+	},
+	[895]
+	{
+		.cardName = ""
+	},
+	[896]
+	{
+		.cardName = ""
+	},
+	[897]
+	{
+		.cardName = ""
+	},
+	[898]
+	{
+		.cardName = ""
+	},
+	[899]
+	{
+		.cardName = ""
+	},
+	[900]
+	{
+		.cardName = ""
+	},
+	[901]
+	{
+		.cardName = ""
+	},
+	[902]
+	{
+		.cardName = ""
+	},
+	[903]
+	{
+		.cardName = ""
+	},
+	[904]
+	{
+		.cardName = ""
+	},
+	[905]
+	{
+		.cardName = ""
+	},
+	[906]
+	{
+		.cardName = ""
+	},
+	[907]
+	{
+		.cardName = ""
+	},
+	[908]
+	{
+		.cardName = ""
+	},
+	[909]
+	{
+		.cardName = ""
+	},
+	[910]
+	{
+		.cardName = ""
+	},
+	[911]
+	{
+		.cardName = ""
+	},
+	[912]
+	{
+		.cardName = ""
+	},
+	[913]
+	{
+		.cardName = ""
+	},
+	[914]
+	{
+		.cardName = ""
+	},
+	[915]
+	{
+		.cardName = ""
+	},
+	[916]
+	{
+		.cardName = ""
+	},
+	[917]
+	{
+		.cardName = ""
+	},
+	[918]
+	{
+		.cardName = ""
+	},
+	[919]
+	{
+		.cardName = ""
+	},
+	[920]
+	{
+		.cardName = ""
+	},
+	[921]
+	{
+		.cardName = ""
+	},
+	[922]
+	{
+		.cardName = ""
+	},
+	[923]
+	{
+		.cardName = ""
+	},
+	[924]
+	{
+		.cardName = ""
+	},
+	[925]
+	{
+		.cardName = ""
+	},
+	[926]
+	{
+		.cardName = ""
+	},
+	[927]
+	{
+		.cardName = ""
+	},
+	[928]
+	{
+		.cardName = ""
+	},
+	[929]
+	{
+		.cardName = ""
+	},
+	[930]
+	{
+		.cardName = ""
+	},
+	[931]
+	{
+		.cardName = ""
+	},
+	[932]
+	{
+		.cardName = ""
+	},
+	[933]
+	{
+		.cardName = ""
+	},
+	[934]
+	{
+		.cardName = ""
+	},
+	[935]
+	{
+		.cardName = ""
+	},
+	[936]
+	{
+		.cardName = ""
+	},
+	[937]
+	{
+		.cardName = ""
+	},
+	[938]
+	{
+		.cardName = ""
+	},
+	[939]
+	{
+		.cardName = ""
+	},
+	[940]
+	{
+		.cardName = ""
+	},
+	[941]
+	{
+		.cardName = ""
+	},
+	[942]
+	{
+		.cardName = ""
+	},
+	[943]
+	{
+		.cardName = ""
+	},
+	[944]
+	{
+		.cardName = ""
+	},
+	[945]
+	{
+		.cardName = ""
+	},
+	[946]
+	{
+		.cardName = ""
+	},
+	[947]
+	{
+		.cardName = ""
+	},
+	[948]
+	{
+		.cardName = ""
+	},
+	[949]
+	{
+		.cardName = ""
+	},
+	[950]
+	{
+		.cardName = ""
+	},
+	[951]
+	{
+		.cardName = ""
+	},
+	[952]
+	{
+		.cardName = ""
+	},
+	[953]
+	{
+		.cardName = ""
+	},
+	[954]
+	{
+		.cardName = ""
+	},
+	[955]
+	{
+		.cardName = ""
+	},
+	[956]
+	{
+		.cardName = ""
+	},
+	[957]
+	{
+		.cardName = ""
+	},
+	[958]
+	{
+		.cardName = ""
+	},
+	[959]
+	{
+		.cardName = ""
+	},
+	[960]
+	{
+		.cardName = ""
+	},
+	[961]
+	{
+		.cardName = ""
+	},
+	[962]
+	{
+		.cardName = ""
+	},
+	[963]
+	{
+		.cardName = ""
+	},
+	[964]
+	{
+		.cardName = ""
+	},
+	[965]
+	{
+		.cardName = ""
+	},
+	[966]
+	{
+		.cardName = ""
+	},
+	[967]
+	{
+		.cardName = ""
+	},
+	[968]
+	{
+		.cardName = ""
+	},
+	[969]
+	{
+		.cardName = ""
+	},
+	[970]
+	{
+		.cardName = ""
+	},
+	[971]
+	{
+		.cardName = ""
+	},
+	[972]
+	{
+		.cardName = ""
+	},
+	[973]
+	{
+		.cardName = ""
+	},
+	[974]
+	{
+		.cardName = ""
+	},
+	[975]
+	{
+		.cardName = ""
+	},
+	[976]
+	{
+		.cardName = ""
+	},
+	[977]
+	{
+		.cardName = ""
+	},
+	[978]
+	{
+		.cardName = ""
+	},
+	[979]
+	{
+		.cardName = ""
+	},
+	[980]
+	{
+		.cardName = ""
+	},
+	[981]
+	{
+		.cardName = ""
+	},
+	[982]
+	{
+		.cardName = ""
+	},
+	[983]
+	{
+		.cardName = ""
+	},
+	[984]
+	{
+		.cardName = ""
+	},
+	[985]
+	{
+		.cardName = ""
+	},
+	[986]
+	{
+		.cardName = ""
+	},
+	[987]
+	{
+		.cardName = ""
+	},
+	[988]
+	{
+		.cardName = ""
+	},
+	[989]
+	{
+		.cardName = ""
+	},
+	[990]
+	{
+		.cardName = ""
+	},
+	[991]
+	{
+		.cardName = ""
+	},
+	[992]
+	{
+		.cardName = ""
+	},
+	[993]
+	{
+		.cardName = ""
+	},
+	[994]
+	{
+		.cardName = ""
+	},
+	[995]
+	{
+		.cardName = ""
+	},
+	[996]
+	{
+		.cardName = ""
+	},
+	[997]
+	{
+		.cardName = ""
+	},
+	[998]
+	{
+		.cardName = ""
+	},
+	[999]
+	{
+		.cardName = ""
+	},
+	[1000]
+	{
+		.cardName = ""
+	},
+	[1001]
+	{
+		.cardName = ""
+	},
+	[1002]
+	{
+		.cardName = ""
+	},
+	[1003]
+	{
+		.cardName = ""
+	},
+	[1004]
+	{
+		.cardName = ""
+	},
+	[1005]
+	{
+		.cardName = ""
+	},
+	[1006]
+	{
+		.cardName = ""
+	},
+	[1007]
+	{
+		.cardName = ""
+	},
+	[1008]
+	{
+		.cardName = ""
+	},
+	[1009]
+	{
+		.cardName = ""
+	},
+	[1010]
+	{
+		.cardName = ""
+	},
+	[1011]
+	{
+		.cardName = ""
+	},
+	[1012]
+	{
+		.cardName = ""
+	},
+	[1013]
+	{
+		.cardName = ""
+	},
+	[1014]
+	{
+		.cardName = ""
+	},
+	[1015]
+	{
+		.cardName = ""
+	},
+	[1016]
+	{
+		.cardName = ""
+	},
+	[1017]
+	{
+		.cardName = ""
+	},
+	[1018]
+	{
+		.cardName = ""
+	},
+	[1019]
+	{
+		.cardName = ""
+	},
+	[1020]
+	{
+		.cardName = ""
+	},
+	[1021]
+	{
+		.cardName = ""
+	},
+	[1022]
+	{
+		.cardName = ""
+	},
+	[1023]
+	{
+		.cardName = ""
+	},
+	[1024]
+	{
+		.cardName = ""
+	},
+	[1025]
+	{
+		.cardName = ""
+	},
+	[1026]
+	{
+		.cardName = ""
+	},
+	[1027]
+	{
+		.cardName = ""
+	},
+	[1028]
+	{
+		.cardName = ""
+	},
+	[1029]
+	{
+		.cardName = ""
+	},
+	[1030]
+	{
+		.cardName = ""
+	},
+	[1031]
+	{
+		.cardName = ""
+	},
+	[1032]
+	{
+		.cardName = ""
+	},
+	[1033]
+	{
+		.cardName = ""
+	},
+	[1034]
+	{
+		.cardName = ""
+	},
+	[1035]
+	{
+		.cardName = ""
+	},
+	[1036]
+	{
+		.cardName = ""
+	},
+	[1037]
+	{
+		.cardName = ""
+	},
+	[1038]
+	{
+		.cardName = ""
+	},
+	[1039]
+	{
+		.cardName = ""
+	},
+	[1040]
+	{
+		.cardName = ""
+	},
+	[1041]
+	{
+		.cardName = ""
+	},
+	[1042]
+	{
+		.cardName = ""
+	},
+	[1043]
+	{
+		.cardName = ""
+	},
+	[1044]
+	{
+		.cardName = ""
+	},
+	[1045]
+	{
+		.cardName = ""
+	},
+	[1046]
+	{
+		.cardName = ""
+	},
+	[1047]
+	{
+		.cardName = ""
+	},
+	[1048]
+	{
+		.cardName = ""
+	},
+	[1049]
+	{
+		.cardName = ""
+	},
+	[1050]
+	{
+		.cardName = ""
+	},
+	[1051]
+	{
+		.cardName = ""
+	},
+	[1052]
+	{
+		.cardName = ""
+	},
+	[1053]
+	{
+		.cardName = ""
+	},
+	[1054]
+	{
+		.cardName = ""
+	},
+	[1055]
+	{
+		.cardName = ""
+	},
+	[1056]
+	{
+		.cardName = ""
+	},
+	[1057]
+	{
+		.cardName = ""
+	},
+	[1058]
+	{
+		.cardName = ""
+	},
+	[1059]
+	{
+		.cardName = ""
+	},
+	[1060]
+	{
+		.cardName = ""
+	},
+	[1061]
+	{
+		.cardName = ""
+	},
+	[1062]
+	{
+		.cardName = ""
+	},
+	[1063]
+	{
+		.cardName = ""
+	},
+	[1064]
+	{
+		.cardName = ""
+	},
+	[1065]
+	{
+		.cardName = ""
+	},
+	[1066]
+	{
+		.cardName = ""
+	},
+	[1067]
+	{
+		.cardName = ""
+	},
+	[1068]
+	{
+		.cardName = ""
+	},
+	[1069]
+	{
+		.cardName = ""
+	},
+	[1070]
+	{
+		.cardName = ""
+	},
+	[1071]
+	{
+		.cardName = ""
+	},
+	[1072]
+	{
+		.cardName = ""
+	},
+	[1073]
+	{
+		.cardName = ""
+	},
+	[1074]
+	{
+		.cardName = ""
+	},
+	[1075]
+	{
+		.cardName = ""
+	},
+	[1076]
+	{
+		.cardName = ""
+	},
+	[1077]
+	{
+		.cardName = ""
+	},
+	[1078]
+	{
+		.cardName = ""
+	},
+	[1079]
+	{
+		.cardName = ""
+	},
+	[1080]
+	{
+		.cardName = ""
+	},
+	[1081]
+	{
+		.cardName = ""
+	},
+	[1082]
+	{
+		.cardName = ""
+	},
+	[1083]
+	{
+		.cardName = ""
+	},
+	[1084]
+	{
+		.cardName = ""
+	},
+	[1085]
+	{
+		.cardName = ""
+	},
+	[1086]
+	{
+		.cardName = ""
+	},
+	[1087]
+	{
+		.cardName = ""
+	},
+	[1088]
+	{
+		.cardName = ""
+	},
+	[1089]
+	{
+		.cardName = ""
+	},
+	[1090]
+	{
+		.cardName = ""
+	},
+	[1091]
+	{
+		.cardName = ""
+	},
+	[1092]
+	{
+		.cardName = ""
+	},
+	[1093]
+	{
+		.cardName = ""
+	},
+	[1094]
+	{
+		.cardName = ""
+	},
+	[1095]
+	{
+		.cardName = ""
+	},
+	[1096]
+	{
+		.cardName = ""
+	},
+	[1097]
+	{
+		.cardName = ""
+	},
+	[1098]
+	{
+		.cardName = ""
+	},
+	[1099]
+	{
+		.cardName = ""
+	},
+	[1100]
+	{
+		.cardName = ""
+	},
+	[1101]
+	{
+		.cardName = ""
+	},
+	[1102]
+	{
+		.cardName = ""
+	},
+	[1103]
+	{
+		.cardName = ""
+	},
+	[1104]
+	{
+		.cardName = ""
+	},
+	[1105]
+	{
+		.cardName = ""
+	},
+	[1106]
+	{
+		.cardName = ""
+	},
+	[1107]
+	{
+		.cardName = ""
+	},
+	[1108]
+	{
+		.cardName = ""
+	},
+	[1109]
+	{
+		.cardName = ""
+	},
+	[1110]
+	{
+		.cardName = ""
+	},
+	[1111]
+	{
+		.cardName = ""
+	},
+	[1112]
+	{
+		.cardName = ""
+	},
+	[1113]
+	{
+		.cardName = ""
+	},
+	[1114]
+	{
+		.cardName = ""
+	},
+	[1115]
+	{
+		.cardName = ""
+	},
+	[1116]
+	{
+		.cardName = ""
+	},
+	[1117]
+	{
+		.cardName = ""
+	},
+	[1118]
+	{
+		.cardName = ""
+	},
+	[1119]
+	{
+		.cardName = ""
+	},
+	[1120]
+	{
+		.cardName = ""
+	},
+	[1121]
+	{
+		.cardName = ""
+	},
+	[1122]
+	{
+		.cardName = ""
+	},
+	[1123]
+	{
+		.cardName = ""
+	},
+	[1124]
+	{
+		.cardName = ""
+	},
+	[1125]
+	{
+		.cardName = ""
+	},
+	[1126]
+	{
+		.cardName = ""
+	},
+	[1127]
+	{
+		.cardName = ""
+	},
+	[1128]
+	{
+		.cardName = ""
+	},
+	[1129]
+	{
+		.cardName = ""
+	},
+	[1130]
+	{
+		.cardName = ""
+	},
+	[1131]
+	{
+		.cardName = ""
+	},
+	[1132]
+	{
+		.cardName = ""
+	},
+	[1133]
+	{
+		.cardName = ""
+	},
+	[1134]
+	{
+		.cardName = ""
+	},
+	[1135]
+	{
+		.cardName = ""
+	},
+	[1136]
+	{
+		.cardName = ""
+	},
+	[1137]
+	{
+		.cardName = ""
+	},
+	[1138]
+	{
+		.cardName = ""
+	},
+	[1139]
+	{
+		.cardName = ""
+	},
+	[1140]
+	{
+		.cardName = ""
+	},
+	[1141]
+	{
+		.cardName = ""
+	},
+	[1142]
+	{
+		.cardName = ""
+	},
+	[1143]
+	{
+		.cardName = ""
+	},
+	[1144]
+	{
+		.cardName = ""
+	},
+	[1145]
+	{
+		.cardName = ""
+	},
+	[1146]
+	{
+		.cardName = ""
+	},
+	[1147]
+	{
+		.cardName = ""
+	},
+	[1148]
+	{
+		.cardName = ""
+	},
+	[1149]
+	{
+		.cardName = ""
+	},
+	[1150]
+	{
+		.cardName = ""
+	},
+	[1151]
+	{
+		.cardName = ""
+	},
+	[1152]
+	{
+		.cardName = ""
+	},
+	[1153]
+	{
+		.cardName = ""
+	},
+	[1154]
+	{
+		.cardName = ""
+	},
+	[1155]
+	{
+		.cardName = ""
+	},
+	[1156]
+	{
+		.cardName = ""
+	},
+	[1157]
+	{
+		.cardName = ""
+	},
+	[1158]
+	{
+		.cardName = ""
+	},
+	[1159]
+	{
+		.cardName = ""
+	},
+	[1160]
+	{
+		.cardName = ""
+	},
+	[1161]
+	{
+		.cardName = ""
+	},
+	[1162]
+	{
+		.cardName = ""
+	},
+	[1163]
+	{
+		.cardName = ""
+	},
+	[1164]
+	{
+		.cardName = ""
+	},
+	[1165]
+	{
+		.cardName = ""
+	},
+	[1166]
+	{
+		.cardName = ""
+	},
+	[1167]
+	{
+		.cardName = ""
+	},
+	[1168]
+	{
+		.cardName = ""
+	},
+	[1169]
+	{
+		.cardName = ""
+	},
+	[1170]
+	{
+		.cardName = ""
+	},
+	[1171]
+	{
+		.cardName = ""
+	},
+	[1172]
+	{
+		.cardName = ""
+	},
+	[1173]
+	{
+		.cardName = ""
+	},
+	[1174]
+	{
+		.cardName = ""
+	},
+	[1175]
+	{
+		.cardName = ""
+	},
+	[1176]
+	{
+		.cardName = ""
+	},
+	[1177]
+	{
+		.cardName = ""
+	},
+	[1178]
+	{
+		.cardName = ""
+	},
+	[1179]
+	{
+		.cardName = ""
+	},
+	[1180]
+	{
+		.cardName = ""
+	},
+	[1181]
+	{
+		.cardName = ""
+	},
+	[1182]
+	{
+		.cardName = ""
+	},
+	[1183]
+	{
+		.cardName = ""
+	},
+	[1184]
+	{
+		.cardName = ""
+	},
+	[1185]
+	{
+		.cardName = ""
+	},
+	[1186]
+	{
+		.cardName = ""
+	},
+	[1187]
+	{
+		.cardName = ""
+	},
+	[1188]
+	{
+		.cardName = ""
+	},
+	[1189]
+	{
+		.cardName = ""
+	},
+	[1190]
+	{
+		.cardName = ""
+	},
+	[1191]
+	{
+		.cardName = ""
+	},
+	[1192]
+	{
+		.cardName = ""
+	},
+	[1193]
+	{
+		.cardName = ""
+	},
+	[1194]
+	{
+		.cardName = ""
+	},
+	[1195]
+	{
+		.cardName = ""
+	},
+	[1196]
+	{
+		.cardName = ""
+	},
+	[1197]
+	{
+		.cardName = ""
+	},
+	[1198]
+	{
+		.cardName = ""
+	},
+	[1199]
+	{
+		.cardName = ""
+	},
+	[1200]
+	{
+		.cardName = ""
+	},
+	[1201]
+	{
+		.cardName = ""
+	},
+	[1202]
+	{
+		.cardName = ""
+	},
+	[1203]
+	{
+		.cardName = ""
+	},
+	[1204]
+	{
+		.cardName = ""
+	},
+	[1205]
+	{
+		.cardName = ""
+	},
+	[1206]
+	{
+		.cardName = ""
+	},
+	[1207]
+	{
+		.cardName = ""
+	},
+	[1208]
+	{
+		.cardName = ""
+	},
+	[1209]
+	{
+		.cardName = ""
+	},
+	[1210]
+	{
+		.cardName = ""
+	},
+	[1211]
+	{
+		.cardName = ""
+	},
+	[1212]
+	{
+		.cardName = ""
+	},
+	[1213]
+	{
+		.cardName = ""
+	},
+	[1214]
+	{
+		.cardName = ""
+	},
+	[1215]
+	{
+		.cardName = ""
+	},
+	[1216]
+	{
+		.cardName = ""
+	},
+	[1217]
+	{
+		.cardName = ""
+	},
+	[1218]
+	{
+		.cardName = ""
+	},
+	[1219]
+	{
+		.cardName = ""
+	},
+	[1220]
+	{
+		.cardName = ""
+	},
+	[1221]
+	{
+		.cardName = ""
+	},
+	[1222]
+	{
+		.cardName = ""
+	},
+	[1223]
+	{
+		.cardName = ""
+	},
+	[1224]
+	{
+		.cardName = ""
+	},
+	[1225]
+	{
+		.cardName = ""
+	},
+	[1226]
+	{
+		.cardName = ""
+	},
+	[1227]
+	{
+		.cardName = ""
+	},
+	[1228]
+	{
+		.cardName = ""
+	},
+	[1229]
+	{
+		.cardName = ""
+	},
+	[1230]
+	{
+		.cardName = ""
+	},
+	[1231]
+	{
+		.cardName = ""
+	},
+	[1232]
+	{
+		.cardName = ""
+	},
+	[1233]
+	{
+		.cardName = ""
+	},
+	[1234]
+	{
+		.cardName = ""
+	},
+	[1235]
+	{
+		.cardName = ""
+	},
+	[1236]
+	{
+		.cardName = ""
+	},
+	[1237]
+	{
+		.cardName = ""
+	},
+	[1238]
+	{
+		.cardName = ""
+	},
+	[1239]
+	{
+		.cardName = ""
+	},
+	[1240]
+	{
+		.cardName = ""
+	},
+	[1241]
+	{
+		.cardName = ""
+	},
+	[1242]
+	{
+		.cardName = ""
+	},
+	[1243]
+	{
+		.cardName = ""
+	},
+	[1244]
+	{
+		.cardName = ""
+	},
+	[1245]
+	{
+		.cardName = ""
+	},
+	[1246]
+	{
+		.cardName = ""
+	},
+	[1247]
+	{
+		.cardName = ""
+	},
+	[1248]
+	{
+		.cardName = ""
+	},
+	[1249]
+	{
+		.cardName = ""
+	},
+	[1250]
+	{
+		.cardName = ""
+	},
+	[1251]
+	{
+		.cardName = ""
+	},
+	[1252]
+	{
+		.cardName = ""
+	},
+	[1253]
+	{
+		.cardName = ""
+	},
+	[1254]
+	{
+		.cardName = ""
+	},
+	[1255]
+	{
+		.cardName = ""
+	},
+	[1256]
+	{
+		.cardName = ""
+	},
+	[1257]
+	{
+		.cardName = ""
+	},
+	[1258]
+	{
+		.cardName = ""
+	},
+	[1259]
+	{
+		.cardName = ""
+	},
+	[1260]
+	{
+		.cardName = ""
+	},
+	[1261]
+	{
+		.cardName = ""
+	},
+	[1262]
+	{
+		.cardName = ""
+	},
+	[1263]
+	{
+		.cardName = ""
+	},
+	[1264]
+	{
+		.cardName = ""
+	},
+	[1265]
+	{
+		.cardName = ""
+	},
+	[1266]
+	{
+		.cardName = ""
+	},
+	[1267]
+	{
+		.cardName = ""
+	},
+	[1268]
+	{
+		.cardName = ""
+	},
+	[1269]
+	{
+		.cardName = ""
+	},
+	[1270]
+	{
+		.cardName = ""
+	},
+	[1271]
+	{
+		.cardName = ""
+	},
+	[1272]
+	{
+		.cardName = ""
+	},
+	[1273]
+	{
+		.cardName = ""
+	},
+	[1274]
+	{
+		.cardName = ""
+	},
+	[1275]
+	{
+		.cardName = ""
+	},
+	[1276]
+	{
+		.cardName = ""
+	},
+	[1277]
+	{
+		.cardName = ""
+	},
+	[1278]
+	{
+		.cardName = ""
+	},
+	[1279]
+	{
+		.cardName = ""
+	},
+	[1280]
+	{
+		.cardName = ""
+	},
+	[1281]
+	{
+		.cardName = ""
+	},
+	[1282]
+	{
+		.cardName = ""
+	},
+	[1283]
+	{
+		.cardName = ""
+	},
+	[1284]
+	{
+		.cardName = ""
+	},
+	[1285]
+	{
+		.cardName = ""
+	},
+	[1286]
+	{
+		.cardName = ""
+	},
+	[1287]
+	{
+		.cardName = ""
+	},
+	[1288]
+	{
+		.cardName = ""
+	},
+	[1289]
+	{
+		.cardName = ""
+	},
+	[1290]
+	{
+		.cardName = ""
+	},
+	[1291]
+	{
+		.cardName = ""
+	},
+	[1292]
+	{
+		.cardName = ""
+	},
+	[1293]
+	{
+		.cardName = ""
+	},
+	[1294]
+	{
+		.cardName = ""
+	},
+	[1295]
+	{
+		.cardName = ""
+	},
+	[1296]
+	{
+		.cardName = ""
+	},
+	[1297]
+	{
+		.cardName = ""
+	},
+	[1298]
+	{
+		.cardName = ""
+	},
+	[1299]
+	{
+		.cardName = ""
+	},
+	[1300]
+	{
+		.cardName = ""
+	},
+	[1301]
+	{
+		.cardName = ""
+	},
+	[1302]
+	{
+		.cardName = ""
+	},
+	[1303]
+	{
+		.cardName = ""
+	},
+	[1304]
+	{
+		.cardName = ""
+	},
+	[1305]
+	{
+		.cardName = ""
+	},
+	[1306]
+	{
+		.cardName = ""
+	},
+	[1307]
+	{
+		.cardName = ""
+	},
+	[1308]
+	{
+		.cardName = ""
+	},
+	[1309]
+	{
+		.cardName = ""
+	},
+	[1310]
+	{
+		.cardName = ""
+	},
+	[1311]
+	{
+		.cardName = ""
+	},
+	[1312]
+	{
+		.cardName = ""
+	},
+	[1313]
+	{
+		.cardName = ""
+	},
+	[1314]
+	{
+		.cardName = ""
+	},
+	[1315]
+	{
+		.cardName = ""
+	},
+	[1316]
+	{
+		.cardName = ""
+	},
+	[1317]
+	{
+		.cardName = ""
+	},
+	[1318]
+	{
+		.cardName = ""
+	},
+	[1319]
+	{
+		.cardName = ""
+	},
+	[1320]
+	{
+		.cardName = ""
+	},
 };
 
 const struct CardDescription gCardDescriptions[] =
@@ -15615,5 +23115,2005 @@ const struct CardDescription gCardDescriptions[] =
 	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
 	{
 		.description = ""
-	}
+	},
+	[821]
+	{
+		.description = ""
+	},
+	[822]
+	{
+		.description = ""
+	},
+	[823]
+	{
+		.description = ""
+	},
+	[824]
+	{
+		.description = ""
+	},
+	[825]
+	{
+		.description = ""
+	},
+	[826]
+	{
+		.description = ""
+	},
+	[827]
+	{
+		.description = ""
+	},
+	[828]
+	{
+		.description = ""
+	},
+	[829]
+	{
+		.description = ""
+	},
+	[830]
+	{
+		.description = ""
+	},
+	[831]
+	{
+		.description = ""
+	},
+	[832]
+	{
+		.description = ""
+	},
+	[833]
+	{
+		.description = ""
+	},
+	[834]
+	{
+		.description = ""
+	},
+	[835]
+	{
+		.description = ""
+	},
+	[836]
+	{
+		.description = ""
+	},
+	[837]
+	{
+		.description = ""
+	},
+	[838]
+	{
+		.description = ""
+	},
+	[839]
+	{
+		.description = ""
+	},
+	[840]
+	{
+		.description = ""
+	},
+	[841]
+	{
+		.description = ""
+	},
+	[842]
+	{
+		.description = ""
+	},
+	[843]
+	{
+		.description = ""
+	},
+	[844]
+	{
+		.description = ""
+	},
+	[845]
+	{
+		.description = ""
+	},
+	[846]
+	{
+		.description = ""
+	},
+	[847]
+	{
+		.description = ""
+	},
+	[848]
+	{
+		.description = ""
+	},
+	[849]
+	{
+		.description = ""
+	},
+	[850]
+	{
+		.description = ""
+	},
+	[851]
+	{
+		.description = ""
+	},
+	[852]
+	{
+		.description = ""
+	},
+	[853]
+	{
+		.description = ""
+	},
+	[854]
+	{
+		.description = ""
+	},
+	[855]
+	{
+		.description = ""
+	},
+	[856]
+	{
+		.description = ""
+	},
+	[857]
+	{
+		.description = ""
+	},
+	[858]
+	{
+		.description = ""
+	},
+	[859]
+	{
+		.description = ""
+	},
+	[860]
+	{
+		.description = ""
+	},
+	[861]
+	{
+		.description = ""
+	},
+	[862]
+	{
+		.description = ""
+	},
+	[863]
+	{
+		.description = ""
+	},
+	[864]
+	{
+		.description = ""
+	},
+	[865]
+	{
+		.description = ""
+	},
+	[866]
+	{
+		.description = ""
+	},
+	[867]
+	{
+		.description = ""
+	},
+	[868]
+	{
+		.description = ""
+	},
+	[869]
+	{
+		.description = ""
+	},
+	[870]
+	{
+		.description = ""
+	},
+	[871]
+	{
+		.description = ""
+	},
+	[872]
+	{
+		.description = ""
+	},
+	[873]
+	{
+		.description = ""
+	},
+	[874]
+	{
+		.description = ""
+	},
+	[875]
+	{
+		.description = ""
+	},
+	[876]
+	{
+		.description = ""
+	},
+	[877]
+	{
+		.description = ""
+	},
+	[878]
+	{
+		.description = ""
+	},
+	[879]
+	{
+		.description = ""
+	},
+	[880]
+	{
+		.description = ""
+	},
+	[881]
+	{
+		.description = ""
+	},
+	[882]
+	{
+		.description = ""
+	},
+	[883]
+	{
+		.description = ""
+	},
+	[884]
+	{
+		.description = ""
+	},
+	[885]
+	{
+		.description = ""
+	},
+	[886]
+	{
+		.description = ""
+	},
+	[887]
+	{
+		.description = ""
+	},
+	[888]
+	{
+		.description = ""
+	},
+	[889]
+	{
+		.description = ""
+	},
+	[890]
+	{
+		.description = ""
+	},
+	[891]
+	{
+		.description = ""
+	},
+	[892]
+	{
+		.description = ""
+	},
+	[893]
+	{
+		.description = ""
+	},
+	[894]
+	{
+		.description = ""
+	},
+	[895]
+	{
+		.description = ""
+	},
+	[896]
+	{
+		.description = ""
+	},
+	[897]
+	{
+		.description = ""
+	},
+	[898]
+	{
+		.description = ""
+	},
+	[899]
+	{
+		.description = ""
+	},
+	[900]
+	{
+		.description = ""
+	},
+	[901]
+	{
+		.description = ""
+	},
+	[902]
+	{
+		.description = ""
+	},
+	[903]
+	{
+		.description = ""
+	},
+	[904]
+	{
+		.description = ""
+	},
+	[905]
+	{
+		.description = ""
+	},
+	[906]
+	{
+		.description = ""
+	},
+	[907]
+	{
+		.description = ""
+	},
+	[908]
+	{
+		.description = ""
+	},
+	[909]
+	{
+		.description = ""
+	},
+	[910]
+	{
+		.description = ""
+	},
+	[911]
+	{
+		.description = ""
+	},
+	[912]
+	{
+		.description = ""
+	},
+	[913]
+	{
+		.description = ""
+	},
+	[914]
+	{
+		.description = ""
+	},
+	[915]
+	{
+		.description = ""
+	},
+	[916]
+	{
+		.description = ""
+	},
+	[917]
+	{
+		.description = ""
+	},
+	[918]
+	{
+		.description = ""
+	},
+	[919]
+	{
+		.description = ""
+	},
+	[920]
+	{
+		.description = ""
+	},
+	[921]
+	{
+		.description = ""
+	},
+	[922]
+	{
+		.description = ""
+	},
+	[923]
+	{
+		.description = ""
+	},
+	[924]
+	{
+		.description = ""
+	},
+	[925]
+	{
+		.description = ""
+	},
+	[926]
+	{
+		.description = ""
+	},
+	[927]
+	{
+		.description = ""
+	},
+	[928]
+	{
+		.description = ""
+	},
+	[929]
+	{
+		.description = ""
+	},
+	[930]
+	{
+		.description = ""
+	},
+	[931]
+	{
+		.description = ""
+	},
+	[932]
+	{
+		.description = ""
+	},
+	[933]
+	{
+		.description = ""
+	},
+	[934]
+	{
+		.description = ""
+	},
+	[935]
+	{
+		.description = ""
+	},
+	[936]
+	{
+		.description = ""
+	},
+	[937]
+	{
+		.description = ""
+	},
+	[938]
+	{
+		.description = ""
+	},
+	[939]
+	{
+		.description = ""
+	},
+	[940]
+	{
+		.description = ""
+	},
+	[941]
+	{
+		.description = ""
+	},
+	[942]
+	{
+		.description = ""
+	},
+	[943]
+	{
+		.description = ""
+	},
+	[944]
+	{
+		.description = ""
+	},
+	[945]
+	{
+		.description = ""
+	},
+	[946]
+	{
+		.description = ""
+	},
+	[947]
+	{
+		.description = ""
+	},
+	[948]
+	{
+		.description = ""
+	},
+	[949]
+	{
+		.description = ""
+	},
+	[950]
+	{
+		.description = ""
+	},
+	[951]
+	{
+		.description = ""
+	},
+	[952]
+	{
+		.description = ""
+	},
+	[953]
+	{
+		.description = ""
+	},
+	[954]
+	{
+		.description = ""
+	},
+	[955]
+	{
+		.description = ""
+	},
+	[956]
+	{
+		.description = ""
+	},
+	[957]
+	{
+		.description = ""
+	},
+	[958]
+	{
+		.description = ""
+	},
+	[959]
+	{
+		.description = ""
+	},
+	[960]
+	{
+		.description = ""
+	},
+	[961]
+	{
+		.description = ""
+	},
+	[962]
+	{
+		.description = ""
+	},
+	[963]
+	{
+		.description = ""
+	},
+	[964]
+	{
+		.description = ""
+	},
+	[965]
+	{
+		.description = ""
+	},
+	[966]
+	{
+		.description = ""
+	},
+	[967]
+	{
+		.description = ""
+	},
+	[968]
+	{
+		.description = ""
+	},
+	[969]
+	{
+		.description = ""
+	},
+	[970]
+	{
+		.description = ""
+	},
+	[971]
+	{
+		.description = ""
+	},
+	[972]
+	{
+		.description = ""
+	},
+	[973]
+	{
+		.description = ""
+	},
+	[974]
+	{
+		.description = ""
+	},
+	[975]
+	{
+		.description = ""
+	},
+	[976]
+	{
+		.description = ""
+	},
+	[977]
+	{
+		.description = ""
+	},
+	[978]
+	{
+		.description = ""
+	},
+	[979]
+	{
+		.description = ""
+	},
+	[980]
+	{
+		.description = ""
+	},
+	[981]
+	{
+		.description = ""
+	},
+	[982]
+	{
+		.description = ""
+	},
+	[983]
+	{
+		.description = ""
+	},
+	[984]
+	{
+		.description = ""
+	},
+	[985]
+	{
+		.description = ""
+	},
+	[986]
+	{
+		.description = ""
+	},
+	[987]
+	{
+		.description = ""
+	},
+	[988]
+	{
+		.description = ""
+	},
+	[989]
+	{
+		.description = ""
+	},
+	[990]
+	{
+		.description = ""
+	},
+	[991]
+	{
+		.description = ""
+	},
+	[992]
+	{
+		.description = ""
+	},
+	[993]
+	{
+		.description = ""
+	},
+	[994]
+	{
+		.description = ""
+	},
+	[995]
+	{
+		.description = ""
+	},
+	[996]
+	{
+		.description = ""
+	},
+	[997]
+	{
+		.description = ""
+	},
+	[998]
+	{
+		.description = ""
+	},
+	[999]
+	{
+		.description = ""
+	},
+	[1000]
+	{
+		.description = ""
+	},
+	[1001]
+	{
+		.description = ""
+	},
+	[1002]
+	{
+		.description = ""
+	},
+	[1003]
+	{
+		.description = ""
+	},
+	[1004]
+	{
+		.description = ""
+	},
+	[1005]
+	{
+		.description = ""
+	},
+	[1006]
+	{
+		.description = ""
+	},
+	[1007]
+	{
+		.description = ""
+	},
+	[1008]
+	{
+		.description = ""
+	},
+	[1009]
+	{
+		.description = ""
+	},
+	[1010]
+	{
+		.description = ""
+	},
+	[1011]
+	{
+		.description = ""
+	},
+	[1012]
+	{
+		.description = ""
+	},
+	[1013]
+	{
+		.description = ""
+	},
+	[1014]
+	{
+		.description = ""
+	},
+	[1015]
+	{
+		.description = ""
+	},
+	[1016]
+	{
+		.description = ""
+	},
+	[1017]
+	{
+		.description = ""
+	},
+	[1018]
+	{
+		.description = ""
+	},
+	[1019]
+	{
+		.description = ""
+	},
+	[1020]
+	{
+		.description = ""
+	},
+	[1021]
+	{
+		.description = ""
+	},
+	[1022]
+	{
+		.description = ""
+	},
+	[1023]
+	{
+		.description = ""
+	},
+	[1024]
+	{
+		.description = ""
+	},
+	[1025]
+	{
+		.description = ""
+	},
+	[1026]
+	{
+		.description = ""
+	},
+	[1027]
+	{
+		.description = ""
+	},
+	[1028]
+	{
+		.description = ""
+	},
+	[1029]
+	{
+		.description = ""
+	},
+	[1030]
+	{
+		.description = ""
+	},
+	[1031]
+	{
+		.description = ""
+	},
+	[1032]
+	{
+		.description = ""
+	},
+	[1033]
+	{
+		.description = ""
+	},
+	[1034]
+	{
+		.description = ""
+	},
+	[1035]
+	{
+		.description = ""
+	},
+	[1036]
+	{
+		.description = ""
+	},
+	[1037]
+	{
+		.description = ""
+	},
+	[1038]
+	{
+		.description = ""
+	},
+	[1039]
+	{
+		.description = ""
+	},
+	[1040]
+	{
+		.description = ""
+	},
+	[1041]
+	{
+		.description = ""
+	},
+	[1042]
+	{
+		.description = ""
+	},
+	[1043]
+	{
+		.description = ""
+	},
+	[1044]
+	{
+		.description = ""
+	},
+	[1045]
+	{
+		.description = ""
+	},
+	[1046]
+	{
+		.description = ""
+	},
+	[1047]
+	{
+		.description = ""
+	},
+	[1048]
+	{
+		.description = ""
+	},
+	[1049]
+	{
+		.description = ""
+	},
+	[1050]
+	{
+		.description = ""
+	},
+	[1051]
+	{
+		.description = ""
+	},
+	[1052]
+	{
+		.description = ""
+	},
+	[1053]
+	{
+		.description = ""
+	},
+	[1054]
+	{
+		.description = ""
+	},
+	[1055]
+	{
+		.description = ""
+	},
+	[1056]
+	{
+		.description = ""
+	},
+	[1057]
+	{
+		.description = ""
+	},
+	[1058]
+	{
+		.description = ""
+	},
+	[1059]
+	{
+		.description = ""
+	},
+	[1060]
+	{
+		.description = ""
+	},
+	[1061]
+	{
+		.description = ""
+	},
+	[1062]
+	{
+		.description = ""
+	},
+	[1063]
+	{
+		.description = ""
+	},
+	[1064]
+	{
+		.description = ""
+	},
+	[1065]
+	{
+		.description = ""
+	},
+	[1066]
+	{
+		.description = ""
+	},
+	[1067]
+	{
+		.description = ""
+	},
+	[1068]
+	{
+		.description = ""
+	},
+	[1069]
+	{
+		.description = ""
+	},
+	[1070]
+	{
+		.description = ""
+	},
+	[1071]
+	{
+		.description = ""
+	},
+	[1072]
+	{
+		.description = ""
+	},
+	[1073]
+	{
+		.description = ""
+	},
+	[1074]
+	{
+		.description = ""
+	},
+	[1075]
+	{
+		.description = ""
+	},
+	[1076]
+	{
+		.description = ""
+	},
+	[1077]
+	{
+		.description = ""
+	},
+	[1078]
+	{
+		.description = ""
+	},
+	[1079]
+	{
+		.description = ""
+	},
+	[1080]
+	{
+		.description = ""
+	},
+	[1081]
+	{
+		.description = ""
+	},
+	[1082]
+	{
+		.description = ""
+	},
+	[1083]
+	{
+		.description = ""
+	},
+	[1084]
+	{
+		.description = ""
+	},
+	[1085]
+	{
+		.description = ""
+	},
+	[1086]
+	{
+		.description = ""
+	},
+	[1087]
+	{
+		.description = ""
+	},
+	[1088]
+	{
+		.description = ""
+	},
+	[1089]
+	{
+		.description = ""
+	},
+	[1090]
+	{
+		.description = ""
+	},
+	[1091]
+	{
+		.description = ""
+	},
+	[1092]
+	{
+		.description = ""
+	},
+	[1093]
+	{
+		.description = ""
+	},
+	[1094]
+	{
+		.description = ""
+	},
+	[1095]
+	{
+		.description = ""
+	},
+	[1096]
+	{
+		.description = ""
+	},
+	[1097]
+	{
+		.description = ""
+	},
+	[1098]
+	{
+		.description = ""
+	},
+	[1099]
+	{
+		.description = ""
+	},
+	[1100]
+	{
+		.description = ""
+	},
+	[1101]
+	{
+		.description = ""
+	},
+	[1102]
+	{
+		.description = ""
+	},
+	[1103]
+	{
+		.description = ""
+	},
+	[1104]
+	{
+		.description = ""
+	},
+	[1105]
+	{
+		.description = ""
+	},
+	[1106]
+	{
+		.description = ""
+	},
+	[1107]
+	{
+		.description = ""
+	},
+	[1108]
+	{
+		.description = ""
+	},
+	[1109]
+	{
+		.description = ""
+	},
+	[1110]
+	{
+		.description = ""
+	},
+	[1111]
+	{
+		.description = ""
+	},
+	[1112]
+	{
+		.description = ""
+	},
+	[1113]
+	{
+		.description = ""
+	},
+	[1114]
+	{
+		.description = ""
+	},
+	[1115]
+	{
+		.description = ""
+	},
+	[1116]
+	{
+		.description = ""
+	},
+	[1117]
+	{
+		.description = ""
+	},
+	[1118]
+	{
+		.description = ""
+	},
+	[1119]
+	{
+		.description = ""
+	},
+	[1120]
+	{
+		.description = ""
+	},
+	[1121]
+	{
+		.description = ""
+	},
+	[1122]
+	{
+		.description = ""
+	},
+	[1123]
+	{
+		.description = ""
+	},
+	[1124]
+	{
+		.description = ""
+	},
+	[1125]
+	{
+		.description = ""
+	},
+	[1126]
+	{
+		.description = ""
+	},
+	[1127]
+	{
+		.description = ""
+	},
+	[1128]
+	{
+		.description = ""
+	},
+	[1129]
+	{
+		.description = ""
+	},
+	[1130]
+	{
+		.description = ""
+	},
+	[1131]
+	{
+		.description = ""
+	},
+	[1132]
+	{
+		.description = ""
+	},
+	[1133]
+	{
+		.description = ""
+	},
+	[1134]
+	{
+		.description = ""
+	},
+	[1135]
+	{
+		.description = ""
+	},
+	[1136]
+	{
+		.description = ""
+	},
+	[1137]
+	{
+		.description = ""
+	},
+	[1138]
+	{
+		.description = ""
+	},
+	[1139]
+	{
+		.description = ""
+	},
+	[1140]
+	{
+		.description = ""
+	},
+	[1141]
+	{
+		.description = ""
+	},
+	[1142]
+	{
+		.description = ""
+	},
+	[1143]
+	{
+		.description = ""
+	},
+	[1144]
+	{
+		.description = ""
+	},
+	[1145]
+	{
+		.description = ""
+	},
+	[1146]
+	{
+		.description = ""
+	},
+	[1147]
+	{
+		.description = ""
+	},
+	[1148]
+	{
+		.description = ""
+	},
+	[1149]
+	{
+		.description = ""
+	},
+	[1150]
+	{
+		.description = ""
+	},
+	[1151]
+	{
+		.description = ""
+	},
+	[1152]
+	{
+		.description = ""
+	},
+	[1153]
+	{
+		.description = ""
+	},
+	[1154]
+	{
+		.description = ""
+	},
+	[1155]
+	{
+		.description = ""
+	},
+	[1156]
+	{
+		.description = ""
+	},
+	[1157]
+	{
+		.description = ""
+	},
+	[1158]
+	{
+		.description = ""
+	},
+	[1159]
+	{
+		.description = ""
+	},
+	[1160]
+	{
+		.description = ""
+	},
+	[1161]
+	{
+		.description = ""
+	},
+	[1162]
+	{
+		.description = ""
+	},
+	[1163]
+	{
+		.description = ""
+	},
+	[1164]
+	{
+		.description = ""
+	},
+	[1165]
+	{
+		.description = ""
+	},
+	[1166]
+	{
+		.description = ""
+	},
+	[1167]
+	{
+		.description = ""
+	},
+	[1168]
+	{
+		.description = ""
+	},
+	[1169]
+	{
+		.description = ""
+	},
+	[1170]
+	{
+		.description = ""
+	},
+	[1171]
+	{
+		.description = ""
+	},
+	[1172]
+	{
+		.description = ""
+	},
+	[1173]
+	{
+		.description = ""
+	},
+	[1174]
+	{
+		.description = ""
+	},
+	[1175]
+	{
+		.description = ""
+	},
+	[1176]
+	{
+		.description = ""
+	},
+	[1177]
+	{
+		.description = ""
+	},
+	[1178]
+	{
+		.description = ""
+	},
+	[1179]
+	{
+		.description = ""
+	},
+	[1180]
+	{
+		.description = ""
+	},
+	[1181]
+	{
+		.description = ""
+	},
+	[1182]
+	{
+		.description = ""
+	},
+	[1183]
+	{
+		.description = ""
+	},
+	[1184]
+	{
+		.description = ""
+	},
+	[1185]
+	{
+		.description = ""
+	},
+	[1186]
+	{
+		.description = ""
+	},
+	[1187]
+	{
+		.description = ""
+	},
+	[1188]
+	{
+		.description = ""
+	},
+	[1189]
+	{
+		.description = ""
+	},
+	[1190]
+	{
+		.description = ""
+	},
+	[1191]
+	{
+		.description = ""
+	},
+	[1192]
+	{
+		.description = ""
+	},
+	[1193]
+	{
+		.description = ""
+	},
+	[1194]
+	{
+		.description = ""
+	},
+	[1195]
+	{
+		.description = ""
+	},
+	[1196]
+	{
+		.description = ""
+	},
+	[1197]
+	{
+		.description = ""
+	},
+	[1198]
+	{
+		.description = ""
+	},
+	[1199]
+	{
+		.description = ""
+	},
+	[1200]
+	{
+		.description = ""
+	},
+	[1201]
+	{
+		.description = ""
+	},
+	[1202]
+	{
+		.description = ""
+	},
+	[1203]
+	{
+		.description = ""
+	},
+	[1204]
+	{
+		.description = ""
+	},
+	[1205]
+	{
+		.description = ""
+	},
+	[1206]
+	{
+		.description = ""
+	},
+	[1207]
+	{
+		.description = ""
+	},
+	[1208]
+	{
+		.description = ""
+	},
+	[1209]
+	{
+		.description = ""
+	},
+	[1210]
+	{
+		.description = ""
+	},
+	[1211]
+	{
+		.description = ""
+	},
+	[1212]
+	{
+		.description = ""
+	},
+	[1213]
+	{
+		.description = ""
+	},
+	[1214]
+	{
+		.description = ""
+	},
+	[1215]
+	{
+		.description = ""
+	},
+	[1216]
+	{
+		.description = ""
+	},
+	[1217]
+	{
+		.description = ""
+	},
+	[1218]
+	{
+		.description = ""
+	},
+	[1219]
+	{
+		.description = ""
+	},
+	[1220]
+	{
+		.description = ""
+	},
+	[1221]
+	{
+		.description = ""
+	},
+	[1222]
+	{
+		.description = ""
+	},
+	[1223]
+	{
+		.description = ""
+	},
+	[1224]
+	{
+		.description = ""
+	},
+	[1225]
+	{
+		.description = ""
+	},
+	[1226]
+	{
+		.description = ""
+	},
+	[1227]
+	{
+		.description = ""
+	},
+	[1228]
+	{
+		.description = ""
+	},
+	[1229]
+	{
+		.description = ""
+	},
+	[1230]
+	{
+		.description = ""
+	},
+	[1231]
+	{
+		.description = ""
+	},
+	[1232]
+	{
+		.description = ""
+	},
+	[1233]
+	{
+		.description = ""
+	},
+	[1234]
+	{
+		.description = ""
+	},
+	[1235]
+	{
+		.description = ""
+	},
+	[1236]
+	{
+		.description = ""
+	},
+	[1237]
+	{
+		.description = ""
+	},
+	[1238]
+	{
+		.description = ""
+	},
+	[1239]
+	{
+		.description = ""
+	},
+	[1240]
+	{
+		.description = ""
+	},
+	[1241]
+	{
+		.description = ""
+	},
+	[1242]
+	{
+		.description = ""
+	},
+	[1243]
+	{
+		.description = ""
+	},
+	[1244]
+	{
+		.description = ""
+	},
+	[1245]
+	{
+		.description = ""
+	},
+	[1246]
+	{
+		.description = ""
+	},
+	[1247]
+	{
+		.description = ""
+	},
+	[1248]
+	{
+		.description = ""
+	},
+	[1249]
+	{
+		.description = ""
+	},
+	[1250]
+	{
+		.description = ""
+	},
+	[1251]
+	{
+		.description = ""
+	},
+	[1252]
+	{
+		.description = ""
+	},
+	[1253]
+	{
+		.description = ""
+	},
+	[1254]
+	{
+		.description = ""
+	},
+	[1255]
+	{
+		.description = ""
+	},
+	[1256]
+	{
+		.description = ""
+	},
+	[1257]
+	{
+		.description = ""
+	},
+	[1258]
+	{
+		.description = ""
+	},
+	[1259]
+	{
+		.description = ""
+	},
+	[1260]
+	{
+		.description = ""
+	},
+	[1261]
+	{
+		.description = ""
+	},
+	[1262]
+	{
+		.description = ""
+	},
+	[1263]
+	{
+		.description = ""
+	},
+	[1264]
+	{
+		.description = ""
+	},
+	[1265]
+	{
+		.description = ""
+	},
+	[1266]
+	{
+		.description = ""
+	},
+	[1267]
+	{
+		.description = ""
+	},
+	[1268]
+	{
+		.description = ""
+	},
+	[1269]
+	{
+		.description = ""
+	},
+	[1270]
+	{
+		.description = ""
+	},
+	[1271]
+	{
+		.description = ""
+	},
+	[1272]
+	{
+		.description = ""
+	},
+	[1273]
+	{
+		.description = ""
+	},
+	[1274]
+	{
+		.description = ""
+	},
+	[1275]
+	{
+		.description = ""
+	},
+	[1276]
+	{
+		.description = ""
+	},
+	[1277]
+	{
+		.description = ""
+	},
+	[1278]
+	{
+		.description = ""
+	},
+	[1279]
+	{
+		.description = ""
+	},
+	[1280]
+	{
+		.description = ""
+	},
+	[1281]
+	{
+		.description = ""
+	},
+	[1282]
+	{
+		.description = ""
+	},
+	[1283]
+	{
+		.description = ""
+	},
+	[1284]
+	{
+		.description = ""
+	},
+	[1285]
+	{
+		.description = ""
+	},
+	[1286]
+	{
+		.description = ""
+	},
+	[1287]
+	{
+		.description = ""
+	},
+	[1288]
+	{
+		.description = ""
+	},
+	[1289]
+	{
+		.description = ""
+	},
+	[1290]
+	{
+		.description = ""
+	},
+	[1291]
+	{
+		.description = ""
+	},
+	[1292]
+	{
+		.description = ""
+	},
+	[1293]
+	{
+		.description = ""
+	},
+	[1294]
+	{
+		.description = ""
+	},
+	[1295]
+	{
+		.description = ""
+	},
+	[1296]
+	{
+		.description = ""
+	},
+	[1297]
+	{
+		.description = ""
+	},
+	[1298]
+	{
+		.description = ""
+	},
+	[1299]
+	{
+		.description = ""
+	},
+	[1300]
+	{
+		.description = ""
+	},
+	[1301]
+	{
+		.description = ""
+	},
+	[1302]
+	{
+		.description = ""
+	},
+	[1303]
+	{
+		.description = ""
+	},
+	[1304]
+	{
+		.description = ""
+	},
+	[1305]
+	{
+		.description = ""
+	},
+	[1306]
+	{
+		.description = ""
+	},
+	[1307]
+	{
+		.description = ""
+	},
+	[1308]
+	{
+		.description = ""
+	},
+	[1309]
+	{
+		.description = ""
+	},
+	[1310]
+	{
+		.description = ""
+	},
+	[1311]
+	{
+		.description = ""
+	},
+	[1312]
+	{
+		.description = ""
+	},
+	[1313]
+	{
+		.description = ""
+	},
+	[1314]
+	{
+		.description = ""
+	},
+	[1315]
+	{
+		.description = ""
+	},
+	[1316]
+	{
+		.description = ""
+	},
+	[1317]
+	{
+		.description = ""
+	},
+	[1318]
+	{
+		.description = ""
+	},
+	[1319]
+	{
+		.description = ""
+	},
+	[1320]
+	{
+		.description = ""
+	},
 };
