@@ -11,7 +11,7 @@ import shutil
 import math
 
 SOURCE_ROM = "OI.gba"
-OFFSET_TO_PUT = 0x1000000
+OFFSET_TO_PUT = 0x1F87850
 
 def ChangeFileLine(filePath: str, lineToChange: int, replacement: str):
     with open(filePath, 'r') as file:
