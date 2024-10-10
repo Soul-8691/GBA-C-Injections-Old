@@ -1,0 +1,20 @@
+#org @string1
+This tree looks like it can be CUT\ndown!\pWould you like to CUT it?
+
+#org @string2
+[FD][02] used [FD][03]!
+
+#org @string3
+This tree looks like it can be CUT\ndown!
+
+#org @Fly
+FLY
+
+#org @Map
+A MAP of the region. Used for FLY.
+
+#org @_1A556E
+The water is dyed a deep blue[.]\nWould you like to SURF?
+
+#org @_1A55A5
+[FD][02] used SURF!
