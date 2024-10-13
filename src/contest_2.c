@@ -29,7 +29,7 @@
 
 #include "../include/contest_internal.h"
 
-u16 SanitizeSpecies(u16 species)
+u16 SanitizeSpecies_(u16 species)
 {
     if (species >= NUM_SPECIES)
         species = SPECIES_NONE;

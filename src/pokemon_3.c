@@ -28,7 +28,7 @@
 #include "../include/util.h"
 #include "../include/ewram.h"
 
-const u8 *GetMonSpritePalFromOtIdPersonality(u16 species, u32 otId, u32 personality)
+const u8 *GetMonSpritePalFromOtIdPersonality_(u16 species, u32 otId, u32 personality)
 {
     u32 shinyValue;
 

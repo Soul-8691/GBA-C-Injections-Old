@@ -5,7 +5,7 @@
 #include "../include/text.h"
 #include "../include/ewram.h"
 
-void DecompressPicFromTable_2(const struct CompressedSpriteSheet *src, u8 coords, u8 y_offset, void *d, void *dest, s32 species)
+void DecompressPicFromTable_2_(const struct CompressedSpriteSheet *src, u8 coords, u8 y_offset, void *d, void *dest, s32 species)
 {
     if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
         LZ77UnCompWram(gMonFrontPicTable[0].data, dest);
@@ -13,7 +13,7 @@ void DecompressPicFromTable_2(const struct CompressedSpriteSheet *src, u8 coords
         LZ77UnCompWram(src->data, dest);
 }
 
-void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, u32 b, u32 c,
+void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, u32 b, u32 c,
     void *decompBuffer, void *dest, s32 species, u32 pid, u32 frontOrBack)
 {
     u8 frontOrBack8 = frontOrBack;

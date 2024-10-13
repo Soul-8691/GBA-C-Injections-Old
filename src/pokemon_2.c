@@ -18,7 +18,7 @@
 #include "../include/util.h"
 #include "../include/ewram.h"
 
-void GetSpeciesName(u8 *name, u16 species)
+void GetSpeciesName_(u8 *name, u16 species)
 {
     s32 i;
 

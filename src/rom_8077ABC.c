@@ -16,6 +16,9 @@
 #include "../include/util.h"
 #include "../include/ewram.h"
 
+// #include "data/pokemon_graphics/front_pic_coordinates.c"
+// #include "data/pokemon_graphics/back_pic_coordinates.c"
+
 #define GET_UNOWN_LETTER(personality) ((\
       (((personality & 0x03000000) >> 24) << 6) \
     | (((personality & 0x00030000) >> 16) << 4) \
@@ -61,7 +64,7 @@ extern u32 gTransformedPersonalities[];
 #define gBattleMonPartyPositions gBattlerPartyIndexes
 #define gTransformPersonalities gTransformedPersonalities
 
-u8 sub_8077BFC(u8 slot, u16 species)
+u8 sub_8077BFC_(u8 slot, u16 species)
 {
     u16 letter;
     u32 personality;
@@ -140,7 +143,7 @@ u8 sub_8077BFC(u8 slot, u16 species)
     return ret;
 }
 
-u8 sub_8077DD8(u8 slot, u16 species)
+u8 sub_8077DD8_(u8 slot, u16 species)
 {
     u8 ret = 0;
     if (GetBattlerSide(slot) == 1)
@@ -158,7 +161,7 @@ u8 sub_8077DD8(u8 slot, u16 species)
     return ret;
 }
 
-s16 GetBattlerSpriteCoordAttr(u8 slot, u8 a2)
+s16 GetBattlerSpriteCoordAttr_(u8 slot, u8 a2)
 {
     u16 species;
     u32 personality;
@@ -294,7 +297,7 @@ s16 GetBattlerSpriteCoordAttr(u8 slot, u8 a2)
     }
 }
 
-void SetAverageBattlerPositions(u8 slot, bool8 a2, s16 *x, s16 *y)
+void SetAverageBattlerPositions_(u8 slot, bool8 a2, s16 *x, s16 *y)
 {
     u8 v1, v2;
     s16 v3, v4;

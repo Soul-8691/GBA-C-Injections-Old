@@ -1,2 +1,15 @@
 #include "src/config.h"
 
+sub_8010384_ 8010384 1
+SanitizeSpecies_ 80b2778 1
+GetEggSpecies_ 8041870 1
+GetSpeciesName_ 803dda0 2
+sub_8077BFC_ 8077BFC 2
+sub_8077DD8_ 8077DD8 2
+GetBattlerSpriteCoordAttr_ 807a100 2
+SetAverageBattlerPositions_ 807a3fc 4
+DecompressPicFromTable_2_ 800d308 7
+LoadSpecialPokePic_ 800d378 3
+GetMonSpritePalFromOtIdPersonality_ 804093c 3
+CreateMonIcon_ 809d2fc 6
+mon_icon_convert_unown_species_id_ 809d434 2

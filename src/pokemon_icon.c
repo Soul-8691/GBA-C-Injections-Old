@@ -90,7 +90,7 @@ static const union AffineAnimCmd *const sMonIconAffineAnims[] =
 
 extern const u8 gMonIconPaletteIndices[];
 
-u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, u32 personality)
+u8 CreateMonIcon_(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, u32 personality)
 {
     u8 spriteId;
     struct MonIconSpriteTemplate iconTemplate =
@@ -113,7 +113,7 @@ u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u
     return spriteId;
 }
 
-u16 mon_icon_convert_unown_species_id(u16 species, u32 personality)
+u16 mon_icon_convert_unown_species_id_(u16 species, u32 personality)
 {
     u16 result;
 

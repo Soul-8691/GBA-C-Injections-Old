@@ -53,7 +53,7 @@ extern u16 gBattlerPartyIndexes[];
 extern const struct MonCoords gCastformFrontSpriteCoords[];
 extern u8 gBattleMonForms[];
 
-void sub_8010384(struct Sprite *sprite)
+void sub_8010384_(struct Sprite *sprite)
 {
     u8 r6 = sprite->data[0];
     u16 species;
