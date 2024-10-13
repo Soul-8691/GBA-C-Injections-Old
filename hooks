@@ -4,7 +4,8 @@ sub_8010384_ 8010384 1
 SanitizeSpecies_ 80b2778 1
 GetEggSpecies_ 8041870 1
 GetSpeciesName_ 803dda0 2
-sub_8077BFC_ 8077BFC 2
+GetBattlerSpriteFinal_Y_ 8077e44 3
+##sub_8077BFC_ 8077BFC 2
 sub_8077DD8_ 8077DD8 2
 GetBattlerSpriteCoordAttr_ 807a100 2
 SetAverageBattlerPositions_ 807a3fc 4

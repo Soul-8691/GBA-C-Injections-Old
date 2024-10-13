@@ -64,6 +64,30 @@ extern u32 gTransformedPersonalities[];
 #define gBattleMonPartyPositions gBattlerPartyIndexes
 #define gTransformPersonalities gTransformedPersonalities
 
+struct Struct_gUnknown_0837F578
+{
+    u8 field_0;
+    u8 field_1;
+};
+
+const struct Struct_gUnknown_0837F578 gUnknown_0837F578[][4] =
+{
+    {
+        { 72, 80 },
+        { 176, 40 },
+        { 48, 40 },
+        { 112, 80 },
+    },
+    {
+        { 32, 80 },
+        { 200, 40 },
+        { 90, 88 },
+        { 152, 32 },
+    },
+};
+
+#define IS_DOUBLE_BATTLE() ((gBattleTypeFlags & BATTLE_TYPE_DOUBLE) ? TRUE : FALSE)
+
 u8 sub_8077BFC_(u8 slot, u16 species)
 {
     u16 letter;
@@ -141,6 +165,31 @@ u8 sub_8077BFC_(u8 slot, u16 species)
         }
     }
     return ret;
+}
+
+u8 GetBattlerSpriteFinal_Y_(u8 slot, u16 species, u8 a3)
+{
+    u16 offset;
+    u8 y;
+
+    if (GetBattlerSide(slot) == 0 || IsContest())
+    {
+        offset = sub_8077BFC_(slot, species);
+    }
+    else
+    {
+        offset = sub_8077BFC_(slot, species);
+        offset -= sub_8077DD8(slot, species);
+    }
+    y = offset + gUnknown_0837F578[IS_DOUBLE_BATTLE()][GetBattlerPosition(slot)].field_1;
+    if (a3)
+    {
+        if (GetBattlerSide(slot) == 0)
+            y += 8;
+        if (y > 104)
+            y = 104;
+    }
+    return y;
 }
 
 u8 sub_8077DD8_(u8 slot, u16 species)
