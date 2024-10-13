@@ -30,6 +30,7 @@
         "maps.h": "c",
         "battle_string_ids.h": "c",
         "text.h": "c",
-        "ewram.h": "c"
+        "ewram.h": "c",
+        "random": "c"
     }
 }

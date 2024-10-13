@@ -9,7 +9,7 @@ sub_8077DD8_ 8077DD8 2
 GetBattlerSpriteCoordAttr_ 807a100 2
 SetAverageBattlerPositions_ 807a3fc 6
 DecompressPicFromTable_2_ 800d308 7
-LoadSpecialPokePic_ 800d378 3
+LoadSpecialPokePic_ 800d378 6
 GetMonSpritePalFromOtIdPersonality_ 804093c 3
 CreateMonIcon_ 809d2fc 6
 mon_icon_convert_unown_species_id_ 809d434 2

@@ -18,7 +18,7 @@ void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, u32 b, u32 c,
 {
     u8 frontOrBack8 = frontOrBack;
 
-    if (species == SPECIES_UNOWN)
+    /*if (species == SPECIES_UNOWN)
     {
         u16 i = (((pid & 0x3000000) >> 18) | ((pid & 0x30000) >> 12) | ((pid & 0x300) >> 6) | (pid & 3)) % 0x1C;
 
@@ -33,7 +33,7 @@ void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, u32 b, u32 c,
         else
             LZ77UnCompWram(gMonFrontPicTable[i].data, dest);
     }
-    else if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK) // is species unknown? draw the ? icon
+    else */if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK) // is species unknown? draw the ? icon
         LZ77UnCompWram(gMonFrontPicTable[0].data, dest);
     else
         LZ77UnCompWram(src->data, dest);

@@ -167,31 +167,6 @@ u8 sub_8077BFC_(u8 slot, u16 species)
     return ret;
 }
 
-u8 GetBattlerSpriteFinal_Y_(u8 slot, u16 species, u8 a3)
-{
-    u16 offset;
-    u8 y;
-
-    if (GetBattlerSide(slot) == 0 || IsContest())
-    {
-        offset = sub_8077BFC_(slot, species);
-    }
-    else
-    {
-        offset = sub_8077BFC_(slot, species);
-        offset -= sub_8077DD8(slot, species);
-    }
-    y = offset + gUnknown_0837F578[IS_DOUBLE_BATTLE()][GetBattlerPosition(slot)].field_1;
-    if (a3)
-    {
-        if (GetBattlerSide(slot) == 0)
-            y += 8;
-        if (y > 104)
-            y = 104;
-    }
-    return y;
-}
-
 u8 sub_8077DD8_(u8 slot, u16 species)
 {
     u8 ret = 0;
@@ -208,6 +183,31 @@ u8 sub_8077DD8_(u8 slot, u16 species)
         }
     }
     return ret;
+}
+
+u8 GetBattlerSpriteFinal_Y_(u8 slot, u16 species, u8 a3)
+{
+    u16 offset;
+    u8 y;
+
+    if (GetBattlerSide(slot) == 0 || IsContest())
+    {
+        offset = sub_8077BFC_(slot, species);
+    }
+    else
+    {
+        offset = sub_8077BFC_(slot, species);
+        offset -= sub_8077DD8_(slot, species);
+    }
+    y = offset + gUnknown_0837F578[IS_DOUBLE_BATTLE()][GetBattlerPosition(slot)].field_1;
+    if (a3)
+    {
+        if (GetBattlerSide(slot) == 0)
+            y += 8;
+        if (y > 104)
+            y = 104;
+    }
+    return y;
 }
 
 s16 GetBattlerSpriteCoordAttr_(u8 slot, u8 a2)
@@ -376,4 +376,82 @@ void SetAverageBattlerPositions_(u8 slot, bool8 a2, s16 *x, s16 *y)
     }
     *x = (v3 + v5) / 2;
     *y = (v4 + v6) / 2;
+}
+
+const struct SpriteTemplate gSpriteTemplate_837F5B0[] =
+{
+    {
+        .tileTag = 55125,
+        .paletteTag = 55125,
+        .oam = &gOamData_837DF9C,
+        .anims = gDummySpriteAnimTable,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    },
+    {
+        .tileTag = 55126,
+        .paletteTag = 55126,
+        .oam = &gOamData_837DF9C,
+        .anims = gDummySpriteAnimTable,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    }
+};
+
+const struct SpriteSheet gUnknown_0837F5E0[] =
+{
+    { gMiscBlank_Gfx, 0x800, 55125, },
+    { gMiscBlank_Gfx, 0x800, 55126, },
+};
+
+u8 sub_8079F44_(u16 species, bool8 isBackpic, u8 a3, s16 a4, s16 a5, u8 a6, u32 a7, u32 a8)
+{
+    u8 sprite;
+    u16 sheet = LoadSpriteSheet(&gUnknown_0837F5E0[a3]);
+    u16 palette = AllocSpritePalette(gSpriteTemplate_837F5B0[a3].paletteTag);
+
+    if (!isBackpic)
+    {
+        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
+        LoadSpecialPokePic(
+            &gMonFrontPicTable[species],
+            gMonFrontPicCoords[species].coords,
+            gMonFrontPicCoords[species].y_offset,
+            (void *)EWRAM,
+            (void *)EWRAM,
+            species,
+            a7,
+            1
+        );
+    }
+    else
+    {
+        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
+        LoadSpecialPokePic(
+            &gMonBackPicTable[species],
+            gMonBackPicCoords[species].coords,
+            gMonBackPicCoords[species].y_offset,
+            (void *)EWRAM,
+            (void *)EWRAM,
+            species,
+            a7,
+            0
+        );
+    }
+
+    DmaCopy32Defvars(3, (void *)EWRAM, (void *)(OBJ_VRAM0 + (sheet * 0x20)), 0x800);
+
+    if (!isBackpic)
+        sprite = CreateSprite(&gSpriteTemplate_837F5B0[a3], a4, a5 + gMonFrontPicCoords[species].y_offset, a6);
+    else
+        sprite = CreateSprite(&gSpriteTemplate_837F5B0[a3], a4, a5 + gMonBackPicCoords[species].y_offset, a6);
+
+    if (IsContest())
+    {
+        gSprites[sprite].affineAnims = gAffineAnims_BattleSpriteContest;
+        StartSpriteAffineAnim(&gSprites[sprite], 0);
+    }
+    return sprite;
 }

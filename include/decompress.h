@@ -14,6 +14,8 @@ void HandleLoadSpecialPokePic(const struct CompressedSpriteSheet *src, u32 coord
     void *decompBuf, void *dest, s32 species, u32 pid);
 void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, u32 b, u32 c,
     void *decompBuffer, void *dest, s32 species, u32 pid, u32 frontOrBack);
+void LoadSpecialPokePic_(const struct CompressedSpriteSheet *src, u32 b, u32 c,
+    void *decompBuffer, void *dest, s32 species, u32 pid, u32 frontOrBack);
 void Unused_LZDecompressWramIndirect(const void **src, void *dest);
 
 #endif // GUARD_DECOMPRESS_H
