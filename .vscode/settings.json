@@ -27,6 +27,7 @@
         "menu_indicators.h": "c",
         "sound.h": "c",
         "data.h": "c",
-        "maps.h": "c"
+        "maps.h": "c",
+        "battle_string_ids.h": "c"
     }
 }
