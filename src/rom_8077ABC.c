@@ -245,10 +245,6 @@ s16 GetBattlerSpriteCoordAttr_(u8 slot, u8 a2)
         {
             coords = &gCastformFrontSpriteCoords[gBattleMonForms[slot]];
         }
-        else if (species <= SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-        {
-            coords = &gMonBackPicCoords[species];
-        }
         else
         {
             coords = &gMonBackPicCoords[0];
@@ -277,10 +273,6 @@ s16 GetBattlerSpriteCoordAttr_(u8 slot, u8 a2)
                 else
                     var = letter + SPECIES_UNOWN_B - 1;
                 coords = &gMonBackPicCoords[var];
-            }
-            else if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-            {
-                coords = &gMonBackPicCoords[0];
             }
             else
             {
@@ -312,10 +304,6 @@ s16 GetBattlerSpriteCoordAttr_(u8 slot, u8 a2)
             else if (species == SPECIES_CASTFORM)
             {
                 coords = &gCastformFrontSpriteCoords[gBattleMonForms[slot]];
-            }
-            else if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-            {
-                coords = &gMonFrontPicCoords[0];
             }
             else
             {
@@ -414,7 +402,7 @@ u8 sub_8079F44_(u16 species, bool8 isBackpic, u8 a3, s16 a4, s16 a5, u8 a6, u32 
 
     if (!isBackpic)
     {
-        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
+        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality_(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
         LoadSpecialPokePic(
             &gMonFrontPicTable[species],
             gMonFrontPicCoords[species].coords,
@@ -428,7 +416,7 @@ u8 sub_8079F44_(u16 species, bool8 isBackpic, u8 a3, s16 a4, s16 a5, u8 a6, u32 
     }
     else
     {
-        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
+        LoadCompressedPalette(GetMonSpritePalFromOtIdPersonality_(species, a8, a7), (palette * 0x10) + 0x100, 0x20);
         LoadSpecialPokePic(
             &gMonBackPicTable[species],
             gMonBackPicCoords[species].coords,

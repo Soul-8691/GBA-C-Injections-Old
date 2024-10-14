@@ -103,9 +103,6 @@ u8 CreateMonIcon_(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, 
         .paletteTag = POKE_ICON_BASE_PAL_TAG + gMonIconPaletteIndices[species],
     };
 
-    if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-        iconTemplate.paletteTag = POKE_ICON_BASE_PAL_TAG;
-
     spriteId = CreateMonIconSprite(&iconTemplate, x, y, subpriority);
 
     UpdateMonIconFrame(&gSprites[spriteId]);
@@ -128,10 +125,7 @@ u16 mon_icon_convert_unown_species_id_(u16 species, u32 personality)
     }
     else
     {
-        if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-            result = 260;
-        else
-            result = species;
+        result = species;
     }
 
     return result;

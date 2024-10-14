@@ -32,9 +32,6 @@ const u8 *GetMonSpritePalFromOtIdPersonality_(u16 species, u32 otId, u32 persona
 {
     u32 shinyValue;
 
-    if (species > SPECIES_EGG && species <= SPECIES_UNOWN_QMARK)
-        return gMonPaletteTable[0].data;
-
     shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
     if (shinyValue < 8)
         return gMonShinyPaletteTable[species].data;

@@ -70,12 +70,7 @@ void sub_8010384_(struct Sprite *sprite)
     {
         u32 personalityValue = GetMonData(&gEnemyParty[gBattlerPartyIndexes[r6]], MON_DATA_PERSONALITY);
         u16 unownForm = ((((personalityValue & 0x3000000) >> 18) | ((personalityValue & 0x30000) >> 12) | ((personalityValue & 0x300) >> 6) | (personalityValue & 3)) % 0x1C);
-        u16 unownSpecies;
-
-        if (unownForm == 0)
-            unownSpecies = SPECIES_UNOWN;  // Use the A Unown form
-        else
-            unownSpecies = SPECIES_EGG + unownForm;  // Use one of the other Unown letters
+        u16 unownSpecies  = SPECIES_UNOWN;  // Use the A Unown form
 
         yOffset = gMonFrontPicCoords[unownSpecies].y_offset;
     }
