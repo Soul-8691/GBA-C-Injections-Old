@@ -1,194 +1,170 @@
-+"Alba-Lenatus the Abyss Dragon"
-+"Albion the Branded Dragon"
-+"Albion the Sanctifire Dragon"
-+"Aleister the Invoker"
-+"Alien Shocktrooper"
-+"Ally of Justice Clausolas"
-+"Amorphactor Pain, the Imagination Dracoverlord"
-+"Amorphous Persona"
-+"Amphibian Beast"
-+"Amulet Dragon"
-+"Archfiend Soldier"
-+"Archfiend's Awakening"
-+"Archfiend's Manifestation"
-+"Battle Footballer"
-+"Beast of Talwar"
-+"Beckoned by the World Chalice"
-+"Bitron"
-+"Blazing Cartesia, the Virtuous"
-+"Blazing Inpachi"
-+"Blowback Dragon"
-+"Blue-Eyes Chaos Dragon"
-+"Blue-Eyes Twin Burst Dragon"
-+"Blue-Eyes Tyrant Dragon"
-+"Borreload Riot Dragon"
-+"Brigrand the Glory Dragon"
-+"Bunilla"
-+"Buster Blader, the Dragon Destroyer Swordsman"
-+"Cerulean Sacred Phoenix of Nephthys"
-+"Chamberlain of the Six Samurai"
-+"Chaos Form"
-+"Charcoal Inpachi"
-+"Clavkiys, the Magikey Skyblaster"
-+"Conductor of Nephthys"
-+"Contract with the Abyss"
-+"Crowned by the World Chalice"
-+"Curse of the Masked Beast"
-+"Cyber Dragon"
-+"Cyber Ogre"
-+"Cyber Ogre 2"
-+"Cyber Twin Dragon"
-+"D.D. Trainer"
-+"Dark Blade"
-+"Dark Cavalry"
-+"Dark Magician Girl the Dragon Knight"
-+"Dark Magician the Dragon Knight"
-+"Dark Magician the Knight of Dragon Magic"
-+"Dark Paladin"
-+"Darklord Marie"
-+"Dawn of the Herald"
-+"Divine Dragon Ragnarok"
-+"Divine Grace - Northwemko"
-+"Dogmatikamacabre"
-+"Earthbound Spirit"
-+"Elemental HERO Clayman"
-+"Empress Mantis"
-+"Evigishki Mind Augus"
-+"Evigishki Soul Ogre"
-+"Evigishki Tetrogre"
-+"Evilswarm Heliotrope"
-+"Fallen of Albaz"
-+"Frostosaurus"
-+"Gagagigo"
-+"Gatling Dragon"
-+"Gearfried the Red-Eyes Iron Knight"
-+"Gem-Knight Garnet"
-+"Gem-Knight Garnet"
-+"Gem-Knight Ruby"
-+"Gem-Knight Sapphire"
-+"Giga Gagagigo"
-+"Gil Garth"
-+"Girochin Kuwagata"
-+"Gishki Nekromirror"
-+"Gishki Nekromirror"
-+"Gishki Nekromirror"
-+"Gladiator Beast Andal"
-+"Good & Evil in the Burning Abyss"
-+"Granguignol the Dusk Dragon"
-+"Grapha, Dragon Lord of Dark World"
-+"Grapha, Dragon Overlord of Dark World"
-+"Great Angus"
-+"Heavy Interlock"
-+"Herald of Perfection"
-+"Humanoid Slime"
-+"Hunter Dragon"
-+"Hymn of Light"
-+"Inpachi"
-+"Insect Knight"
-+"Invoked Augoeides"
-+"Invoked Purgatrio"
-+"Island Turtle"
-+"Jerry Beans Man"
-+"Kabazauls"
-+"King Dragun"
-+"Legendary Dueling Field"
-+"Libromancer Bonded"
-+"Libromancer Bonded"
-+"Libromancer Doombroker"
-+"Libromancer Fireburst"
-+"Light Bringer Lucifer"
-+"Lubellion the Searing Dragon"
-+"Luster Dragon"
-+"Luster Dragon #2"
-+"Mad Dog of Darkness"
-+"Mad Lobster"
-+"Magikey Maftea"
-+"Magikey Maftea"
-+"Magikey Mechmortar - Garesglasser"
-+"Magikey Mechmusket - Batosbuster"
-+"Malacoda, Netherlord of the Burning Abyss"
-+"Master Kyonshee"
-+"Master of Chaos"
-+"Megalith Aratron"
-+"Megalith Hagith"
-+"Megalith Och"
-+"Megalith Ophiel"
-+"Megalith Phul"
-+"Megalith Unformed"
-+"Megalith Unformed"
-+"Megalith Unformed"
-+"Megalith Unformed"
-+"Megalith Unformed"
-+"Melffy Rabby"
-+"Mirrorjade the Iceblade Dragon"
-+"Nekroz Kaleidoscope"
-+"Nekroz Kaleidoscope"
-+"Nekroz Kaleidoscope"
-+"Nekroz of Clausolas"
-+"Nekroz of Unicore"
-+"Nekroz of Valkyrus"
-+"Neo Aqua Madoor"
-+"Neo Bug"
-+"Nin-Ken Dog"
-+"Noble Knight Artorigus"
-+"Odd-Eyes Advent"
-+"Odd-Eyes Gravity Dragon"
-+"Oppressed People"
-+"Opticlops"
-+"Primal Cry"
-+"PSY-Frame Driver"
-+"Rebirth of Nephthys"
-+"Rebirth of Nephthys"
-+"Red-Eyes Dark Dragoon"
-+"Red-Eyes Slash Dragon"
-+"Renge, Gatekeeper of Dark World"
-+"Revendread Executor"
-+"Revendread Origin"
-+"Revendread Origin"
-+"Revendread Origin"
-+"Revendread Origin"
-+"Rindbrumm the Striking Dragon"
-+"Rise of the Salamangreat"
-+"Ritual of Grace"
-+"Sabersaurus"
-+"Saffira, Queen of Dragons"
-+"Salamangreat Emerald Eagle"
-+"Sauravis, the Ancient and Ascended"
-+"Sea Serpent Warrior of Darkness"
-+"Shinato, King of a Higher Plane"
-+"Shinato's Ark"
-+"Shinobaron Peacock"
-+"Shinobaroness Peacock"
-+"Shinobird's Calling"
-+"Shinobird's Calling"
-+"Skull Dog Marron"
-+"Sonic Duck"
-+"Sonic Tracker"
-+"Soul Tiger"
-+"Space Mambo"
-+"Sprind the Irondash Dragon"
-+"Sprite's Blessing"
-+"St. Joan"
-+"Terrorking Salmon"
-+"The Dark Magicians"
-+"The Dragon Dwelling in the Cave"
-+"The Forgiving Maiden"
-+"The King of D."
-+"The Masked Beast"
-+"Titaniklad the Ash Dragon"
-+"Trance the Magic Swordsman"
-+"Transonic Bird"
-+"Vendread Battlelord"
-+"Vendread Chimera"
-+"Vendread Scavenger"
-+"Vennu, Bright Bird of Divinity"
-+"Venom Cobra"
-+"Warrior Dai Grepher"
-+"Wattaildragon"
-+"White Relic of Dogmatika"
-+"Wolf Axwielder"
-+"X-Head Cannon"
-+"X-Saber Anu Piranha"
-+"XZ-Tank Cannon"
-+"Z-Metal Tank"
-+"Zure, Knight of Dark World"
+	"graphics/Resize/30000YearWhiteTurtle.gbapal",
+	"graphics/Resize/AbsoluteKingMegaplunder.gbapal",
+	"graphics/Resize/AcrobatMonkey.gbapal",
+	"graphics/Resize/AlexandriteDragon.gbapal",
+	"graphics/Resize/AlienShocktrooper.gbapal",
+	"graphics/Resize/AllyofJusticeClausolas.gbapal",
+	"graphics/Resize/AmphibianBeast.gbapal",
+	"graphics/Resize/AncientSorcerer.gbapal",
+	"graphics/Resize/AncientTreeofEnlightenment.gbapal",
+	"graphics/Resize/AnotherverseDragon.gbapal",
+	"graphics/Resize/AnotherverseGluttonia.gbapal",
+	"graphics/Resize/AnotherverseSolaria.gbapal",
+	"graphics/Resize/ArchfiendSoldier.gbapal",
+	"graphics/Resize/AtlanteanPikeman.gbapal",
+	"graphics/Resize/BaronoftheFiendSword.gbapal",
+	"graphics/Resize/BattleFootballer.gbapal",
+	"graphics/Resize/BeastofTalwar.gbapal",
+	"graphics/Resize/BeckonedbytheWorldChalice.gbapal",
+	"graphics/Resize/BigKoala.gbapal",
+	"graphics/Resize/Bitron.gbapal",
+	"graphics/Resize/BladeSkater.gbapal",
+	"graphics/Resize/BlazingInpachi.gbapal",
+	"graphics/Resize/Blocker.gbapal",
+	"graphics/Resize/BoulderTortoise.gbapal",
+	"graphics/Resize/BraveScizzar.gbapal",
+	"graphics/Resize/Bunilla.gbapal",
+	"graphics/Resize/ChamberlainoftheSixSamurai.gbapal",
+	"graphics/Resize/CharcoalInpachi.gbapal",
+	"graphics/Resize/ChosenbytheWorldChalice.gbapal",
+	"graphics/Resize/ChuSketheMouseFighter.gbapal",
+	"graphics/Resize/ClavkiystheMagikeySkyblaster.gbapal",
+	"graphics/Resize/CrownedbytheWorldChalice.gbapal",
+	"graphics/Resize/CyberSoldierofDarkworld.gbapal",
+	"graphics/Resize/DDTrainer.gbapal",
+	"graphics/Resize/DarkBlade.gbapal",
+	"graphics/Resize/DarkTitanofTerror.gbapal",
+	"graphics/Resize/Digitron.gbapal",
+	"graphics/Resize/DivineDragonRagnarok.gbapal",
+	"graphics/Resize/EarthboundSpirit.gbapal",
+	"graphics/Resize/ElementalHEROBurstinatrix.gbapal",
+	"graphics/Resize/ElementalHEROClayman.gbapal",
+	"graphics/Resize/ElementalHERONeos.gbapal",
+	"graphics/Resize/ElementalHEROSparkman.gbapal",
+	"graphics/Resize/EmpressMantis.gbapal",
+	"graphics/Resize/EvilswarmHeliotrope.gbapal",
+	"graphics/Resize/FairyoftheFountain.gbapal",
+	"graphics/Resize/FairysGift.gbapal",
+	"graphics/Resize/FlyingPenguin.gbapal",
+	"graphics/Resize/Frostosaurus.gbapal",
+	"graphics/Resize/GadgetSoldier.gbapal",
+	"graphics/Resize/Gagagigo.gbapal",
+	"graphics/Resize/GemKnightCrystal.gbapal",
+	"graphics/Resize/GemKnightGarnet.gbapal",
+	"graphics/Resize/GemKnightLapis.gbapal",
+	"graphics/Resize/GemKnightSapphire.gbapal",
+	"graphics/Resize/GemKnightTourmaline.gbapal",
+	"graphics/Resize/GeneWarpedWarwolf.gbapal",
+	"graphics/Resize/GigaGagagigo.gbapal",
+	"graphics/Resize/GilGarth.gbapal",
+	"graphics/Resize/GirochinKuwagata.gbapal",
+	"graphics/Resize/GladiatorBeastAndal.gbapal",
+	"graphics/Resize/GogigaGagagigo.gbapal",
+	"graphics/Resize/Golgoil.gbapal",
+	"graphics/Resize/GorgonEgg.gbapal",
+	"graphics/Resize/Gradius.gbapal",
+	"graphics/Resize/GrandTikiElder.gbapal",
+	"graphics/Resize/GreatAngus.gbapal",
+	"graphics/Resize/GunkanSushipShari.gbapal",
+	"graphics/Resize/HeadlessKnight.gbapal",
+	"graphics/Resize/HieraticSealoftheSunDragonOverlord.gbapal",
+	"graphics/Resize/HumanoidSlime.gbapal",
+	"graphics/Resize/HunterDragon.gbapal",
+	"graphics/Resize/IgnihorseDragonith.gbapal",
+	"graphics/Resize/Inpachi.gbapal",
+	"graphics/Resize/InsectKnight.gbapal",
+	"graphics/Resize/IslandTurtle.gbapal",
+	"graphics/Resize/JerryBeansMan.gbapal",
+	"graphics/Resize/JobChangeMirror.gbapal",
+	"graphics/Resize/JongleurGhoulIllusionist.gbapal",
+	"graphics/Resize/Kabazauls.gbapal",
+	"graphics/Resize/KappaAvenger.gbapal",
+	"graphics/Resize/LegendaryDuelingField.gbapal",
+	"graphics/Resize/Leotron.gbapal",
+	"graphics/Resize/LightBringerLucifer.gbapal",
+	"graphics/Resize/Lisark.gbapal",
+	"graphics/Resize/LusterDragon.gbapal",
+	"graphics/Resize/LusterDragon2.gbapal",
+	"graphics/Resize/MadDogofDarkness.gbapal",
+	"graphics/Resize/MadLobster.gbapal",
+	"graphics/Resize/MasterKyonshee.gbapal",
+	"graphics/Resize/MegalosmasherX.gbapal",
+	"graphics/Resize/MekkKnightAvram.gbapal",
+	"graphics/Resize/MelchidtheFourFaceBeast.gbapal",
+	"graphics/Resize/MelffyRabby.gbapal",
+	"graphics/Resize/MetalArmoredBug.gbapal",
+	"graphics/Resize/MetaphysArmedDragon.gbapal",
+	"graphics/Resize/MightyGuard.gbapal",
+	"graphics/Resize/MistValleyWatcher.gbapal",
+	"graphics/Resize/MoltenBehemoth.gbapal",
+	"graphics/Resize/MonLarvas.gbapal",
+	"graphics/Resize/MysteryShellDragon.gbapal",
+	"graphics/Resize/MysticClown.gbapal",
+	"graphics/Resize/NeoAquaMadoor.gbapal",
+	"graphics/Resize/NeoBug.gbapal",
+	"graphics/Resize/NightLizard.gbapal",
+	"graphics/Resize/NinKenDog.gbapal",
+	"graphics/Resize/NobleKnightArtorigus.gbapal",
+	"graphics/Resize/OniTankT34.gbapal",
+	"graphics/Resize/OppressedPeople.gbapal",
+	"graphics/Resize/Opticlops.gbapal",
+	"graphics/Resize/Overdrive.gbapal",
+	"graphics/Resize/PSYFrameDriver.gbapal",
+	"graphics/Resize/PhantasmSpiralDragon.gbapal",
+	"graphics/Resize/PhantomGryphon.gbapal",
+	"graphics/Resize/PowerProKnightSisters.gbapal",
+	"graphics/Resize/PowerProLadySisters.gbapal",
+	"graphics/Resize/QueensKnight.gbapal",
+	"graphics/Resize/Rabidragon.gbapal",
+	"graphics/Resize/RengeGatekeeperofDarkWorld.gbapal",
+	"graphics/Resize/RoboticKnight.gbapal",
+	"graphics/Resize/RockOgreGrotto2.gbapal",
+	"graphics/Resize/Sabersaurus.gbapal",
+	"graphics/Resize/SeaSerpentWarriorofDarkness.gbapal",
+	"graphics/Resize/ShiningAbyss.gbapal",
+	"graphics/Resize/ShiningFriendship.gbapal",
+	"graphics/Resize/ShinyBlackCSquadder.gbapal",
+	"graphics/Resize/SkullDogMarron.gbapal",
+	"graphics/Resize/SkullMariner.gbapal",
+	"graphics/Resize/SonicDuck.gbapal",
+	"graphics/Resize/SorcereroftheDoomed.gbapal",
+	"graphics/Resize/SoulTiger.gbapal",
+	"graphics/Resize/Souleater.gbapal",
+	"graphics/Resize/SpaceMambo.gbapal",
+	"graphics/Resize/SpherousLady.gbapal",
+	"graphics/Resize/SpikedSnail.gbapal",
+	"graphics/Resize/SpiralSerpent.gbapal",
+	"graphics/Resize/SteamKnightHamburk.gbapal",
+	"graphics/Resize/StoneDragon.gbapal",
+	"graphics/Resize/StoneGhost.gbapal",
+	"graphics/Resize/SuppressionCollider.gbapal",
+	"graphics/Resize/SwordsmanofLandstar.gbapal",
+	"graphics/Resize/TerrorkingSalmon.gbapal",
+	"graphics/Resize/ThatWhichFeedsonLife.gbapal",
+	"graphics/Resize/TheAllSeeingWhiteTiger.gbapal",
+	"graphics/Resize/TheDragonDwellingintheCave.gbapal",
+	"graphics/Resize/TheEarlofDemise.gbapal",
+	"graphics/Resize/TheGrossGhostofFledDreams.gbapal",
+	"graphics/Resize/TheIllusoryGentleman.gbapal",
+	"graphics/Resize/TheJudgementHand.gbapal",
+	"graphics/Resize/ThePortraitsSecret.gbapal",
+	"graphics/Resize/TheStatueofEasterIsland.gbapal",
+	"graphics/Resize/TrancetheMagicSwordsman.gbapal",
+	"graphics/Resize/VTigerJet.gbapal",
+	"graphics/Resize/VenomCobra.gbapal",
+	"graphics/Resize/WarriorDaiGrepher.gbapal",
+	"graphics/Resize/WarriorofZera.gbapal",
+	"graphics/Resize/Wattaildragon.gbapal",
+	"graphics/Resize/Wilmee.gbapal",
+	"graphics/Resize/WingedDragonGuardianoftheFortress2.gbapal",
+	"graphics/Resize/Wingweaver.gbapal",
+	"graphics/Resize/Wolf.gbapal",
+	"graphics/Resize/WolfAxwielder.gbapal",
+	"graphics/Resize/WoodClown.gbapal",
+	"graphics/Resize/WoodborgInpachi.gbapal",
+	"graphics/Resize/WormDrake.gbapal",
+	"graphics/Resize/XHeadCannon.gbapal",
+	"graphics/Resize/XSaberAnuPiranha.gbapal",
+	"graphics/Resize/Yormungarde.gbapal",
+	"graphics/Resize/Zombino.gbapal",
+	"graphics/Resize/ZureKnightofDarkWorld.gbapal",
