@@ -9039,7 +9039,1537 @@ const struct CardStats gCardStats[] =
 		.race = RACE_INSECT,
 		.level = 1,
 		.attribute = ATTRIBUTE_EARTH,
-	}
+	},
+    [CARD_NUMBER_30_000_YEAR_WHITE_TURTLE]
+    {
+    	.defense = 210,
+    	.attack = 125 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_ABSOLUTE_KING_MEGAPLUNDER]
+    {
+    	.defense = 150,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DINOSAUR,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ACROBAT_MONKEY]
+    {
+    	.defense = 180,
+    	.attack = 100 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ALEXANDRITE_DRAGON]
+    {
+    	.defense = 10,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_ALIEN_SHOCKTROOPER]
+    {
+    	.defense = 80,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ALLY_OF_JUSTICE_CLAUSOLAS]
+    {
+    	.defense = 120,
+    	.attack = 230 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_AMPHIBIAN_BEAST]
+    {
+    	.defense = 200,
+    	.attack = 240 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FISH,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_ANCIENT_SORCERER]
+    {
+    	.defense = 130,
+    	.attack = 100 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_ANCIENT_TREE_OF_ENLIGHTENMENT]
+    {
+    	.defense = 150,
+    	.attack = 60 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PLANT,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ANOTHERVERSE_DRAGON]
+    {
+    	.defense = 200,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_ANOTHERVERSE_GLUTTONIA]
+    {
+    	.defense = 200,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_ANOTHERVERSE_SOLARIA]
+    {
+    	.defense = 200,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PYRO,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_ARCHFIEND_SOLDIER]
+    {
+    	.defense = 150,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_ATLANTEAN_PIKEMAN]
+    {
+    	.defense = 0,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SEA_SERPENT,
+    	.level = 2,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_BARON_OF_THE_FIEND_SWORD]
+    {
+    	.defense = 80,
+    	.attack = 155 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_BATTLE_FOOTBALLER]
+    {
+    	.defense = 210,
+    	.attack = 100 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_BEAST_OF_TALWAR]
+    {
+    	.defense = 215,
+    	.attack = 240 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_BECKONED_BY_THE_WORLD_CHALICE]
+    {
+    	.defense = 0,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_BIG_KOALA]
+    {
+    	.defense = 200,
+    	.attack = 270 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_BITRON]
+    {
+    	.defense = 200,
+    	.attack = 20 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 2,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_BLADE_SKATER]
+    {
+    	.defense = 150,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_BLAZING_INPACHI]
+    {
+    	.defense = 0,
+    	.attack = 185 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PYRO,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_BLOCKER]
+    {
+    	.defense = 180,
+    	.attack = 85 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_BOULDER_TORTOISE]
+    {
+    	.defense = 220,
+    	.attack = 145 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_BRAVE_SCIZZAR]
+    {
+    	.defense = 100,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_BUNILLA]
+    {
+    	.defense = 205,
+    	.attack = 15 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 1,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_CHAMBERLAIN_OF_THE_SIX_SAMURAI]
+    {
+    	.defense = 200,
+    	.attack = 20 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_CHARCOAL_INPACHI]
+    {
+    	.defense = 210,
+    	.attack = 10 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PYRO,
+    	.level = 1,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_CHOSEN_BY_THE_WORLD_CHALICE]
+    {
+    	.defense = 0,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_CHU_SKE_THE_MOUSE_FIGHTER]
+    {
+    	.defense = 0,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_CLAVKIYS_THE_MAGIKEY_SKYBLASTER]
+    {
+    	.defense = 190,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_CROWNED_BY_THE_WORLD_CHALICE]
+    {
+    	.defense = 210,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 2,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_CYBER_SOLDIER_OF_DARKWORLD]
+    {
+    	.defense = 120,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_D_D_TRAINER]
+    {
+    	.defense = 200,
+    	.attack = 10 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 1,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_DARK_BLADE]
+    {
+    	.defense = 150,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_DARK_TITAN_OF_TERROR]
+    {
+    	.defense = 110,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_DIGITRON]
+    {
+    	.defense = 0,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 2,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_DIVINE_DRAGON_RAGNAROK]
+    {
+    	.defense = 100,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_EARTHBOUND_SPIRIT]
+    {
+    	.defense = 200,
+    	.attack = 50 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_BURSTINATRIX]
+    {
+    	.defense = 80,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_CLAYMAN]
+    {
+    	.defense = 200,
+    	.attack = 80 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_NEOS]
+    {
+    	.defense = 200,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_SPARKMAN]
+    {
+    	.defense = 140,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_EMPRESS_MANTIS]
+    {
+    	.defense = 140,
+    	.attack = 220 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_EVILSWARM_HELIOTROPE]
+    {
+    	.defense = 65,
+    	.attack = 195 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_FAIRY_OF_THE_FOUNTAIN]
+    {
+    	.defense = 110,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_FAIRY_S_GIFT]
+    {
+    	.defense = 100,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_FLYING_PENGUIN]
+    {
+    	.defense = 100,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_FROSTOSAURUS]
+    {
+    	.defense = 170,
+    	.attack = 260 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DINOSAUR,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_GADGET_SOLDIER]
+    {
+    	.defense = 200,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_GAGAGIGO]
+    {
+    	.defense = 100,
+    	.attack = 185 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_GEM_KNIGHT_CRYSTAL]
+    {
+    	.defense = 195,
+    	.attack = 245 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GEM_KNIGHT_GARNET]
+    {
+    	.defense = 0,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PYRO,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GEM_KNIGHT_LAPIS]
+    {
+    	.defense = 10,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GEM_KNIGHT_SAPPHIRE]
+    {
+    	.defense = 210,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GEM_KNIGHT_TOURMALINE]
+    {
+    	.defense = 180,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_THUNDER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GENE_WARPED_WARWOLF]
+    {
+    	.defense = 10,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GIGA_GAGAGIGO]
+    {
+    	.defense = 150,
+    	.attack = 245 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_GIL_GARTH]
+    {
+    	.defense = 120,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_GIROCHIN_KUWAGATA]
+    {
+    	.defense = 100,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_GLADIATOR_BEAST_ANDAL]
+    {
+    	.defense = 150,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GOGIGA_GAGAGIGO]
+    {
+    	.defense = 280,
+    	.attack = 295 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_GOLGOIL]
+    {
+    	.defense = 160,
+    	.attack = 90 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_GORGON_EGG]
+    {
+    	.defense = 130,
+    	.attack = 30 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_GRADIUS]
+    {
+    	.defense = 80,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_GRAND_TIKI_ELDER]
+    {
+    	.defense = 80,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_GREAT_ANGUS]
+    {
+    	.defense = 60,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_GUNKAN_SUSHIP_SHARI]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_HEADLESS_KNIGHT]
+    {
+    	.defense = 170,
+    	.attack = 145 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_HIERATIC_SEAL_OF_THE_SUN_DRAGON_OVERLORD]
+    {
+    	.defense = 0,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_HUMANOID_SLIME]
+    {
+    	.defense = 200,
+    	.attack = 80 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_HUNTER_DRAGON]
+    {
+    	.defense = 10,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_IGNIHORSE_DRAGONITH]
+    {
+    	.defense = 100,
+    	.attack = 240 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SEA_SERPENT,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_INPACHI]
+    {
+    	.defense = 190,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_INSECT_KNIGHT]
+    {
+    	.defense = 150,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ISLAND_TURTLE]
+    {
+    	.defense = 200,
+    	.attack = 110 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_JERRY_BEANS_MAN]
+    {
+    	.defense = 0,
+    	.attack = 175 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PLANT,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_JOB_CHANGE_MIRROR]
+    {
+    	.defense = 130,
+    	.attack = 80 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_JONGLEUR_GHOUL_ILLUSIONIST]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_KABAZAULS]
+    {
+    	.defense = 150,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DINOSAUR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_KAPPA_AVENGER]
+    {
+    	.defense = 90,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_LEGENDARY_DUELING_FIELD]
+    {
+    	.defense = 300,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_LEOTRON]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_LIGHT_BRINGER_LUCIFER]
+    {
+    	.defense = 180,
+    	.attack = 260 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FAIRY,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_LISARK]
+    {
+    	.defense = 130,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_LUSTER_DRAGON]
+    {
+    	.defense = 160,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_LUSTER_DRAGON_2]
+    {
+    	.defense = 140,
+    	.attack = 240 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_MAD_DOG_OF_DARKNESS]
+    {
+    	.defense = 140,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_MAD_LOBSTER]
+    {
+    	.defense = 100,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_MASTER_KYONSHEE]
+    {
+    	.defense = 100,
+    	.attack = 175 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ZOMBIE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_MEGALOSMASHER_X]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DINOSAUR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_MEKK_KNIGHT_AVRAM]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_MELCHID_THE_FOUR_FACE_BEAST]
+    {
+    	.defense = 120,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_MELFFY_RABBY]
+    {
+    	.defense = 210,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 2,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_METAL_ARMORED_BUG]
+    {
+    	.defense = 150,
+    	.attack = 280 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_METAPHYS_ARMED_DRAGON]
+    {
+    	.defense = 100,
+    	.attack = 280 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_MIGHTY_GUARD]
+    {
+    	.defense = 120,
+    	.attack = 50 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_MIST_VALLEY_WATCHER]
+    {
+    	.defense = 190,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_MOLTEN_BEHEMOTH]
+    {
+    	.defense = 220,
+    	.attack = 100 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_PYRO,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_MON_LARVAS]
+    {
+    	.defense = 140,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_MYSTERY_SHELL_DRAGON]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_MYSTIC_CLOWN]
+    {
+    	.defense = 100,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_NEO_AQUA_MADOOR]
+    {
+    	.defense = 300,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_NEO_BUG]
+    {
+    	.defense = 170,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_NIGHT_LIZARD]
+    {
+    	.defense = 130,
+    	.attack = 115 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_NIN_KEN_DOG]
+    {
+    	.defense = 100,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_NOBLE_KNIGHT_ARTORIGUS]
+    {
+    	.defense = 180,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_ONI_TANK_T_34]
+    {
+    	.defense = 170,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_OPPRESSED_PEOPLE]
+    {
+    	.defense = 200,
+    	.attack = 40 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_AQUA,
+    	.level = 1,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_OPTICLOPS]
+    {
+    	.defense = 170,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_OVERDRIVE]
+    {
+    	.defense = 150,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_PSY_FRAME_DRIVER]
+    {
+    	.defense = 0,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_PHANTASM_SPIRAL_DRAGON]
+    {
+    	.defense = 290,
+    	.attack = 290 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_PHANTOM_GRYPHON]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WINGED_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_POWER_PRO_KNIGHT_SISTERS]
+    {
+    	.defense = 240,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_POWER_PRO_LADY_SISTERS]
+    {
+    	.defense = 210,
+    	.attack = 195 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WINGED_BEAST,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_QUEEN_S_KNIGHT]
+    {
+    	.defense = 160,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_RABIDRAGON]
+    {
+    	.defense = 290,
+    	.attack = 295 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_RENGE_GATEKEEPER_OF_DARK_WORLD]
+    {
+    	.defense = 210,
+    	.attack = 10 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_ROBOTIC_KNIGHT]
+    {
+    	.defense = 180,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_ROCK_OGRE_GROTTO_2]
+    {
+    	.defense = 140,
+    	.attack = 70 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SABERSAURUS]
+    {
+    	.defense = 50,
+    	.attack = 190 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DINOSAUR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SEA_SERPENT_WARRIOR_OF_DARKNESS]
+    {
+    	.defense = 150,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SEA_SERPENT,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_SHINING_ABYSS]
+    {
+    	.defense = 180,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FAIRY,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_SHINING_FRIENDSHIP]
+    {
+    	.defense = 110,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FAIRY,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_SHINY_BLACK_C_SQUADDER]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SKULL_DOG_MARRON]
+    {
+    	.defense = 200,
+    	.attack = 135 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SKULL_MARINER]
+    {
+    	.defense = 90,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_SONIC_DUCK]
+    {
+    	.defense = 70,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WINGED_BEAST,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_SORCERER_OF_THE_DOOMED]
+    {
+    	.defense = 120,
+    	.attack = 145 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_SOUL_TIGER]
+    {
+    	.defense = 210,
+    	.attack = 0 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SOULEATER]
+    {
+    	.defense = 0,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FISH,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SPACE_MAMBO]
+    {
+    	.defense = 100,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FISH,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_SPHEROUS_LADY]
+    {
+    	.defense = 140,
+    	.attack = 40 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SPIKED_SNAIL]
+    {
+    	.defense = 130,
+    	.attack = 70 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_INSECT,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_SPIRAL_SERPENT]
+    {
+    	.defense = 290,
+    	.attack = 290 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SEA_SERPENT,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_STEAM_KNIGHT_HAMBURK]
+    {
+    	.defense = 20,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_STONE_DRAGON]
+    {
+    	.defense = 230,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_STONE_GHOST]
+    {
+    	.defense = 100,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_SUPPRESSION_COLLIDER]
+    {
+    	.defense = 260,
+    	.attack = 280 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 8,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_SWORDSMAN_OF_LANDSTAR]
+    {
+    	.defense = 120,
+    	.attack = 50 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_TERRORKING_SALMON]
+    {
+    	.defense = 100,
+    	.attack = 240 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FISH,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_WATER,
+    },
+    [CARD_NUMBER_THAT_WHICH_FEEDS_ON_LIFE]
+    {
+    	.defense = 100,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_THE_ALL_SEEING_WHITE_TIGER]
+    {
+    	.defense = 50,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_THE_DRAGON_DWELLING_IN_THE_CAVE]
+    {
+    	.defense = 200,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_THE_EARL_OF_DEMISE]
+    {
+    	.defense = 70,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_THE_GROSS_GHOST_OF_FLED_DREAMS]
+    {
+    	.defense = 180,
+    	.attack = 130 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_THE_ILLUSORY_GENTLEMAN]
+    {
+    	.defense = 160,
+    	.attack = 150 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
+    [CARD_NUMBER_THE_JUDGEMENT_HAND]
+    {
+    	.defense = 70,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_THE_PORTRAIT_S_SECRET]
+    {
+    	.defense = 150,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_THE_STATUE_OF_EASTER_ISLAND]
+    {
+    	.defense = 140,
+    	.attack = 110 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ROCK,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_TRANCE_THE_MAGIC_SWORDSMAN]
+    {
+    	.defense = 20,
+    	.attack = 260 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_SPELLCASTER,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_V_TIGER_JET]
+    {
+    	.defense = 180,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_VENOM_COBRA]
+    {
+    	.defense = 200,
+    	.attack = 10 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WARRIOR_DAI_GREPHER]
+    {
+    	.defense = 160,
+    	.attack = 170 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WARRIOR_OF_ZERA]
+    {
+    	.defense = 160,
+    	.attack = 160 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WATTAILDRAGON]
+    {
+    	.defense = 100,
+    	.attack = 250 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_DRAGON,
+    	.level = 6,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_WILMEE]
+    {
+    	.defense = 120,
+    	.attack = 100 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_2]
+    {
+    	.defense = 100,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WINGED_BEAST,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_WIND,
+    },
+    [CARD_NUMBER_WINGWEAVER]
+    {
+    	.defense = 240,
+    	.attack = 275 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FAIRY,
+    	.level = 7,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_WOLF]
+    {
+    	.defense = 80,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WOLF_AXWIELDER]
+    {
+    	.defense = 100,
+    	.attack = 165 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_BEAST_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WOOD_CLOWN]
+    {
+    	.defense = 120,
+    	.attack = 80 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_WOODBORG_INPACHI]
+    {
+    	.defense = 250,
+    	.attack = 50 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 5,
+    	.attribute = ATTRIBUTE_FIRE,
+    },
+    [CARD_NUMBER_WORM_DRAKE]
+    {
+    	.defense = 150,
+    	.attack = 140 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_X_HEAD_CANNON]
+    {
+    	.defense = 150,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_MACHINE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_LIGHT,
+    },
+    [CARD_NUMBER_X_SABER_ANU_PIRANHA]
+    {
+    	.defense = 110,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_WARRIOR,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_YORMUNGARDE]
+    {
+    	.defense = 90,
+    	.attack = 120 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_REPTILE,
+    	.level = 3,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ZOMBINO]
+    {
+    	.defense = 0,
+    	.attack = 200 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_ZOMBIE,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_EARTH,
+    },
+    [CARD_NUMBER_ZURE_KNIGHT_OF_DARK_WORLD]
+    {
+    	.defense = 150,
+    	.attack = 180 ,
+    	.monsterType = MONSTER_TYPE_MONSTER,
+    	.race = RACE_FIEND,
+    	.level = 4,
+    	.attribute = ATTRIBUTE_DARK,
+    },
 };
 
 const struct CardName gCardNames[] =
@@ -12327,7 +13857,687 @@ const struct CardName gCardNames[] =
 	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
 	{
 		.cardName = "Insect Monster Token"
-	}
+	},
+    [CARD_NUMBER_30_000_YEAR_WHITE_TURTLE]
+    {
+        .cardName = "30,000-Year White Turtle"
+    },
+    [CARD_NUMBER_ABSOLUTE_KING_MEGAPLUNDER]
+    {
+        .cardName = "Absolute King - Megaplunder"
+    },
+    [CARD_NUMBER_ACROBAT_MONKEY]
+    {
+        .cardName = "Acrobat Monkey"
+    },
+    [CARD_NUMBER_ALEXANDRITE_DRAGON]
+    {
+        .cardName = "Alexandrite Dragon"
+    },
+    [CARD_NUMBER_ALIEN_SHOCKTROOPER]
+    {
+        .cardName = "Alien Shocktrooper"
+    },
+    [CARD_NUMBER_ALLY_OF_JUSTICE_CLAUSOLAS]
+    {
+        .cardName = "Ally of Justice Clausolas"
+    },
+    [CARD_NUMBER_AMPHIBIAN_BEAST]
+    {
+        .cardName = "Amphibian Beast"
+    },
+    [CARD_NUMBER_ANCIENT_SORCERER]
+    {
+        .cardName = "Ancient Sorcerer"
+    },
+    [CARD_NUMBER_ANCIENT_TREE_OF_ENLIGHTENMENT]
+    {
+        .cardName = "Ancient Tree of Enlightenment"
+    },
+    [CARD_NUMBER_ANOTHERVERSE_DRAGON]
+    {
+        .cardName = "Anotherverse Dragon"
+    },
+    [CARD_NUMBER_ANOTHERVERSE_GLUTTONIA]
+    {
+        .cardName = "Anotherverse Gluttonia"
+    },
+    [CARD_NUMBER_ANOTHERVERSE_SOLARIA]
+    {
+        .cardName = "Anotherverse Solaria"
+    },
+    [CARD_NUMBER_ARCHFIEND_SOLDIER]
+    {
+        .cardName = "Archfiend Soldier"
+    },
+    [CARD_NUMBER_ATLANTEAN_PIKEMAN]
+    {
+        .cardName = "Atlantean Pikeman"
+    },
+    [CARD_NUMBER_BARON_OF_THE_FIEND_SWORD]
+    {
+        .cardName = "Baron of the Fiend Sword"
+    },
+    [CARD_NUMBER_BATTLE_FOOTBALLER]
+    {
+        .cardName = "Battle Footballer"
+    },
+    [CARD_NUMBER_BEAST_OF_TALWAR]
+    {
+        .cardName = "Beast of Talwar"
+    },
+    [CARD_NUMBER_BECKONED_BY_THE_WORLD_CHALICE]
+    {
+        .cardName = "Beckoned by the World Chalice"
+    },
+    [CARD_NUMBER_BIG_KOALA]
+    {
+        .cardName = "Big Koala"
+    },
+    [CARD_NUMBER_BITRON]
+    {
+        .cardName = "Bitron"
+    },
+    [CARD_NUMBER_BLADE_SKATER]
+    {
+        .cardName = "Blade Skater"
+    },
+    [CARD_NUMBER_BLAZING_INPACHI]
+    {
+        .cardName = "Blazing Inpachi"
+    },
+    [CARD_NUMBER_BLOCKER]
+    {
+        .cardName = "Blocker"
+    },
+    [CARD_NUMBER_BOULDER_TORTOISE]
+    {
+        .cardName = "Boulder Tortoise"
+    },
+    [CARD_NUMBER_BRAVE_SCIZZAR]
+    {
+        .cardName = "Brave Scizzar"
+    },
+    [CARD_NUMBER_BUNILLA]
+    {
+        .cardName = "Bunilla"
+    },
+    [CARD_NUMBER_CHAMBERLAIN_OF_THE_SIX_SAMURAI]
+    {
+        .cardName = "Chamberlain of the Six Samurai"
+    },
+    [CARD_NUMBER_CHARCOAL_INPACHI]
+    {
+        .cardName = "Charcoal Inpachi"
+    },
+    [CARD_NUMBER_CHOSEN_BY_THE_WORLD_CHALICE]
+    {
+        .cardName = "Chosen by the World Chalice"
+    },
+    [CARD_NUMBER_CHU_SKE_THE_MOUSE_FIGHTER]
+    {
+        .cardName = "Chu-Ske the Mouse Fighter"
+    },
+    [CARD_NUMBER_CLAVKIYS_THE_MAGIKEY_SKYBLASTER]
+    {
+        .cardName = "Clavkiys, the Magikey Skyblaster"
+    },
+    [CARD_NUMBER_CROWNED_BY_THE_WORLD_CHALICE]
+    {
+        .cardName = "Crowned by the World Chalice"
+    },
+    [CARD_NUMBER_CYBER_SOLDIER_OF_DARKWORLD]
+    {
+        .cardName = "Cyber Soldier of Darkworld"
+    },
+    [CARD_NUMBER_D_D_TRAINER]
+    {
+        .cardName = "D.D. Trainer"
+    },
+    [CARD_NUMBER_DARK_BLADE]
+    {
+        .cardName = "Dark Blade"
+    },
+    [CARD_NUMBER_DARK_TITAN_OF_TERROR]
+    {
+        .cardName = "Dark Titan of Terror"
+    },
+    [CARD_NUMBER_DIGITRON]
+    {
+        .cardName = "Digitron"
+    },
+    [CARD_NUMBER_DIVINE_DRAGON_RAGNAROK]
+    {
+        .cardName = "Divine Dragon Ragnarok"
+    },
+    [CARD_NUMBER_EARTHBOUND_SPIRIT]
+    {
+        .cardName = "Earthbound Spirit"
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_BURSTINATRIX]
+    {
+        .cardName = "Elemental HERO Burstinatrix"
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_CLAYMAN]
+    {
+        .cardName = "Elemental HERO Clayman"
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_NEOS]
+    {
+        .cardName = "Elemental HERO Neos"
+    },
+    [CARD_NUMBER_ELEMENTAL_HERO_SPARKMAN]
+    {
+        .cardName = "Elemental HERO Sparkman"
+    },
+    [CARD_NUMBER_EMPRESS_MANTIS]
+    {
+        .cardName = "Empress Mantis"
+    },
+    [CARD_NUMBER_EVILSWARM_HELIOTROPE]
+    {
+        .cardName = "Evilswarm Heliotrope"
+    },
+    [CARD_NUMBER_FAIRY_OF_THE_FOUNTAIN]
+    {
+        .cardName = "Fairy of the Fountain"
+    },
+    [CARD_NUMBER_FAIRY_S_GIFT]
+    {
+        .cardName = "Fairy's Gift"
+    },
+    [CARD_NUMBER_FLYING_PENGUIN]
+    {
+        .cardName = "Flying Penguin"
+    },
+    [CARD_NUMBER_FROSTOSAURUS]
+    {
+        .cardName = "Frostosaurus"
+    },
+    [CARD_NUMBER_GADGET_SOLDIER]
+    {
+        .cardName = "Gadget Soldier"
+    },
+    [CARD_NUMBER_GAGAGIGO]
+    {
+        .cardName = "Gagagigo"
+    },
+    [CARD_NUMBER_GEM_KNIGHT_CRYSTAL]
+    {
+        .cardName = "Gem-Knight Crystal"
+    },
+    [CARD_NUMBER_GEM_KNIGHT_GARNET]
+    {
+        .cardName = "Gem-Knight Garnet"
+    },
+    [CARD_NUMBER_GEM_KNIGHT_LAPIS]
+    {
+        .cardName = "Gem-Knight Lapis"
+    },
+    [CARD_NUMBER_GEM_KNIGHT_SAPPHIRE]
+    {
+        .cardName = "Gem-Knight Sapphire"
+    },
+    [CARD_NUMBER_GEM_KNIGHT_TOURMALINE]
+    {
+        .cardName = "Gem-Knight Tourmaline"
+    },
+    [CARD_NUMBER_GENE_WARPED_WARWOLF]
+    {
+        .cardName = "Gene-Warped Warwolf"
+    },
+    [CARD_NUMBER_GIGA_GAGAGIGO]
+    {
+        .cardName = "Giga Gagagigo"
+    },
+    [CARD_NUMBER_GIL_GARTH]
+    {
+        .cardName = "Gil Garth"
+    },
+    [CARD_NUMBER_GIROCHIN_KUWAGATA]
+    {
+        .cardName = "Girochin Kuwagata"
+    },
+    [CARD_NUMBER_GLADIATOR_BEAST_ANDAL]
+    {
+        .cardName = "Gladiator Beast Andal"
+    },
+    [CARD_NUMBER_GOGIGA_GAGAGIGO]
+    {
+        .cardName = "Gogiga Gagagigo"
+    },
+    [CARD_NUMBER_GOLGOIL]
+    {
+        .cardName = "Golgoil"
+    },
+    [CARD_NUMBER_GORGON_EGG]
+    {
+        .cardName = "Gorgon Egg"
+    },
+    [CARD_NUMBER_GRADIUS]
+    {
+        .cardName = "Gradius"
+    },
+    [CARD_NUMBER_GRAND_TIKI_ELDER]
+    {
+        .cardName = "Grand Tiki Elder"
+    },
+    [CARD_NUMBER_GREAT_ANGUS]
+    {
+        .cardName = "Great Angus"
+    },
+    [CARD_NUMBER_GUNKAN_SUSHIP_SHARI]
+    {
+        .cardName = "Gunkan Suship Shari"
+    },
+    [CARD_NUMBER_HEADLESS_KNIGHT]
+    {
+        .cardName = "Headless Knight"
+    },
+    [CARD_NUMBER_HIERATIC_SEAL_OF_THE_SUN_DRAGON_OVERLORD]
+    {
+        .cardName = "Hieratic Seal of the Sun Dragon Overlord"
+    },
+    [CARD_NUMBER_HUMANOID_SLIME]
+    {
+        .cardName = "Humanoid Slime"
+    },
+    [CARD_NUMBER_HUNTER_DRAGON]
+    {
+        .cardName = "Hunter Dragon"
+    },
+    [CARD_NUMBER_IGNIHORSE_DRAGONITH]
+    {
+        .cardName = "Ignihorse Dragonith"
+    },
+    [CARD_NUMBER_INPACHI]
+    {
+        .cardName = "Inpachi"
+    },
+    [CARD_NUMBER_INSECT_KNIGHT]
+    {
+        .cardName = "Insect Knight"
+    },
+    [CARD_NUMBER_ISLAND_TURTLE]
+    {
+        .cardName = "Island Turtle"
+    },
+    [CARD_NUMBER_JERRY_BEANS_MAN]
+    {
+        .cardName = "Jerry Beans Man"
+    },
+    [CARD_NUMBER_JOB_CHANGE_MIRROR]
+    {
+        .cardName = "Job-Change Mirror"
+    },
+    [CARD_NUMBER_JONGLEUR_GHOUL_ILLUSIONIST]
+    {
+        .cardName = "Jongleur-Ghoul Illusionist"
+    },
+    [CARD_NUMBER_KABAZAULS]
+    {
+        .cardName = "Kabazauls"
+    },
+    [CARD_NUMBER_KAPPA_AVENGER]
+    {
+        .cardName = "Kappa Avenger"
+    },
+    [CARD_NUMBER_LEGENDARY_DUELING_FIELD]
+    {
+        .cardName = "Legendary Dueling Field"
+    },
+    [CARD_NUMBER_LEOTRON]
+    {
+        .cardName = "Leotron"
+    },
+    [CARD_NUMBER_LIGHT_BRINGER_LUCIFER]
+    {
+        .cardName = "Light Bringer Lucifer"
+    },
+    [CARD_NUMBER_LISARK]
+    {
+        .cardName = "Lisark"
+    },
+    [CARD_NUMBER_LUSTER_DRAGON]
+    {
+        .cardName = "Luster Dragon"
+    },
+    [CARD_NUMBER_LUSTER_DRAGON_2]
+    {
+        .cardName = "Luster Dragon #2"
+    },
+    [CARD_NUMBER_MAD_DOG_OF_DARKNESS]
+    {
+        .cardName = "Mad Dog of Darkness"
+    },
+    [CARD_NUMBER_MAD_LOBSTER]
+    {
+        .cardName = "Mad Lobster"
+    },
+    [CARD_NUMBER_MASTER_KYONSHEE]
+    {
+        .cardName = "Master Kyonshee"
+    },
+    [CARD_NUMBER_MEGALOSMASHER_X]
+    {
+        .cardName = "Megalosmasher X"
+    },
+    [CARD_NUMBER_MEKK_KNIGHT_AVRAM]
+    {
+        .cardName = "Mekk-Knight Avram"
+    },
+    [CARD_NUMBER_MELCHID_THE_FOUR_FACE_BEAST]
+    {
+        .cardName = "Melchid the Four-Face Beast"
+    },
+    [CARD_NUMBER_MELFFY_RABBY]
+    {
+        .cardName = "Melffy Rabby"
+    },
+    [CARD_NUMBER_METAL_ARMORED_BUG]
+    {
+        .cardName = "Metal Armored Bug"
+    },
+    [CARD_NUMBER_METAPHYS_ARMED_DRAGON]
+    {
+        .cardName = "Metaphys Armed Dragon"
+    },
+    [CARD_NUMBER_MIGHTY_GUARD]
+    {
+        .cardName = "Mighty Guard"
+    },
+    [CARD_NUMBER_MIST_VALLEY_WATCHER]
+    {
+        .cardName = "Mist Valley Watcher"
+    },
+    [CARD_NUMBER_MOLTEN_BEHEMOTH]
+    {
+        .cardName = "Molten Behemoth"
+    },
+    [CARD_NUMBER_MON_LARVAS]
+    {
+        .cardName = "Mon Larvas"
+    },
+    [CARD_NUMBER_MYSTERY_SHELL_DRAGON]
+    {
+        .cardName = "Mystery Shell Dragon"
+    },
+    [CARD_NUMBER_MYSTIC_CLOWN]
+    {
+        .cardName = "Mystic Clown"
+    },
+    [CARD_NUMBER_NEO_AQUA_MADOOR]
+    {
+        .cardName = "Neo Aqua Madoor"
+    },
+    [CARD_NUMBER_NEO_BUG]
+    {
+        .cardName = "Neo Bug"
+    },
+    [CARD_NUMBER_NIGHT_LIZARD]
+    {
+        .cardName = "Night Lizard"
+    },
+    [CARD_NUMBER_NIN_KEN_DOG]
+    {
+        .cardName = "Nin-Ken Dog"
+    },
+    [CARD_NUMBER_NOBLE_KNIGHT_ARTORIGUS]
+    {
+        .cardName = "Noble Knight Artorigus"
+    },
+    [CARD_NUMBER_ONI_TANK_T_34]
+    {
+        .cardName = "Oni Tank T-34"
+    },
+    [CARD_NUMBER_OPPRESSED_PEOPLE]
+    {
+        .cardName = "Oppressed People"
+    },
+    [CARD_NUMBER_OPTICLOPS]
+    {
+        .cardName = "Opticlops"
+    },
+    [CARD_NUMBER_OVERDRIVE]
+    {
+        .cardName = "Overdrive"
+    },
+    [CARD_NUMBER_PSY_FRAME_DRIVER]
+    {
+        .cardName = "PSY-Frame Driver"
+    },
+    [CARD_NUMBER_PHANTASM_SPIRAL_DRAGON]
+    {
+        .cardName = "Phantasm Spiral Dragon"
+    },
+    [CARD_NUMBER_PHANTOM_GRYPHON]
+    {
+        .cardName = "Phantom Gryphon"
+    },
+    [CARD_NUMBER_POWER_PRO_KNIGHT_SISTERS]
+    {
+        .cardName = "Power Pro Knight Sisters"
+    },
+    [CARD_NUMBER_POWER_PRO_LADY_SISTERS]
+    {
+        .cardName = "Power Pro Lady Sisters"
+    },
+    [CARD_NUMBER_QUEEN_S_KNIGHT]
+    {
+        .cardName = "Queen's Knight"
+    },
+    [CARD_NUMBER_RABIDRAGON]
+    {
+        .cardName = "Rabidragon"
+    },
+    [CARD_NUMBER_RENGE_GATEKEEPER_OF_DARK_WORLD]
+    {
+        .cardName = "Renge, Gatekeeper of Dark World"
+    },
+    [CARD_NUMBER_ROBOTIC_KNIGHT]
+    {
+        .cardName = "Robotic Knight"
+    },
+    [CARD_NUMBER_ROCK_OGRE_GROTTO_2]
+    {
+        .cardName = "Rock Ogre Grotto #2"
+    },
+    [CARD_NUMBER_SABERSAURUS]
+    {
+        .cardName = "Sabersaurus"
+    },
+    [CARD_NUMBER_SEA_SERPENT_WARRIOR_OF_DARKNESS]
+    {
+        .cardName = "Sea Serpent Warrior of Darkness"
+    },
+    [CARD_NUMBER_SHINING_ABYSS]
+    {
+        .cardName = "Shining Abyss"
+    },
+    [CARD_NUMBER_SHINING_FRIENDSHIP]
+    {
+        .cardName = "Shining Friendship"
+    },
+    [CARD_NUMBER_SHINY_BLACK_C_SQUADDER]
+    {
+        .cardName = "Shiny Black C Squadder"
+    },
+    [CARD_NUMBER_SKULL_DOG_MARRON]
+    {
+        .cardName = "Skull Dog Marron"
+    },
+    [CARD_NUMBER_SKULL_MARINER]
+    {
+        .cardName = "Skull Mariner"
+    },
+    [CARD_NUMBER_SONIC_DUCK]
+    {
+        .cardName = "Sonic Duck"
+    },
+    [CARD_NUMBER_SORCERER_OF_THE_DOOMED]
+    {
+        .cardName = "Sorcerer of the Doomed"
+    },
+    [CARD_NUMBER_SOUL_TIGER]
+    {
+        .cardName = "Soul Tiger"
+    },
+    [CARD_NUMBER_SOULEATER]
+    {
+        .cardName = "Souleater"
+    },
+    [CARD_NUMBER_SPACE_MAMBO]
+    {
+        .cardName = "Space Mambo"
+    },
+    [CARD_NUMBER_SPHEROUS_LADY]
+    {
+        .cardName = "Spherous Lady"
+    },
+    [CARD_NUMBER_SPIKED_SNAIL]
+    {
+        .cardName = "Spiked Snail"
+    },
+    [CARD_NUMBER_SPIRAL_SERPENT]
+    {
+        .cardName = "Spiral Serpent"
+    },
+    [CARD_NUMBER_STEAM_KNIGHT_HAMBURK]
+    {
+        .cardName = "Steam Knight - Hamburk"
+    },
+    [CARD_NUMBER_STONE_DRAGON]
+    {
+        .cardName = "Stone Dragon"
+    },
+    [CARD_NUMBER_STONE_GHOST]
+    {
+        .cardName = "Stone Ghost"
+    },
+    [CARD_NUMBER_SUPPRESSION_COLLIDER]
+    {
+        .cardName = "Suppression Collider"
+    },
+    [CARD_NUMBER_SWORDSMAN_OF_LANDSTAR]
+    {
+        .cardName = "Swordsman of Landstar"
+    },
+    [CARD_NUMBER_TERRORKING_SALMON]
+    {
+        .cardName = "Terrorking Salmon"
+    },
+    [CARD_NUMBER_THAT_WHICH_FEEDS_ON_LIFE]
+    {
+        .cardName = "That Which Feeds on Life"
+    },
+    [CARD_NUMBER_THE_ALL_SEEING_WHITE_TIGER]
+    {
+        .cardName = "The All-Seeing White Tiger"
+    },
+    [CARD_NUMBER_THE_DRAGON_DWELLING_IN_THE_CAVE]
+    {
+        .cardName = "The Dragon Dwelling in the Cave"
+    },
+    [CARD_NUMBER_THE_EARL_OF_DEMISE]
+    {
+        .cardName = "The Earl of Demise"
+    },
+    [CARD_NUMBER_THE_GROSS_GHOST_OF_FLED_DREAMS]
+    {
+        .cardName = "The Gross Ghost of Fled Dreams"
+    },
+    [CARD_NUMBER_THE_ILLUSORY_GENTLEMAN]
+    {
+        .cardName = "The Illusory Gentleman"
+    },
+    [CARD_NUMBER_THE_JUDGEMENT_HAND]
+    {
+        .cardName = "The Judgement Hand"
+    },
+    [CARD_NUMBER_THE_PORTRAIT_S_SECRET]
+    {
+        .cardName = "The Portrait's Secret"
+    },
+    [CARD_NUMBER_THE_STATUE_OF_EASTER_ISLAND]
+    {
+        .cardName = "The Statue of Easter Island"
+    },
+    [CARD_NUMBER_TRANCE_THE_MAGIC_SWORDSMAN]
+    {
+        .cardName = "Trance the Magic Swordsman"
+    },
+    [CARD_NUMBER_V_TIGER_JET]
+    {
+        .cardName = "V-Tiger Jet"
+    },
+    [CARD_NUMBER_VENOM_COBRA]
+    {
+        .cardName = "Venom Cobra"
+    },
+    [CARD_NUMBER_WARRIOR_DAI_GREPHER]
+    {
+        .cardName = "Warrior Dai Grepher"
+    },
+    [CARD_NUMBER_WARRIOR_OF_ZERA]
+    {
+        .cardName = "Warrior of Zera"
+    },
+    [CARD_NUMBER_WATTAILDRAGON]
+    {
+        .cardName = "Wattaildragon"
+    },
+    [CARD_NUMBER_WILMEE]
+    {
+        .cardName = "Wilmee"
+    },
+    [CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_2]
+    {
+        .cardName = "Winged Dragon, Guardian of the Fortress #2"
+    },
+    [CARD_NUMBER_WINGWEAVER]
+    {
+        .cardName = "Wingweaver"
+    },
+    [CARD_NUMBER_WOLF]
+    {
+        .cardName = "Wolf"
+    },
+    [CARD_NUMBER_WOLF_AXWIELDER]
+    {
+        .cardName = "Wolf Axwielder"
+    },
+    [CARD_NUMBER_WOOD_CLOWN]
+    {
+        .cardName = "Wood Clown"
+    },
+    [CARD_NUMBER_WOODBORG_INPACHI]
+    {
+        .cardName = "Woodborg Inpachi"
+    },
+    [CARD_NUMBER_WORM_DRAKE]
+    {
+        .cardName = "Worm Drake"
+    },
+    [CARD_NUMBER_X_HEAD_CANNON]
+    {
+        .cardName = "X-Head Cannon"
+    },
+    [CARD_NUMBER_X_SABER_ANU_PIRANHA]
+    {
+        .cardName = "X-Saber Anu Piranha"
+    },
+    [CARD_NUMBER_YORMUNGARDE]
+    {
+        .cardName = "Yormungarde"
+    },
+    [CARD_NUMBER_ZOMBINO]
+    {
+        .cardName = "Zombino"
+    },
+    [CARD_NUMBER_ZURE_KNIGHT_OF_DARK_WORLD]
+    {
+        .cardName = "Zure, Knight of Dark World"
+    },
 };
 
 const struct CardDescription gCardDescriptions[] =
@@ -15615,5 +17825,685 @@ const struct CardDescription gCardDescriptions[] =
 	[CARD_NUMBER_INSECT_MONSTER_TOKEN]
 	{
 		.description = ""
-	}
+	},
+    [CARD_NUMBER_30_000_YEAR_WHITE_TURTLE]
+	{
+		.description = "A huge turtle that has existed for more than 30,000 years."
+	},
+    [CARD_NUMBER_ABSOLUTE_KING_MEGAPLUNDER]
+	{
+		.description = "''The king of dinosaurs that rules over the Earth. Its mighty roar makes its foes tremble in fear!''"
+	},
+    [CARD_NUMBER_ACROBAT_MONKEY]
+	{
+		.description = "An autonomous monkey type robot which was developed with cutting-edge technology. It moves very acrobatically."
+	},
+    [CARD_NUMBER_ALEXANDRITE_DRAGON]
+	{
+		.description = "Many of the czars' lost jewels can be found in the scales of this priceless dragon. Its creator remains a mystery, along with how they acquired the imperial treasures. But whosoever finds this dragon has hit the jackpot... whether they know it or not."
+	},
+    [CARD_NUMBER_ALIEN_SHOCKTROOPER]
+	{
+		.description = "The Aliens have used a mysterious biological substance to create a supreme race of soldiers. They do not have the natural powers of the other Aliens, but can make stunning physical attacks."
+	},
+    [CARD_NUMBER_ALLY_OF_JUSTICE_CLAUSOLAS]
+	{
+		.description = "A mighty monster in Mist Valley, and the ultimate weapon designed from Claiomh Solais. Its surprise attacks from above baffle invaders."
+	},
+    [CARD_NUMBER_AMPHIBIAN_BEAST]
+	{
+		.description = "On land or in the sea, the speed of this monster is unmatchable."
+	},
+    [CARD_NUMBER_ANCIENT_SORCERER]
+	{
+		.description = "Armed with an array of magic wands, this creature is capable of multiple attacks."
+	},
+    [CARD_NUMBER_ANCIENT_TREE_OF_ENLIGHTENMENT]
+	{
+		.description = "This ancient arbor uses its extensive knowledge to avoid the damage of enemy attacks."
+	},
+    [CARD_NUMBER_ANOTHERVERSE_DRAGON]
+	{
+		.description = "''This secretive dragon has conquered many dimensions, but can only be seen by the champion of time.''"
+	},
+    [CARD_NUMBER_ANOTHERVERSE_GLUTTONIA]
+	{
+		.description = "''A massive, malevolent monstrosity, devourer of diverse dimensions, who molds multiple domains where only the mightiest dare dwell.''"
+	},
+    [CARD_NUMBER_ANOTHERVERSE_SOLARIA]
+	{
+		.description = "''The stellar god of another world, harboring its twilight sun. His frozen flames leave a scorched trail across the dimensions, forever seeking new strength.''"
+	},
+    [CARD_NUMBER_ARCHFIEND_SOLDIER]
+	{
+		.description = "An expert at battle who belongs to a crack diabolical unit. He's famous because he always gets the job done."
+	},
+    [CARD_NUMBER_ATLANTEAN_PIKEMAN]
+	{
+		.description = "The Great Ocean Lord, who reigns over the depths, is served by these lancers. Deep-sea creatures exist in fear of facing the stream of attacks their lances are capable of."
+	},
+    [CARD_NUMBER_BARON_OF_THE_FIEND_SWORD]
+	{
+		.description = "An aristocrat who wields a sword possessed by a malicious spirit that preys on the weak."
+	},
+    [CARD_NUMBER_BATTLE_FOOTBALLER]
+	{
+		.description = "A cyborg with high defense power. Originally it was invented for a football machine."
+	},
+    [CARD_NUMBER_BEAST_OF_TALWAR]
+	{
+		.description = "Only the master of the sword among Fiend-Type monsters is permitted to hold the Talwar.   (This card is always treated as an \"Archfiend\" card.)"
+	},
+    [CARD_NUMBER_BECKONED_BY_THE_WORLD_CHALICE]
+	{
+		.description = "His battle with the Mekkstrosities never seems to end. Even when their forest was invaded by Mekkstrocious Insects, he stood his ground and inspired the other defenders around him."
+	},
+    [CARD_NUMBER_BIG_KOALA]
+	{
+		.description = "A species of huge Des Koala. He's meek, but people are afraid of him because he's very powerful."
+	},
+    [CARD_NUMBER_BITRON]
+	{
+		.description = "A new species found in electronic space. There's not much information on it."
+	},
+    [CARD_NUMBER_BLADE_SKATER]
+	{
+		.description = "An image of beauty on the ice, this gorgeous warrior rips her opponents into pieces with her stylish Accel Slicer attack."
+	},
+    [CARD_NUMBER_BLAZING_INPACHI]
+	{
+		.description = "A wicked wooden spirit now burning in flames. Its fire attack is powerful, but it will soon be nothing but ashes."
+	},
+    [CARD_NUMBER_BLOCKER]
+	{
+		.description = "Constructed from several components, this monster can launch them in a pincer attack."
+	},
+    [CARD_NUMBER_BOULDER_TORTOISE]
+	{
+		.description = "A stone turtle that is nearly indestructible."
+	},
+    [CARD_NUMBER_BRAVE_SCIZZAR]
+	{
+		.description = "Armed with a mass of scissors, this monster can clip an enemy into any desired shape and size."
+	},
+    [CARD_NUMBER_BUNILLA]
+	{
+		.description = "This rabbit's got a sweet tooth! He's on a quest for the world's sweetest carrot, and just wants to nibble carrots all day today, tomorrow, and the day after that!"
+	},
+    [CARD_NUMBER_CHAMBERLAIN_OF_THE_SIX_SAMURAI]
+	{
+		.description = "The Six Samurai are supported from the shadows by this silent and mysterious warrior. His past is unknown to them, but his countless scars are proof of his experience."
+	},
+    [CARD_NUMBER_CHARCOAL_INPACHI]
+	{
+		.description = "A wicked wooden spirit that has burned out. The barbecue grilled with this charcoal is so awesome that everybody thinks it's priceless."
+	},
+    [CARD_NUMBER_CHOSEN_BY_THE_WORLD_CHALICE]
+	{
+		.description = "Inspired by the World Hero legends he heard as a boy, this crusader adds a piece to his armor from every Mekkstrosity he destroys. He has set out on a quest from Fairy Lee to recover the Seven World Legacies and save their world."
+	},
+    [CARD_NUMBER_CHU_SKE_THE_MOUSE_FIGHTER]
+	{
+		.description = "A fiery mouse, travelling the world to become the strongest fighter in the world of mice. Be careful not to touch him, or you will get burned."
+	},
+    [CARD_NUMBER_CLAVKIYS_THE_MAGIKEY_SKYBLASTER]
+	{
+		.description = "''Everyone is full of possibilities. Everything you do, moving forwards, stopping, closing, opening, is all in your hands. There are many doors in this world. To open them requires the Magic Key... 2 keys and 1 door... 2 wills and 1 body. Once the doors are opened, the worlds will be connected and the great power revealed.''"
+	},
+    [CARD_NUMBER_CROWNED_BY_THE_WORLD_CHALICE]
+	{
+		.description = "With her magical staff, she can channel the living heart of her world to shield her people from the Mekk-Knights that have overrun it."
+	},
+    [CARD_NUMBER_CYBER_SOLDIER_OF_DARKWORLD]
+	{
+		.description = "A mechanical soldier that won't stop attacking until all life readings have been extinguished from its sensors."
+	},
+    [CARD_NUMBER_D_D_TRAINER]
+	{
+		.description = "A poor goblin that was sucked into a different dimension. However, he's doing his best with his new destiny."
+	},
+    [CARD_NUMBER_DARK_BLADE]
+	{
+		.description = "They say he is a dragon-manipulating warrior from the dark world. His attack is tremendous, using his great swords with vicious power."
+	},
+    [CARD_NUMBER_DARK_TITAN_OF_TERROR]
+	{
+		.description = "A fiend said to dwell in the world of dreams, it attacks enemies in their sleep."
+	},
+    [CARD_NUMBER_DIGITRON]
+	{
+		.description = "A subspecies found in electronic space. There's little information on it."
+	},
+    [CARD_NUMBER_DIVINE_DRAGON_RAGNAROK]
+	{
+		.description = "A legendary dragon sent by the gods as their instrument. Legends say that if provoked, the whole world will sink beneath the sea."
+	},
+    [CARD_NUMBER_EARTHBOUND_SPIRIT]
+	{
+		.description = "A vengeful creature formed by the spirits of fallen warriors, it drags any who dare approach it into the deepest bowels of the earth."
+	},
+    [CARD_NUMBER_ELEMENTAL_HERO_BURSTINATRIX]
+	{
+		.description = "A flame manipulator who was the first Elemental HERO woman. Her Burstfire burns away villainy."
+	},
+    [CARD_NUMBER_ELEMENTAL_HERO_CLAYMAN]
+	{
+		.description = "An Elemental HERO with a clay body built-to-last. He'll preserve his Elemental HERO colleagues at any cost."
+	},
+    [CARD_NUMBER_ELEMENTAL_HERO_NEOS]
+	{
+		.description = "''A new Elemental HERO has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are unleashed.''"
+	},
+    [CARD_NUMBER_ELEMENTAL_HERO_SPARKMAN]
+	{
+		.description = "An Elemental HERO and a warrior of light who proficiently wields many kinds of armaments. His Static Shockwave cuts off the path of villainy."
+	},
+    [CARD_NUMBER_EMPRESS_MANTIS]
+	{
+		.description = "Queen of an army of giant mantises whose command moves legions."
+	},
+    [CARD_NUMBER_EVILSWARM_HELIOTROPE]
+	{
+		.description = ".ytilaer a maerd rieht ekam thgim yeht taht os ydob a rof gninraey ,sluos mrawsleetS gniregnil fo sthguoht eht era esehT \"!etanimretxE !etacidarE !etanimilE\""
+	},
+    [CARD_NUMBER_FAIRY_OF_THE_FOUNTAIN]
+	{
+		.description = "This fairy protects a fountain from any who seek to muddy its waters."
+	},
+    [CARD_NUMBER_FAIRY_S_GIFT]
+	{
+		.description = "This flying monster is known for delivering happiness to all."
+	},
+    [CARD_NUMBER_FLYING_PENGUIN]
+	{
+		.description = "A very rare penguin that takes to the air with ears shaped like wings."
+	},
+    [CARD_NUMBER_FROSTOSAURUS]
+	{
+		.description = "This monster's metabolism enables it to endure long periods of cold, harnessing the power to become a creature of solid ice! Nothing else can withstand such temperatures, especially victims of its glacial rampage."
+	},
+    [CARD_NUMBER_GADGET_SOLDIER]
+	{
+		.description = "A rust-free machine warrior born to battle."
+	},
+    [CARD_NUMBER_GAGAGIGO]
+	{
+		.description = "This young evildoer used to have an evil heart, but by meeting a special person, he discovered justice."
+	},
+    [CARD_NUMBER_GEM_KNIGHT_CRYSTAL]
+	{
+		.description = "A Gem-Knight officer of high rank, who has optimized the use of the crystal powers. Despite his ability to overwhelm most opponents, he's wary of stretching himself too thin, and opts for solidarity with his comrades."
+	},
+    [CARD_NUMBER_GEM_KNIGHT_GARNET]
+	{
+		.description = "The Gem-Knight Warrior who carries the Garnet Soul. His Flaming Iron Fist crushes all enemies."
+	},
+    [CARD_NUMBER_GEM_KNIGHT_LAPIS]
+	{
+		.description = "The best of friends with Lazuli, this soldier deeply cares about the well-being of her friends."
+	},
+    [CARD_NUMBER_GEM_KNIGHT_SAPPHIRE]
+	{
+		.description = "His Sapphire power commands the waters to protect him from attack. His comrades trust in his silent protection."
+	},
+    [CARD_NUMBER_GEM_KNIGHT_TOURMALINE]
+	{
+		.description = "He channels mystic energies and changes them into fighting strength through the power of Tourmaline. Many admire his way of life."
+	},
+    [CARD_NUMBER_GENE_WARPED_WARWOLF]
+	{
+		.description = "This warwolf was given incalculable strength through horrific genetic manipulation. Its gentle nature was completely wiped out, and it now lives only to unleash destruction."
+	},
+    [CARD_NUMBER_GIGA_GAGAGIGO]
+	{
+		.description = "In order to fight tremendous evil, he gained formidable power through body reconstruction, but lost his heart and his redemption."
+	},
+    [CARD_NUMBER_GIL_GARTH]
+	{
+		.description = "This steel-armored terror machine ruthlessly strikes down enemies with its giant katana."
+	},
+    [CARD_NUMBER_GIROCHIN_KUWAGATA]
+	{
+		.description = "Despite its small size, this monster has powerful jaws that can rip metal to shreds."
+	},
+    [CARD_NUMBER_GLADIATOR_BEAST_ANDAL]
+	{
+		.description = "This one-eyed warrior bear is an aggressive hunter that strikes down its prey with the powerful swipes of its claws. No one can bear the brunt of his tremendously fast and heavy blows."
+	},
+    [CARD_NUMBER_GOGIGA_GAGAGIGO]
+	{
+		.description = "His soul long-since collapsed, his body recklessly continues onward, driven by a lust for more power. He no longer resembles his former self...."
+	},
+    [CARD_NUMBER_GOLGOIL]
+	{
+		.description = "An iron giant that appears from a dimensional rift."
+	},
+    [CARD_NUMBER_GORGON_EGG]
+	{
+		.description = "The gorgon egg's massive eyes are said to reflect the fate of its enemies."
+	},
+    [CARD_NUMBER_GRADIUS]
+	{
+		.description = "A high-performance jet fighter with power capsules for variable attack capabilities."
+	},
+    [CARD_NUMBER_GRAND_TIKI_ELDER]
+	{
+		.description = "A masked monster that wields the most deadly of curses."
+	},
+    [CARD_NUMBER_GREAT_ANGUS]
+	{
+		.description = "A very violent beast, it is always berserk. People say that they have never seen it silent."
+	},
+    [CARD_NUMBER_GUNKAN_SUSHIP_SHARI]
+	{
+		.description = "''Finally got to visit that harbor specializing in Gunkan Suships that I've been curious about for a while! The premium \"Shari\" here is limited to 2000 Suships a year, and uses specially developed smooth aged rice, giving it extra boldness not found anywhere else. The classy atmosphere made my heart sing, too. The Gunkan Suship served had a perfect balance of vinegar, nigiri, shine, and shape, demonstrating exquisite artisanship. The owner told me, \"We are introducing ri"
+	},
+    [CARD_NUMBER_HEADLESS_KNIGHT]
+	{
+		.description = "A haunted spirit of a falsely accused knight who wanders in search of truth and justice."
+	},
+    [CARD_NUMBER_HIERATIC_SEAL_OF_THE_SUN_DRAGON_OVERLORD]
+	{
+		.description = "A mysterious engraved Hieratic relic. It was thought to be a simple stone, but it was actually infused with the power of a sun-wielding dragon. Aeons passed, and the power of the relic grew and grew until it finally shone like the sun itself."
+	},
+    [CARD_NUMBER_HUMANOID_SLIME]
+	{
+		.description = "This slime apparently has some human genes in its genetic makeup."
+	},
+    [CARD_NUMBER_HUNTER_DRAGON]
+	{
+		.description = "This dragon has taken down countless prey with its sharp fangs. It strikes very quickly, because if it does not strike first it is vulnerable to a counter-attack."
+	},
+    [CARD_NUMBER_IGNIHORSE_DRAGONITH]
+	{
+		.description = "''A draco-horse racing around freely upon the boiling sea. It continues to run on the water surface today in order to prevent its own flames from extinguishing. It dreams of one day setting foot upon its homeland.''"
+	},
+    [CARD_NUMBER_INPACHI]
+	{
+		.description = "A log that attacks lost travelers in the forest. Originally a big tree, it was cut down and possessed by a wicked spirit."
+	},
+    [CARD_NUMBER_INSECT_KNIGHT]
+	{
+		.description = "Of all Insect fighters, he is the paragon of the Indestructible Insect Invaders, which only the elite of the elite can join. We can no longer ignore their unmatched battle prowess."
+	},
+    [CARD_NUMBER_ISLAND_TURTLE]
+	{
+		.description = "A huge turtle that is often mistaken for an island."
+	},
+    [CARD_NUMBER_JERRY_BEANS_MAN]
+	{
+		.description = "Jerry, a bean soldier, believes he is the strongest warrior in the world, but his true abilities are still untested."
+	},
+    [CARD_NUMBER_JOB_CHANGE_MIRROR]
+	{
+		.description = "A wicked mirror that blocks off the damaging effects of an attack."
+	},
+    [CARD_NUMBER_JONGLEUR_GHOUL_ILLUSIONIST]
+	{
+		.description = "''A captivating street performer, who'll catch you off guard with his song and dance and hocus pocus attacks. Once his eyes start spinning, danger is impending, so make a run for it!''"
+	},
+    [CARD_NUMBER_KABAZAULS]
+	{
+		.description = "A huge monster in the shape of a hippopotamus. The sneezing from his gigantic body is so fierce that people mistake it for a hurricane."
+	},
+    [CARD_NUMBER_KAPPA_AVENGER]
+	{
+		.description = "An amphibian that sold his soul for unlimited power to avenge his late friend."
+	},
+    [CARD_NUMBER_LEGENDARY_DUELING_FIELD]
+	{
+		.description = "''A field of battle for those who believe in the Decks they've built, those who never turn their backs on any foes, those brave enough to fight to the very end and wage rites deciding winners and losers. It is said that when they unite their hearts with the hearts of their cards through bonds and take a step forward by swearing on their pride and souls, they can carve open a road continuing on to the as-of-yet unfinished future.''"
+	},
+    [CARD_NUMBER_LEOTRON]
+	{
+		.description = "A territorial electronic monster that guards its own domain."
+	},
+    [CARD_NUMBER_LIGHT_BRINGER_LUCIFER]
+	{
+		.description = "''I am the ruler of all creation sitting atop the supreme throne... let there be light!''"
+	},
+    [CARD_NUMBER_LISARK]
+	{
+		.description = "A creature with sapphire eyes that mesmerizes and confuses enemies."
+	},
+    [CARD_NUMBER_LUSTER_DRAGON]
+	{
+		.description = "A very beautiful dragon covered with sapphire. It does not like fights, but has incredibly high attack power."
+	},
+    [CARD_NUMBER_LUSTER_DRAGON_2]
+	{
+		.description = "This dragon feeds on emerald. Enchanted by this monster even when attacked, few people live to tell of its beauty."
+	},
+    [CARD_NUMBER_MAD_DOG_OF_DARKNESS]
+	{
+		.description = "He used to be a normal dog who played around in a park, but was corrupted by the powers of darkness."
+	},
+    [CARD_NUMBER_MAD_LOBSTER]
+	{
+		.description = "A gourmet food renowned by the Dark World upper crust. It has sensational flavor."
+	},
+    [CARD_NUMBER_MASTER_KYONSHEE]
+	{
+		.description = "A wandering Kyonshee searching for a strong rival to defeat. They say he was known as the master of all martial arts."
+	},
+    [CARD_NUMBER_MEGALOSMASHER_X]
+	{
+		.description = "With its sound-baffling armor and gargantuan jaws, this primeval predator's phosphorescence was the only possible pardon for its primitive prey."
+	},
+    [CARD_NUMBER_MEKK_KNIGHT_AVRAM]
+	{
+		.description = "\"Check THIS out!\""
+	},
+    [CARD_NUMBER_MELCHID_THE_FOUR_FACE_BEAST]
+	{
+		.description = "This monster has four different masks for four different attacks."
+	},
+    [CARD_NUMBER_MELFFY_RABBY]
+	{
+		.description = "''Rabby's up on that favorite stump again, looking all around the forest at all the fluffy friends! Do you like exploring, too? Good! Let's go find more Melffy friends with Rabby!''"
+	},
+    [CARD_NUMBER_METAL_ARMORED_BUG]
+	{
+		.description = "A gigantic insect-like creature covered by thick armor. Everything in his path is destroyed."
+	},
+    [CARD_NUMBER_METAPHYS_ARMED_DRAGON]
+	{
+		.description = "Usually visible despite its phantom existence."
+	},
+    [CARD_NUMBER_MIGHTY_GUARD]
+	{
+		.description = "A machine soldier that was developed as a guard. It is made of rust-proof metal."
+	},
+    [CARD_NUMBER_MIST_VALLEY_WATCHER]
+	{
+		.description = "Descendant of a family that has served as Mist Valley watchman over the generations. Never missed a single thing that happened in the valley, no matter how minute."
+	},
+    [CARD_NUMBER_MOLTEN_BEHEMOTH]
+	{
+		.description = "A giant born from magma, it attacks with a magma punch."
+	},
+    [CARD_NUMBER_MON_LARVAS]
+	{
+		.description = "A further step in the evolutionary chain, it is much more powerful than \"Larvas\"."
+	},
+    [CARD_NUMBER_MYSTERY_SHELL_DRAGON]
+	{
+		.description = "Mysterious living matter that suddenly appeared from a different dimension. Its attack paralyzes the target's nerves, and causes intense hallucinations."
+	},
+    [CARD_NUMBER_MYSTIC_CLOWN]
+	{
+		.description = "Nothing can stop the mad attack of this powerful creature."
+	},
+    [CARD_NUMBER_NEO_AQUA_MADOOR]
+	{
+		.description = "The true nature of this wizard, who rules all water. It defends itself with a vast, impenetrable wall of ice."
+	},
+    [CARD_NUMBER_NEO_BUG]
+	{
+		.description = "A huge bug-like monster said to come from another planet. It gathers in swarms."
+	},
+    [CARD_NUMBER_NIGHT_LIZARD]
+	{
+		.description = "A lizard warrior protected by a hide of very tough emerald scales."
+	},
+    [CARD_NUMBER_NIN_KEN_DOG]
+	{
+		.description = "A Ninja dog who has mastered extreme Ninjutsu. Through hard training, it learned the technique to metamorphose into a human being."
+	},
+    [CARD_NUMBER_NOBLE_KNIGHT_ARTORIGUS]
+	{
+		.description = "No one shall ever know the truth behind That fateful day. Artorigus went forth To where the brilliant sword didst lay. ‘Twas the first of many feats so great, A legend through and through. We sing of him, Artorigus, the Noble and the brave. -From the Tales of the Noble Knights"
+	},
+    [CARD_NUMBER_ONI_TANK_T_34]
+	{
+		.description = "An armored tank possessed by a fiend that will pursue enemies until they're crushed."
+	},
+    [CARD_NUMBER_OPPRESSED_PEOPLE]
+	{
+		.description = "They are oppressed, but believe they will have their freedom someday."
+	},
+    [CARD_NUMBER_OPTICLOPS]
+	{
+		.description = "A one-eyed giant that serves the \"Dark Ruler Ha Des\", it skewers its enemies with its sharp horn, shattering them to pieces."
+	},
+    [CARD_NUMBER_OVERDRIVE]
+	{
+		.description = "An all-terrain armored vehicle armed with a heavy-duty machine gun."
+	},
+    [CARD_NUMBER_PSY_FRAME_DRIVER]
+	{
+		.description = "A Psychic soldier that rides into battle against the Security Forces on currents of lightning, using an autonomic amplifier called \"PSY-Frame\"."
+	},
+    [CARD_NUMBER_PHANTASM_SPIRAL_DRAGON]
+	{
+		.description = "A ferocious serpent that was being hunted by Atlanteans. Battle-weary and ragged, it came upon an ancient light, and gained new strength for its battle. With its increased power, it launched an invasion of enemy territory with a renewed assault."
+	},
+    [CARD_NUMBER_PHANTOM_GRYPHON]
+	{
+		.description = "A legendary monster that dwells secretly in the mountains, fighting with the harpies over hunting grounds. A single wingbeat is said to cause the fiercest of storms."
+	},
+    [CARD_NUMBER_POWER_PRO_KNIGHT_SISTERS]
+	{
+		.description = "''The stadium is now open, and our all-star ladies are ready to take you out to the ball game! It's the beginning of a new baseball legend! Presenting: The three navigators of the Power Pro world! That's Paa-chan on the left, bright, energetic, and (usually) dependable. On the right we've got Waa-chan, calm, earnest, and level-headed (usually...). And Namiki is in charge up front with little Chikuwa in her tote bag, helping us cheer everyone on!''"
+	},
+    [CARD_NUMBER_POWER_PRO_LADY_SISTERS]
+	{
+		.description = "''The three Power Pro girls are best friends! And their passion for baseball soars like a home run! Aoi Hayakawa was the first female player in the league. Her signature pitch is a submariner she calls The Marine Ball! Mizuki Tachibana is more of a tomboy than her senpai, best known for her Crescent Moon Pitch and her love for the pudding sold down at Pawado! Hijiri Rokudo is a catcher with a rare gift for baseball! She's been best friends with Mizuki since junior high and "
+	},
+    [CARD_NUMBER_QUEEN_S_KNIGHT]
+	{
+		.description = "This knight catches her opponents off guard, dominating them with swift yet graceful attacks."
+	},
+    [CARD_NUMBER_RABIDRAGON]
+	{
+		.description = "It's a snowfield-dwelling, giant-ear-sporting, super-acoustic, snowball-shaped mutant dragon! There's no way anybody can escape."
+	},
+    [CARD_NUMBER_RENGE_GATEKEEPER_OF_DARK_WORLD]
+	{
+		.description = "His renowned athletic physique has made him famous with the populace of Dark World. They call him \"Iron Wall Renge\" because no one can break through his incredible defenses."
+	},
+    [CARD_NUMBER_ROBOTIC_KNIGHT]
+	{
+		.description = "The Commander of Machine-Types, he serves the Machine King. He is famous for the way he controls his troops."
+	},
+    [CARD_NUMBER_ROCK_OGRE_GROTTO_2]
+	{
+		.description = "A golem formed by boulders, this monster turns its enemies to stone and crushes them to dust."
+	},
+    [CARD_NUMBER_SABERSAURUS]
+	{
+		.description = "This normally gentle dinosaur enjoys relaxing in its nest in the prairies. If it becomes angered, it turns terribly ferocious."
+	},
+    [CARD_NUMBER_SEA_SERPENT_WARRIOR_OF_DARKNESS]
+	{
+		.description = "A warrior who defends the world of the Sea of Darkness. He prides himself on his fighting prowess both on the ground and, of course, in the water."
+	},
+    [CARD_NUMBER_SHINING_ABYSS]
+	{
+		.description = "This monster employs the powers of both Light and Darkness."
+	},
+    [CARD_NUMBER_SHINING_FRIENDSHIP]
+	{
+		.description = "The peacemaker among monsters."
+	},
+    [CARD_NUMBER_SHINY_BLACK_C_SQUADDER]
+	{
+		.description = "''Wherever there are shadows, you'll find the \"C\" Squad! Their hidden flying abilities let them confront the giants on equal terms!''"
+	},
+    [CARD_NUMBER_SKULL_DOG_MARRON]
+	{
+		.description = "A lost dog that wandered off 1000 years ago. He's still waiting for his master to come for him."
+	},
+    [CARD_NUMBER_SKULL_MARINER]
+	{
+		.description = "A pirate ship that appears out of the mist and sinks any seagoing vessels."
+	},
+    [CARD_NUMBER_SONIC_DUCK]
+	{
+		.description = "A duck which can walk at a sonic speed. Sometimes, he cannot deal with his incredible pace and loses control."
+	},
+    [CARD_NUMBER_SORCERER_OF_THE_DOOMED]
+	{
+		.description = "A slave of the dark arts, this sorcerer is a master of life-extinguishing spells."
+	},
+    [CARD_NUMBER_SOUL_TIGER]
+	{
+		.description = "The soul of a tiger that is said to devour human souls. He is a famous soul that you wouldn't want to run into in a dark alley."
+	},
+    [CARD_NUMBER_SOULEATER]
+	{
+		.description = "A living wonder of mystery."
+	},
+    [CARD_NUMBER_SPACE_MAMBO]
+	{
+		.description = "A Space Mambo floating in the vast universe. This living relic was found in the ruins of a super civilization on Alphard 4."
+	},
+    [CARD_NUMBER_SPHEROUS_LADY]
+	{
+		.description = "Many have been deceived by the beauty of this vampire."
+	},
+    [CARD_NUMBER_SPIKED_SNAIL]
+	{
+		.description = "A very fast, bipedal snail with a pair of lethal arms."
+	},
+    [CARD_NUMBER_SPIRAL_SERPENT]
+	{
+		.description = "When huge whirlpools lay cities asunder, it is the hunger of this sea serpent at work. No one has ever escaped its dreaded Spiral Wave to accurately describe the terror they experienced."
+	},
+    [CARD_NUMBER_STEAM_KNIGHT_HAMBURK]
+	{
+		.description = "''One of the knights, he is equipped with \"BFS Armor\", which is made of a dense steel carefully refined at the factory, and \"Foil-Packer\", a special mechanism that can be converted into various weapons depending on the state of combat, thanks to it being linked with the highly analytical \"Coc-OS\". Although \"Hamburk\" is equipped with the usual suite of equipment, he is incredibly popular thanks to his combat style being extremely high calorie. His power is further en"
+	},
+    [CARD_NUMBER_STONE_DRAGON]
+	{
+		.description = "A dragon formed by huge boulders that are also used to attack the enemy."
+	},
+    [CARD_NUMBER_STONE_GHOST]
+	{
+		.description = "With a head that erupts when angered, this monster launches a dangerous shower of boulders."
+	},
+    [CARD_NUMBER_SUPPRESSION_COLLIDER]
+	{
+		.description = "''All data crushed by this network warrior's hammer is irretrievably compressed.''"
+	},
+    [CARD_NUMBER_SWORDSMAN_OF_LANDSTAR]
+	{
+		.description = "An amateur with a sword, this fairy warrior relies on its mysterious powers."
+	},
+    [CARD_NUMBER_TERRORKING_SALMON]
+	{
+		.description = "A feared salmon, master of the Sea of Darkness. Its roe is the best delicacy in the World of Darkness."
+	},
+    [CARD_NUMBER_THAT_WHICH_FEEDS_ON_LIFE]
+	{
+		.description = "A monster that feeds on the energy of other creatures."
+	},
+    [CARD_NUMBER_THE_ALL_SEEING_WHITE_TIGER]
+	{
+		.description = "A proud ruler of the jungle that some fear and others respect."
+	},
+    [CARD_NUMBER_THE_DRAGON_DWELLING_IN_THE_CAVE]
+	{
+		.description = "A huge dragon dwelling in a cave. It is horrible when it gets angry, although it is usually quiet. It is said to preserve certain treasures."
+	},
+    [CARD_NUMBER_THE_EARL_OF_DEMISE]
+	{
+		.description = "This gentlemanly creature is extremely wicked, feared by man and fiend alike."
+	},
+    [CARD_NUMBER_THE_GROSS_GHOST_OF_FLED_DREAMS]
+	{
+		.description = "This monster feeds on the dreams of an unwary sleeper, dragging the victim into eternal slumber."
+	},
+    [CARD_NUMBER_THE_ILLUSORY_GENTLEMAN]
+	{
+		.description = "Wearing odd fashions, this gentleman is very fickle. He sometimes saves people and at other times commits crimes."
+	},
+    [CARD_NUMBER_THE_JUDGEMENT_HAND]
+	{
+		.description = "An all-powerful hand that delivers ruthless attacks."
+	},
+    [CARD_NUMBER_THE_PORTRAIT_S_SECRET]
+	{
+		.description = "A portrait cursed by the artist, it is said to bring ill fortune to anyone who owns it."
+	},
+    [CARD_NUMBER_THE_STATUE_OF_EASTER_ISLAND]
+	{
+		.description = "A stone monument from Easter Island that launches laser blasts from its rock-hewn lips."
+	},
+    [CARD_NUMBER_TRANCE_THE_MAGIC_SWORDSMAN]
+	{
+		.description = "A peculiar magician with considerable abilities. Supposedly, he's just returned from a trip to outer space."
+	},
+    [CARD_NUMBER_V_TIGER_JET]
+	{
+		.description = "This ace fighter is unbeatable in a dogfight. It combines with other monsters to launch an array of encircling attacks."
+	},
+    [CARD_NUMBER_VENOM_COBRA]
+	{
+		.description = "Hard scales cover all parts of this gigantic cobra. It hunts by shooting out massive amounts of venom, but because of its large size, its attack pattern is easily predicted."
+	},
+    [CARD_NUMBER_WARRIOR_DAI_GREPHER]
+	{
+		.description = "The warrior who can manipulate dragons. Nobody knows his mysterious past."
+	},
+    [CARD_NUMBER_WARRIOR_OF_ZERA]
+	{
+		.description = "A wandering warrior who seeks the sanctuary where he can gain the power of the Archlords. To escape the temptation of evil fiends, he fights solo day by day."
+	},
+    [CARD_NUMBER_WATTAILDRAGON]
+	{
+		.description = "Capable of indefinite flight. Attacks by wrapping its body with electricity and ramming into opponents. IMPORTANT: Capturing the \"Wattaildragon\" is forbidden by the Ancient Rules and is a Level 6 offense, the minimum sentence for which is imprisonment for no less than 2500 heliocycles."
+	},
+    [CARD_NUMBER_WILMEE]
+	{
+		.description = "A rabid rabbit that shears through opposition with its sharp skewers."
+	},
+    [CARD_NUMBER_WINGED_DRAGON_GUARDIAN_OF_THE_FORTRESS_2]
+	{
+		.description = "This monster's wings are capable of generating tornadoes."
+	},
+    [CARD_NUMBER_WINGWEAVER]
+	{
+		.description = "A six-winged fairy who prays for peace and hope."
+	},
+    [CARD_NUMBER_WOLF]
+	{
+		.description = "Dis alpha wolf yoozes his sense a smell ta find da enemy. 'ey, quit sniffin at my socks!"
+	},
+    [CARD_NUMBER_WOLF_AXWIELDER]
+	{
+		.description = "Once it has started battle, this monster attacks fiercely and cannot stop."
+	},
+    [CARD_NUMBER_WOOD_CLOWN]
+	{
+		.description = "A creature with a wicked smile and a lethal sickle."
+	},
+    [CARD_NUMBER_WOODBORG_INPACHI]
+	{
+		.description = "The new form of the enigmatic Inpachi, remodeled by cutting-edge Dark World technology. Maneuverability has been sacrificed for strong armor, which is considered more important."
+	},
+    [CARD_NUMBER_WORM_DRAKE]
+	{
+		.description = "Once this monster wraps itself around a victim, there is no escape."
+	},
+    [CARD_NUMBER_X_HEAD_CANNON]
+	{
+		.description = "A monster with a mighty cannon barrel, it is able to integrate its attacks. It attacks in many ways by combining and separating with other monsters."
+	},
+    [CARD_NUMBER_X_SABER_ANU_PIRANHA]
+	{
+		.description = "A female X-Saber Warrior, known for her graceful attacks and calm decision making in battle. Her ambition is merciless, and strikes fear in the hearts of her enemies."
+	},
+    [CARD_NUMBER_YORMUNGARDE]
+	{
+		.description = "An extremely long snake that dwells in the world of myth."
+	},
+    [CARD_NUMBER_ZOMBINO]
+	{
+		.description = "The two are so close They die and return to life Inseparable"
+	},
+    [CARD_NUMBER_ZURE_KNIGHT_OF_DARK_WORLD]
+	{
+		.description = "The name of this illustrious knight is known by all residents of Dark World. He never oppresses the commoners."
+	},
 };
