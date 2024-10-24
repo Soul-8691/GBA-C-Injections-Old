@@ -31,6 +31,7 @@
         "battle_string_ids.h": "c",
         "text.h": "c",
         "ewram.h": "c",
-        "random": "c"
+        "random": "c",
+        "field_player_avatar.h": "c"
     }
 }

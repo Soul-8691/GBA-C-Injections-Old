@@ -1,2 +1,10 @@
 memcpy_ = 0x081e26fc | 1;
 memset_ = 0x081e275c | 1;
+GetCurrentMapWildMonHeader = 0x08084d6c | 1;
+DoWildEncounterTest = 0x08085054 | 1;
+IsWildLevelAllowedByRepel = 0x08085598 | 1;
+DoMassOutbreakEncounterTest = 0x08084fc4 | 1;
+SetUpMassOutbreakEncounter = 0x08084f50 | 1;
+GenerateWildMon = 0x08084eb0 | 1;
+DoGlobalWildEncounterDiceRoll = 0x080850e0 | 1;
+gWildMonHeaders = 0x08EAF7C0;

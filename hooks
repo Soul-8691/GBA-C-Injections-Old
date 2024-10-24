@@ -13,3 +13,4 @@ LoadSpecialPokePic_ 800d378 6
 GetMonSpritePalFromOtIdPersonality_ 804093c 3
 CreateMonIcon_ 809d2fc 6
 mon_icon_convert_unown_species_id_ 809d434 2
+StandardWildEncounter_ 8085104 2
