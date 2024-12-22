@@ -164,7 +164,7 @@ def BuildCode():
     AUDIO = './audio'
     BUILD = './build'
     ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
-    LDFLAGS = ['-R', 'pokefirered.elf', 'OI.ld', '-T', 'linker.ld']
+    LDFLAGS = ['OI.ld', '-T', 'linker.ld']
     CFLAGS = ['-x', 'c', '-mthumb', '-mthumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
             '-mlong-calls', '-march=armv4t', '-Wall', '-Wextra', '-Os', '-fira-loop-pressure', '-fipa-pta']
     CHARMAP = 'charmap.txt'
