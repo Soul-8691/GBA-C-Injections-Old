@@ -684,7 +684,7 @@ def BuildCode():
                             imageWithColorPalette = im.convert(
                                 "P", palette=Image.ADAPTIVE, colors=64
                             )
-                            imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
+                            # imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
                             palette = imageWithColorPalette.getpalette()
                             palette = [
                                 tuple(palette[x : x + 3]) for x in range(len(palette), 3)
@@ -710,6 +710,8 @@ def BuildCode():
                             img.paste(sub_image, box=(56,0))
                             sub_image = img.crop(box=(64,0,72,80)).transpose(Image.FLIP_LEFT_RIGHT)
                             img.paste(sub_image, box=(64,0))
+                            sub_image = img.crop(box=(72,0,80,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                            img.paste(sub_image, box=(72,0))
                             img.save(imageFile.replace('.jpg', '.png'))
                             cmd = [GBAGFX, imageFile.replace('.jpg', '.png'), imageFile.replace('.jpg', '.6bpp')]
                             RunCommand(cmd)
@@ -979,7 +981,7 @@ def BuildCode():
                         imageWithColorPalette = im.convert(
                             "P", palette=Image.ADAPTIVE, colors=64
                         )
-                        imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
+                        # imageWithColorPalette = imageWithColorPalette.crop((4, 0, 76, 80))
                         palette = imageWithColorPalette.getpalette()
                         palette = [
                             tuple(palette[x : x + 3]) for x in range(len(palette), 3)
@@ -1005,6 +1007,8 @@ def BuildCode():
                         img.paste(sub_image, box=(56,0))
                         sub_image = img.crop(box=(64,0,72,80)).transpose(Image.FLIP_LEFT_RIGHT)
                         img.paste(sub_image, box=(64,0))
+                        sub_image = img.crop(box=(72,0,80,80)).transpose(Image.FLIP_LEFT_RIGHT)
+                        img.paste(sub_image, box=(72,0))
                         img.save('./graphics/Resize/' + modified_card_ + '.png')
                     except Exception as e:
                         print(e)
